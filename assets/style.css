@@ -146,3 +146,5 @@ footer p{margin:0;max-width:75ch}
 }
 @media (prefers-reduced-motion:reduce){.ms{transition:none}}
 .missing{color:var(--rubric);font-family:var(--mono);font-size:12px}
+.eyebrow a{color:inherit;text-decoration-color:var(--line)}
+.eyebrow a:hover{color:var(--accent)}

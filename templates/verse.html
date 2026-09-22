@@ -3,25 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Witnesses to John 18:31</title>
+<title>Witnesses to {{reference}}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="{{root}}assets/style.css">
 </head>
-<body>
+<body data-root="{{root}}" data-verse="{{verseId}}" data-cutoff="{{cutoff}}">
 
 <div class="wrap">
 
 <header>
-  <div class="top"><span class="eyebrow">Manuscript witnesses · Gospel of John</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
-  <h1>Who has John 18:31?</h1>
+  <div class="top"><span class="eyebrow"><a href="{{root}}">Manuscript witnesses</a> · Gospel of {{book}}</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
+  <h1>{{heading}}</h1>
   <div class="verse" aria-label="The verse">
-    <p class="greek" lang="grc"><span class="init">Ε</span>ἶπεν οὖν αὐτοῖς ὁ Πιλᾶτος· λάβετε αὐτὸν ὑμεῖς καὶ κατὰ τὸν νόμον ὑμῶν κρίνατε αὐτόν. εἶπον αὐτῷ οἱ Ἰουδαῖοι· ἡμῖν οὐκ ἔξεστιν ἀποκτεῖναι οὐδένα·</p>
-    <p class="trans">So Pilate said to them, “Take him yourselves and judge him by your own law.” The Jews said to him, “It is not lawful for us to put anyone to death.”</p>
+    <p class="greek" lang="grc">{{greekHtml}}</p>
+    <p class="trans">{{translation}}</p>
     <p class="note">Greek as printed in modern critical editions; the translation is our own, kept literal. Individual manuscripts differ in spelling, abbreviations and small wording details, and several preserve only a few letters of the verse.</p>
   </div>
-  <p class="lede">Every Greek manuscript copied up to about AD 900 in which some part of this verse survives, arranged by date. Each entry says who dates it and how confident that date is, where the manuscript is now, and where you can look at photographs of it yourself.</p>
+  <p class="lede">Every Greek manuscript copied up to about AD {{cutoff}} in which some part of this verse survives, arranged by date. Each entry says who dates it and how confident that date is, where the manuscript is now, and where you can look at photographs of it yourself.</p>
   <div class="stats" id="stats"></div>
   <noscript><p class="lede">This page builds its list from data files and needs JavaScript.</p></noscript>
 </header>
@@ -121,7 +121,7 @@
     <div><h3>Numbers</h3><p>Manuscripts are named by their Gregory–Aland number, the standard catalogue kept by the Institute for New Testament Textual Research (INTF) in Münster. 𝔓 marks a papyrus; numbers starting with 0 are parchment majuscules (capital-letter manuscripts).</p></div>
     <div><h3>Dates</h3><p>The headline date is the INTF catalogue date. Where scholars have argued for other dates, the entry gives the range and names who proposed what. Almost all of these dates come from handwriting style (palaeography), not from carbon dating or a dated colophon.</p></div>
     <div><h3>Confidence labels</h3><p><b>Firm</b>: specialists broadly agree within about a century. <b>Debated</b>: published proposals differ by more than a century, or the catalogue date has been seriously challenged. The label is about the date, not the manuscript’s importance.</p></div>
-    <div><h3>What “contains the verse” means</h3><p>At least part of John 18:31 survives on the page. For fragments, that can mean a handful of letters. Contents come from published catalogue descriptions and each manuscript’s recorded gaps (lacunae).</p></div>
+    <div><h3>What “contains the verse” means</h3><p>At least part of {{reference}} survives on the page. For fragments, that can mean a handful of letters. Contents come from published catalogue descriptions and each manuscript’s recorded gaps (lacunae).</p></div>
     <div><h3>Photographs</h3><p>Images stay with the libraries and projects that made them, so every entry links out rather than copying pictures. The INTF Virtual Manuscript Room link works for every entry; other links go to the holding library or to CSNTM where a viewer exists.</p></div>
     <div><h3>Neutral language</h3><p>Entries describe what a manuscript is, when it was likely made and how it reached its current home. They don’t argue for or against the reliability of the Gospels.</p></div>
   </div>
@@ -133,6 +133,6 @@
   <p><b>Bibliography status.</b> Citations were checked against publisher and author pages where possible. Page ranges are left out where they could not be confirmed; add them from the published items before release.</p>
 </footer>
 </div>
-<script src="assets/app.js"></script>
+<script src="{{root}}assets/app.js"></script>
 </body>
 </html>

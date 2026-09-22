@@ -1,4 +1,4 @@
-// Builds the page from the JSON files in data/.
+// Builds a verse page from the JSON files in data/ (the verse to show is set on <body> by scripts/build.mjs).
 // Citations in bibliography.json may contain <i> tags; every other field is escaped.
 
 const VMR = id => `https://ntvmr.uni-muenster.de/manuscript-workspace?docID=${id}`;
@@ -11,18 +11,25 @@ let MSS = [], BIB = {}, NOTES = {};
 const state = {mat:"all", era:"all", conf:"all", q:""};
 const cite = k => BIB[k] ? BIB[k].citation : `<span class="missing">[missing reference: ${esc(k)}]</span>`;
 
+const ROOT = document.body.dataset.root || "";
+const VERSE = document.body.dataset.verse;
+const CUTOFF = Number(document.body.dataset.cutoff) || 900;
+
 async function load(){
-  const get = f => fetch(`data/${f}.json`).then(r => { if (!r.ok) throw new Error(`${f}.json: ${r.status}`); return r.json(); });
-  const [mss, bib, notes, people, excluded] = await Promise.all(
-    ["manuscripts","bibliography","dating-notes","scholars","excluded"].map(get));
-  MSS = mss.sort((a,b)=> a.catalogueDate-b.catalogueDate || a.dateRange.earliest-b.dateRange.earliest);
+  const get = f => fetch(`${ROOT}data/${f}.json`).then(r => { if (!r.ok) throw new Error(`${f}.json: ${r.status}`); return r.json(); });
+  const [mss, bib, notes, people, verse] = await Promise.all(
+    ["manuscripts","bibliography","dating-notes","scholars",`verses/${VERSE}`].map(get));
+  const byId = Object.fromEntries(mss.map(m=>[m.id, m]));
+  // A witness is a shared manuscript record plus what survives of this verse in it
+  MSS = verse.witnesses.filter(w=>byId[w.manuscript]).map(w=>({...byId[w.manuscript], contents:w.contents}))
+    .sort((a,b)=> a.catalogueDate-b.catalogueDate || a.dateRange.earliest-b.dateRange.earliest);
   BIB = bib.works; NOTES = notes;
   renderStats();
   drawTimeline();
   render();
   renderPeople(people);
   renderBib(bib.groups);
-  renderExcluded(excluded);
+  renderExcluded(verse.excluded);
   bindFilters();
   if (location.hash.startsWith("#ms-")) jump(location.hash.slice(4));
 }
@@ -47,8 +54,8 @@ function drawTimeline(){
     s += `<line class="grid" x1="${x(c)}" x2="${x(c)}" y1="${top-8}" y2="${H-4}"></line>`;
     s += `<text x="${x(c)}" y="12" text-anchor="middle">${c}</text>`;
   }
-  s += `<line x1="${x(900)}" x2="${x(900)}" y1="${top-8}" y2="${H-4}" stroke="var(--rubric)" stroke-dasharray="3 3" stroke-width="1"></line>`;
-  s += `<text x="${x(900)+4}" y="${top-1}" fill="var(--rubric)" style="fill:var(--rubric)">cut-off</text>`;
+  s += `<line x1="${x(CUTOFF)}" x2="${x(CUTOFF)}" y1="${top-8}" y2="${H-4}" stroke="var(--rubric)" stroke-dasharray="3 3" stroke-width="1"></line>`;
+  s += `<text x="${x(CUTOFF)+4}" y="${top-1}" fill="var(--rubric)" style="fill:var(--rubric)">cut-off</text>`;
   MSS.forEach((m,i)=>{
     const y = top + i*rowH + 8, col = MATCOL[m.material];
     s += `<g class="m" data-id="${esc(m.id)}" tabindex="0" role="link" aria-label="${esc(m.siglum)}, ${esc(m.name)}, ${esc(m.date)}">`;
@@ -170,6 +177,6 @@ function bindFilters(){
 
 load().catch(err=>{
   document.getElementById("list").innerHTML =
-    `<p class="empty">Could not load the data files (${esc(err.message)}). If you opened this file directly from your computer, serve the folder instead: run <code>python3 -m http.server</code> in it and visit http://localhost:8000.</p>`;
+    `<p class="empty">Could not load the data files (${esc(err.message)}). To preview on your own computer, run <code>node scripts/build.mjs</code> and then <code>python3 -m http.server -d _site</code>, and visit http://localhost:8000.</p>`;
   console.error(err);
 });
