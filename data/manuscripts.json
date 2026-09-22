@@ -1,0 +1,1160 @@
+[
+  {
+    "id": "p52",
+    "siglum": "𝔓52",
+    "gaNumber": "P52",
+    "name": "Rylands Papyrus 457",
+    "material": "papyrus",
+    "date": "2nd century",
+    "dateRange": {
+      "earliest": 100,
+      "latest": 225
+    },
+    "catalogueDate": 150,
+    "confidence": "Debated",
+    "library": "John Rylands Research Institute and Library, University of Manchester",
+    "shelfmark": "P. Ryl. Gr. 457",
+    "city": "Manchester, UK",
+    "contents": "John 18:31–33 (front) and 18:37–38 (back). A scrap about the size of a credit card (8.9 × 6.4 cm) from a codex, not a scroll.",
+    "summary": "Often called the earliest surviving piece of the New Testament. It is also the best-known example of how hard it is to date handwriting: the famous early date is one proposal among several.",
+    "datingSummary": "Roberts (1935): first half of the 2nd century. Orsini & Clarysse (2012): 125–175. Nongbri (2005): comparable hands run into the late 2nd and early 3rd centuries, so a later date cannot be ruled out.",
+    "provenance": "Bought in Egypt in 1920 by Bernard Grenfell for the Rylands Library; identified and published by Colin H. Roberts in 1935. Exact find-spot unknown.",
+    "vmrId": 10052,
+    "images": [
+      {
+        "label": "CSNTM images",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_P52"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Only about a hundred letters survive. The hand is a fairly careful, rounded book script with some decorative hooks, written by someone used to copying literary texts. Every proposed date comes from comparing these letters with dated documents; there is no archaeological context, because the fragment was bought from a dealer. That it comes from a codex, not a roll, fits a Christian book but does not narrow the date.",
+      "positions": [
+        {
+          "who": "Roberts (1935)",
+          "claim": "First half of the 2nd century, from comparison with documentary papyri of the late 1st and early 2nd centuries. Roberts reported that Kenyon, Schubart and Bell agreed.",
+          "source": "roberts35"
+        },
+        {
+          "who": "Schmidt (1989)",
+          "claim": "About 170, give or take 25 years.",
+          "source": "schmidt89"
+        },
+        {
+          "who": "Nongbri (2005, 2020)",
+          "claim": "Comparable hands appear in documents dated to the later 2nd and early 3rd centuries, so no honest range can stop at 150. The 2020 article also publishes new details on how the fragment was acquired.",
+          "source": "nongbri05"
+        },
+        {
+          "who": "Barker (2011)",
+          "claim": "Places 𝔓52 in its ‘graphic stream’ and concludes that a range across the 2nd century and possibly into the 3rd is defensible.",
+          "source": "barker11"
+        },
+        {
+          "who": "Orsini & Clarysse (2012)",
+          "claim": "125–175.",
+          "source": "orsclar12"
+        },
+        {
+          "who": "Porter (2013)",
+          "claim": "Mid-2nd century; argues the similar P.Egerton 2 should be dated early too, and that later datings over-correct.",
+          "source": "porter13"
+        },
+        {
+          "who": "Tuckett (2001) and Hurtado (2003)",
+          "claim": "A related question: whether the scribe abbreviated Jesus’ name as a ‘sacred name’ (nomen sacrum). Tuckett doubts it can be shown; Hurtado argues it is probable from line lengths and scribal practice.",
+          "source": "hurtado03"
+        }
+      ],
+      "furtherReading": [
+        "roberts35",
+        "schmidt89",
+        "tuckett01",
+        "hurtado03",
+        "nongbri05",
+        "barker11",
+        "orsclar12",
+        "porter13",
+        "nongbri20",
+        "nongbri18"
+      ]
+    }
+  },
+  {
+    "id": "p66",
+    "siglum": "𝔓66",
+    "gaNumber": "P66",
+    "name": "Papyrus Bodmer II",
+    "material": "papyrus",
+    "date": "c. 200",
+    "dateRange": {
+      "earliest": 100,
+      "latest": 350
+    },
+    "catalogueDate": 200,
+    "confidence": "Debated",
+    "library": "Fondation Martin Bodmer",
+    "shelfmark": "P. Bodmer II (+ one leaf at the Chester Beatty Library, Dublin)",
+    "city": "Cologny (Geneva), Switzerland",
+    "contents": "A nearly complete codex of John 1–14; chapters 15–21 survive only as damaged fragments. John 18:31 lies inside the surviving range, but which letters of it are legible should be checked against the facsimile.",
+    "summary": "The most complete early copy of John. The scribe made many corrections, which lets scholars watch a copyist at work.",
+    "datingSummary": "Martin (editor, 1956): c. 200. Hunger (1960): first half of the 2nd century. Nongbri (2014): 4th century is equally possible. INTF: c. 200.",
+    "provenance": "Acquired by the collector Martin Bodmer in the 1950s, likely part of the ‘Bodmer papyri’ find associated with the region of Dishna, Upper Egypt.",
+    "vmrId": 10066,
+    "images": [],
+    "datingEvidence": {
+      "text": "A large, rounded, carefully spaced hand, much more text than 𝔓52 and so more letters to compare. The codex is thought to belong to the ‘Bodmer papyri’, a group of books apparently found together near Dishna in Upper Egypt. Many of the other books in that group are 4th century or later, which matters if they were buried together.",
+      "positions": [
+        {
+          "who": "Martin (1956)",
+          "claim": "First editor: about 200.",
+          "source": "martin56"
+        },
+        {
+          "who": "Hunger (1960)",
+          "claim": "First half of the 2nd century, from comparison with early documentary hands.",
+          "source": "hunger60"
+        },
+        {
+          "who": "Comfort & Barrett (2001)",
+          "claim": "Among the scholars arguing for a 2nd-century date.",
+          "source": "comfort01"
+        },
+        {
+          "who": "Orsini & Clarysse (2012)",
+          "claim": "200–250.",
+          "source": "orsclar12"
+        },
+        {
+          "who": "Nongbri (2014)",
+          "claim": "Comparable hands continue into the 4th century, and the book’s likely find context points the same way; a 4th-century date is at least as plausible.",
+          "source": "nongbri14"
+        },
+        {
+          "who": "Orsini (2015)",
+          "claim": "Revised to the late 3rd or early 4th century.",
+          "source": "orsini15"
+        }
+      ],
+      "furtherReading": [
+        "martin56",
+        "martinbarns62",
+        "hunger60",
+        "comfort01",
+        "orsclar12",
+        "nongbri14",
+        "orsini15",
+        "robinson11"
+      ]
+    }
+  },
+  {
+    "id": "03",
+    "siglum": "03 B",
+    "gaNumber": "03",
+    "name": "Codex Vaticanus",
+    "material": "parchment",
+    "date": "4th century",
+    "dateRange": {
+      "earliest": 300,
+      "latest": 360
+    },
+    "catalogueDate": 330,
+    "confidence": "Firm",
+    "library": "Vatican Apostolic Library",
+    "shelfmark": "Vat. gr. 1209",
+    "city": "Vatican City",
+    "contents": "Gospels, Acts, Catholic Epistles and Paul (to Hebrews 9:14). John is complete.",
+    "summary": "Probably the oldest nearly complete Greek Bible. Its text of John is very close to the early papyri, especially 𝔓75.",
+    "datingSummary": "4th century, usually placed in its first half.",
+    "provenance": "Recorded in the Vatican Library’s catalogue since the 15th century; how it arrived is not known.",
+    "vmrId": 20003,
+    "images": [
+      {
+        "label": "DigiVatLib (Vatican Library)",
+        "url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209"
+      },
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_03"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Early Biblical majuscule with almost no ornament, three columns per page, and no Eusebian section numbers (it uses an older system of chapter divisions). These features are the main reasons it is usually placed at or before the middle of the 4th century.",
+      "positions": [
+        {
+          "who": "Skeat (1999)",
+          "claim": "Made alongside Sinaiticus, probably at Caesarea, around the 330s.",
+          "source": "skeat99"
+        },
+        {
+          "who": "Cavallo (1967)",
+          "claim": "A key example of Biblical majuscule in its mature form.",
+          "source": "cavallo67"
+        }
+      ],
+      "furtherReading": [
+        "cavallo67",
+        "skeat99",
+        "parker08"
+      ]
+    }
+  },
+  {
+    "id": "01",
+    "siglum": "01 א",
+    "gaNumber": "01",
+    "name": "Codex Sinaiticus",
+    "material": "parchment",
+    "date": "4th century",
+    "dateRange": {
+      "earliest": 325,
+      "latest": 375
+    },
+    "catalogueDate": 350,
+    "confidence": "Firm",
+    "library": "British Library (New Testament portion)",
+    "shelfmark": "Add MS 43725",
+    "city": "London, UK",
+    "contents": "Complete New Testament, plus much of the Greek Old Testament. John 18:31 is on a fully preserved page.",
+    "summary": "One of the two oldest nearly complete Bibles. Its leaves are split between London, Leipzig, St Catherine’s Monastery and St Petersburg, and the whole book has been reunited online.",
+    "datingSummary": "Mid-4th century; a date in the 330s–360s is widely accepted.",
+    "provenance": "Removed from St Catherine’s Monastery, Sinai, by Constantin von Tischendorf in 1844 and 1859; the circumstances of the 1859 removal remain disputed. Sold by the Soviet government to the British Museum in 1933.",
+    "vmrId": 20001,
+    "images": [
+      {
+        "label": "Codex Sinaiticus Project, John 18",
+        "url": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=18&lid=en&side=r&verse=31&zoomSlider=0"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Biblical majuscule in its ‘canonical’ form: letters fill a square frame, round letters are circles, strokes are nearly even in thickness and there is little ornament. The Eusebian section numbers in the Gospels give a ‘not before’ date in the early 4th century. Milne and Skeat identified the scribes and used features of their work to argue for the mid-4th century.",
+      "positions": [
+        {
+          "who": "Milne & Skeat (1938)",
+          "claim": "Mid-4th century, based on the scribes, their corrections and the apparatus.",
+          "source": "milneskeat38"
+        },
+        {
+          "who": "Skeat (1999)",
+          "claim": "Suggests Sinaiticus and Vaticanus were made at Caesarea around the time Constantine ordered fifty Bibles from Eusebius (c. 330s).",
+          "source": "skeat99"
+        },
+        {
+          "who": "Parker (2010)",
+          "claim": "Mid-4th century.",
+          "source": "parker10"
+        },
+        {
+          "who": "Nongbri (2022)",
+          "claim": "The secure evidence allows anywhere from about 300 to about 425: the Eusebian apparatus sets the lower limit, and cursive marginal notes resemble documents into the early 5th century. Calls for radiocarbon testing.",
+          "source": "nongbri22"
+        }
+      ],
+      "furtherReading": [
+        "milneskeat38",
+        "skeat99",
+        "parker10",
+        "nongbri22",
+        "cavallo67"
+      ]
+    }
+  },
+  {
+    "id": "032",
+    "siglum": "032 W",
+    "gaNumber": "032",
+    "name": "Codex Washingtonianus (Freer Gospels)",
+    "material": "parchment",
+    "date": "4th–5th century",
+    "dateRange": {
+      "earliest": 375,
+      "latest": 500
+    },
+    "catalogueDate": 425,
+    "confidence": "Firm",
+    "library": "National Museum of Asian Art (Freer Gallery), Smithsonian",
+    "shelfmark": "F1906.274",
+    "city": "Washington, DC, USA",
+    "contents": "The four Gospels in the ‘Western’ order Matthew, John, Luke, Mark. John 14:26–16:7 is missing; John 18 survives.",
+    "summary": "Famous for an extra saying of Jesus after Mark 16:14 (the ‘Freer Logion’). Its text changes character from book to book, suggesting it was copied from several different exemplars.",
+    "datingSummary": "Late 4th to 5th century.",
+    "provenance": "Bought by Charles Lang Freer from a dealer in Egypt in December 1906.",
+    "vmrId": 20032,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_032"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Its script is not the Biblical majuscule of the great codices, so the usual comparisons work less well. Its unusual script and the likelihood that it was copied from several exemplars make it hard to pin down more tightly than the late 4th or 5th century.",
+      "positions": [
+        {
+          "who": "Sanders (1912)",
+          "claim": "First editor; late 4th to 5th century.",
+          "source": "sanders12"
+        },
+        {
+          "who": "Hurtado, ed. (2006)",
+          "claim": "A collection of new studies of the Freer manuscripts, including their palaeography and codicology.",
+          "source": "hurtado06freer"
+        }
+      ],
+      "furtherReading": [
+        "sanders12",
+        "hurtado06freer"
+      ]
+    }
+  },
+  {
+    "id": "02",
+    "siglum": "02 A",
+    "gaNumber": "02",
+    "name": "Codex Alexandrinus",
+    "material": "parchment",
+    "date": "5th century",
+    "dateRange": {
+      "earliest": 400,
+      "latest": 450
+    },
+    "catalogueDate": 425,
+    "confidence": "Firm",
+    "library": "British Library",
+    "shelfmark": "Royal MS 1 D VIII",
+    "city": "London, UK",
+    "contents": "Greek Old and New Testament, with gaps. In John only 6:50–8:52 is missing.",
+    "summary": "The third of the great early Bibles. In the Gospels it is an early witness to the form of text that later became standard in Byzantine manuscripts.",
+    "datingSummary": "5th century, commonly first half.",
+    "provenance": "Given by Cyril Lucaris, Patriarch of Constantinople, to King Charles I of England; arrived in 1627.",
+    "vmrId": 20002,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_02"
+      }
+    ],
+    "datingEvidence": {
+      "text": "A later phase of Biblical majuscule: more contrast between thick and thin strokes, some ornament, and enlarged initials standing out in the margin. It contains Athanasius’s Letter to Marcellinus and has the Eusebian apparatus, both pointing after the mid-4th century.",
+      "positions": [
+        {
+          "who": "Smith (2014)",
+          "claim": "The fullest study of its codicology, scribes and palaeography in the Gospels.",
+          "source": "smith14"
+        }
+      ],
+      "furtherReading": [
+        "smith14",
+        "cavallo67",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "04",
+    "siglum": "04 C",
+    "gaNumber": "04",
+    "name": "Codex Ephraemi Rescriptus",
+    "material": "parchment",
+    "palimpsest": true,
+    "date": "5th century",
+    "dateRange": {
+      "earliest": 400,
+      "latest": 475
+    },
+    "catalogueDate": 440,
+    "confidence": "Firm",
+    "library": "Bibliothèque nationale de France",
+    "shelfmark": "Grec 9",
+    "city": "Paris, France",
+    "contents": "Parts of every New Testament book. In John, 18:36–20:25 is lost, but 18:31 survives just before the gap.",
+    "summary": "A palimpsest: in the 12th century the Bible text was scraped off and the parchment reused for sermons of Ephrem the Syrian. The faint lower Bible text was deciphered by Tischendorf in the 1840s.",
+    "datingSummary": "5th century, often placed c. 425–450.",
+    "provenance": "Brought to Italy in the 16th century and then to France with Catherine de’ Medici’s library.",
+    "vmrId": 20004,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_04"
+      }
+    ],
+    "datingEvidence": {
+      "text": "A palimpsest, so the Bible text must be read beneath the later writing. Its single-column Biblical majuscule is usually compared with Codex Alexandrinus, hence a 5th-century date.",
+      "positions": [
+        {
+          "who": "Tischendorf (1843)",
+          "claim": "First deciphered and published the underlying New Testament text.",
+          "source": "tisch43"
+        },
+        {
+          "who": "Lyon (1958–59)",
+          "claim": "Re-examined the manuscript and Tischendorf’s readings.",
+          "source": "lyon59"
+        }
+      ],
+      "furtherReading": [
+        "tisch43",
+        "lyon59"
+      ]
+    }
+  },
+  {
+    "id": "087",
+    "siglum": "087",
+    "gaNumber": "087",
+    "name": "Uncial 087",
+    "material": "parchment",
+    "date": "6th century",
+    "dateRange": {
+      "earliest": 500,
+      "latest": 600
+    },
+    "catalogueDate": 550,
+    "confidence": "Firm",
+    "library": "National Library of Russia and St Catherine’s Monastery",
+    "shelfmark": "RNB Gr. 12, 278; Sinai Gr. 218",
+    "city": "St Petersburg, Russia and Sinai, Egypt",
+    "contents": "Three leaves: Matthew 1:23–2:2, 19:3–8, 21:19–24 and John 18:29–35.",
+    "summary": "A few leaves of a large, handsome 6th-century Gospel book whose pages are now split between Sinai and St Petersburg.",
+    "datingSummary": "6th century (INTF).",
+    "provenance": "Part of the codex was taken from Sinai to Russia by Porfiry Uspensky in the 1850s; the rest remains at St Catherine’s.",
+    "vmrId": 20087,
+    "images": [],
+    "datingEvidence": {
+      "note": "early-fragment",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "p60",
+    "siglum": "𝔓60",
+    "gaNumber": "P60",
+    "name": "P. Colt 4",
+    "material": "papyrus",
+    "date": "7th century",
+    "dateRange": {
+      "earliest": 550,
+      "latest": 720
+    },
+    "catalogueDate": 650,
+    "confidence": "Firm",
+    "library": "Morgan Library & Museum",
+    "shelfmark": "P. Colt 4",
+    "city": "New York, USA",
+    "contents": "Fragments of John 16:29–19:26. Fragments 11–15 preserve John 18:23–27, 31, 34–35 and 37.",
+    "summary": "A late papyrus codex, from a time when most Gospel books were on parchment. Evidence that papyrus kept being used for Christian books well after late antiquity.",
+    "datingSummary": "Palaeographic dates range from the 6th to around 700. INTF: 7th century.",
+    "provenance": "Excavated in the 1930s at Nessana (Auja el-Hafir) in the Negev by the Colt Archaeological Expedition.",
+    "vmrId": 10060,
+    "images": [],
+    "datingEvidence": {
+      "text": "Unusually for a papyrus, it has an archaeological context. It was excavated at Nessana in the Negev together with documents that carry dates in the 6th and 7th centuries, which supports the palaeographic date.",
+      "positions": [
+        {
+          "who": "Casson & Hettich (1950)",
+          "claim": "Editors of the Nessana literary papyri.",
+          "source": "casson50"
+        },
+        {
+          "who": "INTF",
+          "claim": "7th century.",
+          "source": "aland94"
+        }
+      ],
+      "furtherReading": [
+        "casson50",
+        "aland94"
+      ]
+    }
+  },
+  {
+    "id": "0109",
+    "siglum": "0109",
+    "gaNumber": "0109",
+    "name": "Uncial 0109",
+    "material": "parchment",
+    "date": "7th century",
+    "dateRange": {
+      "earliest": 600,
+      "latest": 700
+    },
+    "catalogueDate": 650,
+    "confidence": "Firm",
+    "library": "Berlin State Museums (Papyrussammlung)",
+    "shelfmark": "P. 5010",
+    "city": "Berlin, Germany",
+    "contents": "Two leaves: John 16:30–17:9 and 18:31–40. Our verse is the first line of the second leaf.",
+    "summary": "Two leaves from a Gospel of John, now in Berlin’s papyrus collection. A small but real witness to how John was being copied in the 7th century.",
+    "datingSummary": "7th century (INTF).",
+    "provenance": "Part of the Berlin papyrus collection; its find-spot is not recorded here and needs checking.",
+    "vmrId": 20109,
+    "images": [],
+    "datingEvidence": {
+      "note": "early-fragment",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "0250",
+    "siglum": "0250",
+    "gaNumber": "0250",
+    "name": "Codex Climaci Rescriptus (Greek Gospels)",
+    "material": "parchment",
+    "palimpsest": true,
+    "date": "8th century",
+    "dateRange": {
+      "earliest": 650,
+      "latest": 800
+    },
+    "catalogueDate": 750,
+    "confidence": "Firm",
+    "library": "Museum of the Bible (Green Collection); further leaves at St Catherine’s Monastery",
+    "shelfmark": "G.C.MS.000149",
+    "city": "Washington, DC, USA and Sinai",
+    "contents": "Scattered parts of all four Gospels. For John 18 the surviving text includes 18:1–9, 11–13, 18–24, 28–29, 31 and 36 onward.",
+    "summary": "Another palimpsest: the Greek Gospel text lies underneath a Syriac copy of John Climacus’s ‘Ladder of Divine Ascent’, which gave the codex its name.",
+    "datingSummary": "Palaeographically 7th or 8th century; INTF dates it to the 8th.",
+    "provenance": "In the Green Collection since around 2010; eight more leaves were among the 1975 ‘New Finds’ at Sinai.",
+    "vmrId": 20250,
+    "images": [],
+    "datingEvidence": {
+      "note": "early-fragment",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "07",
+    "siglum": "07 E",
+    "gaNumber": "07",
+    "name": "Codex Basilensis",
+    "material": "parchment",
+    "date": "8th century",
+    "dateRange": {
+      "earliest": 700,
+      "latest": 800
+    },
+    "catalogueDate": 750,
+    "confidence": "Firm",
+    "library": "University Library Basel",
+    "shelfmark": "AN III 12",
+    "city": "Basel, Switzerland",
+    "contents": "The four Gospels with a few gaps in Luke. John is complete.",
+    "summary": "One of the oldest near-complete examples of the Byzantine text of the Gospels, the form that dominates later manuscripts.",
+    "datingSummary": "8th century (INTF).",
+    "provenance": "Given to the Dominicans of Basel by Cardinal John of Ragusa around the time of the Council of Basel (1430s).",
+    "vmrId": 20007,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_07"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "019",
+    "siglum": "019 L",
+    "gaNumber": "019",
+    "name": "Codex Regius",
+    "material": "parchment",
+    "date": "8th century",
+    "dateRange": {
+      "earliest": 700,
+      "latest": 900
+    },
+    "catalogueDate": 750,
+    "confidence": "Firm",
+    "library": "Bibliothèque nationale de France",
+    "shelfmark": "Grec 62",
+    "city": "Paris, France",
+    "contents": "The four Gospels with some gaps. In John only 21:15–25 is missing.",
+    "summary": "A carelessly written but textually important manuscript: its text often agrees with Codex Vaticanus, and it gives two alternative endings of Mark.",
+    "datingSummary": "INTF: 8th century. Some scholars prefer the 9th.",
+    "provenance": "In the French royal library since at least the 17th century.",
+    "vmrId": 20019,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_019"
+      }
+    ],
+    "datingEvidence": {
+      "text": "A late, somewhat irregular majuscule. The INTF places it in the 8th century; some specialists prefer the 9th, which is why its timeline bar is long.",
+      "positions": [
+        {
+          "who": "INTF",
+          "claim": "8th century.",
+          "source": "aland94"
+        }
+      ],
+      "furtherReading": [
+        "aland94",
+        "parker08"
+      ]
+    }
+  },
+  {
+    "id": "047",
+    "siglum": "047",
+    "gaNumber": "047",
+    "name": "Uncial 047",
+    "material": "parchment",
+    "date": "8th century",
+    "dateRange": {
+      "earliest": 700,
+      "latest": 800
+    },
+    "catalogueDate": 760,
+    "confidence": "Firm",
+    "library": "Princeton University Library",
+    "shelfmark": "Garrett MS 1",
+    "city": "Princeton, NJ, USA",
+    "contents": "The four Gospels with gaps. John breaks off at 18:34, so 18:31 is among the last surviving verses.",
+    "summary": "Written in a cross shape on some pages. The text is Byzantine.",
+    "datingSummary": "8th century (INTF).",
+    "provenance": "Part of the Robert Garrett collection given to Princeton.",
+    "vmrId": 20047,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "054",
+    "siglum": "054",
+    "gaNumber": "054",
+    "name": "Uncial 054",
+    "material": "parchment",
+    "date": "8th century",
+    "dateRange": {
+      "earliest": 700,
+      "latest": 800
+    },
+    "catalogueDate": 770,
+    "confidence": "Firm",
+    "library": "Vatican Apostolic Library",
+    "shelfmark": "Barb. gr. 521, ff. 1–6",
+    "city": "Vatican City",
+    "contents": "Six leaves with John 16:3–19:41 (published lists vary on the exact starting verse), accompanied by a commentary.",
+    "summary": "A short run of John with commentary, bound into a later volume in the Barberini collection.",
+    "datingSummary": "8th century (INTF).",
+    "provenance": "Came to the Vatican Library with the Barberini family’s manuscripts in 1902.",
+    "vmrId": 20054,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "0211",
+    "siglum": "0211",
+    "gaNumber": "0211",
+    "name": "Uncial 0211",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 600,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Debated",
+    "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
+    "shelfmark": "Gr. 27",
+    "city": "Tbilisi, Georgia",
+    "contents": "A complete text of the four Gospels.",
+    "summary": "A complete Gospel book written in majuscule, with a Byzantine text.",
+    "datingSummary": "Earlier palaeographic assessments placed it in the 7th century; INTF now dates it to the 9th.",
+    "provenance": "Held in Georgia’s national manuscript collection alongside Codex Koridethi.",
+    "vmrId": 20211,
+    "images": [],
+    "datingEvidence": {
+      "text": "Palaeographers once placed it in the 7th century; the INTF now dates it to the 9th. Without a colophon, the gap reflects how differently late majuscule hands can be read.",
+      "positions": [
+        {
+          "who": "INTF",
+          "claim": "9th century (earlier assessments: 7th).",
+          "source": "aland94"
+        }
+      ],
+      "furtherReading": [
+        "aland94"
+      ]
+    }
+  },
+  {
+    "id": "011",
+    "siglum": "011 G",
+    "gaNumber": "011",
+    "name": "Codex Seidelianus I",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "British Library (main part); Trinity College, Cambridge (one leaf)",
+    "shelfmark": "Harley MS 5684",
+    "city": "London, UK",
+    "contents": "The four Gospels with gaps. In John, 18:5–19 and 19:4–27 are missing; 18:31 survives between the two gaps.",
+    "summary": "A Byzantine Gospel book brought to the West in the early 18th century.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Brought from the East by Andreas Erasmus Seidel; later owned by Johann Christoph Wolf, and eventually acquired for the Harley collection in London.",
+    "vmrId": 20011,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_011"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "013",
+    "siglum": "013 H",
+    "gaNumber": "013",
+    "name": "Codex Seidelianus II",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Hamburg State and University Library",
+    "shelfmark": "Cod. 91 in scrin.",
+    "city": "Hamburg, Germany",
+    "contents": "The four Gospels with gaps. In John, 9:30–10:25, 18:2–18 and 20:12–25 are missing; 18:31 survives.",
+    "summary": "The companion of 011, also brought west by Seidel. A Byzantine text.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Brought west by Seidel, later owned by Johann Christoph Wolf, and now in Hamburg.",
+    "vmrId": 20013,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "017",
+    "siglum": "017 K",
+    "gaNumber": "017",
+    "name": "Codex Cyprius",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Bibliothèque nationale de France",
+    "shelfmark": "Grec 63",
+    "city": "Paris, France",
+    "contents": "The four Gospels, complete.",
+    "summary": "A complete majuscule Gospel book, and a member of Family Π, a group of closely related Byzantine manuscripts.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Brought from Cyprus to France in the 17th century.",
+    "vmrId": 20017,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_017"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "021",
+    "siglum": "021 M",
+    "gaNumber": "021",
+    "name": "Codex Campianus",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Bibliothèque nationale de France",
+    "shelfmark": "Grec 48",
+    "city": "Paris, France",
+    "contents": "The four Gospels, complete.",
+    "summary": "A small, finely written Gospel book with musical (ekphonetic) notation for public reading.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Given to King Louis XIV by the Abbé François de Camps, from whom it takes its name.",
+    "vmrId": 20021,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_021"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "030",
+    "siglum": "030 U",
+    "gaNumber": "030",
+    "name": "Codex Nanianus",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Biblioteca Nazionale Marciana",
+    "shelfmark": "Gr. I, 8 (1397)",
+    "city": "Venice, Italy",
+    "contents": "The four Gospels, complete.",
+    "summary": "A carefully written and decorated Byzantine Gospel book.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "From the collection of the Nani family of Venice.",
+    "vmrId": 20030,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "034",
+    "siglum": "034 Y",
+    "gaNumber": "034",
+    "name": "Codex Macedoniensis",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Cambridge University Library",
+    "shelfmark": "MS Add. 6594",
+    "city": "Cambridge, UK",
+    "contents": "The four Gospels with gaps. In John only 20:27–21:17 is missing.",
+    "summary": "A Gospel book copied in majuscule at a time when most scribes had switched to minuscule, likely for clear reading aloud in church. It carries lectionary markings for services.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Probably from the Eikosiphoinissa monastery in northern Greece; bought by Joseph Bevan Braithwaite in 1900.",
+    "vmrId": 20034,
+    "images": [
+      {
+        "label": "Cambridge Digital Library",
+        "url": "https://cudl.lib.cam.ac.uk/view/MS-ADD-06594"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "038",
+    "siglum": "038 Θ",
+    "gaNumber": "038",
+    "name": "Codex Koridethi",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
+    "shelfmark": "Gr. 28",
+    "city": "Tbilisi, Georgia",
+    "contents": "The four Gospels; the gaps are all in Matthew.",
+    "summary": "Written by a scribe who apparently knew Greek poorly, but its text of Mark is unusual and much studied.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Named for Koridethi, near the Black Sea, where it was kept in the Middle Ages. Found in 1853 in a village in the Caucasus.",
+    "vmrId": 20038,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "039",
+    "siglum": "039 Λ",
+    "gaNumber": "039",
+    "name": "Codex Tischendorfianus III",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Bodleian Library, University of Oxford",
+    "shelfmark": "Auct. T. inf. 1.1",
+    "city": "Oxford, UK",
+    "contents": "Luke and John. Matthew and Mark from the same book are minuscule 566, now in St Petersburg.",
+    "summary": "Half of a Gospel book that Tischendorf split between two libraries.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Brought from the East by Tischendorf; bought by the Bodleian in 1855.",
+    "vmrId": 20039,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "041",
+    "siglum": "041 Π",
+    "gaNumber": "041",
+    "name": "Codex Petropolitanus",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "National Library of Russia",
+    "shelfmark": "Gr. 34",
+    "city": "St Petersburg, Russia",
+    "contents": "The four Gospels with small gaps. In John, 6:15–35, 8:6–39 and 9:21–10:3 are missing, and 21:22–25 was added later; 18:31 is original.",
+    "summary": "Gives its name to ‘Family Π’, a large group of related Byzantine Gospel manuscripts.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Obtained in the East by Tischendorf and now in the Russian National Library.",
+    "vmrId": 20041,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "045",
+    "siglum": "045 Ω",
+    "gaNumber": "045",
+    "name": "Codex Athous Dionysiou",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Dionysiou Monastery",
+    "shelfmark": "Dionysiou 10 (55)",
+    "city": "Mount Athos, Greece",
+    "contents": "The four Gospels, complete.",
+    "summary": "A complete Byzantine Gospel book still kept in the monastery that owns it.",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Has remained at Dionysiou Monastery on Mount Athos.",
+    "vmrId": 20045,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_045"
+      }
+    ],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "037",
+    "siglum": "037 Δ",
+    "gaNumber": "037",
+    "name": "Codex Sangallensis 48",
+    "material": "parchment",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 830,
+      "latest": 880
+    },
+    "catalogueDate": 850,
+    "confidence": "Firm",
+    "library": "Abbey Library of St Gall",
+    "shelfmark": "Cod. Sang. 48",
+    "city": "St. Gallen, Switzerland",
+    "contents": "The four Gospels in Greek with a Latin translation written word-for-word above the lines. In John, 19:17–35 is missing; 18:31 survives.",
+    "summary": "Made by Irish monks working in continental Europe, around 850. It shows Western scholars learning Greek through the Gospels.",
+    "datingSummary": "9th century; the library dates it to around 850.",
+    "provenance": "At St Gall since the Middle Ages.",
+    "vmrId": 20037,
+    "images": [
+      {
+        "label": "e-codices (full colour, free)",
+        "url": "https://www.e-codices.unifr.ch/en/list/one/csg/0048"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Dated by its setting as much as its script: it was made by Irish scholars working on the Continent, and it belongs with two sister Greek–Latin manuscripts (a Psalter in Basel and Codex Boernerianus of Paul’s letters in Dresden). The Abbey Library dates it to around 850.",
+      "positions": [
+        {
+          "who": "Abbey Library of St Gall / e-codices",
+          "claim": "About 850.",
+          "source": "aland94"
+        }
+      ],
+      "furtherReading": [
+        "aland94"
+      ]
+    }
+  },
+  {
+    "id": "0290",
+    "siglum": "0290",
+    "gaNumber": "0290",
+    "name": "Uncial 0290",
+    "material": "unknown",
+    "date": "9th century",
+    "dateRange": {
+      "earliest": 800,
+      "latest": 900
+    },
+    "catalogueDate": 860,
+    "confidence": "Firm",
+    "library": "St Catherine’s Monastery",
+    "shelfmark": "N.E. ΜΓ 102",
+    "city": "Sinai, Egypt",
+    "contents": "Eight leaves with John 18:4–20:2.",
+    "summary": "One of the manuscripts found in 1975, when a sealed room was opened during restoration work at St Catherine’s (the ‘New Finds’).",
+    "datingSummary": "9th century (INTF).",
+    "provenance": "Discovered at St Catherine’s Monastery in May 1975. One published description gives the material as paper, which would be unusual for this date; this needs confirming.",
+    "vmrId": 20290,
+    "images": [],
+    "datingEvidence": {
+      "note": "late-majuscule",
+      "positions": [],
+      "furtherReading": [
+        "aland94",
+        "cavmaeh87"
+      ]
+    }
+  },
+  {
+    "id": "044",
+    "siglum": "044 Ψ",
+    "gaNumber": "044",
+    "name": "Codex Athous Lavrensis",
+    "material": "parchment",
+    "date": "9th–10th century",
+    "dateRange": {
+      "earliest": 750,
+      "latest": 1000
+    },
+    "catalogueDate": 880,
+    "confidence": "Debated",
+    "library": "Great Lavra Monastery",
+    "shelfmark": "B΄ 52",
+    "city": "Mount Athos, Greece",
+    "contents": "Gospels from Mark 9:5 onward, Acts, Catholic Epistles and Paul. John is complete.",
+    "summary": "Known for giving both the short and the long ending of Mark. Its text mixes older Alexandrian readings with Byzantine ones.",
+    "datingSummary": "Palaeographic proposals run from the 8th to the 10th century; INTF: 9th/10th. Included here because much of that range falls before 900.",
+    "provenance": "Has remained at the Great Lavra on Mount Athos.",
+    "vmrId": 20044,
+    "images": [
+      {
+        "label": "CSNTM",
+        "url": "https://manuscripts.csntm.org/manuscript/View/GA_044"
+      }
+    ],
+    "datingEvidence": {
+      "text": "Proposals run from the 8th to the 10th century. Its late majuscule has been read in different ways, and there is no colophon to settle the question.",
+      "positions": [
+        {
+          "who": "INTF",
+          "claim": "9th/10th century.",
+          "source": "aland94"
+        }
+      ],
+      "furtherReading": [
+        "aland94"
+      ]
+    }
+  }
+]

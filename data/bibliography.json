@@ -1,0 +1,168 @@
+{
+  "groups": [
+    "Palaeography and dating method",
+    "𝔓52",
+    "𝔓66",
+    "Codex Sinaiticus and Codex Vaticanus",
+    "Other manuscripts",
+    "Reference catalogues and handbooks"
+  ],
+  "works": {
+    "aland94": {
+      "group": "Reference catalogues and handbooks",
+      "citation": "Aland, Kurt, et al. <i>Kurzgefasste Liste der griechischen Handschriften des Neuen Testaments</i>. 2nd ed. ANTF 1. Berlin: De Gruyter, 1994."
+    },
+    "metzger81": {
+      "group": "Reference catalogues and handbooks",
+      "citation": "Metzger, Bruce M. <i>Manuscripts of the Greek Bible: An Introduction to Greek Palaeography</i>. New York: Oxford University Press, 1981."
+    },
+    "parker08": {
+      "group": "Reference catalogues and handbooks",
+      "citation": "Parker, D. C. <i>An Introduction to the New Testament Manuscripts and Their Texts</i>. Cambridge: Cambridge University Press, 2008."
+    },
+    "hurtado06": {
+      "group": "Reference catalogues and handbooks",
+      "citation": "Hurtado, Larry W. <i>The Earliest Christian Artifacts: Manuscripts and Christian Origins</i>. Grand Rapids: Eerdmans, 2006."
+    },
+    "cavallo67": {
+      "group": "Palaeography and dating method",
+      "citation": "Cavallo, Guglielmo. <i>Ricerche sulla maiuscola biblica</i>. Florence: Le Monnier, 1967."
+    },
+    "cavmaeh87": {
+      "group": "Palaeography and dating method",
+      "citation": "Cavallo, Guglielmo, and Herwig Maehler. <i>Greek Bookhands of the Early Byzantine Period, A.D. 300–800</i>. BICS Supplement 47. London: Institute of Classical Studies, 1987."
+    },
+    "turner77": {
+      "group": "Palaeography and dating method",
+      "citation": "Turner, Eric G. <i>The Typology of the Early Codex</i>. Philadelphia: University of Pennsylvania Press, 1977."
+    },
+    "turner87": {
+      "group": "Palaeography and dating method",
+      "citation": "Turner, Eric G. <i>Greek Manuscripts of the Ancient World</i>. 2nd ed., revised by P. J. Parsons. BICS Supplement 46. London: Institute of Classical Studies, 1987."
+    },
+    "orsini19": {
+      "group": "Palaeography and dating method",
+      "citation": "Orsini, Pasquale. <i>Studies on Greek and Coptic Majuscule Scripts and Books</i>. Studies in Manuscript Cultures 15. Berlin: De Gruyter, 2019."
+    },
+    "orsclar12": {
+      "group": "Palaeography and dating method",
+      "citation": "Orsini, Pasquale, and Willy Clarysse. “Early New Testament Manuscripts and Their Dates: A Critique of Theological Palaeography.” <i>Ephemerides Theologicae Lovanienses</i> 88 (2012): 443–74."
+    },
+    "barker11": {
+      "group": "Palaeography and dating method",
+      "citation": "Barker, Don. “The Dating of New Testament Papyri.” <i>New Testament Studies</i> 57.4 (2011): 571–82."
+    },
+    "nongbri18": {
+      "group": "Palaeography and dating method",
+      "citation": "Nongbri, Brent. <i>God’s Library: The Archaeology of the Earliest Christian Manuscripts</i>. New Haven: Yale University Press, 2018."
+    },
+    "nongbri19": {
+      "group": "Palaeography and dating method",
+      "citation": "Nongbri, Brent. “Palaeographic Analysis of Codices from the Early Christian Period: A Point of Method.” <i>Journal for the Study of the New Testament</i> 42 (2019): 84–97."
+    },
+    "nongbri25": {
+      "group": "Palaeography and dating method",
+      "citation": "Nongbri, Brent. “Radiocarbon Analysis of Papyrus and Parchment: Pitfalls and Potentials.” In <i>Actes du XXXe Congrès international de papyrologie</i>, edited by Jean-Luc Fournet, 553–66. StudPAP 7. Paris, 2025."
+    },
+    "popovic25": {
+      "group": "Palaeography and dating method",
+      "citation": "Popović, Mladen, Maruf A. Dhali, Lambert Schomaker, et al. “Dating Ancient Manuscripts Using Radiocarbon and AI-Based Writing Style Analysis.” <i>PLOS ONE</i> 20.6 (2025): e0323185."
+    },
+    "roberts35": {
+      "group": "𝔓52",
+      "citation": "Roberts, C. H. <i>An Unpublished Fragment of the Fourth Gospel in the John Rylands Library</i>. Manchester: Manchester University Press, 1935."
+    },
+    "schmidt89": {
+      "group": "𝔓52",
+      "citation": "Schmidt, Andreas. “Zwei Anmerkungen zu P. Ryl. III 457.” <i>Archiv für Papyrusforschung</i> 35 (1989): 11–12."
+    },
+    "tuckett01": {
+      "group": "𝔓52",
+      "citation": "Tuckett, Christopher M. “𝔓52 and Nomina Sacra.” <i>New Testament Studies</i> 47 (2001): 544–48."
+    },
+    "hurtado03": {
+      "group": "𝔓52",
+      "citation": "Hurtado, L. W. “𝔓52 (P. Rylands Gk. 457) and the Nomina Sacra: Method and Probability.” <i>Tyndale Bulletin</i> 54.1 (2003): 1–14."
+    },
+    "nongbri05": {
+      "group": "𝔓52",
+      "citation": "Nongbri, Brent. “The Use and Abuse of 𝔓52: Papyrological Pitfalls in the Dating of the Fourth Gospel.” <i>Harvard Theological Review</i> 98 (2005): 23–48."
+    },
+    "porter13": {
+      "group": "𝔓52",
+      "citation": "Porter, Stanley E. “Recent Efforts to Reconstruct Early Christianity on the Basis of Its Papyrological Evidence.” In <i>Christian Origins and Graeco-Roman Culture</i>, edited by Stanley E. Porter and Andrew W. Pitts, 71–84. Leiden: Brill, 2013."
+    },
+    "nongbri20": {
+      "group": "𝔓52",
+      "citation": "Nongbri, Brent. “Palaeography, Precision and Publicity: Further Thoughts on P.Ryl. III.457 (𝔓52).” <i>New Testament Studies</i> 66.4 (2020): 471–99."
+    },
+    "martin56": {
+      "group": "𝔓66",
+      "citation": "Martin, Victor. <i>Papyrus Bodmer II: Évangile de Jean, chap. 1–14</i>. Cologny-Geneva: Bibliotheca Bodmeriana, 1956."
+    },
+    "martinbarns62": {
+      "group": "𝔓66",
+      "citation": "Martin, Victor, and J. W. B. Barns. <i>Papyrus Bodmer II: Supplément, Évangile de Jean, chap. 14–21</i>. New ed. Cologny-Geneva: Bibliotheca Bodmeriana, 1962."
+    },
+    "hunger60": {
+      "group": "𝔓66",
+      "citation": "Hunger, Herbert. “Zur Datierung des Papyrus Bodmer II (P66).” <i>Anzeiger der Österreichischen Akademie der Wissenschaften, phil.-hist. Klasse</i> (1960)."
+    },
+    "comfort01": {
+      "group": "𝔓66",
+      "citation": "Comfort, Philip W., and David P. Barrett, eds. <i>The Text of the Earliest New Testament Greek Manuscripts</i>. Wheaton: Tyndale House, 2001."
+    },
+    "nongbri14": {
+      "group": "𝔓66",
+      "citation": "Nongbri, Brent. “The Limits of Palaeographic Dating of Literary Papyri: Some Observations on the Date and Provenance of P.Bodmer II (𝔓66).” <i>Museum Helveticum</i> 71 (2014): 1–35."
+    },
+    "orsini15": {
+      "group": "𝔓66",
+      "citation": "Orsini, Pasquale. “I papiri Bodmer: scritture e libri.” <i>Adamantius</i> 21 (2015): 60–78."
+    },
+    "robinson11": {
+      "group": "𝔓66",
+      "citation": "Robinson, James M. <i>The Story of the Bodmer Papyri</i>. Eugene, OR: Cascade, 2011."
+    },
+    "casson50": {
+      "group": "Other manuscripts",
+      "citation": "Casson, Lionel, and Ernest L. Hettich. <i>Excavations at Nessana</i>. Vol. 2, <i>Literary Papyri</i>. Princeton: Princeton University Press, 1950."
+    },
+    "milneskeat38": {
+      "group": "Codex Sinaiticus and Codex Vaticanus",
+      "citation": "Milne, H. J. M., and T. C. Skeat. <i>Scribes and Correctors of the Codex Sinaiticus</i>. London: British Museum, 1938."
+    },
+    "skeat99": {
+      "group": "Codex Sinaiticus and Codex Vaticanus",
+      "citation": "Skeat, T. C. “The Codex Sinaiticus, the Codex Vaticanus and Constantine.” <i>Journal of Theological Studies</i> n.s. 50 (1999): 583–625."
+    },
+    "parker10": {
+      "group": "Codex Sinaiticus and Codex Vaticanus",
+      "citation": "Parker, D. C. <i>Codex Sinaiticus: The Story of the World’s Oldest Bible</i>. London: British Library, 2010."
+    },
+    "nongbri22": {
+      "group": "Codex Sinaiticus and Codex Vaticanus",
+      "citation": "Nongbri, Brent. “The Date of Codex Sinaiticus.” <i>Journal of Theological Studies</i> n.s. 73.2 (2022): 516–34."
+    },
+    "smith14": {
+      "group": "Other manuscripts",
+      "citation": "Smith, W. Andrew. <i>A Study of the Gospels in Codex Alexandrinus: Codicology, Palaeography, and Scribal Hands</i>. NTTSD 48. Leiden: Brill, 2014."
+    },
+    "tisch43": {
+      "group": "Other manuscripts",
+      "citation": "Tischendorf, Constantin von. <i>Codex Ephraemi Syri rescriptus sive fragmenta Novi Testamenti</i>. Leipzig: Tauchnitz, 1843."
+    },
+    "lyon59": {
+      "group": "Other manuscripts",
+      "citation": "Lyon, Robert W. “A Re-examination of Codex Ephraemi Rescriptus.” <i>New Testament Studies</i> 5 (1958–59)."
+    },
+    "sanders12": {
+      "group": "Other manuscripts",
+      "citation": "Sanders, Henry A. <i>The New Testament Manuscripts in the Freer Collection</i>. Part 1, <i>The Washington Manuscript of the Four Gospels</i>. New York: Macmillan, 1912."
+    },
+    "hurtado06freer": {
+      "group": "Other manuscripts",
+      "citation": "Hurtado, Larry W., ed. <i>The Freer Biblical Manuscripts: Fresh Studies of an American Treasure Trove</i>. Text-Critical Studies 6. Atlanta: Society of Biblical Literature, 2006."
+    }
+  }
+}
