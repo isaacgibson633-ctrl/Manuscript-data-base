@@ -1,0 +1,192 @@
+{
+  "passage": "John 18:31",
+  "heading": "Who has John 18:31?",
+  "scope": "Greek papyri and majuscules to AD 900",
+  "translation_note": "Greek as printed in modern critical editions; the translation is our own, kept literal. Individual manuscripts differ in spelling, abbreviations and small wording details, and several preserve only a few letters of the verse.",
+  "verses": [
+    {
+      "ref": "John 18:31",
+      "verse": 31,
+      "translation": "So Pilate said to them, “Take him yourselves and judge him by your own law.” The Jews said to him, “It is not lawful for us to put anyone to death.”",
+      "greek": "Εἶπεν οὖν αὐτοῖς ὁ Πιλᾶτος· λάβετε αὐτὸν ὑμεῖς καὶ κατὰ τὸν νόμον ὑμῶν κρίνατε αὐτόν. εἶπον αὐτῷ οἱ Ἰουδαῖοι· ἡμῖν οὐκ ἔξεστιν ἀποκτεῖναι οὐδένα·",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p52",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "087",
+          "status": "preserved"
+        },
+        {
+          "id": "p60",
+          "status": "preserved"
+        },
+        {
+          "id": "0109",
+          "status": "preserved"
+        },
+        {
+          "id": "0250",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "054",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "0290",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": []
+    }
+  ],
+  "variants": [],
+  "translation_sweep": [],
+  "excluded": [
+    {
+      "id": "05",
+      "label": "05 D (Codex Bezae)",
+      "date": "5th c.",
+      "reason": "The original Greek leaves for John 18:14–20:13 are lost. The gap was filled in later by another hand, so the text here is not the 5th-century copy."
+    },
+    {
+      "id": "09",
+      "label": "09 F (Boreelianus)",
+      "date": "9th c.",
+      "reason": "Breaks off at John 13:34."
+    },
+    {
+      "id": "022",
+      "label": "022 N (Petropolitanus Purpureus)",
+      "date": "6th c.",
+      "reason": "The purple codex is scattered across several libraries; nothing survives between John 16:15 and 20:23."
+    },
+    {
+      "id": "024",
+      "label": "024 P (Guelferbytanus A)",
+      "date": "6th c.",
+      "reason": "A palimpsest; only John 1:29–40, 2:13–25 and 21:1–11 survive."
+    },
+    {
+      "id": "029",
+      "label": "029 T (Borgianus)",
+      "date": "5th c.",
+      "reason": "Greek text of John survives only as far as 8:31."
+    },
+    {
+      "id": "031",
+      "label": "031 V (Mosquensis II)",
+      "date": "9th c.",
+      "reason": "The majuscule hand stops at John 8:39; the rest was supplied in minuscule in the 13th century."
+    },
+    {
+      "id": "p90",
+      "label": "𝔓90",
+      "date": "2nd c.",
+      "reason": "Starts at John 18:36, just after our verse."
+    },
+    {
+      "label": "028 S, 033 X, 036 Γ, 0141",
+      "date": "10th c.",
+      "reason": "All contain John 18 but fall after the AD 900 cut-off for this first version. (028 S is precisely dated to 949 by its scribe’s note.)"
+    },
+    {
+      "label": "Minuscules & lectionaries",
+      "date": "9th c. onward",
+      "reason": "Hundreds of later copies contain the verse. They are planned for a later version as a searchable list."
+    }
+  ]
+}

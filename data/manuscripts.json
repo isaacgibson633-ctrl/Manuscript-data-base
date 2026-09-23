@@ -1,171 +1,291 @@
 [
   {
     "id": "p52",
+    "language": "Greek",
+    "ga": "P52",
     "siglum": "𝔓52",
-    "gaNumber": "P52",
     "name": "Rylands Papyrus 457",
     "material": "papyrus",
-    "date": "2nd century",
-    "dateRange": {
-      "earliest": 100,
-      "latest": 225
+    "palimpsest": false,
+    "date": {
+      "label": "2nd century",
+      "range_start": 100,
+      "range_end": 225,
+      "estimate": 150,
+      "confidence": "Debated",
+      "summary": "Roberts (1935): first half of the 2nd century. Orsini & Clarysse (2012): 125–175. Nongbri (2005): comparable hands run into the late 2nd and early 3rd centuries, so a later date cannot be ruled out."
     },
-    "catalogueDate": 150,
-    "confidence": "Debated",
-    "library": "John Rylands Research Institute and Library, University of Manchester",
-    "shelfmark": "P. Ryl. Gr. 457",
-    "city": "Manchester, UK",
-    "summary": "Often called the earliest surviving piece of the New Testament. It is also the best-known example of how hard it is to date handwriting: the famous early date is one proposal among several.",
-    "datingSummary": "Roberts (1935): first half of the 2nd century. Orsini & Clarysse (2012): 125–175. Nongbri (2005): comparable hands run into the late 2nd and early 3rd centuries, so a later date cannot be ruled out.",
+    "holding": {
+      "library": "John Rylands Research Institute and Library, University of Manchester",
+      "shelfmark": "P. Ryl. Gr. 457",
+      "city": "Manchester, UK"
+    },
+    "contents_summary": "John 18:31–33 (front) and 18:37–38 (back). A scrap about the size of a credit card (8.9 × 6.4 cm) from a codex, not a scroll.",
+    "dating_evidence": "Only about a hundred letters survive. The hand is a fairly careful, rounded book script with some decorative hooks, written by someone used to copying literary texts. Every proposed date comes from comparing these letters with dated documents; there is no archaeological context, because the fragment was bought from a dealer. That it comes from a codex, not a roll, fits a Christian book but does not narrow the date.",
+    "scholarly_positions": [
+      {
+        "who": "Roberts (1935)",
+        "claim": "First half of the 2nd century, from comparison with documentary papyri of the late 1st and early 2nd centuries. Roberts reported that Kenyon, Schubart and Bell agreed.",
+        "bib": "roberts35"
+      },
+      {
+        "who": "Schmidt (1989)",
+        "claim": "About 170, give or take 25 years.",
+        "bib": "schmidt89"
+      },
+      {
+        "who": "Nongbri (2005, 2020)",
+        "claim": "Comparable hands appear in documents dated to the later 2nd and early 3rd centuries, so no honest range can stop at 150. The 2020 article also publishes new details on how the fragment was acquired.",
+        "bib": "nongbri05"
+      },
+      {
+        "who": "Barker (2011)",
+        "claim": "Places 𝔓52 in its ‘graphic stream’ and concludes that a range across the 2nd century and possibly into the 3rd is defensible.",
+        "bib": "barker11"
+      },
+      {
+        "who": "Orsini & Clarysse (2012)",
+        "claim": "125–175.",
+        "bib": "orsclar12"
+      },
+      {
+        "who": "Porter (2013)",
+        "claim": "Mid-2nd century; argues the similar P.Egerton 2 should be dated early too, and that later datings over-correct.",
+        "bib": "porter13"
+      },
+      {
+        "who": "Tuckett (2001) and Hurtado (2003)",
+        "claim": "A related question: whether the scribe abbreviated Jesus’ name as a ‘sacred name’ (nomen sacrum). Tuckett doubts it can be shown; Hurtado argues it is probable from line lengths and scribal practice.",
+        "bib": "hurtado03"
+      }
+    ],
+    "literature": [
+      "roberts35",
+      "schmidt89",
+      "tuckett01",
+      "hurtado03",
+      "nongbri05",
+      "barker11",
+      "orsclar12",
+      "porter13",
+      "nongbri20",
+      "nongbri18"
+    ],
     "provenance": "Bought in Egypt in 1920 by Bernard Grenfell for the Rylands Library; identified and published by Colin H. Roberts in 1935. Exact find-spot unknown.",
-    "vmrId": 10052,
+    "summary": "Often called the earliest surviving piece of the New Testament. It is also the best-known example of how hard it is to date handwriting: the famous early date is one proposal among several.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10052"
+      },
       {
         "label": "CSNTM images",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_P52"
       }
     ],
-    "datingEvidence": {
-      "text": "Only about a hundred letters survive. The hand is a fairly careful, rounded book script with some decorative hooks, written by someone used to copying literary texts. Every proposed date comes from comparing these letters with dated documents; there is no archaeological context, because the fragment was bought from a dealer. That it comes from a codex, not a roll, fits a Christian book but does not narrow the date.",
-      "positions": [
-        {
-          "who": "Roberts (1935)",
-          "claim": "First half of the 2nd century, from comparison with documentary papyri of the late 1st and early 2nd centuries. Roberts reported that Kenyon, Schubart and Bell agreed.",
-          "source": "roberts35"
-        },
-        {
-          "who": "Schmidt (1989)",
-          "claim": "About 170, give or take 25 years.",
-          "source": "schmidt89"
-        },
-        {
-          "who": "Nongbri (2005, 2020)",
-          "claim": "Comparable hands appear in documents dated to the later 2nd and early 3rd centuries, so no honest range can stop at 150. The 2020 article also publishes new details on how the fragment was acquired.",
-          "source": "nongbri05"
-        },
-        {
-          "who": "Barker (2011)",
-          "claim": "Places 𝔓52 in its ‘graphic stream’ and concludes that a range across the 2nd century and possibly into the 3rd is defensible.",
-          "source": "barker11"
-        },
-        {
-          "who": "Orsini & Clarysse (2012)",
-          "claim": "125–175.",
-          "source": "orsclar12"
-        },
-        {
-          "who": "Porter (2013)",
-          "claim": "Mid-2nd century; argues the similar P.Egerton 2 should be dated early too, and that later datings over-correct.",
-          "source": "porter13"
-        },
-        {
-          "who": "Tuckett (2001) and Hurtado (2003)",
-          "claim": "A related question: whether the scribe abbreviated Jesus’ name as a ‘sacred name’ (nomen sacrum). Tuckett doubts it can be shown; Hurtado argues it is probable from line lengths and scribal practice.",
-          "source": "hurtado03"
-        }
-      ],
-      "furtherReading": [
-        "roberts35",
-        "schmidt89",
-        "tuckett01",
-        "hurtado03",
-        "nongbri05",
-        "barker11",
-        "orsclar12",
-        "porter13",
-        "nongbri20",
-        "nongbri18"
-      ]
-    }
+    "intf_docid": 10052,
+    "to_check": []
   },
   {
     "id": "p66",
+    "language": "Greek",
+    "ga": "P66",
     "siglum": "𝔓66",
-    "gaNumber": "P66",
     "name": "Papyrus Bodmer II",
     "material": "papyrus",
-    "date": "c. 200",
-    "dateRange": {
-      "earliest": 100,
-      "latest": 350
+    "palimpsest": false,
+    "date": {
+      "label": "c. 200",
+      "range_start": 100,
+      "range_end": 350,
+      "estimate": 200,
+      "confidence": "Debated",
+      "summary": "Martin (editor, 1956): c. 200. Hunger (1960): first half of the 2nd century. Nongbri (2014): 4th century is equally possible. INTF: c. 200."
     },
-    "catalogueDate": 200,
-    "confidence": "Debated",
-    "library": "Fondation Martin Bodmer",
-    "shelfmark": "P. Bodmer II (+ one leaf at the Chester Beatty Library, Dublin)",
-    "city": "Cologny (Geneva), Switzerland",
-    "summary": "The most complete early copy of John. The scribe made many corrections, which lets scholars watch a copyist at work.",
-    "datingSummary": "Martin (editor, 1956): c. 200. Hunger (1960): first half of the 2nd century. Nongbri (2014): 4th century is equally possible. INTF: c. 200.",
+    "holding": {
+      "library": "Fondation Martin Bodmer",
+      "shelfmark": "P. Bodmer II (+ one leaf at the Chester Beatty Library, Dublin)",
+      "city": "Cologny (Geneva), Switzerland"
+    },
+    "contents_summary": "A nearly complete codex of John 1–14; chapters 15–21 survive only as damaged fragments. John 18:31 lies inside the surviving range, but which letters of it are legible should be checked against the facsimile.",
+    "dating_evidence": "A large, rounded, carefully spaced hand, much more text than 𝔓52 and so more letters to compare. The codex is thought to belong to the ‘Bodmer papyri’, a group of books apparently found together near Dishna in Upper Egypt. Many of the other books in that group are 4th century or later, which matters if they were buried together.",
+    "scholarly_positions": [
+      {
+        "who": "Martin (1956)",
+        "claim": "First editor: about 200.",
+        "bib": "martin56"
+      },
+      {
+        "who": "Hunger (1960)",
+        "claim": "First half of the 2nd century, from comparison with early documentary hands.",
+        "bib": "hunger60"
+      },
+      {
+        "who": "Comfort & Barrett (2001)",
+        "claim": "Among the scholars arguing for a 2nd-century date.",
+        "bib": "comfort01"
+      },
+      {
+        "who": "Orsini & Clarysse (2012)",
+        "claim": "200–250.",
+        "bib": "orsclar12"
+      },
+      {
+        "who": "Nongbri (2014)",
+        "claim": "Comparable hands continue into the 4th century, and the book’s likely find context points the same way; a 4th-century date is at least as plausible.",
+        "bib": "nongbri14"
+      },
+      {
+        "who": "Orsini (2015)",
+        "claim": "Revised to the late 3rd or early 4th century.",
+        "bib": "orsini15"
+      }
+    ],
+    "literature": [
+      "martin56",
+      "martinbarns62",
+      "hunger60",
+      "comfort01",
+      "orsclar12",
+      "nongbri14",
+      "orsini15",
+      "robinson11"
+    ],
     "provenance": "Acquired by the collector Martin Bodmer in the 1950s, likely part of the ‘Bodmer papyri’ find associated with the region of Dishna, Upper Egypt.",
-    "vmrId": 10066,
-    "images": [],
-    "datingEvidence": {
-      "text": "A large, rounded, carefully spaced hand, much more text than 𝔓52 and so more letters to compare. The codex is thought to belong to the ‘Bodmer papyri’, a group of books apparently found together near Dishna in Upper Egypt. Many of the other books in that group are 4th century or later, which matters if they were buried together.",
-      "positions": [
-        {
-          "who": "Martin (1956)",
-          "claim": "First editor: about 200.",
-          "source": "martin56"
-        },
-        {
-          "who": "Hunger (1960)",
-          "claim": "First half of the 2nd century, from comparison with early documentary hands.",
-          "source": "hunger60"
-        },
-        {
-          "who": "Comfort & Barrett (2001)",
-          "claim": "Among the scholars arguing for a 2nd-century date.",
-          "source": "comfort01"
-        },
-        {
-          "who": "Orsini & Clarysse (2012)",
-          "claim": "200–250.",
-          "source": "orsclar12"
-        },
-        {
-          "who": "Nongbri (2014)",
-          "claim": "Comparable hands continue into the 4th century, and the book’s likely find context points the same way; a 4th-century date is at least as plausible.",
-          "source": "nongbri14"
-        },
-        {
-          "who": "Orsini (2015)",
-          "claim": "Revised to the late 3rd or early 4th century.",
-          "source": "orsini15"
-        }
-      ],
-      "furtherReading": [
-        "martin56",
-        "martinbarns62",
-        "hunger60",
-        "comfort01",
-        "orsclar12",
-        "nongbri14",
-        "orsini15",
-        "robinson11"
-      ]
-    }
+    "summary": "The most complete early copy of John. The scribe made many corrections, which lets scholars watch a copyist at work.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10066"
+      }
+    ],
+    "intf_docid": 10066,
+    "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10075"
+      }
+    ],
+    "to_check": [
+      "Direct Vatican viewer URL (colour images are online at DigiVatLib; CSNTM also has facsimile images)"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Martin & Kasser (1961)",
+        "claim": "First editors: 175–225.",
+        "bib": "martinkasser61"
+      },
+      {
+        "who": "Turner (1977)",
+        "claim": "About 225–275.",
+        "bib": "turner77"
+      },
+      {
+        "who": "Orsini & Clarysse (2012)",
+        "claim": "200–250.",
+        "bib": "orsclar12"
+      },
+      {
+        "who": "Orsini (2015)",
+        "claim": "Late 3rd or early 4th century (about 250–325).",
+        "bib": "orsini15"
+      },
+      {
+        "who": "Nongbri (2016)",
+        "claim": "Palaeography and codicology fit the 4th century at least as well; a 4th-century date is equally likely, if not more likely.",
+        "bib": "nongbri16"
+      },
+      {
+        "who": "Royse (2008)",
+        "claim": "Studies the scribe’s habits and identifies later corrections and marginal notes in 4th- or 5th-century hands.",
+        "bib": "royse08"
+      }
+    ],
+    "literature": [
+      "martinkasser61",
+      "turner77",
+      "orsclar12",
+      "orsini15",
+      "nongbri16",
+      "royse08",
+      "nongbri18"
+    ],
+    "id": "p75",
+    "ga": "P75",
+    "siglum": "𝔓75",
+    "name": "Papyrus Bodmer XIV–XV (Hanna Papyrus 1, Mater Verbi)",
+    "material": "papyrus",
+    "date": {
+      "label": "c. 200–225 (INTF)",
+      "range_start": 175,
+      "range_end": 350,
+      "estimate": 212,
+      "confidence": "Debated",
+      "summary": "Editors: 175–225. Turner: c. 225–275. Orsini & Clarysse: 200–250. Orsini (2015): 3rd/4th c. Nongbri (2016): 4th c. equally or more likely. Leuven Database: 275–325."
+    },
+    "holding": {
+      "library": "Vatican Apostolic Library",
+      "shelfmark": "Pap. Hanna 1 (Mater Verbi)",
+      "city": "Vatican City"
+    },
+    "contents_summary": "Luke 3:18–24:53 and John 1:1–15:10, with gaps; John 1:1–18 complete.",
+    "dating_evidence": "Dated from its script, an upright, elegant, carefully spaced majuscule. The first editors compared it with Oxyrhynchus papyri that were themselves dated only by palaeography, so the chain never reaches a securely dated document (Nongbri 2016). The closest securely dated match proposed so far is P.Herm. 4 and 5 from the 320s. Its tall, narrow format (about 26 × 13 cm, Turner’s Group 8) matches codices of the 4th century such as some Nag Hammadi books, and it belongs to the Bodmer find, most of whose books are 4th–5th century. Its text is extremely close to Codex Vaticanus, which some read as evidence for an early form of that text and Nongbri reads as consistent with a 4th-century date. Later corrections and notes in 4th- or 5th-century hands show it was still in use then (Royse 2008).",
+    "provenance": "Part of the Bodmer papyri acquired by Martin Bodmer in the 1950s, probably from the Dishna region of Upper Egypt. Sold in 2006 and donated to the Vatican Library; renamed Hanna Papyrus 1 (Mater Verbi).",
+    "summary": "The earliest near-complete copy of Luke and one of the two great early papyri of John. Its text is almost identical to Codex Vaticanus.",
+    "intf_docid": 10075
   },
   {
     "id": "03",
+    "language": "Greek",
+    "ga": "03",
     "siglum": "03 B",
-    "gaNumber": "03",
     "name": "Codex Vaticanus",
     "material": "parchment",
-    "date": "4th century",
-    "dateRange": {
-      "earliest": 300,
-      "latest": 360
+    "palimpsest": false,
+    "date": {
+      "label": "4th century",
+      "range_start": 300,
+      "range_end": 360,
+      "estimate": 330,
+      "confidence": "Firm",
+      "summary": "4th century, usually placed in its first half."
     },
-    "catalogueDate": 330,
-    "confidence": "Firm",
-    "library": "Vatican Apostolic Library",
-    "shelfmark": "Vat. gr. 1209",
-    "city": "Vatican City",
-    "summary": "Probably the oldest nearly complete Greek Bible. Its text of John is very close to the early papyri, especially 𝔓75.",
-    "datingSummary": "4th century, usually placed in its first half.",
+    "holding": {
+      "library": "Vatican Apostolic Library",
+      "shelfmark": "Vat. gr. 1209",
+      "city": "Vatican City"
+    },
+    "contents_summary": "Gospels, Acts, Catholic Epistles and Paul (to Hebrews 9:14). John is complete.",
+    "dating_evidence": "Early Biblical majuscule with almost no ornament, three columns per page, and no Eusebian section numbers (it uses an older system of chapter divisions). These features are the main reasons it is usually placed at or before the middle of the 4th century.",
+    "scholarly_positions": [
+      {
+        "who": "Skeat (1999)",
+        "claim": "Made alongside Sinaiticus, probably at Caesarea, around the 330s.",
+        "bib": "skeat99"
+      },
+      {
+        "who": "Cavallo (1967)",
+        "claim": "A key example of Biblical majuscule in its mature form.",
+        "bib": "cavallo67"
+      }
+    ],
+    "literature": [
+      "cavallo67",
+      "skeat99",
+      "parker08"
+    ],
     "provenance": "Recorded in the Vatican Library’s catalogue since the 15th century; how it arrived is not known.",
-    "vmrId": 20003,
+    "summary": "Probably the oldest nearly complete Greek Bible. Its text of John is very close to the early papyri, especially 𝔓75.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20003"
+      },
       {
         "label": "DigiVatLib (Vatican Library)",
         "url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209"
@@ -175,957 +295,1951 @@
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_03"
       }
     ],
-    "datingEvidence": {
-      "text": "Early Biblical majuscule with almost no ornament, three columns per page, and no Eusebian section numbers (it uses an older system of chapter divisions). These features are the main reasons it is usually placed at or before the middle of the 4th century.",
-      "positions": [
-        {
-          "who": "Skeat (1999)",
-          "claim": "Made alongside Sinaiticus, probably at Caesarea, around the 330s.",
-          "source": "skeat99"
-        },
-        {
-          "who": "Cavallo (1967)",
-          "claim": "A key example of Biblical majuscule in its mature form.",
-          "source": "cavallo67"
-        }
-      ],
-      "furtherReading": [
-        "cavallo67",
-        "skeat99",
-        "parker08"
-      ]
-    }
+    "intf_docid": 20003,
+    "to_check": []
   },
   {
     "id": "01",
+    "language": "Greek",
+    "ga": "01",
     "siglum": "01 א",
-    "gaNumber": "01",
     "name": "Codex Sinaiticus",
     "material": "parchment",
-    "date": "4th century",
-    "dateRange": {
-      "earliest": 325,
-      "latest": 375
+    "palimpsest": false,
+    "date": {
+      "label": "4th century",
+      "range_start": 325,
+      "range_end": 375,
+      "estimate": 350,
+      "confidence": "Firm",
+      "summary": "Mid-4th century; a date in the 330s–360s is widely accepted."
     },
-    "catalogueDate": 350,
-    "confidence": "Firm",
-    "library": "British Library (New Testament portion)",
-    "shelfmark": "Add MS 43725",
-    "city": "London, UK",
-    "summary": "One of the two oldest nearly complete Bibles. Its leaves are split between London, Leipzig, St Catherine’s Monastery and St Petersburg, and the whole book has been reunited online.",
-    "datingSummary": "Mid-4th century; a date in the 330s–360s is widely accepted.",
+    "holding": {
+      "library": "British Library (New Testament portion)",
+      "shelfmark": "Add MS 43725",
+      "city": "London, UK"
+    },
+    "contents_summary": "Complete New Testament, plus much of the Greek Old Testament. John 18:31 is on a fully preserved page.",
+    "dating_evidence": "Biblical majuscule in its ‘canonical’ form: letters fill a square frame, round letters are circles, strokes are nearly even in thickness and there is little ornament. The Eusebian section numbers in the Gospels give a ‘not before’ date in the early 4th century. Milne and Skeat identified the scribes and used features of their work to argue for the mid-4th century.",
+    "scholarly_positions": [
+      {
+        "who": "Milne & Skeat (1938)",
+        "claim": "Mid-4th century, based on the scribes, their corrections and the apparatus.",
+        "bib": "milneskeat38"
+      },
+      {
+        "who": "Skeat (1999)",
+        "claim": "Suggests Sinaiticus and Vaticanus were made at Caesarea around the time Constantine ordered fifty Bibles from Eusebius (c. 330s).",
+        "bib": "skeat99"
+      },
+      {
+        "who": "Parker (2010)",
+        "claim": "Mid-4th century.",
+        "bib": "parker10"
+      },
+      {
+        "who": "Nongbri (2022)",
+        "claim": "The secure evidence allows anywhere from about 300 to about 425: the Eusebian apparatus sets the lower limit, and cursive marginal notes resemble documents into the early 5th century. Calls for radiocarbon testing.",
+        "bib": "nongbri22"
+      }
+    ],
+    "literature": [
+      "milneskeat38",
+      "skeat99",
+      "parker10",
+      "nongbri22",
+      "cavallo67"
+    ],
     "provenance": "Removed from St Catherine’s Monastery, Sinai, by Constantin von Tischendorf in 1844 and 1859; the circumstances of the 1859 removal remain disputed. Sold by the Soviet government to the British Museum in 1933.",
-    "vmrId": 20001,
+    "summary": "One of the two oldest nearly complete Bibles. Its leaves are split between London, Leipzig, St Catherine’s Monastery and St Petersburg, and the whole book has been reunited online.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20001"
+      },
       {
         "label": "Codex Sinaiticus Project, John 18",
         "url": "https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=18&lid=en&side=r&verse=31&zoomSlider=0"
       }
     ],
-    "datingEvidence": {
-      "text": "Biblical majuscule in its ‘canonical’ form: letters fill a square frame, round letters are circles, strokes are nearly even in thickness and there is little ornament. The Eusebian section numbers in the Gospels give a ‘not before’ date in the early 4th century. Milne and Skeat identified the scribes and used features of their work to argue for the mid-4th century.",
-      "positions": [
-        {
-          "who": "Milne & Skeat (1938)",
-          "claim": "Mid-4th century, based on the scribes, their corrections and the apparatus.",
-          "source": "milneskeat38"
-        },
-        {
-          "who": "Skeat (1999)",
-          "claim": "Suggests Sinaiticus and Vaticanus were made at Caesarea around the time Constantine ordered fifty Bibles from Eusebius (c. 330s).",
-          "source": "skeat99"
-        },
-        {
-          "who": "Parker (2010)",
-          "claim": "Mid-4th century.",
-          "source": "parker10"
-        },
-        {
-          "who": "Nongbri (2022)",
-          "claim": "The secure evidence allows anywhere from about 300 to about 425: the Eusebian apparatus sets the lower limit, and cursive marginal notes resemble documents into the early 5th century. Calls for radiocarbon testing.",
-          "source": "nongbri22"
-        }
-      ],
-      "furtherReading": [
-        "milneskeat38",
-        "skeat99",
-        "parker10",
-        "nongbri22",
-        "cavallo67"
-      ]
-    }
+    "intf_docid": 20001,
+    "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20005"
+      }
+    ],
+    "to_check": [
+      "Cambridge Digital Library viewer URL"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Parker (1992)",
+        "claim": "About 400; argues for Berytus (Beirut), a centre of Latin legal study in the Greek East, as a possible place of origin. Others have proposed Gaul, southern Italy, Egypt or Palestine.",
+        "bib": "parker92"
+      }
+    ],
+    "literature": [
+      "parker92",
+      "parker08",
+      "aland94"
+    ],
+    "id": "05",
+    "ga": "05",
+    "siglum": "05 D",
+    "name": "Codex Bezae Cantabrigiensis",
+    "material": "parchment",
+    "date": {
+      "label": "c. 400 (Parker); 5th c. (INTF)",
+      "range_start": 380,
+      "range_end": 500,
+      "estimate": 420,
+      "confidence": "Firm",
+      "summary": "Parker (1992): about 400. INTF: 5th century. Place of origin is more debated than the date."
+    },
+    "holding": {
+      "library": "Cambridge University Library",
+      "shelfmark": "MS Nn. 2. 41",
+      "city": "Cambridge, UK"
+    },
+    "contents_summary": "Greek–Latin Gospels and Acts on facing pages, with gaps. Greek John lacks 1:16–3:26; 18:14–20:13 is a later supplement.",
+    "dating_evidence": "Dated from its two scripts: Greek on the left page and Latin on the right, both written by one scribe whose letterforms mix Greek and Latin habits. The text is laid out in sense-lines. Parker’s full study of the scribe, the layout and the later correctors puts it around 400. Eleven successive correctors, working from about the 6th to the 12th century, show its long use.",
+    "provenance": "At the monastery of St Irenaeus in Lyon in the 16th century; taken by Theodore Beza after the Huguenot sack of Lyon in 1562 and given by him to Cambridge University in 1581.",
+    "summary": "The chief Greek witness to the ‘Western’ text, famous for its many additions and differences, especially in Acts.",
+    "intf_docid": 20005
   },
   {
     "id": "032",
+    "language": "Greek",
+    "ga": "032",
     "siglum": "032 W",
-    "gaNumber": "032",
     "name": "Codex Washingtonianus (Freer Gospels)",
     "material": "parchment",
-    "date": "4th–5th century",
-    "dateRange": {
-      "earliest": 375,
-      "latest": 500
+    "palimpsest": false,
+    "date": {
+      "label": "4th–5th century",
+      "range_start": 375,
+      "range_end": 500,
+      "estimate": 425,
+      "confidence": "Firm",
+      "summary": "Late 4th to 5th century."
     },
-    "catalogueDate": 425,
-    "confidence": "Firm",
-    "library": "National Museum of Asian Art (Freer Gallery), Smithsonian",
-    "shelfmark": "F1906.274",
-    "city": "Washington, DC, USA",
-    "summary": "Famous for an extra saying of Jesus after Mark 16:14 (the ‘Freer Logion’). Its text changes character from book to book, suggesting it was copied from several different exemplars.",
-    "datingSummary": "Late 4th to 5th century.",
+    "holding": {
+      "library": "National Museum of Asian Art (Freer Gallery), Smithsonian",
+      "shelfmark": "F1906.274",
+      "city": "Washington, DC, USA"
+    },
+    "contents_summary": "The four Gospels in the ‘Western’ order Matthew, John, Luke, Mark. John 14:26–16:7 is missing; John 18 survives. John 1:1–5:11 is on a replacement quire, usually dated to the 7th century.",
+    "dating_evidence": "Its script is not the Biblical majuscule of the great codices, so the usual comparisons work less well. Its unusual script and the likelihood that it was copied from several exemplars make it hard to pin down more tightly than the late 4th or 5th century.",
+    "scholarly_positions": [
+      {
+        "who": "Sanders (1912)",
+        "claim": "First editor; late 4th to 5th century.",
+        "bib": "sanders12"
+      },
+      {
+        "who": "Hurtado, ed. (2006)",
+        "claim": "A collection of new studies of the Freer manuscripts, including their palaeography and codicology.",
+        "bib": "hurtado06freer"
+      }
+    ],
+    "literature": [
+      "sanders12",
+      "hurtado06freer"
+    ],
     "provenance": "Bought by Charles Lang Freer from a dealer in Egypt in December 1906.",
-    "vmrId": 20032,
+    "summary": "Famous for an extra saying of Jesus after Mark 16:14 (the ‘Freer Logion’). Its text changes character from book to book, suggesting it was copied from several different exemplars.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20032"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_032"
       }
     ],
-    "datingEvidence": {
-      "text": "Its script is not the Biblical majuscule of the great codices, so the usual comparisons work less well. Its unusual script and the likelihood that it was copied from several exemplars make it hard to pin down more tightly than the late 4th or 5th century.",
-      "positions": [
-        {
-          "who": "Sanders (1912)",
-          "claim": "First editor; late 4th to 5th century.",
-          "source": "sanders12"
-        },
-        {
-          "who": "Hurtado, ed. (2006)",
-          "claim": "A collection of new studies of the Freer manuscripts, including their palaeography and codicology.",
-          "source": "hurtado06freer"
-        }
-      ],
-      "furtherReading": [
-        "sanders12",
-        "hurtado06freer"
-      ]
-    }
+    "intf_docid": 20032,
+    "to_check": [
+      "Date of the replacement quire containing John 1:1–5:11 (usually given as 7th century)"
+    ]
   },
   {
     "id": "02",
+    "language": "Greek",
+    "ga": "02",
     "siglum": "02 A",
-    "gaNumber": "02",
     "name": "Codex Alexandrinus",
     "material": "parchment",
-    "date": "5th century",
-    "dateRange": {
-      "earliest": 400,
-      "latest": 450
+    "palimpsest": false,
+    "date": {
+      "label": "5th century",
+      "range_start": 400,
+      "range_end": 450,
+      "estimate": 425,
+      "confidence": "Firm",
+      "summary": "5th century, commonly first half."
     },
-    "catalogueDate": 425,
-    "confidence": "Firm",
-    "library": "British Library",
-    "shelfmark": "Royal MS 1 D VIII",
-    "city": "London, UK",
-    "summary": "The third of the great early Bibles. In the Gospels it is an early witness to the form of text that later became standard in Byzantine manuscripts.",
-    "datingSummary": "5th century, commonly first half.",
+    "holding": {
+      "library": "British Library",
+      "shelfmark": "Royal MS 1 D VIII",
+      "city": "London, UK"
+    },
+    "contents_summary": "Greek Old and New Testament, with gaps. In John only 6:50–8:52 is missing.",
+    "dating_evidence": "A later phase of Biblical majuscule: more contrast between thick and thin strokes, some ornament, and enlarged initials standing out in the margin. It contains Athanasius’s Letter to Marcellinus and has the Eusebian apparatus, both pointing after the mid-4th century.",
+    "scholarly_positions": [
+      {
+        "who": "Smith (2014)",
+        "claim": "The fullest study of its codicology, scribes and palaeography in the Gospels.",
+        "bib": "smith14"
+      }
+    ],
+    "literature": [
+      "smith14",
+      "cavallo67",
+      "cavmaeh87"
+    ],
     "provenance": "Given by Cyril Lucaris, Patriarch of Constantinople, to King Charles I of England; arrived in 1627.",
-    "vmrId": 20002,
+    "summary": "The third of the great early Bibles. In the Gospels it is an early witness to the form of text that later became standard in Byzantine manuscripts.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20002"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_02"
       }
     ],
-    "datingEvidence": {
-      "text": "A later phase of Biblical majuscule: more contrast between thick and thin strokes, some ornament, and enlarged initials standing out in the margin. It contains Athanasius’s Letter to Marcellinus and has the Eusebian apparatus, both pointing after the mid-4th century.",
-      "positions": [
-        {
-          "who": "Smith (2014)",
-          "claim": "The fullest study of its codicology, scribes and palaeography in the Gospels.",
-          "source": "smith14"
-        }
-      ],
-      "furtherReading": [
-        "smith14",
-        "cavallo67",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20002,
+    "to_check": []
   },
   {
     "id": "04",
+    "language": "Greek",
+    "ga": "04",
     "siglum": "04 C",
-    "gaNumber": "04",
     "name": "Codex Ephraemi Rescriptus",
     "material": "parchment",
     "palimpsest": true,
-    "date": "5th century",
-    "dateRange": {
-      "earliest": 400,
-      "latest": 475
+    "date": {
+      "label": "5th century",
+      "range_start": 400,
+      "range_end": 475,
+      "estimate": 440,
+      "confidence": "Firm",
+      "summary": "5th century, often placed c. 425–450."
     },
-    "catalogueDate": 440,
-    "confidence": "Firm",
-    "library": "Bibliothèque nationale de France",
-    "shelfmark": "Grec 9",
-    "city": "Paris, France",
-    "summary": "A palimpsest: in the 12th century the Bible text was scraped off and the parchment reused for sermons of Ephrem the Syrian. The faint lower Bible text was deciphered by Tischendorf in the 1840s.",
-    "datingSummary": "5th century, often placed c. 425–450.",
+    "holding": {
+      "library": "Bibliothèque nationale de France",
+      "shelfmark": "Grec 9",
+      "city": "Paris, France"
+    },
+    "contents_summary": "Parts of every New Testament book. In John, 18:36–20:25 is lost, but 18:31 survives just before the gap.",
+    "dating_evidence": "A palimpsest, so the Bible text must be read beneath the later writing. Its single-column Biblical majuscule is usually compared with Codex Alexandrinus, hence a 5th-century date.",
+    "scholarly_positions": [
+      {
+        "who": "Tischendorf (1843)",
+        "claim": "First deciphered and published the underlying New Testament text.",
+        "bib": "tisch43"
+      },
+      {
+        "who": "Lyon (1958–59)",
+        "claim": "Re-examined the manuscript and Tischendorf’s readings.",
+        "bib": "lyon59"
+      }
+    ],
+    "literature": [
+      "tisch43",
+      "lyon59"
+    ],
     "provenance": "Brought to Italy in the 16th century and then to France with Catherine de’ Medici’s library.",
-    "vmrId": 20004,
+    "summary": "A palimpsest: in the 12th century the Bible text was scraped off and the parchment reused for sermons of Ephrem the Syrian. The faint lower Bible text was deciphered by Tischendorf in the 1840s.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20004"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_04"
       }
     ],
-    "datingEvidence": {
-      "text": "A palimpsest, so the Bible text must be read beneath the later writing. Its single-column Biblical majuscule is usually compared with Codex Alexandrinus, hence a 5th-century date.",
-      "positions": [
-        {
-          "who": "Tischendorf (1843)",
-          "claim": "First deciphered and published the underlying New Testament text.",
-          "source": "tisch43"
-        },
-        {
-          "who": "Lyon (1958–59)",
-          "claim": "Re-examined the manuscript and Tischendorf’s readings.",
-          "source": "lyon59"
-        }
-      ],
-      "furtherReading": [
-        "tisch43",
-        "lyon59"
-      ]
-    }
+    "intf_docid": 20004,
+    "to_check": []
   },
   {
     "id": "087",
+    "language": "Greek",
+    "ga": "087",
     "siglum": "087",
-    "gaNumber": "087",
     "name": "Uncial 087",
     "material": "parchment",
-    "date": "6th century",
-    "dateRange": {
-      "earliest": 500,
-      "latest": 600
+    "palimpsest": false,
+    "date": {
+      "label": "6th century",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century (INTF)."
     },
-    "catalogueDate": 550,
-    "confidence": "Firm",
-    "library": "National Library of Russia and St Catherine’s Monastery",
-    "shelfmark": "RNB Gr. 12, 278; Sinai Gr. 218",
-    "city": "St Petersburg, Russia and Sinai, Egypt",
-    "summary": "A few leaves of a large, handsome 6th-century Gospel book whose pages are now split between Sinai and St Petersburg.",
-    "datingSummary": "6th century (INTF).",
+    "holding": {
+      "library": "National Library of Russia and St Catherine’s Monastery",
+      "shelfmark": "RNB Gr. 12, 278; Sinai Gr. 218",
+      "city": "St Petersburg, Russia and Sinai, Egypt"
+    },
+    "contents_summary": "Three leaves: Matthew 1:23–2:2, 19:3–8, 21:19–24 and John 18:29–35.",
+    "dating_evidence": "Dated from its script alone; there is no colophon or find context. No dedicated dating study was found, so the date is the INTF catalogue’s and should be treated as a century-wide estimate.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Part of the codex was taken from Sinai to Russia by Porfiry Uspensky in the 1850s; the rest remains at St Catherine’s.",
-    "vmrId": 20087,
-    "images": [],
-    "datingEvidence": {
-      "note": "early-fragment",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "A few leaves of a large, handsome 6th-century Gospel book whose pages are now split between Sinai and St Petersburg.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20087"
+      }
+    ],
+    "intf_docid": 20087,
+    "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20022"
+      }
+    ],
+    "to_check": [
+      "Acquisition history"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Cavallo (1967)",
+        "claim": "Treats the purple codices as late examples of Biblical majuscule.",
+        "bib": "cavallo67"
+      }
+    ],
+    "literature": [
+      "cavallo67",
+      "cavmaeh87",
+      "aland94"
+    ],
+    "id": "022",
+    "ga": "022",
+    "siglum": "022 N",
+    "name": "Codex Petropolitanus Purpureus",
+    "material": "parchment",
+    "date": {
+      "label": "6th c.",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century (INTF)."
+    },
+    "holding": {
+      "library": "National Library of Russia (most leaves); others in Patmos, the Vatican, London, Vienna and elsewhere",
+      "shelfmark": "Gr. 537 (St Petersburg portion)",
+      "city": "St Petersburg and elsewhere"
+    },
+    "contents_summary": "Scattered leaves of the four Gospels. In John: 1:1–21; 1:39–2:6; 3:30–4:5; 5:3–10, 19–26; 6:49–57; 9:33–14:2; 14:11–15:14; 15:22–16:15; 20:23–25, 28–30; 21:20–25.",
+    "dating_evidence": "A luxury book on purple-dyed parchment, written in silver ink with the sacred names in gold. It is dated with the other purple Gospel codices (023 O, 042 Σ, 043 Φ) to the 6th century, from their late form of Biblical majuscule and their deluxe production.",
+    "provenance": "Dispersed across several libraries; acquisition history to be documented.",
+    "summary": "One of the imperial-style purple Gospel books of the 6th century, now split across several countries.",
+    "intf_docid": 20022
   },
   {
     "id": "p60",
+    "language": "Greek",
+    "ga": "P60",
     "siglum": "𝔓60",
-    "gaNumber": "P60",
     "name": "P. Colt 4",
     "material": "papyrus",
-    "date": "7th century",
-    "dateRange": {
-      "earliest": 550,
-      "latest": 720
+    "palimpsest": false,
+    "date": {
+      "label": "7th century",
+      "range_start": 550,
+      "range_end": 720,
+      "estimate": 650,
+      "confidence": "Firm",
+      "summary": "Palaeographic dates range from the 6th to around 700. INTF: 7th century."
     },
-    "catalogueDate": 650,
-    "confidence": "Firm",
-    "library": "Morgan Library & Museum",
-    "shelfmark": "P. Colt 4",
-    "city": "New York, USA",
-    "summary": "A late papyrus codex, from a time when most Gospel books were on parchment. Evidence that papyrus kept being used for Christian books well after late antiquity.",
-    "datingSummary": "Palaeographic dates range from the 6th to around 700. INTF: 7th century.",
+    "holding": {
+      "library": "Morgan Library & Museum",
+      "shelfmark": "P. Colt 4",
+      "city": "New York, USA"
+    },
+    "contents_summary": "Fragments of John 16:29–19:26. Fragments 11–15 preserve John 18:23–27, 31, 34–35 and 37.",
+    "dating_evidence": "Unusually for a papyrus, it has an archaeological context. It was excavated at Nessana in the Negev together with documents that carry dates in the 6th and 7th centuries, which supports the palaeographic date.",
+    "scholarly_positions": [
+      {
+        "who": "Casson & Hettich (1950)",
+        "claim": "Editors of the Nessana literary papyri.",
+        "bib": "casson50"
+      },
+      {
+        "who": "INTF",
+        "claim": "7th century.",
+        "bib": "aland94"
+      }
+    ],
+    "literature": [
+      "casson50",
+      "aland94"
+    ],
     "provenance": "Excavated in the 1930s at Nessana (Auja el-Hafir) in the Negev by the Colt Archaeological Expedition.",
-    "vmrId": 10060,
-    "images": [],
-    "datingEvidence": {
-      "text": "Unusually for a papyrus, it has an archaeological context. It was excavated at Nessana in the Negev together with documents that carry dates in the 6th and 7th centuries, which supports the palaeographic date.",
-      "positions": [
-        {
-          "who": "Casson & Hettich (1950)",
-          "claim": "Editors of the Nessana literary papyri.",
-          "source": "casson50"
-        },
-        {
-          "who": "INTF",
-          "claim": "7th century.",
-          "source": "aland94"
-        }
-      ],
-      "furtherReading": [
-        "casson50",
-        "aland94"
-      ]
-    }
+    "summary": "A late papyrus codex, from a time when most Gospel books were on parchment. Evidence that papyrus kept being used for Christian books well after late antiquity.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10060"
+      }
+    ],
+    "intf_docid": 10060,
+    "to_check": []
   },
   {
     "id": "0109",
+    "language": "Greek",
+    "ga": "0109",
     "siglum": "0109",
-    "gaNumber": "0109",
     "name": "Uncial 0109",
     "material": "parchment",
-    "date": "7th century",
-    "dateRange": {
-      "earliest": 600,
-      "latest": 700
+    "palimpsest": false,
+    "date": {
+      "label": "7th century",
+      "range_start": 600,
+      "range_end": 700,
+      "estimate": 650,
+      "confidence": "Firm",
+      "summary": "7th century (INTF)."
     },
-    "catalogueDate": 650,
-    "confidence": "Firm",
-    "library": "Berlin State Museums (Papyrussammlung)",
-    "shelfmark": "P. 5010",
-    "city": "Berlin, Germany",
-    "summary": "Two leaves from a Gospel of John, now in Berlin’s papyrus collection. A small but real witness to how John was being copied in the 7th century.",
-    "datingSummary": "7th century (INTF).",
+    "holding": {
+      "library": "Berlin State Museums (Papyrussammlung)",
+      "shelfmark": "P. 5010",
+      "city": "Berlin, Germany"
+    },
+    "contents_summary": "Two leaves: John 16:30–17:9 and 18:31–40. Our verse is the first line of the second leaf.",
+    "dating_evidence": "Dated from its script alone; there is no colophon or find context. No dedicated dating study was found, so the date is the INTF catalogue’s and should be treated as a century-wide estimate.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Part of the Berlin papyrus collection; its find-spot is not recorded here and needs checking.",
-    "vmrId": 20109,
-    "images": [],
-    "datingEvidence": {
-      "note": "early-fragment",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Two leaves from a Gospel of John, now in Berlin’s papyrus collection. A small but real witness to how John was being copied in the 7th century.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20109"
+      }
+    ],
+    "intf_docid": 20109,
+    "to_check": []
   },
   {
     "id": "0250",
+    "language": "Greek",
+    "ga": "0250",
     "siglum": "0250",
-    "gaNumber": "0250",
     "name": "Codex Climaci Rescriptus (Greek Gospels)",
     "material": "parchment",
     "palimpsest": true,
-    "date": "8th century",
-    "dateRange": {
-      "earliest": 650,
-      "latest": 800
+    "date": {
+      "label": "8th century",
+      "range_start": 650,
+      "range_end": 800,
+      "estimate": 750,
+      "confidence": "Firm",
+      "summary": "Palaeographically 7th or 8th century; INTF dates it to the 8th."
     },
-    "catalogueDate": 750,
-    "confidence": "Firm",
-    "library": "Museum of the Bible (Green Collection); further leaves at St Catherine’s Monastery",
-    "shelfmark": "G.C.MS.000149",
-    "city": "Washington, DC, USA and Sinai",
-    "summary": "Another palimpsest: the Greek Gospel text lies underneath a Syriac copy of John Climacus’s ‘Ladder of Divine Ascent’, which gave the codex its name.",
-    "datingSummary": "Palaeographically 7th or 8th century; INTF dates it to the 8th.",
+    "holding": {
+      "library": "Museum of the Bible (Green Collection); further leaves at St Catherine’s Monastery",
+      "shelfmark": "G.C.MS.000149",
+      "city": "Washington, DC, USA and Sinai"
+    },
+    "contents_summary": "Scattered parts of all four Gospels. For John 18 the surviving text includes 18:1–9, 11–13, 18–24, 28–29, 31 and 36 onward.",
+    "dating_evidence": "Dated from its script alone; there is no colophon or find context. No dedicated dating study was found, so the date is the INTF catalogue’s and should be treated as a century-wide estimate.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "In the Green Collection since around 2010; eight more leaves were among the 1975 ‘New Finds’ at Sinai.",
-    "vmrId": 20250,
-    "images": [],
-    "datingEvidence": {
-      "note": "early-fragment",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Another palimpsest: the Greek Gospel text lies underneath a Syriac copy of John Climacus’s ‘Ladder of Divine Ascent’, which gave the codex its name.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20250"
+      }
+    ],
+    "intf_docid": 20250,
+    "to_check": []
   },
   {
     "id": "07",
+    "language": "Greek",
+    "ga": "07",
     "siglum": "07 E",
-    "gaNumber": "07",
     "name": "Codex Basilensis",
     "material": "parchment",
-    "date": "8th century",
-    "dateRange": {
-      "earliest": 700,
-      "latest": 800
+    "palimpsest": false,
+    "date": {
+      "label": "8th century",
+      "range_start": 700,
+      "range_end": 800,
+      "estimate": 750,
+      "confidence": "Firm",
+      "summary": "8th century (INTF)."
     },
-    "catalogueDate": 750,
-    "confidence": "Firm",
-    "library": "University Library Basel",
-    "shelfmark": "AN III 12",
-    "city": "Basel, Switzerland",
-    "summary": "One of the oldest near-complete examples of the Byzantine text of the Gospels, the form that dominates later manuscripts.",
-    "datingSummary": "8th century (INTF).",
+    "holding": {
+      "library": "University Library Basel",
+      "shelfmark": "AN III 12",
+      "city": "Basel, Switzerland"
+    },
+    "contents_summary": "The four Gospels with a few gaps in Luke. John is complete.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Given to the Dominicans of Basel by Cardinal John of Ragusa around the time of the Council of Basel (1430s).",
-    "vmrId": 20007,
+    "summary": "One of the oldest near-complete examples of the Byzantine text of the Gospels, the form that dominates later manuscripts.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20007"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_07"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20007,
+    "to_check": []
   },
   {
     "id": "019",
+    "language": "Greek",
+    "ga": "019",
     "siglum": "019 L",
-    "gaNumber": "019",
     "name": "Codex Regius",
     "material": "parchment",
-    "date": "8th century",
-    "dateRange": {
-      "earliest": 700,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "8th century",
+      "range_start": 700,
+      "range_end": 900,
+      "estimate": 750,
+      "confidence": "Firm",
+      "summary": "INTF: 8th century. Some scholars prefer the 9th."
     },
-    "catalogueDate": 750,
-    "confidence": "Firm",
-    "library": "Bibliothèque nationale de France",
-    "shelfmark": "Grec 62",
-    "city": "Paris, France",
-    "summary": "A carelessly written but textually important manuscript: its text often agrees with Codex Vaticanus, and it gives two alternative endings of Mark.",
-    "datingSummary": "INTF: 8th century. Some scholars prefer the 9th.",
+    "holding": {
+      "library": "Bibliothèque nationale de France",
+      "shelfmark": "Grec 62",
+      "city": "Paris, France"
+    },
+    "contents_summary": "The four Gospels with some gaps. In John only 21:15–25 is missing.",
+    "dating_evidence": "A late, somewhat irregular majuscule. The INTF places it in the 8th century; some specialists prefer the 9th, which is why its timeline bar is long.",
+    "scholarly_positions": [
+      {
+        "who": "INTF",
+        "claim": "8th century.",
+        "bib": "aland94"
+      }
+    ],
+    "literature": [
+      "aland94",
+      "parker08"
+    ],
     "provenance": "In the French royal library since at least the 17th century.",
-    "vmrId": 20019,
+    "summary": "A carelessly written but textually important manuscript: its text often agrees with Codex Vaticanus, and it gives two alternative endings of Mark.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20019"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_019"
       }
     ],
-    "datingEvidence": {
-      "text": "A late, somewhat irregular majuscule. The INTF places it in the 8th century; some specialists prefer the 9th, which is why its timeline bar is long.",
-      "positions": [
-        {
-          "who": "INTF",
-          "claim": "8th century.",
-          "source": "aland94"
-        }
-      ],
-      "furtherReading": [
-        "aland94",
-        "parker08"
-      ]
-    }
+    "intf_docid": 20019,
+    "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20234"
+      }
+    ],
+    "to_check": [
+      "Exact contents (1:18?)",
+      "Current holding"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "0234",
+    "ga": "0234",
+    "siglum": "0234",
+    "name": "Uncial 0234",
+    "material": "parchment",
+    "date": {
+      "label": "8th c.",
+      "range_start": 700,
+      "range_end": 800,
+      "estimate": 750,
+      "confidence": "Firm",
+      "summary": "8th century (INTF)."
+    },
+    "holding": {
+      "library": "owner not recorded in the sources checked",
+      "shelfmark": "",
+      "city": ""
+    },
+    "contents_summary": "Published lists give Matthew 28:11–15 and John 1:4–8, 20–24; one apparatus summary also cites it at John 1:18.",
+    "dating_evidence": "Dated from its script alone; there is no colophon or find context. No dedicated dating study was found, so the date is the INTF catalogue’s and should be treated as a century-wide estimate.",
+    "provenance": "To be established.",
+    "summary": "A small 8th-century fragment.",
+    "intf_docid": 20234
   },
   {
     "id": "047",
+    "language": "Greek",
+    "ga": "047",
     "siglum": "047",
-    "gaNumber": "047",
     "name": "Uncial 047",
     "material": "parchment",
-    "date": "8th century",
-    "dateRange": {
-      "earliest": 700,
-      "latest": 800
+    "palimpsest": false,
+    "date": {
+      "label": "8th century",
+      "range_start": 700,
+      "range_end": 800,
+      "estimate": 760,
+      "confidence": "Firm",
+      "summary": "8th century (INTF)."
     },
-    "catalogueDate": 760,
-    "confidence": "Firm",
-    "library": "Princeton University Library",
-    "shelfmark": "Garrett MS 1",
-    "city": "Princeton, NJ, USA",
-    "summary": "Written in a cross shape on some pages. The text is Byzantine.",
-    "datingSummary": "8th century (INTF).",
+    "holding": {
+      "library": "Princeton University Library",
+      "shelfmark": "Garrett MS 1",
+      "city": "Princeton, NJ, USA"
+    },
+    "contents_summary": "The four Gospels with gaps. John breaks off at 18:34, so 18:31 is among the last surviving verses.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Part of the Robert Garrett collection given to Princeton.",
-    "vmrId": 20047,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Written in a cross shape on some pages. The text is Byzantine.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20047"
+      }
+    ],
+    "intf_docid": 20047,
+    "to_check": []
   },
   {
     "id": "054",
+    "language": "Greek",
+    "ga": "054",
     "siglum": "054",
-    "gaNumber": "054",
     "name": "Uncial 054",
     "material": "parchment",
-    "date": "8th century",
-    "dateRange": {
-      "earliest": 700,
-      "latest": 800
+    "palimpsest": false,
+    "date": {
+      "label": "8th century",
+      "range_start": 700,
+      "range_end": 800,
+      "estimate": 770,
+      "confidence": "Firm",
+      "summary": "8th century (INTF)."
     },
-    "catalogueDate": 770,
-    "confidence": "Firm",
-    "library": "Vatican Apostolic Library",
-    "shelfmark": "Barb. gr. 521, ff. 1–6",
-    "city": "Vatican City",
-    "summary": "A short run of John with commentary, bound into a later volume in the Barberini collection.",
-    "datingSummary": "8th century (INTF).",
+    "holding": {
+      "library": "Vatican Apostolic Library",
+      "shelfmark": "Barb. gr. 521, ff. 1–6",
+      "city": "Vatican City"
+    },
+    "contents_summary": "Six leaves with John 16:3–19:41 (published lists vary on the exact starting verse), accompanied by a commentary.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Came to the Vatican Library with the Barberini family’s manuscripts in 1902.",
-    "vmrId": 20054,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "A short run of John with commentary, bound into a later volume in the Barberini collection.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20054"
+      }
+    ],
+    "intf_docid": 20054,
+    "to_check": []
   },
   {
     "id": "0211",
+    "language": "Greek",
+    "ga": "0211",
     "siglum": "0211",
-    "gaNumber": "0211",
     "name": "Uncial 0211",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 600,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 600,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Debated",
+      "summary": "Earlier palaeographic assessments placed it in the 7th century; INTF now dates it to the 9th."
     },
-    "catalogueDate": 850,
-    "confidence": "Debated",
-    "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
-    "shelfmark": "Gr. 27",
-    "city": "Tbilisi, Georgia",
-    "summary": "A complete Gospel book written in majuscule, with a Byzantine text.",
-    "datingSummary": "Earlier palaeographic assessments placed it in the 7th century; INTF now dates it to the 9th.",
+    "holding": {
+      "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
+      "shelfmark": "Gr. 27",
+      "city": "Tbilisi, Georgia"
+    },
+    "contents_summary": "A complete text of the four Gospels.",
+    "dating_evidence": "Palaeographers once placed it in the 7th century; the INTF now dates it to the 9th. Without a colophon, the gap reflects how differently late majuscule hands can be read.",
+    "scholarly_positions": [
+      {
+        "who": "INTF",
+        "claim": "9th century (earlier assessments: 7th).",
+        "bib": "aland94"
+      }
+    ],
+    "literature": [
+      "aland94"
+    ],
     "provenance": "Held in Georgia’s national manuscript collection alongside Codex Koridethi.",
-    "vmrId": 20211,
-    "images": [],
-    "datingEvidence": {
-      "text": "Palaeographers once placed it in the 7th century; the INTF now dates it to the 9th. Without a colophon, the gap reflects how differently late majuscule hands can be read.",
-      "positions": [
-        {
-          "who": "INTF",
-          "claim": "9th century (earlier assessments: 7th).",
-          "source": "aland94"
-        }
-      ],
-      "furtherReading": [
-        "aland94"
-      ]
-    }
+    "summary": "A complete Gospel book written in majuscule, with a Byzantine text.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20211"
+      }
+    ],
+    "intf_docid": 20211,
+    "to_check": []
   },
   {
     "id": "011",
+    "language": "Greek",
+    "ga": "011",
     "siglum": "011 G",
-    "gaNumber": "011",
     "name": "Codex Seidelianus I",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "British Library (main part); Trinity College, Cambridge (one leaf)",
-    "shelfmark": "Harley MS 5684",
-    "city": "London, UK",
-    "summary": "A Byzantine Gospel book brought to the West in the early 18th century.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "British Library (main part); Trinity College, Cambridge (one leaf)",
+      "shelfmark": "Harley MS 5684",
+      "city": "London, UK"
+    },
+    "contents_summary": "The four Gospels with gaps. In John, 18:5–19 and 19:4–27 are missing; 18:31 survives between the two gaps.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Brought from the East by Andreas Erasmus Seidel; later owned by Johann Christoph Wolf, and eventually acquired for the Harley collection in London.",
-    "vmrId": 20011,
+    "summary": "A Byzantine Gospel book brought to the West in the early 18th century.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20011"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_011"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20011,
+    "to_check": []
   },
   {
     "id": "013",
+    "language": "Greek",
+    "ga": "013",
     "siglum": "013 H",
-    "gaNumber": "013",
     "name": "Codex Seidelianus II",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Hamburg State and University Library",
-    "shelfmark": "Cod. 91 in scrin.",
-    "city": "Hamburg, Germany",
-    "summary": "The companion of 011, also brought west by Seidel. A Byzantine text.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Hamburg State and University Library",
+      "shelfmark": "Cod. 91 in scrin.",
+      "city": "Hamburg, Germany"
+    },
+    "contents_summary": "The four Gospels with gaps. In John, 9:30–10:25, 18:2–18 and 20:12–25 are missing; 18:31 survives.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Brought west by Seidel, later owned by Johann Christoph Wolf, and now in Hamburg.",
-    "vmrId": 20013,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "The companion of 011, also brought west by Seidel. A Byzantine text.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20013"
+      }
+    ],
+    "intf_docid": 20013,
+    "to_check": []
   },
   {
     "id": "017",
+    "language": "Greek",
+    "ga": "017",
     "siglum": "017 K",
-    "gaNumber": "017",
     "name": "Codex Cyprius",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Bibliothèque nationale de France",
-    "shelfmark": "Grec 63",
-    "city": "Paris, France",
-    "summary": "A complete majuscule Gospel book, and a member of Family Π, a group of closely related Byzantine manuscripts.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Bibliothèque nationale de France",
+      "shelfmark": "Grec 63",
+      "city": "Paris, France"
+    },
+    "contents_summary": "The four Gospels, complete.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Brought from Cyprus to France in the 17th century.",
-    "vmrId": 20017,
+    "summary": "A complete majuscule Gospel book, and a member of Family Π, a group of closely related Byzantine manuscripts.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20017"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_017"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20017,
+    "to_check": []
   },
   {
     "id": "021",
+    "language": "Greek",
+    "ga": "021",
     "siglum": "021 M",
-    "gaNumber": "021",
     "name": "Codex Campianus",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Bibliothèque nationale de France",
-    "shelfmark": "Grec 48",
-    "city": "Paris, France",
-    "summary": "A small, finely written Gospel book with musical (ekphonetic) notation for public reading.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Bibliothèque nationale de France",
+      "shelfmark": "Grec 48",
+      "city": "Paris, France"
+    },
+    "contents_summary": "The four Gospels, complete.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Given to King Louis XIV by the Abbé François de Camps, from whom it takes its name.",
-    "vmrId": 20021,
+    "summary": "A small, finely written Gospel book with musical (ekphonetic) notation for public reading.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20021"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_021"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20021,
+    "to_check": []
   },
   {
     "id": "030",
+    "language": "Greek",
+    "ga": "030",
     "siglum": "030 U",
-    "gaNumber": "030",
     "name": "Codex Nanianus",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Biblioteca Nazionale Marciana",
-    "shelfmark": "Gr. I, 8 (1397)",
-    "city": "Venice, Italy",
-    "summary": "A carefully written and decorated Byzantine Gospel book.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Biblioteca Nazionale Marciana",
+      "shelfmark": "Gr. I, 8 (1397)",
+      "city": "Venice, Italy"
+    },
+    "contents_summary": "The four Gospels, complete.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "From the collection of the Nani family of Venice.",
-    "vmrId": 20030,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "A carefully written and decorated Byzantine Gospel book.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20030"
+      }
+    ],
+    "intf_docid": 20030,
+    "to_check": []
   },
   {
     "id": "034",
+    "language": "Greek",
+    "ga": "034",
     "siglum": "034 Y",
-    "gaNumber": "034",
     "name": "Codex Macedoniensis",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Cambridge University Library",
-    "shelfmark": "MS Add. 6594",
-    "city": "Cambridge, UK",
-    "summary": "A Gospel book copied in majuscule at a time when most scribes had switched to minuscule, likely for clear reading aloud in church. It carries lectionary markings for services.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Cambridge University Library",
+      "shelfmark": "MS Add. 6594",
+      "city": "Cambridge, UK"
+    },
+    "contents_summary": "The four Gospels with gaps. In John only 20:27–21:17 is missing.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Probably from the Eikosiphoinissa monastery in northern Greece; bought by Joseph Bevan Braithwaite in 1900.",
-    "vmrId": 20034,
+    "summary": "A Gospel book copied in majuscule at a time when most scribes had switched to minuscule, likely for clear reading aloud in church. It carries lectionary markings for services.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20034"
+      },
       {
         "label": "Cambridge Digital Library",
         "url": "https://cudl.lib.cam.ac.uk/view/MS-ADD-06594"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20034,
+    "to_check": []
   },
   {
     "id": "038",
+    "language": "Greek",
+    "ga": "038",
     "siglum": "038 Θ",
-    "gaNumber": "038",
     "name": "Codex Koridethi",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
-    "shelfmark": "Gr. 28",
-    "city": "Tbilisi, Georgia",
-    "summary": "Written by a scribe who apparently knew Greek poorly, but its text of Mark is unusual and much studied.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Korneli Kekelidze Georgian National Centre of Manuscripts",
+      "shelfmark": "Gr. 28",
+      "city": "Tbilisi, Georgia"
+    },
+    "contents_summary": "The four Gospels; the gaps are all in Matthew.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Named for Koridethi, near the Black Sea, where it was kept in the Middle Ages. Found in 1853 in a village in the Caucasus.",
-    "vmrId": 20038,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Written by a scribe who apparently knew Greek poorly, but its text of Mark is unusual and much studied.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20038"
+      }
+    ],
+    "intf_docid": 20038,
+    "to_check": []
   },
   {
     "id": "039",
+    "language": "Greek",
+    "ga": "039",
     "siglum": "039 Λ",
-    "gaNumber": "039",
     "name": "Codex Tischendorfianus III",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Bodleian Library, University of Oxford",
-    "shelfmark": "Auct. T. inf. 1.1",
-    "city": "Oxford, UK",
-    "summary": "Half of a Gospel book that Tischendorf split between two libraries.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Bodleian Library, University of Oxford",
+      "shelfmark": "Auct. T. inf. 1.1",
+      "city": "Oxford, UK"
+    },
+    "contents_summary": "Luke and John. Matthew and Mark from the same book are minuscule 566, now in St Petersburg.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Brought from the East by Tischendorf; bought by the Bodleian in 1855.",
-    "vmrId": 20039,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Half of a Gospel book that Tischendorf split between two libraries.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20039"
+      }
+    ],
+    "intf_docid": 20039,
+    "to_check": []
   },
   {
     "id": "041",
+    "language": "Greek",
+    "ga": "041",
     "siglum": "041 Π",
-    "gaNumber": "041",
     "name": "Codex Petropolitanus",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "National Library of Russia",
-    "shelfmark": "Gr. 34",
-    "city": "St Petersburg, Russia",
-    "summary": "Gives its name to ‘Family Π’, a large group of related Byzantine Gospel manuscripts.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "National Library of Russia",
+      "shelfmark": "Gr. 34",
+      "city": "St Petersburg, Russia"
+    },
+    "contents_summary": "The four Gospels with small gaps. In John, 6:15–35, 8:6–39 and 9:21–10:3 are missing, and 21:22–25 was added later; 18:31 is original.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Obtained in the East by Tischendorf and now in the Russian National Library.",
-    "vmrId": 20041,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "Gives its name to ‘Family Π’, a large group of related Byzantine Gospel manuscripts.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20041"
+      }
+    ],
+    "intf_docid": 20041,
+    "to_check": []
   },
   {
     "id": "045",
+    "language": "Greek",
+    "ga": "045",
     "siglum": "045 Ω",
-    "gaNumber": "045",
     "name": "Codex Athous Dionysiou",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Dionysiou Monastery",
-    "shelfmark": "Dionysiou 10 (55)",
-    "city": "Mount Athos, Greece",
-    "summary": "A complete Byzantine Gospel book still kept in the monastery that owns it.",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "Dionysiou Monastery",
+      "shelfmark": "Dionysiou 10 (55)",
+      "city": "Mount Athos, Greece"
+    },
+    "contents_summary": "The four Gospels, complete.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Has remained at Dionysiou Monastery on Mount Athos.",
-    "vmrId": 20045,
+    "summary": "A complete Byzantine Gospel book still kept in the monastery that owns it.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20045"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_045"
       }
     ],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "intf_docid": 20045,
+    "to_check": []
   },
   {
     "id": "037",
+    "language": "Greek",
+    "ga": "037",
     "siglum": "037 Δ",
-    "gaNumber": "037",
     "name": "Codex Sangallensis 48",
     "material": "parchment",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 830,
-      "latest": 880
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 830,
+      "range_end": 880,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century; the library dates it to around 850."
     },
-    "catalogueDate": 850,
-    "confidence": "Firm",
-    "library": "Abbey Library of St Gall",
-    "shelfmark": "Cod. Sang. 48",
-    "city": "St. Gallen, Switzerland",
-    "summary": "Made by Irish monks working in continental Europe, around 850. It shows Western scholars learning Greek through the Gospels.",
-    "datingSummary": "9th century; the library dates it to around 850.",
+    "holding": {
+      "library": "Abbey Library of St Gall",
+      "shelfmark": "Cod. Sang. 48",
+      "city": "St. Gallen, Switzerland"
+    },
+    "contents_summary": "The four Gospels in Greek with a Latin translation written word-for-word above the lines. In John, 19:17–35 is missing; 18:31 survives.",
+    "dating_evidence": "Dated by its setting as much as its script: it was made by Irish scholars working on the Continent, and it belongs with two sister Greek–Latin manuscripts (a Psalter in Basel and Codex Boernerianus of Paul’s letters in Dresden). The Abbey Library dates it to around 850.",
+    "scholarly_positions": [
+      {
+        "who": "Abbey Library of St Gall / e-codices",
+        "claim": "About 850.",
+        "bib": "aland94"
+      }
+    ],
+    "literature": [
+      "aland94"
+    ],
     "provenance": "At St Gall since the Middle Ages.",
-    "vmrId": 20037,
+    "summary": "Made by Irish monks working in continental Europe, around 850. It shows Western scholars learning Greek through the Gospels.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20037"
+      },
       {
         "label": "e-codices (full colour, free)",
         "url": "https://www.e-codices.unifr.ch/en/list/one/csg/0048"
       }
     ],
-    "datingEvidence": {
-      "text": "Dated by its setting as much as its script: it was made by Irish scholars working on the Continent, and it belongs with two sister Greek–Latin manuscripts (a Psalter in Basel and Codex Boernerianus of Paul’s letters in Dresden). The Abbey Library dates it to around 850.",
-      "positions": [
-        {
-          "who": "Abbey Library of St Gall / e-codices",
-          "claim": "About 850.",
-          "source": "aland94"
-        }
-      ],
-      "furtherReading": [
-        "aland94"
-      ]
-    }
+    "intf_docid": 20037,
+    "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20009"
+      }
+    ],
+    "to_check": [
+      "Confirm John 1:1–18 is legible (heavily damaged manuscript)"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "09",
+    "ga": "09",
+    "siglum": "09 F",
+    "name": "Codex Boreelianus",
+    "material": "parchment",
+    "date": {
+      "label": "9th c.",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
+    },
+    "holding": {
+      "library": "Utrecht University Library",
+      "shelfmark": "MS 1",
+      "city": "Utrecht, Netherlands"
+    },
+    "contents_summary": "The four Gospels, badly damaged, with many gaps. In John: lacks 3:5–14; 4:23–38; 5:18–38; 6:39–63; 7:28–8:10; 10:32–11:3; 12:14–25; 13:34–end. No recorded gap in 1:1–18.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "provenance": "Named after Johannes Boreel, a Dutch diplomat who brought it from the East in the 17th century.",
+    "summary": "A damaged 9th-century Gospel book with a Byzantine text.",
+    "intf_docid": 20009
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20031"
+      }
+    ],
+    "to_check": [
+      "Provenance"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "031",
+    "ga": "031",
+    "siglum": "031 V",
+    "name": "Codex Mosquensis II",
+    "material": "parchment",
+    "date": {
+      "label": "9th c.",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF) for the majuscule part."
+    },
+    "holding": {
+      "library": "State Historical Museum",
+      "shelfmark": "V. 9, S. 399",
+      "city": "Moscow, Russia"
+    },
+    "contents_summary": "The four Gospels. The majuscule hand stops at John 8:39; the rest is a 13th-century minuscule supplement.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "provenance": "In Moscow since at least the 18th century.",
+    "summary": "A 9th-century Gospel book completed centuries later in minuscule.",
+    "intf_docid": 20031
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20050"
+      }
+    ],
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "050",
+    "ga": "050",
+    "siglum": "050",
+    "name": "Uncial 050 (John with commentary)",
+    "material": "parchment",
+    "date": {
+      "label": "9th c.",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 850,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
+    },
+    "holding": {
+      "library": "National Library of Greece; Dionysiou Monastery; State Historical Museum; Christ Church",
+      "shelfmark": "various",
+      "city": "Athens; Mount Athos; Moscow; Oxford"
+    },
+    "contents_summary": "Parts of John with a commentary: 1:1, 3–4; 2:17–3:8; 3:12–13, 20–22; 4:7–14; 20:10–13, 15–17.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s. Its layout, short passages of Gospel text each followed by commentary, is typical of late Byzantine commentary manuscripts.",
+    "provenance": "Its leaves are now divided between four libraries.",
+    "summary": "A dispersed 9th-century commentary manuscript that preserves John 1:1.",
+    "intf_docid": 20050
   },
   {
     "id": "0290",
+    "language": "Greek",
+    "ga": "0290",
     "siglum": "0290",
-    "gaNumber": "0290",
     "name": "Uncial 0290",
-    "material": "unknown",
-    "date": "9th century",
-    "dateRange": {
-      "earliest": 800,
-      "latest": 900
+    "material": "to check",
+    "palimpsest": false,
+    "date": {
+      "label": "9th century",
+      "range_start": 800,
+      "range_end": 900,
+      "estimate": 860,
+      "confidence": "Firm",
+      "summary": "9th century (INTF)."
     },
-    "catalogueDate": 860,
-    "confidence": "Firm",
-    "library": "St Catherine’s Monastery",
-    "shelfmark": "N.E. ΜΓ 102",
-    "city": "Sinai, Egypt",
-    "summary": "One of the manuscripts found in 1975, when a sealed room was opened during restoration work at St Catherine’s (the ‘New Finds’).",
-    "datingSummary": "9th century (INTF).",
+    "holding": {
+      "library": "St Catherine’s Monastery",
+      "shelfmark": "N.E. ΜΓ 102",
+      "city": "Sinai, Egypt"
+    },
+    "contents_summary": "Eight leaves with John 18:4–20:2.",
+    "dating_evidence": "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.",
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
     "provenance": "Discovered at St Catherine’s Monastery in May 1975. One published description gives the material as paper, which would be unusual for this date; this needs confirming.",
-    "vmrId": 20290,
-    "images": [],
-    "datingEvidence": {
-      "note": "late-majuscule",
-      "positions": [],
-      "furtherReading": [
-        "aland94",
-        "cavmaeh87"
-      ]
-    }
+    "summary": "One of the manuscripts found in 1975, when a sealed room was opened during restoration work at St Catherine’s (the ‘New Finds’).",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20290"
+      }
+    ],
+    "intf_docid": 20290,
+    "to_check": []
   },
   {
     "id": "044",
+    "language": "Greek",
+    "ga": "044",
     "siglum": "044 Ψ",
-    "gaNumber": "044",
     "name": "Codex Athous Lavrensis",
     "material": "parchment",
-    "date": "9th–10th century",
-    "dateRange": {
-      "earliest": 750,
-      "latest": 1000
+    "palimpsest": false,
+    "date": {
+      "label": "9th–10th century",
+      "range_start": 750,
+      "range_end": 1000,
+      "estimate": 880,
+      "confidence": "Debated",
+      "summary": "Palaeographic proposals run from the 8th to the 10th century; INTF: 9th/10th. Included here because much of that range falls before 900."
     },
-    "catalogueDate": 880,
-    "confidence": "Debated",
-    "library": "Great Lavra Monastery",
-    "shelfmark": "B΄ 52",
-    "city": "Mount Athos, Greece",
-    "summary": "Known for giving both the short and the long ending of Mark. Its text mixes older Alexandrian readings with Byzantine ones.",
-    "datingSummary": "Palaeographic proposals run from the 8th to the 10th century; INTF: 9th/10th. Included here because much of that range falls before 900.",
+    "holding": {
+      "library": "Great Lavra Monastery",
+      "shelfmark": "B΄ 52",
+      "city": "Mount Athos, Greece"
+    },
+    "contents_summary": "Gospels from Mark 9:5 onward, Acts, Catholic Epistles and Paul. John is complete.",
+    "dating_evidence": "Proposals run from the 8th to the 10th century. Its late majuscule has been read in different ways, and there is no colophon to settle the question.",
+    "scholarly_positions": [
+      {
+        "who": "INTF",
+        "claim": "9th/10th century.",
+        "bib": "aland94"
+      }
+    ],
+    "literature": [
+      "aland94"
+    ],
     "provenance": "Has remained at the Great Lavra on Mount Athos.",
-    "vmrId": 20044,
+    "summary": "Known for giving both the short and the long ending of Mark. Its text mixes older Alexandrian readings with Byzantine ones.",
     "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20044"
+      },
       {
         "label": "CSNTM",
         "url": "https://manuscripts.csntm.org/manuscript/View/GA_044"
       }
     ],
-    "datingEvidence": {
-      "text": "Proposals run from the 8th to the 10th century. Its late majuscule has been read in different ways, and there is no colophon to settle the question.",
-      "positions": [
-        {
-          "who": "INTF",
-          "claim": "9th/10th century.",
-          "source": "aland94"
-        }
-      ],
-      "furtherReading": [
-        "aland94"
-      ]
-    }
+    "intf_docid": 20044,
+    "to_check": []
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vl3",
+    "siglum": "a (VL 3)",
+    "name": "Codex Vercellensis",
+    "date": {
+      "label": "late 4th c.",
+      "range_start": 350,
+      "range_end": 420,
+      "estimate": 375,
+      "confidence": "Firm",
+      "summary": "Late 4th century; tradition links it to Bishop Eusebius of Vercelli (died 371)."
+    },
+    "holding": {
+      "library": "Archivio Capitolare (Cathedral Chapter Archive)",
+      "shelfmark": "",
+      "city": "Vercelli, Italy"
+    },
+    "text_type": "Old Latin",
+    "contents_summary": "The four Gospels; John 1:1–21:25 present, some leaves badly damaged.",
+    "dating_evidence": "The oldest Latin Gospel book. Its uncial script fits the late 4th century, and a long-standing tradition connects it with Eusebius of Vercelli. It was used for swearing oaths in the early Middle Ages, which damaged many pages.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Kept at Vercelli Cathedral since late antiquity.",
+    "summary": "The oldest surviving Latin Gospel book."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [
+      "Coverage of John 1:1–18",
+      "Place of origin (Verona?)"
+    ],
+    "material": "parchment",
+    "id": "vg_sang1395",
+    "siglum": "Σ",
+    "name": "Codex Sangallensis 1395",
+    "date": {
+      "label": "early 5th c.",
+      "range_start": 400,
+      "range_end": 450,
+      "estimate": 415,
+      "confidence": "Firm",
+      "summary": "Early 5th century, within a generation of Jerome’s Gospel revision (383–384)."
+    },
+    "holding": {
+      "library": "Stiftsbibliothek St. Gallen",
+      "shelfmark": "Cod. Sang. 1395 (and fragments elsewhere)",
+      "city": "St. Gallen, Switzerland"
+    },
+    "text_type": "Vulgate",
+    "contents_summary": "Fragmentary Gospels; coverage of John 1:1–18 still to map.",
+    "dating_evidence": "The oldest surviving copy of Jerome’s Gospel revision, dated from its script to the early 5th century, probably copied in Italy. Its leaves were later cut up and reused, so it survives in pieces.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Fragments recovered from bindings at St Gall.",
+    "summary": "The oldest Vulgate Gospels."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [
+      "Current Trent shelfmark"
+    ],
+    "material": "parchment",
+    "id": "vl2",
+    "siglum": "e (VL 2)",
+    "name": "Codex Palatinus",
+    "date": {
+      "label": "5th c.",
+      "range_start": 400,
+      "range_end": 500,
+      "estimate": 450,
+      "confidence": "Firm",
+      "summary": "5th century."
+    },
+    "holding": {
+      "library": "Castello del Buonconsiglio (most leaves); Trinity College Dublin; British Library",
+      "shelfmark": "",
+      "city": "Trent; Dublin; London"
+    },
+    "text_type": "Old Latin (African)",
+    "contents_summary": "The four Gospels with gaps; John 1:1–18:11 and 18:26 onward.",
+    "dating_evidence": "A purple codex written in silver ink, dated from its uncial script. Its text is the ‘African’ form of the Old Latin, close to the Bible quoted by Cyprian of Carthage in the 3rd century, so it preserves a text much older than the manuscript itself.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Dispersed; most leaves at Trent.",
+    "summary": "A purple Gospel book preserving the African Old Latin text."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vl8",
+    "siglum": "ff2 (VL 8)",
+    "name": "Codex Corbeiensis II",
+    "date": {
+      "label": "5th c.",
+      "range_start": 400,
+      "range_end": 500,
+      "estimate": 450,
+      "confidence": "Firm",
+      "summary": "5th century."
+    },
+    "holding": {
+      "library": "Bibliothèque nationale de France",
+      "shelfmark": "lat. 17225",
+      "city": "Paris, France"
+    },
+    "text_type": "Old Latin",
+    "contents_summary": "The four Gospels with gaps; John lacks 17:15–18:9 and 20:22–21:8; 1:1–18 present.",
+    "dating_evidence": "Dated from its uncial script.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "From the abbey of Corbie in northern France.",
+    "summary": "A 5th-century Old Latin Gospel book from Corbie."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vl4",
+    "siglum": "b (VL 4)",
+    "name": "Codex Veronensis",
+    "date": {
+      "label": "5th c.",
+      "range_start": 400,
+      "range_end": 500,
+      "estimate": 470,
+      "confidence": "Firm",
+      "summary": "5th century."
+    },
+    "holding": {
+      "library": "Biblioteca Capitolare",
+      "shelfmark": "Cod. VI",
+      "city": "Verona, Italy"
+    },
+    "text_type": "Old Latin (European)",
+    "contents_summary": "The four Gospels with gaps (John 7:44–8:12 lost); John 1:1–18 present, including the singular reading at 1:13.",
+    "dating_evidence": "A purple codex in silver and gold ink, dated from its uncial script to the 5th century.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Kept at Verona since the early Middle Ages.",
+    "summary": "The only Latin manuscript with ‘he who was born’ at John 1:13."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vg_fuld",
+    "siglum": "F",
+    "name": "Codex Fuldensis",
+    "date": {
+      "label": "541–546",
+      "range_start": 541,
+      "range_end": 546,
+      "estimate": 545,
+      "confidence": "Firm",
+      "summary": "Precisely dated: corrected by Bishop Victor of Capua, whose notes record finishing on 2 May 546."
+    },
+    "holding": {
+      "library": "Hochschul- und Landesbibliothek Fulda",
+      "shelfmark": "Codex Bonifatianus 1",
+      "city": "Fulda, Germany"
+    },
+    "text_type": "Vulgate, with the Gospels as a single harmony",
+    "contents_summary": "New Testament; the Gospels are woven into one continuous narrative in the form of Tatian’s Diatessaron, which opens with John 1:1–5.",
+    "dating_evidence": "One of the few early biblical manuscripts dated by its own notes: Victor of Capua records reading and correcting it, finishing on 2 May 546.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Owned by St Boniface, who gave it to the monastery at Fulda in 745; it has stayed there since.",
+    "summary": "A precisely dated 6th-century Latin New Testament with the Gospels as a harmony."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [
+      "Shelfmark"
+    ],
+    "material": "parchment",
+    "id": "vl10",
+    "siglum": "f (VL 10)",
+    "name": "Codex Brixianus",
+    "date": {
+      "label": "6th c.",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century."
+    },
+    "holding": {
+      "library": "Biblioteca Queriniana",
+      "shelfmark": "",
+      "city": "Brescia, Italy"
+    },
+    "text_type": "Old Latin / Vulgate mix",
+    "contents_summary": "The four Gospels with gaps in Matthew and Mark; John complete.",
+    "dating_evidence": "A purple codex dated from its uncial script. Its Latin text appears to have been adjusted towards a Gothic translation, and it is often studied alongside the Gothic Codex Argenteus.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Brescia.",
+    "summary": "A purple Gospel book linked to the Gothic Bible tradition."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [
+      "Coverage of John 1:1–18",
+      "Provenance (Freising?)"
+    ],
+    "material": "parchment",
+    "id": "vl13",
+    "siglum": "q (VL 13)",
+    "name": "Codex Monacensis",
+    "date": {
+      "label": "6th/7th c.",
+      "range_start": 550,
+      "range_end": 650,
+      "estimate": 600,
+      "confidence": "Firm",
+      "summary": "6th or 7th century."
+    },
+    "holding": {
+      "library": "Bayerische Staatsbibliothek",
+      "shelfmark": "Clm 6224",
+      "city": "Munich, Germany"
+    },
+    "text_type": "Old Latin",
+    "contents_summary": "The four Gospels with gaps; coverage of John 1:1–18 still to map.",
+    "dating_evidence": "Dated from its uncial script.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "To be documented.",
+    "summary": "An Old Latin Gospel book of the 6th/7th century."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vl14",
+    "siglum": "r1 (VL 14)",
+    "name": "Codex Usserianus Primus",
+    "date": {
+      "label": "early 7th c.",
+      "range_start": 580,
+      "range_end": 650,
+      "estimate": 610,
+      "confidence": "Firm",
+      "summary": "6th/7th century, most often placed in the early 7th."
+    },
+    "holding": {
+      "library": "Trinity College Dublin",
+      "shelfmark": "MS 55",
+      "city": "Dublin, Ireland"
+    },
+    "text_type": "Old Latin",
+    "contents_summary": "The four Gospels, fragmentary; John lacks 1:1–15, so only 1:16–18 of the Prologue survives.",
+    "dating_evidence": "Dated from its script; possibly the earliest surviving Irish book.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Named after Archbishop James Ussher, whose library came to Trinity College.",
+    "summary": "Possibly the oldest surviving Irish manuscript."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vg_durrow",
+    "siglum": "",
+    "name": "Book of Durrow",
+    "date": {
+      "label": "7th c.",
+      "range_start": 650,
+      "range_end": 700,
+      "estimate": 675,
+      "confidence": "Debated",
+      "summary": "Second half of the 7th century is usual; both date and place (Iona, Northumbria, Durrow) are debated."
+    },
+    "holding": {
+      "library": "Trinity College Dublin",
+      "shelfmark": "MS 57",
+      "city": "Dublin, Ireland"
+    },
+    "text_type": "Vulgate",
+    "contents_summary": "The four Gospels; John complete.",
+    "dating_evidence": "Dated from its script and its style of decoration, which is compared with metalwork and other Insular art; there is no secure dated anchor.",
+    "scholarly_positions": [
+      {
+        "who": "Meehan (1996)",
+        "claim": "Standard introduction to the manuscript, its date and origin.",
+        "bib": "meehan96"
+      }
+    ],
+    "literature": [
+      "meehan96",
+      "lowe_cla"
+    ],
+    "provenance": "At the monastery of Durrow in Ireland in the Middle Ages; Trinity College Dublin since the 17th century.",
+    "summary": "One of the earliest fully decorated Insular Gospel books."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vg_amiat",
+    "siglum": "A",
+    "name": "Codex Amiatinus",
+    "date": {
+      "label": "before 716",
+      "range_start": 692,
+      "range_end": 716,
+      "estimate": 710,
+      "confidence": "Firm",
+      "summary": "Made at Wearmouth–Jarrow; one of three Bibles commissioned by Abbot Ceolfrith (from 692), and taken by him towards Rome in 716."
+    },
+    "holding": {
+      "library": "Biblioteca Medicea Laurenziana",
+      "shelfmark": "Amiatino 1",
+      "city": "Florence, Italy"
+    },
+    "text_type": "Vulgate",
+    "contents_summary": "The whole Latin Bible; John complete.",
+    "dating_evidence": "Dated by history, not only script: Ceolfrith set out with it as a gift for Pope Gregory II and died on the way at Langres on 29 September 716, so it was finished by then. Giovanni Battista de Rossi identified it (1888) with the Bibles Bede describes, correcting an earlier belief that it was 6th-century Italian.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Reached the abbey of Monte Amiata in Tuscany; in Florence since the 18th century.",
+    "summary": "The oldest complete Latin Bible, made in England."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vg_cuth",
+    "siglum": "",
+    "name": "St Cuthbert Gospel",
+    "date": {
+      "label": "c. 700–730",
+      "range_start": 700,
+      "range_end": 730,
+      "estimate": 715,
+      "confidence": "Firm",
+      "summary": "About 700–730 (revised after the British Library acquisition in 2012; earlier placed in the late 7th century)."
+    },
+    "holding": {
+      "library": "British Library",
+      "shelfmark": "Add MS 89000",
+      "city": "London, UK"
+    },
+    "text_type": "Vulgate",
+    "contents_summary": "The Gospel of John only, complete, in its original binding.",
+    "dating_evidence": "Its script matches the Wearmouth–Jarrow scriptorium that produced Codex Amiatinus, which anchors the date. Found in St Cuthbert’s coffin at Durham in 1104.",
+    "scholarly_positions": [
+      {
+        "who": "Breay & Meehan, eds. (2015)",
+        "claim": "Collected studies following the 2012 acquisition, including its date, script and binding.",
+        "bib": "breay15"
+      }
+    ],
+    "literature": [
+      "breay15",
+      "lowe_cla"
+    ],
+    "provenance": "Placed in St Cuthbert’s coffin; recovered 1104; at Durham until the Reformation; owned by the Jesuits (Stonyhurst College) 1769–2012; bought by the British Library in 2012.",
+    "summary": "The oldest intact European book, a pocket copy of John."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [
+      "Full citation for Backhouse’s early date"
+    ],
+    "material": "parchment",
+    "id": "vg_lindis",
+    "siglum": "Y",
+    "name": "Lindisfarne Gospels",
+    "date": {
+      "label": "c. 715–720",
+      "range_start": 698,
+      "range_end": 721,
+      "estimate": 717,
+      "confidence": "Firm",
+      "summary": "British Library: c. 715–720. Window 687–721 from Cuthbert’s death and Bishop Eadfrith’s death."
+    },
+    "holding": {
+      "library": "British Library",
+      "shelfmark": "Cotton MS Nero D IV",
+      "city": "London, UK"
+    },
+    "text_type": "Vulgate",
+    "contents_summary": "The four Gospels; John complete. A 10th-century Old English gloss runs between the lines.",
+    "dating_evidence": "A 10th-century note by the priest Aldred names Eadfrith (bishop of Lindisfarne 698–721) as the scribe, which gives a window. Unfinished details suggest work stopped at Eadfrith’s death.",
+    "scholarly_positions": [
+      {
+        "who": "Backhouse",
+        "claim": "Before 698, to mark the elevation of Cuthbert’s relics that year.",
+        "bib": null
+      },
+      {
+        "who": "Brown (2003)",
+        "claim": "About 715–720.",
+        "bib": "brown03"
+      }
+    ],
+    "literature": [
+      "brown03",
+      "lowe_cla"
+    ],
+    "provenance": "Lindisfarne, then Chester-le-Street and Durham; Cotton collection; British Library.",
+    "summary": "The best-known Anglo-Saxon Gospel book."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vl11",
+    "siglum": "l (VL 11)",
+    "name": "Codex Rehdigeranus",
+    "date": {
+      "label": "8th c.",
+      "range_start": 700,
+      "range_end": 760,
+      "estimate": 730,
+      "confidence": "Firm",
+      "summary": "7th/8th century; probably Aquileia, first half of the 8th century."
+    },
+    "holding": {
+      "library": "Staatsbibliothek zu Berlin",
+      "shelfmark": "Depot Breslau 5",
+      "city": "Berlin, Germany"
+    },
+    "text_type": "Old Latin",
+    "contents_summary": "The four Gospels with gaps; John lacks 1:1–16, so only 1:17–18 of the Prologue survives.",
+    "dating_evidence": "Dated from its script and associated with Aquileia in north-east Italy.",
+    "scholarly_positions": [],
+    "literature": [
+      "lowe_cla",
+      "houghton16"
+    ],
+    "provenance": "Named after Thomas Rehdiger, whose collection went to Breslau (Wrocław); now in Berlin.",
+    "summary": "An 8th-century Old Latin Gospel book from northern Italy."
+  },
+  {
+    "language": "Latin",
+    "palimpsest": false,
+    "images": [],
+    "to_check": [],
+    "material": "parchment",
+    "id": "vg_kells",
+    "siglum": "",
+    "name": "Book of Kells",
+    "date": {
+      "label": "c. 800",
+      "range_start": 760,
+      "range_end": 850,
+      "estimate": 800,
+      "confidence": "Firm",
+      "summary": "About 800; whether made on Iona, at Kells or both is debated."
+    },
+    "holding": {
+      "library": "Trinity College Dublin",
+      "shelfmark": "MS 58",
+      "city": "Dublin, Ireland"
+    },
+    "text_type": "Vulgate (mixed with Old Latin readings)",
+    "contents_summary": "The four Gospels; John breaks off at 17:13. John 1:1–18 present.",
+    "dating_evidence": "Dated from its script and decoration, and linked historically to the Columban monks who moved from Iona to Kells after Viking raids in the early 9th century.",
+    "scholarly_positions": [
+      {
+        "who": "Meehan (2012)",
+        "claim": "Standard modern study.",
+        "bib": "meehan12"
+      }
+    ],
+    "literature": [
+      "meehan12",
+      "lowe_cla"
+    ],
+    "provenance": "Kells, Ireland; Trinity College Dublin since the 17th century.",
+    "summary": "The most famous Insular Gospel book."
   }
 ]

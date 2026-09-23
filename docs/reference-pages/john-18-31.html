@@ -1,0 +1,751 @@
+<title>Witnesses to John 18:31</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+:root{
+  --ground:#EDEFEA; --surface:#F8F9F6; --ink:#1B2024; --muted:#566067; --line:#D3D8D0;
+  --accent:#2A4A7F; --accent-soft:#DCE4F0; --rubric:#9E2B25;
+  --papyrus:#C4861A; --parchment:#6A5245; --unknown:#7C8790;
+  --firm:#2F6B4A; --firm-soft:#DDEBE2; --debated:#8A5A12; --debated-soft:#F3E6CC;
+  --display:"GFS Didot","Didot","Bodoni 72",Georgia,serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+    --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+    --papyrus:#D3A95C; --parchment:#BE9F88; --unknown:#98A3AB;
+    --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+  --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+  --papyrus:#D3A95C; --parchment:#BE9F88; --unknown:#98A3AB;
+  --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding:0 16px;}
+.wrap{max-width:980px;margin:0 auto;padding-block:40px 64px;display:flex;flex-direction:column;gap:48px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.15}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.draft{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rubric);color:var(--rubric);padding:2px 8px;border-radius:3px}
+
+/* Header / verse */
+header{display:flex;flex-direction:column;gap:20px}
+header .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+h1{font-size:clamp(34px,6vw,54px)}
+.verse{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:24px;display:grid;gap:14px}
+.greek{font-family:var(--display);font-size:clamp(20px,3vw,25px);line-height:1.5;margin:0}
+.greek .init{color:var(--rubric);font-size:1.35em}
+.trans{margin:0;color:var(--ink);max-width:62ch}
+.verse .note{font-size:13px;color:var(--muted);margin:0;max-width:70ch}
+.lede{max-width:65ch;margin:0}
+.stats{display:flex;gap:28px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.stats b{display:block;font-family:var(--display);font-weight:400;font-size:32px;color:var(--ink);line-height:1.1}
+
+/* Timeline */
+.timeline{display:flex;flex-direction:column;gap:12px}
+.tl-box{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 12px 8px;overflow-x:auto}
+#tl{display:block;min-width:720px;width:100%;height:auto}
+#tl text{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+#tl .lbl{fill:var(--ink);font-size:11px;cursor:pointer}
+#tl .grid{stroke:var(--line);stroke-width:1}
+#tl .rng{stroke-width:6;stroke-linecap:round;opacity:.35}
+#tl .dot{stroke:var(--surface);stroke-width:2;cursor:pointer}
+#tl g.m:hover .lbl,#tl g.m:focus .lbl{fill:var(--accent);text-decoration:underline}
+#tl g.m{outline:none}
+#tl g.m.dim{opacity:.18}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:10px;height:10px;border-radius:50%;display:inline-block}
+.bar{width:22px;height:5px;border-radius:3px;display:inline-block;background:var(--muted);opacity:.4}
+
+/* Filters */
+.filters{display:flex;flex-direction:column;gap:12px;background:var(--ground);padding-block:12px;border-bottom:1px solid var(--line)}
+.frow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.frow .eyebrow{min-width:78px}
+.chip{font:13px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+#q{font:15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 12px;width:100%;max-width:420px}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* Entries */
+.list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.ms{border-bottom:1px solid var(--line);padding-block:20px;display:grid;grid-template-columns:120px 1fr;gap:4px 24px;scroll-margin-top:24px;transition:background .6s}
+.ms.flash{background:var(--accent-soft)}
+.sig{font-family:var(--display);font-size:34px;line-height:1;color:var(--ink)}
+.sig small{display:block;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:6px;letter-spacing:.02em}
+.body{display:flex;flex-direction:column;gap:10px;min-width:0}
+.body h3{font-size:24px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.tag{font-family:var(--mono);font-size:12px;padding:2px 8px;border-radius:3px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.tag.date{color:var(--ink)}
+.tag.firm{background:var(--firm-soft);color:var(--firm);border-color:transparent}
+.tag.debated{background:var(--debated-soft);color:var(--debated);border-color:transparent}
+.tag.mat{display:inline-flex;align-items:center;gap:6px}
+.where{font-size:14px;color:var(--muted);margin:0}
+.summary{margin:0;max-width:66ch}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+.btn{font-family:var(--mono);font-size:12.5px;text-decoration:none;border:1px solid var(--accent);color:var(--accent);padding:5px 10px;border-radius:4px}
+.btn:hover{background:var(--accent);color:var(--surface)}
+.btn.primary{background:var(--accent);color:var(--surface)}
+details{font-size:14.5px}
+summary{cursor:pointer;color:var(--accent);font-family:var(--mono);font-size:12.5px}
+dl{display:grid;grid-template-columns:150px 1fr;gap:6px 16px;margin:12px 0 0;max-width:72ch}
+dt{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:2px}
+dd{margin:0}
+.empty{padding:32px 0;color:var(--muted)}
+
+/* Other sections */
+section.prose{display:flex;flex-direction:column;gap:14px}
+section.prose h2{font-size:30px}
+section.prose p{margin:0;max-width:66ch}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:560px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+tr:last-child td{border-bottom:0}
+td:first-child{font-family:var(--mono);white-space:nowrap}
+.method{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.method div{display:flex;flex-direction:column;gap:6px}
+.method h3{font-size:20px}
+.method p{font-size:15px}
+.evgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px 28px}
+.evgrid div{display:flex;flex-direction:column;gap:6px}
+.evgrid h3{font-size:20px}
+.evgrid.two{grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr))}
+.evgrid p{font-size:15px}
+.subh{font-size:24px;margin-top:18px}
+.scripts{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.scripts div{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.scripts h4{font-family:var(--display);font-weight:400;font-size:20px;margin:0}
+.scripts p{font-size:14.5px}
+.range{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+table.people td:first-child{font-family:var(--body);font-weight:600;white-space:normal;min-width:130px}
+.pos{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.pos li{padding-left:12px;border-left:2px solid var(--line)}
+.pos b{font-weight:600}
+.lit{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+#bib{display:flex;flex-direction:column;gap:22px}
+#bib h3{font-size:20px}
+#bib ul{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:8px;max-width:78ch}
+#bib li{padding-left:2em;text-indent:-2em;font-size:15px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+footer p{margin:0;max-width:75ch}
+
+@media (max-width:640px){
+  .ms{grid-template-columns:1fr}
+  .sig{font-size:30px;display:flex;align-items:baseline;gap:10px}
+  .sig small{margin:0}
+  dl{grid-template-columns:1fr;gap:2px}
+  dd{margin-bottom:8px}
+  .frow .eyebrow{min-width:0;width:100%}
+  
+}
+@media (prefers-reduced-motion:reduce){.ms{transition:none}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="top"><span class="eyebrow">Manuscript witnesses · Gospel of John</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
+  <h1>Who has John 18:31?</h1>
+  <div class="verse" aria-label="The verse">
+    <p class="greek" lang="grc"><span class="init">Ε</span>ἶπεν οὖν αὐτοῖς ὁ Πιλᾶτος· λάβετε αὐτὸν ὑμεῖς καὶ κατὰ τὸν νόμον ὑμῶν κρίνατε αὐτόν. εἶπον αὐτῷ οἱ Ἰουδαῖοι· ἡμῖν οὐκ ἔξεστιν ἀποκτεῖναι οὐδένα·</p>
+    <p class="trans">So Pilate said to them, “Take him yourselves and judge him by your own law.” The Jews said to him, “It is not lawful for us to put anyone to death.”</p>
+    <p class="note">Greek as printed in modern critical editions; the translation is our own, kept literal. Individual manuscripts differ in spelling, abbreviations and small wording details, and several preserve only a few letters of the verse.</p>
+  </div>
+  <p class="lede">Every Greek manuscript copied up to about AD 900 in which some part of this verse survives, arranged by date. Each entry says who dates it and how confident that date is, where the manuscript is now, and where you can look at photographs of it yourself.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section class="timeline" aria-labelledby="tl-h">
+  <div class="eyebrow" id="tl-h">Timeline · select a manuscript to jump to it</div>
+  <div class="tl-box"><svg id="tl" role="img" aria-label="Timeline of manuscripts by estimated date"></svg></div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--papyrus)"></i>Papyrus</span>
+    <span><i class="sw" style="background:var(--parchment)"></i>Parchment</span>
+    <span><i class="sw" style="background:var(--unknown)"></i>Material to check</span>
+    <span><i class="bar"></i>Range of proposed dates</span>
+  </div>
+</section>
+
+<section aria-labelledby="list-h" style="display:flex;flex-direction:column;gap:0">
+  <h2 id="list-h" style="font-size:30px;margin-bottom:8px">The manuscripts</h2>
+  <div class="filters">
+    <div class="frow"><span class="eyebrow">Search</span><input id="q" type="search" placeholder="Name, number, library or city" aria-label="Search manuscripts"></div>
+    <div class="frow" role="group" aria-label="Material"><span class="eyebrow">Material</span>
+      <button class="chip" data-f="mat" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="mat" data-v="papyrus" aria-pressed="false">Papyrus</button>
+      <button class="chip" data-f="mat" data-v="parchment" aria-pressed="false">Parchment</button>
+    </div>
+    <div class="frow" role="group" aria-label="Period"><span class="eyebrow">Period</span>
+      <button class="chip" data-f="era" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="era" data-v="early" aria-pressed="false">2nd–5th c.</button>
+      <button class="chip" data-f="era" data-v="mid" aria-pressed="false">6th–8th c.</button>
+      <button class="chip" data-f="era" data-v="late" aria-pressed="false">9th c.</button>
+    </div>
+    <div class="frow" role="group" aria-label="Dating confidence"><span class="eyebrow">Dating</span>
+      <button class="chip" data-f="conf" data-v="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="conf" data-v="Firm" aria-pressed="false">Firm</button>
+      <button class="chip" data-f="conf" data-v="Debated" aria-pressed="false">Debated</button>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+  <div class="list" id="list"></div>
+</section>
+
+<section class="prose" id="dating" aria-labelledby="dating-h">
+  <span class="eyebrow">For readers who want the reasoning</span>
+  <h2 id="dating-h">How these manuscripts got their dates</h2>
+  <p>Almost none of the manuscripts above say when they were made. Each date on this page is a scholarly argument built from several kinds of evidence, and the arguments are only as strong as the evidence each manuscript offers. These are the kinds of evidence, roughly from most used to least.</p>
+  <div class="evgrid">
+    <div><h3>Handwriting</h3><p>Palaeographers compare a manuscript’s script with documents that state their own date (contracts, receipts, petitions) and with the few dated books. They look at the shapes of telltale letters (alpha, mu, epsilon, omega), whether letters fit a square or a narrow frame, the contrast between thick and thin strokes that comes from the angle of the pen’s nib, small hooks or serifs at stroke ends, and how evenly letters sit between two imaginary lines.</p></div>
+    <div><h3>Book construction</h3><p>Roll or codex, page size, how many columns, how the gatherings of leaves (quires) were built and ruled. Sinaiticus has four columns a page and Vaticanus three, while most later Gospel books have two or one. The study of these features is called codicology.</p></div>
+    <div><h3>Reading aids</h3><p>Features invented at known times give a ‘not before’ date. Eusebius of Caesarea devised his Gospel section numbers and canon tables in the early 4th century, so a first-hand copy of them must be later. Accents and breathing marks only become routine centuries later.</p></div>
+    <div><h3>Dated anchors</h3><p>A few books carry a scribe’s dated note (a colophon). Vat. gr. 1666 is a majuscule dated 800; the Uspensky Gospels (minuscule 461) are dated 835, the earliest dated Greek minuscule; 028 S is dated 949. These fixed points calibrate everything around them.</p></div>
+    <div><h3>Where it was found</h3><p>A manuscript excavated alongside dated documents, like 𝔓60 at Nessana, has a context to test its date against. Most early papyri, including 𝔓52 and 𝔓66, were bought from dealers, so that evidence is lost.</p></div>
+    <div><h3>Carbon dating and AI</h3><p>Radiocarbon dating has rarely been used on New Testament manuscripts: it damages the object and often returns ranges as wide as handwriting does. Recent work combines it with machine analysis of handwriting, so far tested on the Dead Sea Scrolls (Popović et al. 2025).</p></div>
+  </div>
+
+  <h3 class="subh">A field guide to the scripts</h3>
+  <p>Script styles are families, not timestamps: a style could be used for generations, and scribes working at the same time wrote differently. The ranges below are broad on purpose.</p>
+  <div class="scripts">
+    <div><span class="range">1st–3rd c.</span><h4>Early literary hands</h4><p>Rounded capitals, sometimes with small decorative hooks; the related ‘severe style’ mixes narrow and broad letters with a slight slope. This is 𝔓52 and 𝔓66 territory, and it is where dating is least precise.</p></div>
+    <div><span class="range">2nd/3rd–9th c.</span><h4>Biblical majuscule</h4><p>Defined by Guglielmo Cavallo (1967). Each letter fills a square module, and round letters are true circles. The 4th-century ‘canonical’ form has little thick–thin contrast and no ornament (01, 03). Later it gains heavy contrast, blobbed stroke ends and enlarged initials (02, 04), and it lingers in a stiff late form through the 9th century.</p></div>
+    <div><span class="range">5th–8th c.</span><h4>Alexandrian majuscule</h4><p>Rounded and supple, with circular epsilon, omicron and sigma. Common in Egypt, and for Coptic as well as Greek.</p></div>
+    <div><span class="range">6th–10th c.</span><h4>Ogival (‘pointed’) majuscule</h4><p>Narrow, oval letters with strong contrast, written upright or sloping. Used for many late Gospel books after most other writing had moved to minuscule.</p></div>
+    <div><span class="range">9th c. onward</span><h4>Minuscule</h4><p>A faster, joined lowercase script that takes over Greek book production from about 800. Majuscule survives for display and liturgical books, which is why this page still has so many 9th-century majuscules.</p></div>
+  </div>
+
+  <h3 class="subh">Why dates get disputed</h3>
+  <div class="evgrid two">
+    <div><h3>Comparing unlike things</h3><p>Early papyri of books are compared with dated documents, but book hands and everyday hands developed differently. Barker (2011) proposes first placing a manuscript in its ‘graphic stream’ and comparing it only with dated examples from that stream.</p></div>
+    <div><h3>Styles outlive fashions</h3><p>A trained scribe could keep writing an old style for decades, and a style could be revived. A difference in hand does not always mean a difference in date.</p></div>
+    <div><h3>Tiny samples</h3><p>𝔓52 preserves around a hundred letters on its two sides. The fewer letters survive, the fewer features there are to compare, and the wider an honest date range has to be.</p></div>
+    <div><h3>What is at stake</h3><p>An early 𝔓52 was long used to argue that John was written before about AD 100. Orsini and Clarysse (2012) warn against ‘theological palaeography’, the pull toward early dates for Christian texts; Porter (2013) argues that the sceptics have over-corrected.</p></div>
+  </div>
+
+  <h3 class="subh">Who’s who in the debate</h3>
+  <div class="tbl"><table class="people">
+    <thead><tr><th>Scholar</th><th>Contribution</th><th>Key work</th></tr></thead>
+    <tbody id="people"></tbody>
+  </table></div>
+</section>
+
+<section class="prose" id="biblio" aria-labelledby="bib-h">
+  <h2 id="bib-h">Scholarly bibliography</h2>
+  <p>Works cited on this page, grouped by topic. Each manuscript’s full record lists the works about it.</p>
+  <div id="bib"></div>
+</section>
+
+<section class="prose" aria-labelledby="miss-h">
+  <h2 id="miss-h">Why some famous manuscripts aren’t listed</h2>
+  <p>Many important Gospel manuscripts are simply missing the page that held this verse, or were copied after our cut-off. Leaving them out is part of being accurate, so here is why.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Manuscript</th><th>Date</th><th>Why it’s not in the list</th></tr></thead>
+    <tbody>
+      <tr><td>05 D (Codex Bezae)</td><td>5th c.</td><td>The original Greek leaves for John 18:14–20:13 are lost. The gap was filled in later by another hand, so the text here is not the 5th-century copy.</td></tr>
+      <tr><td>09 F (Boreelianus)</td><td>9th c.</td><td>Breaks off at John 13:34.</td></tr>
+      <tr><td>022 N (Petropolitanus Purpureus)</td><td>6th c.</td><td>The purple codex is scattered across several libraries; nothing survives between John 16:15 and 20:23.</td></tr>
+      <tr><td>024 P (Guelferbytanus A)</td><td>6th c.</td><td>A palimpsest; only John 1:29–40, 2:13–25 and 21:1–11 survive.</td></tr>
+      <tr><td>029 T (Borgianus)</td><td>5th c.</td><td>Greek text of John survives only as far as 8:31.</td></tr>
+      <tr><td>031 V (Mosquensis II)</td><td>9th c.</td><td>The majuscule hand stops at John 8:39; the rest was supplied in minuscule in the 13th century.</td></tr>
+      <tr><td>𝔓90</td><td>2nd c.</td><td>Starts at John 18:36, just after our verse.</td></tr>
+      <tr><td>028 S, 033 X, 036 Γ, 0141</td><td>10th c.</td><td>All contain John 18 but fall after the AD 900 cut-off for this first version. (028 S is precisely dated to 949 by its scribe’s note.)</td></tr>
+      <tr><td>Minuscules &amp; lectionaries</td><td>9th c. onward</td><td>Hundreds of later copies contain the verse. They are planned for a later version as a searchable list.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="prose" aria-labelledby="meth-h">
+  <h2 id="meth-h">How this list was made</h2>
+  <div class="method">
+    <div><h3>Numbers</h3><p>Manuscripts are named by their Gregory–Aland number, the standard catalogue kept by the Institute for New Testament Textual Research (INTF) in Münster. 𝔓 marks a papyrus; numbers starting with 0 are parchment majuscules (capital-letter manuscripts).</p></div>
+    <div><h3>Dates</h3><p>The headline date is the INTF catalogue date. Where scholars have argued for other dates, the entry gives the range and names who proposed what. Almost all of these dates come from handwriting style (palaeography), not from carbon dating or a dated colophon.</p></div>
+    <div><h3>Confidence labels</h3><p><b>Firm</b>: specialists broadly agree within about a century. <b>Debated</b>: published proposals differ by more than a century, or the catalogue date has been seriously challenged. The label is about the date, not the manuscript’s importance.</p></div>
+    <div><h3>What “contains the verse” means</h3><p>At least part of John 18:31 survives on the page. For fragments, that can mean a handful of letters. Contents come from published catalogue descriptions and each manuscript’s recorded gaps (lacunae).</p></div>
+    <div><h3>Photographs</h3><p>Images stay with the libraries and projects that made them, so every entry links out rather than copying pictures. The INTF Virtual Manuscript Room link works for every entry; other links go to the holding library or to CSNTM where a viewer exists.</p></div>
+    <div><h3>Neutral language</h3><p>Entries describe what a manuscript is, when it was likely made and how it reached its current home. They don’t argue for or against the reliability of the Gospels.</p></div>
+  </div>
+</section>
+
+<footer>
+  <p><b>Status.</b> Draft built from published catalogue data (INTF Liste summaries and the institutions’ own descriptions). The automated check against the INTF database itself could not be run, so each entry should be confirmed in the Virtual Manuscript Room before this is released publicly, ideally by a specialist.</p>
+  <p><b>Data sources.</b> INTF, Kurzgefasste Liste and the New Testament Virtual Manuscript Room; Center for the Study of New Testament Manuscripts (CSNTM); Codex Sinaiticus Project; DigiVatLib; e-codices; Cambridge Digital Library. Scholarly works are listed in the bibliography above.</p>
+  <p><b>Bibliography status.</b> Citations were checked against publisher and author pages where possible. Page ranges are left out where they could not be confirmed; add them from the published items before release.</p>
+</footer>
+</div>
+
+<script>
+const VMR = id => `https://ntvmr.uni-muenster.de/manuscript-workspace?docID=${id}`;
+const CSNTM = ga => `https://manuscripts.csntm.org/manuscript/View/GA_${ga}`;
+
+// start/end = range of proposed dates (AD); mid = catalogue (INTF) estimate used for the dot
+const MSS = [
+ {id:"p52", sig:"𝔓52", ga:"P52", name:"Rylands Papyrus 457", mat:"papyrus", date:"2nd century", start:100, end:225, mid:150, conf:"Debated",
+  lib:"John Rylands Research Institute and Library, University of Manchester", shelf:"P. Ryl. Gr. 457", city:"Manchester, UK",
+  contents:"John 18:31–33 (front) and 18:37–38 (back). A scrap about the size of a credit card (8.9 × 6.4 cm) from a codex, not a scroll.",
+  summary:"Often called the earliest surviving piece of the New Testament. It is also the best-known example of how hard it is to date handwriting: the famous early date is one proposal among several.",
+  dating:"Roberts (1935): first half of the 2nd century. Orsini & Clarysse (2012): 125–175. Nongbri (2005): comparable hands run into the late 2nd and early 3rd centuries, so a later date cannot be ruled out.",
+  prov:"Bought in Egypt in 1920 by Bernard Grenfell for the Rylands Library; identified and published by Colin H. Roberts in 1935. Exact find-spot unknown.",
+  imgs:[["CSNTM images",CSNTM("P52")]], vmr:10052},
+ {id:"p66", sig:"𝔓66", ga:"P66", name:"Papyrus Bodmer II", mat:"papyrus", date:"c. 200", start:100, end:350, mid:200, conf:"Debated",
+  lib:"Fondation Martin Bodmer", shelf:"P. Bodmer II (+ one leaf at the Chester Beatty Library, Dublin)", city:"Cologny (Geneva), Switzerland",
+  contents:"A nearly complete codex of John 1–14; chapters 15–21 survive only as damaged fragments. John 18:31 lies inside the surviving range, but which letters of it are legible should be checked against the facsimile.",
+  summary:"The most complete early copy of John. The scribe made many corrections, which lets scholars watch a copyist at work.",
+  dating:"Martin (editor, 1956): c. 200. Hunger (1960): first half of the 2nd century. Nongbri (2014): 4th century is equally possible. INTF: c. 200.",
+  prov:"Acquired by the collector Martin Bodmer in the 1950s, likely part of the ‘Bodmer papyri’ find associated with the region of Dishna, Upper Egypt.",
+  imgs:[], vmr:10066},
+ {id:"p60", sig:"𝔓60", ga:"P60", name:"P. Colt 4", mat:"papyrus", date:"7th century", start:550, end:720, mid:650, conf:"Firm",
+  lib:"Morgan Library & Museum", shelf:"P. Colt 4", city:"New York, USA",
+  contents:"Fragments of John 16:29–19:26. Fragments 11–15 preserve John 18:23–27, 31, 34–35 and 37.",
+  summary:"A late papyrus codex, from a time when most Gospel books were on parchment. Evidence that papyrus kept being used for Christian books well after late antiquity.",
+  dating:"Palaeographic dates range from the 6th to around 700. INTF: 7th century.",
+  prov:"Excavated in the 1930s at Nessana (Auja el-Hafir) in the Negev by the Colt Archaeological Expedition.",
+  imgs:[], vmr:10060},
+ {id:"01", sig:"01 א", ga:"01", name:"Codex Sinaiticus", mat:"parchment", date:"4th century", start:325, end:375, mid:350, conf:"Firm",
+  lib:"British Library (New Testament portion)", shelf:"Add MS 43725", city:"London, UK",
+  contents:"Complete New Testament, plus much of the Greek Old Testament. John 18:31 is on a fully preserved page.",
+  summary:"One of the two oldest nearly complete Bibles. Its leaves are split between London, Leipzig, St Catherine’s Monastery and St Petersburg, and the whole book has been reunited online.",
+  dating:"Mid-4th century; a date in the 330s–360s is widely accepted.",
+  prov:"Removed from St Catherine’s Monastery, Sinai, by Constantin von Tischendorf in 1844 and 1859; the circumstances of the 1859 removal remain disputed. Sold by the Soviet government to the British Museum in 1933.",
+  imgs:[["Codex Sinaiticus Project, John 18",`https://codexsinaiticus.org/en/manuscript.aspx?book=36&chapter=18&lid=en&side=r&verse=31&zoomSlider=0`]], vmr:20001},
+ {id:"03", sig:"03 B", ga:"03", name:"Codex Vaticanus", mat:"parchment", date:"4th century", start:300, end:360, mid:330, conf:"Firm",
+  lib:"Vatican Apostolic Library", shelf:"Vat. gr. 1209", city:"Vatican City",
+  contents:"Gospels, Acts, Catholic Epistles and Paul (to Hebrews 9:14). John is complete.",
+  summary:"Probably the oldest nearly complete Greek Bible. Its text of John is very close to the early papyri, especially 𝔓75.",
+  dating:"4th century, usually placed in its first half.",
+  prov:"Recorded in the Vatican Library’s catalogue since the 15th century; how it arrived is not known.",
+  imgs:[["DigiVatLib (Vatican Library)","https://digi.vatlib.it/view/MSS_Vat.gr.1209"],["CSNTM",CSNTM("03")]], vmr:20003},
+ {id:"032", sig:"032 W", ga:"032", name:"Codex Washingtonianus (Freer Gospels)", mat:"parchment", date:"4th–5th century", start:375, end:500, mid:425, conf:"Firm",
+  lib:"National Museum of Asian Art (Freer Gallery), Smithsonian", shelf:"F1906.274", city:"Washington, DC, USA",
+  contents:"The four Gospels in the ‘Western’ order Matthew, John, Luke, Mark. John 14:26–16:7 is missing; John 18 survives.",
+  summary:"Famous for an extra saying of Jesus after Mark 16:14 (the ‘Freer Logion’). Its text changes character from book to book, suggesting it was copied from several different exemplars.",
+  dating:"Late 4th to 5th century.",
+  prov:"Bought by Charles Lang Freer from a dealer in Egypt in December 1906.",
+  imgs:[["CSNTM",CSNTM("032")]], vmr:20032},
+ {id:"02", sig:"02 A", ga:"02", name:"Codex Alexandrinus", mat:"parchment", date:"5th century", start:400, end:450, mid:425, conf:"Firm",
+  lib:"British Library", shelf:"Royal MS 1 D VIII", city:"London, UK",
+  contents:"Greek Old and New Testament, with gaps. In John only 6:50–8:52 is missing.",
+  summary:"The third of the great early Bibles. In the Gospels it is an early witness to the form of text that later became standard in Byzantine manuscripts.",
+  dating:"5th century, commonly first half.",
+  prov:"Given by Cyril Lucaris, Patriarch of Constantinople, to King Charles I of England; arrived in 1627.",
+  imgs:[["CSNTM",CSNTM("02")]], vmr:20002},
+ {id:"04", sig:"04 C", ga:"04", name:"Codex Ephraemi Rescriptus", mat:"parchment", pal:true, date:"5th century", start:400, end:475, mid:440, conf:"Firm",
+  lib:"Bibliothèque nationale de France", shelf:"Grec 9", city:"Paris, France",
+  contents:"Parts of every New Testament book. In John, 18:36–20:25 is lost, but 18:31 survives just before the gap.",
+  summary:"A palimpsest: in the 12th century the Bible text was scraped off and the parchment reused for sermons of Ephrem the Syrian. The faint lower Bible text was deciphered by Tischendorf in the 1840s.",
+  dating:"5th century, often placed c. 425–450.",
+  prov:"Brought to Italy in the 16th century and then to France with Catherine de’ Medici’s library.",
+  imgs:[["CSNTM",CSNTM("04")]], vmr:20004},
+ {id:"087", sig:"087", ga:"087", name:"Uncial 087", mat:"parchment", date:"6th century", start:500, end:600, mid:550, conf:"Firm",
+  lib:"National Library of Russia and St Catherine’s Monastery", shelf:"RNB Gr. 12, 278; Sinai Gr. 218", city:"St Petersburg, Russia and Sinai, Egypt",
+  contents:"Three leaves: Matthew 1:23–2:2, 19:3–8, 21:19–24 and John 18:29–35.",
+  summary:"A few leaves of a large, handsome 6th-century Gospel book whose pages are now split between Sinai and St Petersburg.",
+  dating:"6th century (INTF).",
+  prov:"Part of the codex was taken from Sinai to Russia by Porfiry Uspensky in the 1850s; the rest remains at St Catherine’s.",
+  imgs:[], vmr:20087},
+ {id:"0109", sig:"0109", ga:"0109", name:"Uncial 0109", mat:"parchment", date:"7th century", start:600, end:700, mid:650, conf:"Firm",
+  lib:"Berlin State Museums (Papyrussammlung)", shelf:"P. 5010", city:"Berlin, Germany",
+  contents:"Two leaves: John 16:30–17:9 and 18:31–40. Our verse is the first line of the second leaf.",
+  summary:"Two leaves from a Gospel of John, now in Berlin’s papyrus collection. A small but real witness to how John was being copied in the 7th century.",
+  dating:"7th century (INTF).",
+  prov:"Part of the Berlin papyrus collection; its find-spot is not recorded here and needs checking.",
+  imgs:[], vmr:20109},
+ {id:"0250", sig:"0250", ga:"0250", name:"Codex Climaci Rescriptus (Greek Gospels)", mat:"parchment", pal:true, date:"8th century", start:650, end:800, mid:750, conf:"Firm",
+  lib:"Museum of the Bible (Green Collection); further leaves at St Catherine’s Monastery", shelf:"G.C.MS.000149", city:"Washington, DC, USA and Sinai",
+  contents:"Scattered parts of all four Gospels. For John 18 the surviving text includes 18:1–9, 11–13, 18–24, 28–29, 31 and 36 onward.",
+  summary:"Another palimpsest: the Greek Gospel text lies underneath a Syriac copy of John Climacus’s ‘Ladder of Divine Ascent’, which gave the codex its name.",
+  dating:"Palaeographically 7th or 8th century; INTF dates it to the 8th.",
+  prov:"In the Green Collection since around 2010; eight more leaves were among the 1975 ‘New Finds’ at Sinai.",
+  imgs:[], vmr:20250},
+ {id:"07", sig:"07 E", ga:"07", name:"Codex Basilensis", mat:"parchment", date:"8th century", start:700, end:800, mid:750, conf:"Firm",
+  lib:"University Library Basel", shelf:"AN III 12", city:"Basel, Switzerland",
+  contents:"The four Gospels with a few gaps in Luke. John is complete.",
+  summary:"One of the oldest near-complete examples of the Byzantine text of the Gospels, the form that dominates later manuscripts.",
+  dating:"8th century (INTF).",
+  prov:"Given to the Dominicans of Basel by Cardinal John of Ragusa around the time of the Council of Basel (1430s).",
+  imgs:[["CSNTM",CSNTM("07")]], vmr:20007},
+ {id:"019", sig:"019 L", ga:"019", name:"Codex Regius", mat:"parchment", date:"8th century", start:700, end:900, mid:750, conf:"Firm",
+  lib:"Bibliothèque nationale de France", shelf:"Grec 62", city:"Paris, France",
+  contents:"The four Gospels with some gaps. In John only 21:15–25 is missing.",
+  summary:"A carelessly written but textually important manuscript: its text often agrees with Codex Vaticanus, and it gives two alternative endings of Mark.",
+  dating:"INTF: 8th century. Some scholars prefer the 9th.",
+  prov:"In the French royal library since at least the 17th century.",
+  imgs:[["CSNTM",CSNTM("019")]], vmr:20019},
+ {id:"047", sig:"047", ga:"047", name:"Uncial 047", mat:"parchment", date:"8th century", start:700, end:800, mid:760, conf:"Firm",
+  lib:"Princeton University Library", shelf:"Garrett MS 1", city:"Princeton, NJ, USA",
+  contents:"The four Gospels with gaps. John breaks off at 18:34, so 18:31 is among the last surviving verses.",
+  summary:"Written in a cross shape on some pages. The text is Byzantine.",
+  dating:"8th century (INTF).",
+  prov:"Part of the Robert Garrett collection given to Princeton.",
+  imgs:[], vmr:20047},
+ {id:"054", sig:"054", ga:"054", name:"Uncial 054", mat:"parchment", date:"8th century", start:700, end:800, mid:770, conf:"Firm",
+  lib:"Vatican Apostolic Library", shelf:"Barb. gr. 521, ff. 1–6", city:"Vatican City",
+  contents:"Six leaves with John 16:3–19:41 (published lists vary on the exact starting verse), accompanied by a commentary.",
+  summary:"A short run of John with commentary, bound into a later volume in the Barberini collection.",
+  dating:"8th century (INTF).",
+  prov:"Came to the Vatican Library with the Barberini family’s manuscripts in 1902.",
+  imgs:[], vmr:20054},
+ {id:"0211", sig:"0211", ga:"0211", name:"Uncial 0211", mat:"parchment", date:"9th century", start:600, end:900, mid:850, conf:"Debated",
+  lib:"Korneli Kekelidze Georgian National Centre of Manuscripts", shelf:"Gr. 27", city:"Tbilisi, Georgia",
+  contents:"A complete text of the four Gospels.",
+  summary:"A complete Gospel book written in majuscule, with a Byzantine text.",
+  dating:"Earlier palaeographic assessments placed it in the 7th century; INTF now dates it to the 9th.",
+  prov:"Held in Georgia’s national manuscript collection alongside Codex Koridethi.",
+  imgs:[], vmr:20211},
+ {id:"044", sig:"044 Ψ", ga:"044", name:"Codex Athous Lavrensis", mat:"parchment", date:"9th–10th century", start:750, end:1000, mid:880, conf:"Debated",
+  lib:"Great Lavra Monastery", shelf:"B΄ 52", city:"Mount Athos, Greece",
+  contents:"Gospels from Mark 9:5 onward, Acts, Catholic Epistles and Paul. John is complete.",
+  summary:"Known for giving both the short and the long ending of Mark. Its text mixes older Alexandrian readings with Byzantine ones.",
+  dating:"Palaeographic proposals run from the 8th to the 10th century; INTF: 9th/10th. Included here because much of that range falls before 900.",
+  prov:"Has remained at the Great Lavra on Mount Athos.",
+  imgs:[["CSNTM",CSNTM("044")]], vmr:20044},
+ {id:"011", sig:"011 G", ga:"011", name:"Codex Seidelianus I", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"British Library (main part); Trinity College, Cambridge (one leaf)", shelf:"Harley MS 5684", city:"London, UK",
+  contents:"The four Gospels with gaps. In John, 18:5–19 and 19:4–27 are missing; 18:31 survives between the two gaps.",
+  summary:"A Byzantine Gospel book brought to the West in the early 18th century.",
+  dating:"9th century (INTF).",
+  prov:"Brought from the East by Andreas Erasmus Seidel; later owned by Johann Christoph Wolf, and eventually acquired for the Harley collection in London.",
+  imgs:[["CSNTM",CSNTM("011")]], vmr:20011},
+ {id:"013", sig:"013 H", ga:"013", name:"Codex Seidelianus II", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Hamburg State and University Library", shelf:"Cod. 91 in scrin.", city:"Hamburg, Germany",
+  contents:"The four Gospels with gaps. In John, 9:30–10:25, 18:2–18 and 20:12–25 are missing; 18:31 survives.",
+  summary:"The companion of 011, also brought west by Seidel. A Byzantine text.",
+  dating:"9th century (INTF).",
+  prov:"Brought west by Seidel, later owned by Johann Christoph Wolf, and now in Hamburg.",
+  imgs:[], vmr:20013},
+ {id:"017", sig:"017 K", ga:"017", name:"Codex Cyprius", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Bibliothèque nationale de France", shelf:"Grec 63", city:"Paris, France",
+  contents:"The four Gospels, complete.",
+  summary:"A complete majuscule Gospel book, and a member of Family Π, a group of closely related Byzantine manuscripts.",
+  dating:"9th century (INTF).",
+  prov:"Brought from Cyprus to France in the 17th century.",
+  imgs:[["CSNTM",CSNTM("017")]], vmr:20017},
+ {id:"021", sig:"021 M", ga:"021", name:"Codex Campianus", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Bibliothèque nationale de France", shelf:"Grec 48", city:"Paris, France",
+  contents:"The four Gospels, complete.",
+  summary:"A small, finely written Gospel book with musical (ekphonetic) notation for public reading.",
+  dating:"9th century (INTF).",
+  prov:"Given to King Louis XIV by the Abbé François de Camps, from whom it takes its name.",
+  imgs:[["CSNTM",CSNTM("021")]], vmr:20021},
+ {id:"030", sig:"030 U", ga:"030", name:"Codex Nanianus", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Biblioteca Nazionale Marciana", shelf:"Gr. I, 8 (1397)", city:"Venice, Italy",
+  contents:"The four Gospels, complete.",
+  summary:"A carefully written and decorated Byzantine Gospel book.",
+  dating:"9th century (INTF).",
+  prov:"From the collection of the Nani family of Venice.",
+  imgs:[], vmr:20030},
+ {id:"034", sig:"034 Y", ga:"034", name:"Codex Macedoniensis", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Cambridge University Library", shelf:"MS Add. 6594", city:"Cambridge, UK",
+  contents:"The four Gospels with gaps. In John only 20:27–21:17 is missing.",
+  summary:"A Gospel book copied in majuscule at a time when most scribes had switched to minuscule, likely for clear reading aloud in church. It carries lectionary markings for services.",
+  dating:"9th century (INTF).",
+  prov:"Probably from the Eikosiphoinissa monastery in northern Greece; bought by Joseph Bevan Braithwaite in 1900.",
+  imgs:[["Cambridge Digital Library","https://cudl.lib.cam.ac.uk/view/MS-ADD-06594"]], vmr:20034},
+ {id:"037", sig:"037 Δ", ga:"037", name:"Codex Sangallensis 48", mat:"parchment", date:"9th century", start:830, end:880, mid:850, conf:"Firm",
+  lib:"Abbey Library of St Gall", shelf:"Cod. Sang. 48", city:"St. Gallen, Switzerland",
+  contents:"The four Gospels in Greek with a Latin translation written word-for-word above the lines. In John, 19:17–35 is missing; 18:31 survives.",
+  summary:"Made by Irish monks working in continental Europe, around 850. It shows Western scholars learning Greek through the Gospels.",
+  dating:"9th century; the library dates it to around 850.",
+  prov:"At St Gall since the Middle Ages.",
+  imgs:[["e-codices (full colour, free)","https://www.e-codices.unifr.ch/en/list/one/csg/0048"]], vmr:20037},
+ {id:"038", sig:"038 Θ", ga:"038", name:"Codex Koridethi", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Korneli Kekelidze Georgian National Centre of Manuscripts", shelf:"Gr. 28", city:"Tbilisi, Georgia",
+  contents:"The four Gospels; the gaps are all in Matthew.",
+  summary:"Written by a scribe who apparently knew Greek poorly, but its text of Mark is unusual and much studied.",
+  dating:"9th century (INTF).",
+  prov:"Named for Koridethi, near the Black Sea, where it was kept in the Middle Ages. Found in 1853 in a village in the Caucasus.",
+  imgs:[], vmr:20038},
+ {id:"039", sig:"039 Λ", ga:"039", name:"Codex Tischendorfianus III", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Bodleian Library, University of Oxford", shelf:"Auct. T. inf. 1.1", city:"Oxford, UK",
+  contents:"Luke and John. Matthew and Mark from the same book are minuscule 566, now in St Petersburg.",
+  summary:"Half of a Gospel book that Tischendorf split between two libraries.",
+  dating:"9th century (INTF).",
+  prov:"Brought from the East by Tischendorf; bought by the Bodleian in 1855.",
+  imgs:[], vmr:20039},
+ {id:"041", sig:"041 Π", ga:"041", name:"Codex Petropolitanus", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"National Library of Russia", shelf:"Gr. 34", city:"St Petersburg, Russia",
+  contents:"The four Gospels with small gaps. In John, 6:15–35, 8:6–39 and 9:21–10:3 are missing, and 21:22–25 was added later; 18:31 is original.",
+  summary:"Gives its name to ‘Family Π’, a large group of related Byzantine Gospel manuscripts.",
+  dating:"9th century (INTF).",
+  prov:"Obtained in the East by Tischendorf and now in the Russian National Library.",
+  imgs:[], vmr:20041},
+ {id:"045", sig:"045 Ω", ga:"045", name:"Codex Athous Dionysiou", mat:"parchment", date:"9th century", start:800, end:900, mid:850, conf:"Firm",
+  lib:"Dionysiou Monastery", shelf:"Dionysiou 10 (55)", city:"Mount Athos, Greece",
+  contents:"The four Gospels, complete.",
+  summary:"A complete Byzantine Gospel book still kept in the monastery that owns it.",
+  dating:"9th century (INTF).",
+  prov:"Has remained at Dionysiou Monastery on Mount Athos.",
+  imgs:[["CSNTM",CSNTM("045")]], vmr:20045},
+ {id:"0290", sig:"0290", ga:"0290", name:"Uncial 0290", mat:"unknown", date:"9th century", start:800, end:900, mid:860, conf:"Firm",
+  lib:"St Catherine’s Monastery", shelf:"N.E. ΜΓ 102", city:"Sinai, Egypt",
+  contents:"Eight leaves with John 18:4–20:2.",
+  summary:"One of the manuscripts found in 1975, when a sealed room was opened during restoration work at St Catherine’s (the ‘New Finds’).",
+  dating:"9th century (INTF).",
+  prov:"Discovered at St Catherine’s Monastery in May 1975. One published description gives the material as paper, which would be unusual for this date; this needs confirming.",
+  imgs:[], vmr:20290},
+];
+
+const MATCOL = {papyrus:"var(--papyrus)", parchment:"var(--parchment)", unknown:"var(--unknown)"};
+const MATNAME = {papyrus:"Papyrus", parchment:"Parchment", unknown:"Material to check"};
+const eraOf = m => m.mid < 500 ? "early" : m.mid < 800 ? "mid" : "late";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+MSS.sort((a,b)=> a.mid-b.mid || a.start-b.start);
+
+// Stats
+(function(){
+  const pap = MSS.filter(m=>m.mat==="papyrus").length;
+  const deb = MSS.filter(m=>m.conf==="Debated").length;
+  const withImg = MSS.filter(m=>m.imgs.length).length;
+  document.getElementById("stats").innerHTML =
+    `<span><b>${MSS.length}</b>manuscripts</span><span><b>${pap}</b>on papyrus</span><span><b>${deb}</b>with debated dates</span><span><b>${withImg}</b>with a direct image viewer (all have INTF links)</span>`;
+})();
+
+// Timeline
+const state = {mat:"all", era:"all", conf:"all", q:""};
+function drawTimeline(){
+  const svg = document.getElementById("tl");
+  const W = 940, left = 110, right = 20, top = 26, rowH = 17;
+  const x = y => left + (y-100)/(1000-100)*(W-left-right);
+  const H = top + MSS.length*rowH + 10;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  let s = "";
+  for (let c=100; c<=1000; c+=100){
+    s += `<line class="grid" x1="${x(c)}" x2="${x(c)}" y1="${top-8}" y2="${H-4}"></line>`;
+    s += `<text x="${x(c)}" y="12" text-anchor="middle">${c}</text>`;
+  }
+  s += `<line x1="${x(900)}" x2="${x(900)}" y1="${top-8}" y2="${H-4}" stroke="var(--rubric)" stroke-dasharray="3 3" stroke-width="1"></line>`;
+  s += `<text x="${x(900)+4}" y="${top-1}" fill="var(--rubric)" style="fill:var(--rubric)">cut-off</text>`;
+  MSS.forEach((m,i)=>{
+    const y = top + i*rowH + 8, col = MATCOL[m.mat];
+    s += `<g class="m" data-id="${m.id}" tabindex="0" role="link" aria-label="${esc(m.sig)}, ${esc(m.name)}, ${esc(m.date)}">`;
+    s += `<text class="lbl" x="${left-10}" y="${y+4}" text-anchor="end">${esc(m.sig)}</text>`;
+    s += `<line class="rng" x1="${x(m.start)}" x2="${x(m.end)}" y1="${y}" y2="${y}" stroke="${col}"></line>`;
+    s += `<circle class="dot" cx="${x(m.mid)}" cy="${y}" r="5.5" fill="${col}"></circle>`;
+    s += `<title>${esc(m.sig)} · ${esc(m.name)} · ${esc(m.date)}</title></g>`;
+  });
+  svg.innerHTML = s;
+  svg.querySelectorAll("g.m").forEach(g=>{
+    const go = ()=>jump(g.dataset.id);
+    g.addEventListener("click", go);
+    g.addEventListener("keydown", e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();go();} });
+  });
+}
+function jump(id){
+  const el = document.getElementById("ms-"+id);
+  if (!el) return;
+  if (el.hidden){ resetFilters(); }
+  el.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+  el.classList.add("flash"); setTimeout(()=>el.classList.remove("flash"), 1400);
+}
+
+// Scholarly bibliography (keys referenced by DATING and PEOPLE)
+const BIB = {
+ aland94:{g:"Reference catalogues and handbooks", t:"Aland, Kurt, et al. <i>Kurzgefasste Liste der griechischen Handschriften des Neuen Testaments</i>. 2nd ed. ANTF 1. Berlin: De Gruyter, 1994."},
+ metzger81:{g:"Reference catalogues and handbooks", t:"Metzger, Bruce M. <i>Manuscripts of the Greek Bible: An Introduction to Greek Palaeography</i>. New York: Oxford University Press, 1981."},
+ parker08:{g:"Reference catalogues and handbooks", t:"Parker, D. C. <i>An Introduction to the New Testament Manuscripts and Their Texts</i>. Cambridge: Cambridge University Press, 2008."},
+ hurtado06:{g:"Reference catalogues and handbooks", t:"Hurtado, Larry W. <i>The Earliest Christian Artifacts: Manuscripts and Christian Origins</i>. Grand Rapids: Eerdmans, 2006."},
+ cavallo67:{g:"Palaeography and dating method", t:"Cavallo, Guglielmo. <i>Ricerche sulla maiuscola biblica</i>. Florence: Le Monnier, 1967."},
+ cavmaeh87:{g:"Palaeography and dating method", t:"Cavallo, Guglielmo, and Herwig Maehler. <i>Greek Bookhands of the Early Byzantine Period, A.D. 300–800</i>. BICS Supplement 47. London: Institute of Classical Studies, 1987."},
+ turner77:{g:"Palaeography and dating method", t:"Turner, Eric G. <i>The Typology of the Early Codex</i>. Philadelphia: University of Pennsylvania Press, 1977."},
+ turner87:{g:"Palaeography and dating method", t:"Turner, Eric G. <i>Greek Manuscripts of the Ancient World</i>. 2nd ed., revised by P. J. Parsons. BICS Supplement 46. London: Institute of Classical Studies, 1987."},
+ orsini19:{g:"Palaeography and dating method", t:"Orsini, Pasquale. <i>Studies on Greek and Coptic Majuscule Scripts and Books</i>. Studies in Manuscript Cultures 15. Berlin: De Gruyter, 2019."},
+ orsclar12:{g:"Palaeography and dating method", t:"Orsini, Pasquale, and Willy Clarysse. “Early New Testament Manuscripts and Their Dates: A Critique of Theological Palaeography.” <i>Ephemerides Theologicae Lovanienses</i> 88 (2012): 443–74."},
+ barker11:{g:"Palaeography and dating method", t:"Barker, Don. “The Dating of New Testament Papyri.” <i>New Testament Studies</i> 57.4 (2011): 571–82."},
+ nongbri18:{g:"Palaeography and dating method", t:"Nongbri, Brent. <i>God’s Library: The Archaeology of the Earliest Christian Manuscripts</i>. New Haven: Yale University Press, 2018."},
+ nongbri19:{g:"Palaeography and dating method", t:"Nongbri, Brent. “Palaeographic Analysis of Codices from the Early Christian Period: A Point of Method.” <i>Journal for the Study of the New Testament</i> 42 (2019): 84–97."},
+ nongbri25:{g:"Palaeography and dating method", t:"Nongbri, Brent. “Radiocarbon Analysis of Papyrus and Parchment: Pitfalls and Potentials.” In <i>Actes du XXXe Congrès international de papyrologie</i>, edited by Jean-Luc Fournet, 553–66. StudPAP 7. Paris, 2025."},
+ popovic25:{g:"Palaeography and dating method", t:"Popović, Mladen, Maruf A. Dhali, Lambert Schomaker, et al. “Dating Ancient Manuscripts Using Radiocarbon and AI-Based Writing Style Analysis.” <i>PLOS ONE</i> 20.6 (2025): e0323185."},
+ roberts35:{g:"𝔓52", t:"Roberts, C. H. <i>An Unpublished Fragment of the Fourth Gospel in the John Rylands Library</i>. Manchester: Manchester University Press, 1935."},
+ schmidt89:{g:"𝔓52", t:"Schmidt, Andreas. “Zwei Anmerkungen zu P. Ryl. III 457.” <i>Archiv für Papyrusforschung</i> 35 (1989): 11–12."},
+ tuckett01:{g:"𝔓52", t:"Tuckett, Christopher M. “𝔓52 and Nomina Sacra.” <i>New Testament Studies</i> 47 (2001): 544–48."},
+ hurtado03:{g:"𝔓52", t:"Hurtado, L. W. “𝔓52 (P. Rylands Gk. 457) and the Nomina Sacra: Method and Probability.” <i>Tyndale Bulletin</i> 54.1 (2003): 1–14."},
+ nongbri05:{g:"𝔓52", t:"Nongbri, Brent. “The Use and Abuse of 𝔓52: Papyrological Pitfalls in the Dating of the Fourth Gospel.” <i>Harvard Theological Review</i> 98 (2005): 23–48."},
+ porter13:{g:"𝔓52", t:"Porter, Stanley E. “Recent Efforts to Reconstruct Early Christianity on the Basis of Its Papyrological Evidence.” In <i>Christian Origins and Graeco-Roman Culture</i>, edited by Stanley E. Porter and Andrew W. Pitts, 71–84. Leiden: Brill, 2013."},
+ nongbri20:{g:"𝔓52", t:"Nongbri, Brent. “Palaeography, Precision and Publicity: Further Thoughts on P.Ryl. III.457 (𝔓52).” <i>New Testament Studies</i> 66.4 (2020): 471–99."},
+ martin56:{g:"𝔓66", t:"Martin, Victor. <i>Papyrus Bodmer II: Évangile de Jean, chap. 1–14</i>. Cologny-Geneva: Bibliotheca Bodmeriana, 1956."},
+ martinbarns62:{g:"𝔓66", t:"Martin, Victor, and J. W. B. Barns. <i>Papyrus Bodmer II: Supplément, Évangile de Jean, chap. 14–21</i>. New ed. Cologny-Geneva: Bibliotheca Bodmeriana, 1962."},
+ hunger60:{g:"𝔓66", t:"Hunger, Herbert. “Zur Datierung des Papyrus Bodmer II (P66).” <i>Anzeiger der Österreichischen Akademie der Wissenschaften, phil.-hist. Klasse</i> (1960)."},
+ comfort01:{g:"𝔓66", t:"Comfort, Philip W., and David P. Barrett, eds. <i>The Text of the Earliest New Testament Greek Manuscripts</i>. Wheaton: Tyndale House, 2001."},
+ nongbri14:{g:"𝔓66", t:"Nongbri, Brent. “The Limits of Palaeographic Dating of Literary Papyri: Some Observations on the Date and Provenance of P.Bodmer II (𝔓66).” <i>Museum Helveticum</i> 71 (2014): 1–35."},
+ orsini15:{g:"𝔓66", t:"Orsini, Pasquale. “I papiri Bodmer: scritture e libri.” <i>Adamantius</i> 21 (2015): 60–78."},
+ robinson11:{g:"𝔓66", t:"Robinson, James M. <i>The Story of the Bodmer Papyri</i>. Eugene, OR: Cascade, 2011."},
+ casson50:{g:"Other manuscripts", t:"Casson, Lionel, and Ernest L. Hettich. <i>Excavations at Nessana</i>. Vol. 2, <i>Literary Papyri</i>. Princeton: Princeton University Press, 1950."},
+ milneskeat38:{g:"Codex Sinaiticus and Codex Vaticanus", t:"Milne, H. J. M., and T. C. Skeat. <i>Scribes and Correctors of the Codex Sinaiticus</i>. London: British Museum, 1938."},
+ skeat99:{g:"Codex Sinaiticus and Codex Vaticanus", t:"Skeat, T. C. “The Codex Sinaiticus, the Codex Vaticanus and Constantine.” <i>Journal of Theological Studies</i> n.s. 50 (1999): 583–625."},
+ parker10:{g:"Codex Sinaiticus and Codex Vaticanus", t:"Parker, D. C. <i>Codex Sinaiticus: The Story of the World’s Oldest Bible</i>. London: British Library, 2010."},
+ nongbri22:{g:"Codex Sinaiticus and Codex Vaticanus", t:"Nongbri, Brent. “The Date of Codex Sinaiticus.” <i>Journal of Theological Studies</i> n.s. 73.2 (2022): 516–34."},
+ smith14:{g:"Other manuscripts", t:"Smith, W. Andrew. <i>A Study of the Gospels in Codex Alexandrinus: Codicology, Palaeography, and Scribal Hands</i>. NTTSD 48. Leiden: Brill, 2014."},
+ tisch43:{g:"Other manuscripts", t:"Tischendorf, Constantin von. <i>Codex Ephraemi Syri rescriptus sive fragmenta Novi Testamenti</i>. Leipzig: Tauchnitz, 1843."},
+ lyon59:{g:"Other manuscripts", t:"Lyon, Robert W. “A Re-examination of Codex Ephraemi Rescriptus.” <i>New Testament Studies</i> 5 (1958–59)."},
+ sanders12:{g:"Other manuscripts", t:"Sanders, Henry A. <i>The New Testament Manuscripts in the Freer Collection</i>. Part 1, <i>The Washington Manuscript of the Four Gospels</i>. New York: Macmillan, 1912."},
+ hurtado06freer:{g:"Other manuscripts", t:"Hurtado, Larry W., ed. <i>The Freer Biblical Manuscripts: Fresh Studies of an American Treasure Trove</i>. Text-Critical Studies 6. Atlanta: Society of Biblical Literature, 2006."},
+};
+
+// Why each date: evidence + positions [who, claim, bibkey]
+const LATE_MAJ = "Written in a late majuscule (from about 800, most new Greek books were in minuscule, and majuscule was kept mainly for liturgical Gospel books). The date rests on comparison with a handful of dated majuscules (for example Vat. gr. 1666, dated 800, and 028 S, dated 949) and on features such as routine accents and breathings, heavy thick–thin contrast and liturgical reading marks. No dedicated recent dating study was found for this manuscript; the date is the INTF catalogue’s.";
+const EARLY_FRAG = "Dated from its script alone; there is no colophon or find context. No dedicated dating study was found, so the date is the INTF catalogue’s and should be treated as a century-wide estimate.";
+const DATING = {
+ p52:{ev:"Only about a hundred letters survive. The hand is a fairly careful, rounded book script with some decorative hooks, written by someone used to copying literary texts. Every proposed date comes from comparing these letters with dated documents; there is no archaeological context, because the fragment was bought from a dealer. That it comes from a codex, not a roll, fits a Christian book but does not narrow the date.",
+  pos:[["Roberts (1935)","First half of the 2nd century, from comparison with documentary papyri of the late 1st and early 2nd centuries. Roberts reported that Kenyon, Schubart and Bell agreed.","roberts35"],
+       ["Schmidt (1989)","About 170, give or take 25 years.","schmidt89"],
+       ["Nongbri (2005, 2020)","Comparable hands appear in documents dated to the later 2nd and early 3rd centuries, so no honest range can stop at 150. The 2020 article also publishes new details on how the fragment was acquired.","nongbri05"],
+       ["Barker (2011)","Places 𝔓52 in its ‘graphic stream’ and concludes that a range across the 2nd century and possibly into the 3rd is defensible.","barker11"],
+       ["Orsini & Clarysse (2012)","125–175.","orsclar12"],
+       ["Porter (2013)","Mid-2nd century; argues the similar P.Egerton 2 should be dated early too, and that later datings over-correct.","porter13"],
+       ["Tuckett (2001) and Hurtado (2003)","A related question: whether the scribe abbreviated Jesus’ name as a ‘sacred name’ (nomen sacrum). Tuckett doubts it can be shown; Hurtado argues it is probable from line lengths and scribal practice.","hurtado03"]],
+  lit:["roberts35","schmidt89","tuckett01","hurtado03","nongbri05","barker11","orsclar12","porter13","nongbri20","nongbri18"]},
+ p66:{ev:"A large, rounded, carefully spaced hand, much more text than 𝔓52 and so more letters to compare. The codex is thought to belong to the ‘Bodmer papyri’, a group of books apparently found together near Dishna in Upper Egypt. Many of the other books in that group are 4th century or later, which matters if they were buried together.",
+  pos:[["Martin (1956)","First editor: about 200.","martin56"],
+       ["Hunger (1960)","First half of the 2nd century, from comparison with early documentary hands.","hunger60"],
+       ["Comfort & Barrett (2001)","Among the scholars arguing for a 2nd-century date.","comfort01"],
+       ["Orsini & Clarysse (2012)","200–250.","orsclar12"],
+       ["Nongbri (2014)","Comparable hands continue into the 4th century, and the book’s likely find context points the same way; a 4th-century date is at least as plausible.","nongbri14"],
+       ["Orsini (2015)","Revised to the late 3rd or early 4th century.","orsini15"]],
+  lit:["martin56","martinbarns62","hunger60","comfort01","orsclar12","nongbri14","orsini15","robinson11"]},
+ p60:{ev:"Unusually for a papyrus, it has an archaeological context. It was excavated at Nessana in the Negev together with documents that carry dates in the 6th and 7th centuries, which supports the palaeographic date.",
+  pos:[["Casson & Hettich (1950)","Editors of the Nessana literary papyri.","casson50"],["INTF","7th century.","aland94"]],
+  lit:["casson50","aland94"]},
+ "01":{ev:"Biblical majuscule in its ‘canonical’ form: letters fill a square frame, round letters are circles, strokes are nearly even in thickness and there is little ornament. The Eusebian section numbers in the Gospels give a ‘not before’ date in the early 4th century. Milne and Skeat identified the scribes and used features of their work to argue for the mid-4th century.",
+  pos:[["Milne & Skeat (1938)","Mid-4th century, based on the scribes, their corrections and the apparatus.","milneskeat38"],
+       ["Skeat (1999)","Suggests Sinaiticus and Vaticanus were made at Caesarea around the time Constantine ordered fifty Bibles from Eusebius (c. 330s).","skeat99"],
+       ["Parker (2010)","Mid-4th century.","parker10"],
+       ["Nongbri (2022)","The secure evidence allows anywhere from about 300 to about 425: the Eusebian apparatus sets the lower limit, and cursive marginal notes resemble documents into the early 5th century. Calls for radiocarbon testing.","nongbri22"]],
+  lit:["milneskeat38","skeat99","parker10","nongbri22","cavallo67"]},
+ "03":{ev:"Early Biblical majuscule with almost no ornament, three columns per page, and no Eusebian section numbers (it uses an older system of chapter divisions). These features are the main reasons it is usually placed at or before the middle of the 4th century.",
+  pos:[["Skeat (1999)","Made alongside Sinaiticus, probably at Caesarea, around the 330s.","skeat99"],["Cavallo (1967)","A key example of Biblical majuscule in its mature form.","cavallo67"]],
+  lit:["cavallo67","skeat99","parker08"]},
+ "02":{ev:"A later phase of Biblical majuscule: more contrast between thick and thin strokes, some ornament, and enlarged initials standing out in the margin. It contains Athanasius’s Letter to Marcellinus and has the Eusebian apparatus, both pointing after the mid-4th century.",
+  pos:[["Smith (2014)","The fullest study of its codicology, scribes and palaeography in the Gospels.","smith14"]],
+  lit:["smith14","cavallo67","cavmaeh87"]},
+ "04":{ev:"A palimpsest, so the Bible text must be read beneath the later writing. Its single-column Biblical majuscule is usually compared with Codex Alexandrinus, hence a 5th-century date.",
+  pos:[["Tischendorf (1843)","First deciphered and published the underlying New Testament text.","tisch43"],["Lyon (1958–59)","Re-examined the manuscript and Tischendorf’s readings.","lyon59"]],
+  lit:["tisch43","lyon59"]},
+ "032":{ev:"Its script is not the Biblical majuscule of the great codices, so the usual comparisons work less well. Its unusual script and the likelihood that it was copied from several exemplars make it hard to pin down more tightly than the late 4th or 5th century.",
+  pos:[["Sanders (1912)","First editor; late 4th to 5th century.","sanders12"],["Hurtado, ed. (2006)","A collection of new studies of the Freer manuscripts, including their palaeography and codicology.","hurtado06freer"]],
+  lit:["sanders12","hurtado06freer"]},
+ "019":{ev:"A late, somewhat irregular majuscule. The INTF places it in the 8th century; some specialists prefer the 9th, which is why its timeline bar is long.", pos:[["INTF","8th century.","aland94"]], lit:["aland94","parker08"]},
+ "037":{ev:"Dated by its setting as much as its script: it was made by Irish scholars working on the Continent, and it belongs with two sister Greek–Latin manuscripts (a Psalter in Basel and Codex Boernerianus of Paul’s letters in Dresden). The Abbey Library dates it to around 850.", pos:[["Abbey Library of St Gall / e-codices","About 850.","aland94"]], lit:["aland94"]},
+ "0211":{ev:"Palaeographers once placed it in the 7th century; the INTF now dates it to the 9th. Without a colophon, the gap reflects how differently late majuscule hands can be read.", pos:[["INTF","9th century (earlier assessments: 7th).","aland94"]], lit:["aland94"]},
+ "044":{ev:"Proposals run from the 8th to the 10th century. Its late majuscule has been read in different ways, and there is no colophon to settle the question.", pos:[["INTF","9th/10th century.","aland94"]], lit:["aland94"]},
+};
+["07","047","054","011","013","017","021","030","034","038","039","041","045","0290"].forEach(k=>{ DATING[k] = {ev:LATE_MAJ, pos:[], lit:["aland94","cavmaeh87"]}; });
+["087","0109","0250"].forEach(k=>{ DATING[k] = {ev:EARLY_FRAG, pos:[], lit:["aland94","cavmaeh87"]}; });
+
+const PEOPLE = [
+ ["C. H. Roberts (1909–1990)","First editor of 𝔓52 and the source of its famous early date.","roberts35"],
+ ["Herbert Hunger (1914–2000)","Vienna Byzantinist who argued for an early 2nd-century 𝔓66.","hunger60"],
+ ["T. C. Skeat (1907–2003)","With H. J. M. Milne, identified the scribes of Sinaiticus; later linked Sinaiticus and Vaticanus to Constantine’s order of Bibles.","skeat99"],
+ ["Eric G. Turner (1911–1983)","Classified early codices by format and repeatedly cautioned against over-precise palaeographic dates.","turner77"],
+ ["Guglielmo Cavallo","Defined Biblical majuscule and its phases, the framework used for dating the great codices.","cavallo67"],
+ ["Pasquale Orsini & Willy Clarysse","Re-dated early New Testament papyri and criticised ‘theological palaeography’.","orsclar12"],
+ ["Brent Nongbri","Argues for wider, often later, date ranges (𝔓52, 𝔓66, Sinaiticus) and for radiocarbon testing.","nongbri18"],
+ ["Don Barker","Proposed the ‘graphic stream’ method for comparing like with like.","barker11"],
+ ["Stanley E. Porter","Defends mid-2nd-century dates for 𝔓52 and P.Egerton 2.","porter13"],
+ ["Larry W. Hurtado (1943–2019)","Studied early Christian manuscripts as artifacts (codex, nomina sacra, staurogram).","hurtado06"],
+ ["Philip W. Comfort","A leading advocate of early dates for the New Testament papyri.","comfort01"],
+ ["D. C. Parker","Textual critic; author of the standard introduction and a study of Sinaiticus.","parker08"],
+ ["Mladen Popović","Leads the team combining radiocarbon with AI handwriting analysis (tested on the Dead Sea Scrolls).","popovic25"],
+];
+const short = k => { const t = BIB[k].t.replace(/<[^>]+>/g,""); return t.length>90 ? t.slice(0, t.indexOf(".")+1) : t; };
+function renderPeople(){
+  document.getElementById("people").innerHTML = PEOPLE.map(([n,c,k])=>`<tr><td>${n}</td><td>${c}</td><td>${BIB[k].t}</td></tr>`).join("");
+}
+function renderBib(){
+  const groups = {};
+  Object.values(BIB).forEach(b=>{ (groups[b.g] ||= []).push(b.t); });
+  const order = ["Palaeography and dating method","𝔓52","𝔓66","Codex Sinaiticus and Codex Vaticanus","Other manuscripts","Reference catalogues and handbooks"];
+  const sortKey = s => s.replace(/<[^>]+>/g,"").toLowerCase();
+  document.getElementById("bib").innerHTML = order.filter(g=>groups[g]).map(g=>
+    `<div><h3>${g}</h3><ul>${groups[g].sort((a,b)=>sortKey(a).localeCompare(sortKey(b))).map(t=>`<li>${t}</li>`).join("")}</ul></div>`).join("");
+}
+function datingBlock(m){
+  const d = DATING[m.id]; if (!d) return "";
+  const pos = d.pos.length ? `<dt>Positions</dt><dd><ul class="pos">${d.pos.map(([w,c])=>`<li><b>${esc(w)}</b>: ${esc(c)}</li>`).join("")}</ul></dd>` : "";
+  return `<dt>Why this date</dt><dd>${esc(d.ev)}</dd>${pos}<dt>Read further</dt><dd><ul class="lit">${d.lit.map(k=>`<li>${BIB[k].t}</li>`).join("")}</ul></dd>`;
+}
+
+// List
+function card(m){
+  const links = [`<a class="btn primary" href="${VMR(m.vmr)}" target="_blank" rel="noopener">INTF Virtual Manuscript Room</a>`]
+    .concat(m.imgs.map(([l,u])=>`<a class="btn" href="${u}" target="_blank" rel="noopener">${esc(l)}</a>`)).join("");
+  return `<article class="ms" id="ms-${m.id}">
+    <div class="sig">${esc(m.sig)}<small>GA ${esc(m.ga)}</small></div>
+    <div class="body">
+      <h3>${esc(m.name)}</h3>
+      <div class="facts">
+        <span class="tag date">${esc(m.date)}</span>
+        <span class="tag ${m.conf==="Firm"?"firm":"debated"}">Date: ${m.conf}</span>
+        <span class="tag mat"><i class="sw" style="background:${MATCOL[m.mat]}"></i>${MATNAME[m.mat]}${m.pal?" · palimpsest":""}</span>
+      </div>
+      <p class="where">${esc(m.lib)} · ${esc(m.shelf)} · ${esc(m.city)}</p>
+      <p class="summary">${esc(m.summary)}</p>
+      <div class="links">${links}</div>
+      <details${m.conf==="Debated"?" open":""}><summary>Full record and dating evidence</summary>
+        <dl>
+          <dt>What survives</dt><dd>${esc(m.contents)}</dd>
+          <dt>Dating summary</dt><dd>${esc(m.dating)}</dd>
+          ${datingBlock(m)}
+          <dt>Provenance</dt><dd>${esc(m.prov)}</dd>
+          <dt>Catalogue no.</dt><dd>Gregory–Aland ${esc(m.ga)}</dd>
+        </dl>
+      </details>
+    </div>
+  </article>`;
+}
+function render(){
+  document.getElementById("list").innerHTML = MSS.map(card).join("");
+  applyFilters();
+}
+function matches(m){
+  if (state.mat!=="all" && m.mat!==state.mat) return false;
+  if (state.era!=="all" && eraOf(m)!==state.era) return false;
+  if (state.conf!=="all" && m.conf!==state.conf) return false;
+  if (state.q){
+    const hay = [m.sig,m.ga,m.name,m.lib,m.city,m.shelf].join(" ").toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+function applyFilters(){
+  let n = 0;
+  MSS.forEach(m=>{
+    const ok = matches(m); if (ok) n++;
+    const el = document.getElementById("ms-"+m.id); if (el) el.hidden = !ok;
+    const g = document.querySelector(`#tl g.m[data-id="${m.id}"]`); if (g) g.classList.toggle("dim", !ok);
+  });
+  document.getElementById("count").textContent = `Showing ${n} of ${MSS.length}`;
+  let empty = document.getElementById("empty");
+  if (!n && !empty){ empty = document.createElement("p"); empty.id="empty"; empty.className="empty"; empty.textContent="No manuscripts match these filters. Clear the search or choose “All”."; document.getElementById("list").appendChild(empty); }
+  if (n && empty) empty.remove();
+}
+function resetFilters(){
+  state.mat=state.era=state.conf="all"; state.q="";
+  document.getElementById("q").value="";
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", c.dataset.v==="all"?"true":"false"));
+  applyFilters();
+}
+document.querySelectorAll(".chip").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    const f = btn.dataset.f;
+    state[f] = btn.dataset.v;
+    document.querySelectorAll(`.chip[data-f="${f}"]`).forEach(c=>c.setAttribute("aria-pressed", c===btn?"true":"false"));
+    applyFilters();
+  });
+});
+document.getElementById("q").addEventListener("input", e=>{ state.q = e.target.value.trim().toLowerCase(); applyFilters(); });
+
+drawTimeline();
+render();
+renderPeople();
+renderBib();
+</script>

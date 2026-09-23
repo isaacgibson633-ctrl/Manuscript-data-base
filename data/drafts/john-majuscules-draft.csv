@@ -1,0 +1,66 @@
+ga,name,date,john_contents,holding,city,notes
+01,א Sinaiticus,4th,complete,British Library (NT),London,in v0.2 page
+02,A Alexandrinus,5th,lacks 6:50-8:52,British Library,London,in v0.2 page
+03,B Vaticanus,4th,complete,Vatican Library,Vatican City,in v0.2 page
+04,C Ephraemi Rescriptus,5th,lacks 1:1-3; 1:41-3:33; 5:17-6:38; 7:3-8:34; 9:11-11:7; 11:47-13:7; 14:8-16:21; 18:36-20:25,BnF,Paris,palimpsest; lacks John 1:1-3
+05,D Bezae,5th,Greek lacks 1:16-3:26; 18:14-20:13 is a later supplement,Cambridge University Library,Cambridge,Greek-Latin; check exact lacunae
+07,E Basilensis,8th,complete,University Library,Basel,
+09,F Boreelianus,9th,lacks 3:5-14; 4:23-38; 5:18-38; 6:39-63; 7:28-8:10; 10:32-11:3; 12:14-25; 13:34-end,Utrecht University,Utrecht,
+011,G Seidelianus I,9th,lacks 18:5-19; 19:4-27,British Library,London,
+013,H Seidelianus II,9th,lacks 9:30-10:25; 18:2-18; 20:12-25,SUB Hamburg,Hamburg,
+017,K Cyprius,9th,complete,BnF,Paris,
+019,L Regius,8th,lacks 21:15-25,BnF,Paris,
+021,M Campianus,9th,complete,BnF,Paris,
+022,N Petropolitanus Purpureus,6th,"1:1-21; 1:39-2:6; 3:30-4:5; 5:3-10, 19-26; 6:49-57; 9:33-14:2; 14:11-15:14; 15:22-16:15; 20:23-25, 28-30; 21:20-25",National Library of Russia and others,St Petersburg etc.,"purple codex, dispersed"
+024,P Guelferbytanus A,6th,1:29-40; 2:13-25; 21:1-11,Herzog August Bibliothek,Wolfenbüttel,palimpsest
+026,Q Guelferbytanus B,5th,fragments (check ranges),Herzog August Bibliothek,Wolfenbüttel,palimpsest; Luke and John
+029,"T Borgianus (+0113, 0125, 0139)",5th,1:24-32; 3:10-17; 4:52-5:7; 6:28-67; 7:6-8:31,Vatican Library and others,Vatican City etc.,Greek-Sahidic
+030,U Nanianus,9th,complete,Biblioteca Marciana,Venice,
+031,V Mosquensis II,9th,majuscule to 8:39 (rest 13th-c. minuscule),State Historical Museum,Moscow,
+032,W Washingtonianus,4th/5th,lacks 14:26-16:7; 1:1-5:11 is a 7th-c. replacement quire,"Freer Gallery, Smithsonian","Washington, DC",check 1:1-5:11 supplement date
+034,Y Macedoniensis,9th,lacks 20:27-21:17,Cambridge University Library,Cambridge,
+037,Δ Sangallensis 48,9th,lacks 19:17-35,Stiftsbibliothek,St. Gallen,Greek-Latin interlinear
+038,Θ Koridethi,9th,complete,National Centre of Manuscripts,Tbilisi,
+039,Λ Tischendorfianus III,9th,complete,Bodleian Library,Oxford,Luke and John only
+041,Π Petropolitanus,9th,lacks 6:15-35; 8:6-39; 9:21-10:3; 21:22-25 later supplement,National Library of Russia,St Petersburg,
+044,Ψ Athous Lavrensis,9th/10th (debated),complete,Great Lavra,Mount Athos,borderline date
+045,Ω Athous Dionysiou,9th,complete,Dionysiou Monastery,Mount Athos,
+047,047,8th,lacks 12:18-41; 14:8-15:1; 18:34-21:25,Princeton University Library,Princeton,
+050,050,9th,"1:1, 3-4; 2:17-3:8; 3:12-13, 20-22; 4:7-14; 20:10-13, 15-17","Athens, Athos, Moscow, Oxford",various,John with commentary; has John 1:1
+054,054,8th,16:3-19:41,Vatican Library,Vatican City,with commentary
+060,060,6th,"14:14-17, 19-21, 23-24, 26-28",Berlin State Museums,Berlin,
+065,065,6th,11:50-12:9; 15:12-16:2; 19:11-24,National Library of Russia,St Petersburg,
+068,068,5th,"13:16-17, 19-20, 23-24, 26-27; 16:7-9, 12-13, 15-16, 18-19",British Library,London,palimpsest
+070,"070 (+0110, 0124, 0178-0180, 0190-0191, 0193-0194, 0202)",6th,"3:23-26; 5:22-31; 7:3-12; 8:13-22, 33-42; 11:50-56; 12:33-34, 46-13:4","Paris, London, Vienna, Oxford",various,Greek-Sahidic; dispersed
+078,078,6th,4:52-5:9; 20:17-26,National Library of Russia,St Petersburg,palimpsest
+083,083,5th/6th,"1:25-41; 2:9-4:14, 34-50 (check)",National Library of Russia; St Catherine's,St Petersburg; Sinai,also Mark 13-16 (relevant to Mark ending)
+086,086,6th,"1:23-26; 3:5-4:18, 23-35, 45-49",British Library; Egyptian Museum,London; Cairo,Greek-Coptic
+087,087,6th,18:29-35,National Library of Russia; St Catherine's,St Petersburg; Sinai,in v0.2 page
+091,091,6th,"6:13-14, 22-24, 38-42, 44-45, 47-52, 54-62",St Petersburg (two libraries),St Petersburg,
+0101,0101,8th,1:29-32,Austrian National Library,Vienna,
+0109,0109,7th,16:30-17:9; 18:31-40,Berlin State Museums,Berlin,in v0.2 page
+0127,0127,8th,2:2-11,BnF,Paris,Greek-Coptic
+0145,0145,7th,6:26-31,owner unknown,,
+0162,0162,3rd/4th,2:11-22,Metropolitan Museum of Art,New York,one of the earliest parchment NT fragments
+0210,0210,7th,"5:44; 6:1-2, 41-42",Berlin State Museums,Berlin,
+0211,0211,"9th (debated, 7th proposed)",complete,National Centre of Manuscripts,Tbilisi,in v0.2 page
+0216,0216,5th,8:51-53; 9:5-8,Austrian National Library,Vienna,
+0217,0217,5th,11:57-12:7,Austrian National Library,Vienna,
+0218,0218,5th,"12:2-6, 9-11, 14-16",Austrian National Library,Vienna,
+0233,0233,8th,lacunose (ranges unknown),Bible Museum,Münster,palimpsest; needs checking
+0234,0234,8th,"1:4-8, 20-24",owner unknown,,also Matthew 28:11-15
+0238,0238,8th,7:10-12,Austrian National Library,Vienna,
+0250,0250 Climaci Rescriptus,8th (7th/8th),scattered parts of chs. 6-21,Museum of the Bible; St Catherine's,Washington; Sinai,palimpsest; in v0.2 page
+0256,0256,8th,"6:32-33, 35-37",Austrian National Library,Vienna,
+0264,0264,5th,"8:19-20, 23-24",Berlin State Museums,Berlin,
+0268,0268,7th,1:30-33,Berlin State Museums,Berlin,
+0273,0273,9th,2:17-3:5; 4:23-37; 5:35-6:2,British Library,London,
+0286,0286,6th,10:12-16,St Catherine's,Sinai,also Matthew 16:13-19
+0287,0287,9th,"fragments of chs. 2, 10, 12, 13, 17, 20, 21",St Catherine's,Sinai,
+0290,0290,9th,18:4-20:2,St Catherine's,Sinai,in v0.2 page
+0301,0301,5th,17:1-4,Schøyen Collection,Oslo,
+0302,0302,6th,10:29-30,Berlin State Museums,Berlin,
+0306,0306,9th,"9:22-10:3, 5-8, 10-12; 11:6-37, 39-41",Bodleian Library,Oxford,
+0309,0309,6th,"20:22-24, 28-30",University of Cologne,Cologne,
+0314,0314,6th,5:43,De Hamel Collection,Cambridge,
+0323,0323,4th/5th,parts of 7:6-9:23,St Catherine's (Syr. 30),Sinai,palimpsest

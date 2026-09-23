@@ -1,0 +1,17 @@
+siglum,name,date,john_contents,holding,city,text_type,notes
+VL 3 (a),Codex Vercellensis,4th,John (with gaps),Cathedral Chapter Archive,Vercelli,Old Latin,traditionally linked to Eusebius of Vercelli (d. 371)
+VL 2 (e),Codex Palatinus,5th,John (with gaps),Trent; Dublin; London,various,Old Latin,purple codex; African-type text
+VL 4 (b),Codex Veronensis,5th,John (with gaps),Biblioteca Capitolare,Verona,Old Latin,purple codex
+VL 5 (d),"Codex Bezae, Latin side",5th,John (with gaps),Cambridge University Library,Cambridge,Old Latin,facing page of Greek 05
+VL 8 (ff2),Codex Corbeiensis II,5th,John (with gaps),"BnF, lat. 17225",Paris,Old Latin,
+VL 10 (f),Codex Brixianus,6th,John,Biblioteca Queriniana,Brescia,Old Latin/Vulgate mix,purple codex
+VL 13 (q),Codex Monacensis,6th/7th,John (with gaps),"Bavarian State Library, Clm 6224",Munich,Old Latin,
+VL 14 (r1),Codex Usserianus Primus,7th,John (with gaps),"Trinity College Dublin, MS 55",Dublin,Old Latin,Irish
+VL 11 (l),Codex Rehdigeranus,8th,John (with gaps),Berlin State Library,Berlin,Old Latin,
+Σ,Codex Sangallensis 1395,5th,parts of John,"Stiftsbibliothek, Cod. Sang. 1395",St. Gallen,Vulgate,oldest Vulgate Gospels
+F,Codex Fuldensis,546/547,"John, woven into a Gospel harmony","Hochschul- und Landesbibliothek, Codex Bonifatianus 1",Fulda,Vulgate,dated by Victor of Capua; harmony form
+A,Codex Amiatinus,c. 700,complete,"Biblioteca Medicea Laurenziana, Amiatino 1",Florence,Vulgate,made at Wearmouth-Jarrow
+—,St Cuthbert Gospel,late 7th,complete (John only),"British Library, Add MS 89000",London,Vulgate,oldest intact European bound book
+Y,Lindisfarne Gospels,c. 715-720,complete,"British Library, Cotton MS Nero D IV",London,Vulgate,later Old English gloss
+—,Book of Durrow,7th,complete,"Trinity College Dublin, MS 57",Dublin,Vulgate,
+—,Book of Kells,c. 800,to 17:13,"Trinity College Dublin, MS 58",Dublin,Vulgate (mixed),John breaks off at 17:13

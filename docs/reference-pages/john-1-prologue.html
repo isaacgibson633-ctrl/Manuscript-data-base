@@ -1,0 +1,352 @@
+<title>John's Prologue in the Manuscripts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+:root{
+  --ground:#EDEFEA; --surface:#F8F9F6; --ink:#1B2024; --muted:#566067; --line:#D3D8D0;
+  --accent:#2A4A7F; --accent-soft:#DCE4F0; --rubric:#9E2B25;
+  --papyrus:#C4861A; --parchment:#6A5245; --latin:#4F6B5A;
+  --firm:#2F6B4A; --firm-soft:#DDEBE2; --debated:#8A5A12; --debated-soft:#F3E6CC;
+  --cell-empty:#E3E6E0;
+  --display:"GFS Didot","Didot","Bodoni 72",Georgia,serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+    --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+    --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+    --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+    --cell-empty:#242A2F;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+  --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+  --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+  --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+  --cell-empty:#242A2F;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding:0 16px}
+.wrap{max-width:1000px;margin:0 auto;padding-block:40px 64px;display:flex;flex-direction:column;gap:52px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible,td[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(34px,6vw,54px)}
+h2{font-size:30px}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.draft{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rubric);color:var(--rubric);padding:2px 8px;border-radius:3px}
+header{display:flex;flex-direction:column;gap:18px}
+header .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.lede{max-width:66ch}
+.stats{display:flex;gap:28px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.stats b{display:block;font-family:var(--display);font-weight:400;font-size:32px;color:var(--ink);line-height:1.1}
+section{display:flex;flex-direction:column;gap:14px}
+section > p{max-width:68ch}
+
+/* Verse reader */
+.reader{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 0}
+.v{display:grid;grid-template-columns:44px 1fr auto;gap:4px 14px;padding:10px 20px;border-bottom:1px solid var(--line);align-items:baseline}
+.v:last-child{border-bottom:0}
+.vn{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.vt{max-width:70ch}
+.vg{grid-column:2 / 4;font-family:var(--display);font-size:19px;line-height:1.45;color:var(--ink)}
+.vflags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.flag{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:3px;white-space:nowrap;text-decoration:none}
+.flag.var{background:var(--accent-soft);color:var(--accent)}
+.flag.tr{background:var(--debated-soft);color:var(--debated)}
+.vw{font-family:var(--mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
+
+/* Matrix */
+.mx-box{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.mx{border-collapse:separate;border-spacing:0;font-size:13px;min-width:760px;width:100%}
+.mx th,.mx td{padding:0;text-align:center;border-bottom:1px solid var(--line)}
+.mx thead th{font-family:var(--mono);font-weight:500;font-size:11px;color:var(--muted);padding:10px 0 8px;position:sticky;top:0;background:var(--surface)}
+.mx th.ms{position:sticky;left:0;background:var(--surface);text-align:left;padding:7px 12px;font-weight:400;z-index:1;min-width:190px;border-right:1px solid var(--line)}
+.mx th.ms .s{font-family:var(--display);font-size:17px;color:var(--ink)}
+.mx th.ms .d{display:block;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tr.grp th{background:var(--ground);text-align:left;padding:8px 12px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);position:sticky;left:0}
+.mx td{width:34px}
+.c{display:block;width:18px;height:18px;margin:auto;border-radius:3px;background:var(--cell-empty)}
+.c.y{background:var(--parchment)}
+.c.y.pap{background:var(--papyrus)}
+.c.y.lat{background:var(--latin)}
+.c.s{background:repeating-linear-gradient(135deg,var(--parchment) 0 3px,transparent 3px 6px);outline:1px solid var(--parchment);outline-offset:-1px}
+.c.q{background:transparent;outline:1px dashed var(--muted);outline-offset:-1px}
+.mx td.tot{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tfoot td,.mx tfoot th{font-family:var(--mono);font-size:11px;color:var(--ink);padding:8px 0;border-bottom:0;background:var(--surface)}
+.mx tfoot th{position:sticky;left:0;text-align:left;padding-left:12px;border-right:1px solid var(--line)}
+.dtag{font-family:var(--mono);font-size:10.5px;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:1px}
+.dtag.deb{background:var(--debated-soft);color:var(--debated)}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend .c{margin:0;width:14px;height:14px}
+
+/* Variant cards */
+.variants{display:flex;flex-direction:column;gap:18px}
+.vc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:20px}
+.vc h3{font-size:24px}
+.vc .ref{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.readings{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
+.rd{border:1px solid var(--line);border-radius:5px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.rd .gk{font-family:var(--display);font-size:20px}
+.rd .en{font-style:italic}
+.rd .wit{font-family:var(--mono);font-size:12px;color:var(--muted);line-height:1.5}
+.rd.printed{border-color:var(--accent)}
+.rd .pl{font-family:var(--mono);font-size:11px;color:var(--accent)}
+.vc p{max-width:72ch}
+.vc details summary{cursor:pointer;color:var(--accent);font-family:var(--mono);font-size:12.5px}
+.vc ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.vc.tr{border-style:dashed}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.plain{border-collapse:collapse;width:100%;font-size:14.5px;min-width:600px}
+table.plain th,table.plain td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.plain th{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+table.plain tr:last-child td{border-bottom:0}
+.note{font-size:14px;color:var(--muted)}
+#bib ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;max-width:80ch}
+#bib li{padding-left:2em;text-indent:-2em;font-size:15px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+footer p{max-width:78ch}
+@media (max-width:640px){
+  .v{grid-template-columns:34px 1fr;padding:10px 14px}
+  .vflags{grid-column:2;justify-content:flex-start}
+  .vg{grid-column:2}
+  .mx th.ms{min-width:140px}
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="top"><span class="eyebrow">Gospel of John · chapter 1</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
+  <h1>The Prologue, John 1:1–18</h1>
+  <p class="lede">Which early manuscripts preserve each verse of John’s opening hymn, where they disagree, and which disagreements change how the passage is translated. Greek manuscripts up to AD 900 come first; early Latin manuscripts follow as a second layer.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section aria-labelledby="read-h">
+  <h2 id="read-h">The passage, verse by verse</h2>
+  <p>A literal translation of our own, following the modern critical Greek text. Greek is shown where the manuscripts differ. Coloured tags mark a manuscript variant (blue) or a translation question saved for a later sweep (amber); the count is how many Greek witnesses up to 900 preserve the verse.</p>
+  <div class="reader" id="reader"></div>
+</section>
+
+<section aria-labelledby="mx-h">
+  <h2 id="mx-h">Who preserves which verse</h2>
+  <p>Each row is a manuscript, each column a verse. A filled square means at least part of that verse survives in that manuscript. John’s opening chapter is unusually well covered: the two great early papyri both begin at 1:1, and so do nearly all the complete Gospel books.</p>
+  <div class="legend">
+    <span><i class="c y pap"></i>Papyrus</span>
+    <span><i class="c y"></i>Parchment</span>
+    <span><i class="c s"></i>Later replacement leaves (still before 900)</span>
+    <span><i class="c q"></i>Survives, extent to check</span>
+    <span><i class="c"></i>Lost or never included</span>
+  </div>
+  <div class="mx-box"><table class="mx" id="mx"></table></div>
+  <p class="note">Coverage is taken from published contents lists and each manuscript’s recorded gaps. It has not yet been checked leaf by leaf against the INTF catalogue. 0233 (Münster, 8th century) is left out until its surviving text is known.</p>
+</section>
+
+<section aria-labelledby="var-h">
+  <h2 id="var-h">Where the manuscripts disagree</h2>
+  <p>Most differences in these eighteen verses are spelling and word order. Four places matter for meaning. The printed reading of the modern critical edition (Nestle–Aland, 28th edition) is outlined.</p>
+  <div class="variants" id="variants"></div>
+</section>
+
+<section aria-labelledby="tr-h">
+  <h2 id="tr-h">Saved for the translation sweep</h2>
+  <div class="vc tr" id="v1-1">
+    <span class="ref">John 1:1c · translation question, not a manuscript variant</span>
+    <h3>“The Word was God”, “a god”, or “divine”?</h3>
+    <div class="readings"><div class="rd"><span class="gk" lang="grc">καὶ θεὸς ἦν ὁ λόγος</span><span class="wit">Read the same way in every early Greek manuscript that preserves the verse.</span></div></div>
+    <p>The manuscripts agree; the debate is grammatical. Here θεός has no article and stands before the verb. Colwell (1933) observed that definite predicate nouns placed before the verb usually lack the article, which leaves room for “God”. Harner (1973) argued that such nouns are chiefly qualitative, stressing what the Word is, which is why some translations use “divine” or “what God was”. “A god” is the reading of a minority of translations. This will be treated in full in the translation sweep.</p>
+    <details><summary>Scholarly works</summary><ul>
+      <li>Colwell, E. C. “A Definite Rule for the Use of the Article in the Greek New Testament.” <i>Journal of Biblical Literature</i> 52 (1933): 12–21.</li>
+      <li>Harner, Philip B. “Qualitative Anarthrous Predicate Nouns: Mark 15:39 and John 1:1.” <i>Journal of Biblical Literature</i> 92 (1973): 75–87.</li>
+    </ul></details>
+  </div>
+</section>
+
+<section aria-labelledby="lat-h">
+  <h2 id="lat-h">The Latin layer</h2>
+  <p>Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings, like the singular at 1:13. These are key Latin witnesses up to AD 900; verse-level coverage for the Old Latin manuscripts is still to be mapped.</p>
+  <div class="tbl"><table class="plain">
+    <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>John 1:1–18</th></tr></thead>
+    <tbody id="latin"></tbody>
+  </table></div>
+</section>
+
+<section id="bib" aria-labelledby="bib-h">
+  <h2 id="bib-h">Scholarly works for this passage</h2>
+  <ul id="biblist"></ul>
+</section>
+
+<footer>
+  <p><b>Status.</b> Draft, revised. Variant witness lists were cross-checked against the NET Bible text-critical notes and published apparatus summaries; Latin coverage against catalogue descriptions of each codex. A final check against the printed Nestle–Aland 28 apparatus and the INTF Virtual Manuscript Room is still needed before public release.</p>
+  <p><b>Dating.</b> Dates are INTF catalogue dates. The evidence and debates behind them live in each manuscript’s record (see the John 18:31 page for the format).</p>
+</footer>
+</div>
+
+<script>
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const all = [1,18];
+// cov: [from,to] ranges; sup: replacement leaves; q: extent to check
+const MS = [
+ {g:"pap", s:"𝔓66", n:"Papyrus Bodmer II", d:"c. 200", deb:true, cov:[all]},
+ {g:"pap", s:"𝔓75", n:"Papyrus Bodmer XIV–XV", d:"c. 200–225", deb:true, cov:[all]},
+ {g:"maj", s:"01 א", n:"Sinaiticus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"03 B", n:"Vaticanus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"02 A", n:"Alexandrinus", d:"5th c.", cov:[all]},
+ {g:"maj", s:"04 C", n:"Ephraemi Rescriptus", d:"5th c.", cov:[[4,18]], q:[[3,3]], note:"lacks 1:1 to most of 1:3"},
+ {g:"maj", s:"05 D", n:"Bezae (Greek)", d:"5th c.", cov:[[1,15]], note:"Greek lacks 1:16–3:26"},
+ {g:"maj", s:"032 W", n:"Washingtonianus", d:"4th/5th c.", sup:[all], note:"John 1:1–5:11 is a replacement quire, often dated 7th c."},
+ {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[all]},
+ {g:"maj", s:"07 E", n:"Basilensis", d:"8th c.", cov:[all]},
+ {g:"maj", s:"019 L", n:"Regius", d:"8th c.", cov:[all]},
+ {g:"maj", s:"047", n:"Uncial 047", d:"8th c.", cov:[all]},
+ {g:"maj", s:"0234", n:"Uncial 0234", d:"8th c.", cov:[[4,8]], q:[[18,18]], note:"cited for 1:18 in one apparatus summary; extent to check"},
+ {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c.", q:[all], note:"no recorded gap in John 1, but heavily damaged; check"},
+ {g:"maj", s:"011 G", n:"Seidelianus I", d:"9th c.", cov:[all]},
+ {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"017 K", n:"Cyprius", d:"9th c.", cov:[all]},
+ {g:"maj", s:"021 M", n:"Campianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"030 U", n:"Nanianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"031 V", n:"Mosquensis II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"034 Y", n:"Macedoniensis", d:"9th c.", cov:[all]},
+ {g:"maj", s:"037 Δ", n:"Sangallensis 48", d:"9th c.", cov:[all]},
+ {g:"maj", s:"038 Θ", n:"Koridethi", d:"9th c.", cov:[all]},
+ {g:"maj", s:"039 Λ", n:"Tischendorfianus III", d:"9th c.", cov:[all]},
+ {g:"maj", s:"041 Π", n:"Petropolitanus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"045 Ω", n:"Athous Dionysiou", d:"9th c.", cov:[all]},
+ {g:"maj", s:"050", n:"Uncial 050 (with commentary)", d:"9th c.", cov:[[1,1],[3,4]]},
+ {g:"maj", s:"0211", n:"Uncial 0211", d:"9th c.", deb:true, cov:[all]},
+ {g:"maj", s:"044 Ψ", n:"Athous Lavrensis", d:"9th/10th c.", deb:true, cov:[all]},
+];
+const has = (rs,v) => (rs||[]).some(([a,b])=>v>=a&&v<=b);
+const state = (m,v) => has(m.cov,v) ? "y" : has(m.sup,v) ? "s" : has(m.q,v) ? "q" : "";
+const count = v => MS.filter(m=>state(m,v)).length;
+
+const VERSES = [
+ [1,"In the beginning was the Word, and the Word was with God, and the Word was God.","καὶ θεὸς ἦν ὁ λόγος",[],["v1-1"]],
+ [2,"He was in the beginning with God.",null,[],[]],
+ [3,"All things came into being through him, and without him not one thing came into being.","χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",["v3"],[]],
+ [4,"What has come into being in him was life, and the life was the light of humanity.","ἐν αὐτῷ ζωὴ ἦν",["v3","v4"],[]],
+ [5,"The light shines in the darkness, and the darkness did not overcome it.",null,[],[]],
+ [6,"There came a man, sent from God, whose name was John.",null,[],[]],
+ [7,"He came as a witness, to testify about the light, so that all might believe through him.",null,[],[]],
+ [8,"He was not the light, but came to testify about the light.",null,[],[]],
+ [9,"The true light, which enlightens every person, was coming into the world.",null,[],[]],
+ [10,"He was in the world, and the world came into being through him, yet the world did not know him.",null,[],[]],
+ [11,"He came to what was his own, and his own people did not receive him.",null,[],[]],
+ [12,"But to all who received him, who believed in his name, he gave power to become children of God,",null,[],[]],
+ [13,"who were born, not of blood, nor of the will of the flesh, nor of the will of a man, but of God.","οἳ … ἐκ θεοῦ ἐγεννήθησαν",["v13"],[]],
+ [14,"And the Word became flesh and lived among us, and we have seen his glory, glory as of a father’s only son, full of grace and truth.",null,[],[]],
+ [15,"John testified about him and cried out, “This was he of whom I said, ‘He who comes after me ranks ahead of me, because he was before me.’”",null,[],[]],
+ [16,"From his fullness we have all received, grace upon grace.",null,[],[]],
+ [17,"For the law was given through Moses; grace and truth came through Jesus Christ.",null,[],[]],
+ [18,"No one has ever seen God. The only-begotten God, who is close to the Father’s heart, has made him known.","μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός",["v18"],[]],
+];
+const VLABEL = {v3:"variant: punctuation", v4:"variant: was / is", v13:"variant: who / he who", v18:"variant: God / Son", "v1-1":"translation note"};
+
+document.getElementById("reader").innerHTML = VERSES.map(([n,en,gk,vars,trs])=>{
+  const flags = vars.map(k=>`<a class="flag var" href="#${k}">${VLABEL[k]}</a>`).concat(trs.map(k=>`<a class="flag tr" href="#${k}">${VLABEL[k]}</a>`)).join("");
+  return `<div class="v"><span class="vn">1:${n}</span><span class="vt">${esc(en)}</span><span class="vflags">${flags}<span class="vw">${count(n)} MSS</span></span>${gk?`<span class="vg" lang="grc">${esc(gk)}</span>`:""}</div>`;
+}).join("");
+
+// Matrix
+(function(){
+  const vs = Array.from({length:18},(_,i)=>i+1);
+  let h = `<thead><tr><th class="ms" scope="col">Manuscript</th>${vs.map(v=>`<th scope="col">${v}</th>`).join("")}</tr></thead><tbody>`;
+  const groups = [["pap","Papyri"],["maj","Parchment majuscules"]];
+  groups.forEach(([g,label])=>{
+    h += `<tr class="grp"><th colspan="19">${label}</th></tr>`;
+    MS.filter(m=>m.g===g).forEach(m=>{
+      const title = m.note ? ` title="${esc(m.note)}"` : "";
+      h += `<tr><th class="ms" scope="row"${title}><span class="s">${esc(m.s)}</span>${m.deb?'<span class="dtag deb">date debated</span>':""}<span class="d">${esc(m.n)} · ${esc(m.d)}${m.note?" · "+esc(m.note):""}</span></th>`;
+      h += vs.map(v=>{ const st = state(m,v); return `<td><i class="c ${st}${st==="y"&&g==="pap"?" pap":""}" aria-label="1:${v} ${st==="y"?"preserved":st==="s"?"replacement leaves":st==="q"?"to check":"not preserved"}"></i></td>`; }).join("") + `</tr>`;
+    });
+  });
+  h += `</tbody><tfoot><tr><th>Witnesses per verse</th>${vs.map(v=>`<td>${count(v)}</td>`).join("")}</tr></tfoot>`;
+  document.getElementById("mx").innerHTML = h;
+})();
+
+// Variants
+const VARS = [
+ {id:"v18", ref:"John 1:18", title:"“The only-begotten God” or “the only-begotten Son”?",
+  readings:[
+   {gk:"μονογενὴς θεός", en:"only-begotten God", wit:"𝔓66 · 01* · 03 · 04* · 019", printed:true},
+   {gk:"ὁ μονογενὴς θεός", en:"the only-begotten God", wit:"𝔓75 · 01 (corrector) · minuscule 33"},
+   {gk:"ὁ μονογενὴς υἱός", en:"the only-begotten Son", wit:"02 · 04 (corrector) · 017 · 037 · 038 · 041 · 044 · most later Greek manuscripts · Latin tradition (unigenitus Filius) · Curetonian Syriac"},
+  ],
+  body:"This is the variant in the Prologue that most changes translations: “God the only Son” (NRSV) or “the only God” (ESV) against “the only begotten Son” (KJV). The two earliest papyri and the two great 4th-century codices read θεός; υἱός has broad support from the 5th century on and matches the phrase “only-begotten Son” elsewhere in John (3:16, 18). Because the names were written as abbreviated ‘sacred names’ (ΘΣ and ΥΣ), the difference on the page is a single letter. The committee behind the modern critical text preferred θεός as the earlier and harder reading; Ehrman argued that θεός is a 2nd-century change made to stress Christ’s divinity against ‘adoptionist’ views.",
+  lit:["metzger94","ehrman93","na28","net"]},
+ {id:"v3", ref:"John 1:3–4", title:"Where does the sentence end?",
+  readings:[
+   {gk:"οὐδὲ ἕν. ὃ γέγονεν ἐν αὐτῷ ζωὴ ἦν", en:"…not one thing came into being. What has come into being in him was life.", wit:"stop before ὃ γέγονεν: 𝔓75 (corrector) · 04 · 05 · 019 · 032 (replacement quire) · 050 (first hand) · Irenaeus, Clement of Alexandria, Origen, Tertullian and most 2nd–3rd-century writers", printed:true},
+   {gk:"οὐδὲ ἓν ὃ γέγονεν. ἐν αὐτῷ ζωὴ ἦν", en:"…not one thing that has come into being. In him was life.", wit:"stop after ὃ γέγονεν: many later manuscripts · most writers from the late 4th century on. No punctuation at all: 𝔓66 · 𝔓75 (first hand) · 01 (first hand) · 02 · 03 · 037"},
+  ],
+  body:"The earliest manuscripts mostly have no punctuation, so the words are identical and only the pause differs. Early writers overwhelmingly read the first way. From the 4th century the second became dominant, partly because the first had been used in the Arian controversy and in arguments about whether the Holy Spirit was a created being. Kurt Aland argued that the early reading, joining ὃ γέγονεν to verse 4, is original; the Nestle–Aland text has printed it that way since its 26th edition. This is a case where the manuscripts, the early readers and later theology all bear on a translation choice.",
+  lit:["aland68","metzger94","na28"]},
+ {id:"v4", ref:"John 1:4", title:"“Was life” or “is life”?",
+  readings:[
+   {gk:"ζωὴ ἦν", en:"was life", wit:"𝔓66 · 𝔓75 · 02 · 03 · most manuscripts", printed:true},
+   {gk:"ζωή ἐστιν", en:"is life", wit:"01 · 05 · Old Latin · some Vulgate manuscripts · Irenaeus (Latin) · Heracleon · Clement and Origen (in part)"},
+  ],
+  body:"The present tense may have come from reading the previous words (ὃ γέγονεν, “what has come into being”) with this clause, which makes “is” sound more natural. A small change, but a good example of Sinaiticus and Bezae agreeing against the other early witnesses.",
+  lit:["metzger94","na28"]},
+ {id:"v13", ref:"John 1:13", title:"“Who were born” or “he who was born”?",
+  readings:[
+   {gk:"οἳ … ἐγεννήθησαν", en:"who were born (believers)", wit:"every known Greek manuscript", printed:true},
+   {gk:"qui … natus est", en:"he who was born (Christ)", wit:"Old Latin Codex Veronensis (b) · some Syriac manuscripts · Irenaeus and Tertullian (2nd–3rd c.)"},
+  ],
+  body:"No Greek manuscript has the singular, but it was read by 2nd- and 3rd-century writers and survives in a 5th-century Latin manuscript. In the singular the verse becomes a statement about Jesus’s birth ‘not of blood … nor of the will of a man’, which is why it matters to readers interested in early ideas about the virgin birth. It is also the clearest reason this site keeps a Latin layer.",
+  lit:["metzger94","na28"]},
+];
+const BIB = {
+ aland68:"Aland, Kurt. “Eine Untersuchung zu Joh 1 3.4: Über die Bedeutung eines Punktes.” <i>Zeitschrift für die neutestamentliche Wissenschaft</i> 59 (1968): 174ff.",
+ net:"<i>NET Bible</i>, full notes edition, text-critical notes on John 1:3–4 and 1:18. Biblical Studies Press. Online at netbible.org.",
+ na28:"Nestle, Eberhard, Erwin Nestle, Barbara Aland, Kurt Aland, et al., eds. <i>Novum Testamentum Graece</i>. 28th ed. Stuttgart: Deutsche Bibelgesellschaft, 2012.",
+ metzger94:"Metzger, Bruce M. <i>A Textual Commentary on the Greek New Testament</i>. 2nd ed. Stuttgart: Deutsche Bibelgesellschaft; New York: United Bible Societies, 1994.",
+ ehrman93:"Ehrman, Bart D. <i>The Orthodox Corruption of Scripture: The Effect of Early Christological Controversies on the Text of the New Testament</i>. New York: Oxford University Press, 1993; 2nd ed. 2011.",
+ colwell33:"Colwell, E. C. “A Definite Rule for the Use of the Article in the Greek New Testament.” <i>Journal of Biblical Literature</i> 52 (1933): 12–21.",
+ harner73:"Harner, Philip B. “Qualitative Anarthrous Predicate Nouns: Mark 15:39 and John 1:1.” <i>Journal of Biblical Literature</i> 92 (1973): 75–87.",
+ nongbri16:"Nongbri, Brent. “Reconsidering the Place of Papyrus Bodmer XIV–XV (𝔓75) in the Textual Criticism of the New Testament.” <i>Journal of Biblical Literature</i> 135 (2016): 405–37.",
+ nongbri14:"Nongbri, Brent. “The Limits of Palaeographic Dating of Literary Papyri: Some Observations on the Date and Provenance of P.Bodmer II (𝔓66).” <i>Museum Helveticum</i> 71 (2014): 1–35.",
+};
+document.getElementById("variants").innerHTML = VARS.map(v=>`<div class="vc" id="${v.id}">
+  <span class="ref">${v.ref}</span><h3>${esc(v.title)}</h3>
+  <div class="readings">${v.readings.map(r=>`<div class="rd${r.printed?" printed":""}">${r.printed?'<span class="pl">Printed in NA28</span>':""}<span class="gk" lang="grc">${esc(r.gk)}</span><span class="en">${esc(r.en)}</span><span class="wit">${esc(r.wit)}</span></div>`).join("")}</div>
+  <p>${esc(v.body)}</p>
+  <details><summary>Scholarly works</summary><ul>${v.lit.map(k=>`<li>${BIB[k]}</li>`).join("")}</ul></details>
+</div>`).join("");
+
+// Latin
+const LAT = [
+ ["Codex Vercellensis (a, VL 3)","4th c.","Old Latin","complete (some leaves damaged)"],
+ ["Codex Palatinus (e, VL 2)","5th c.","Old Latin","complete"],
+ ["Codex Veronensis (b, VL 4)","5th c.","Old Latin","complete; has the singular reading at 1:13"],
+ ["Codex Corbeiensis II (ff2, VL 8)","5th c.","Old Latin","complete"],
+ ["Codex Sangallensis 1395","5th c.","Vulgate","to map (fragmentary)"],
+ ["Codex Brixianus (f, VL 10)","6th c.","Old Latin / Vulgate","complete"],
+ ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","to map"],
+ ["Codex Usserianus Primus (r1, VL 14)","early 7th c.","Old Latin","1:16–18 only (lacks 1:1–15)"],
+ ["Codex Rehdigeranus (l, VL 11)","8th c.","Old Latin","1:17–18 only (lacks 1:1–16)"],
+ ["Codex Fuldensis","dated 546/547","Vulgate, as a Gospel harmony","opens the harmony with John 1:1–5; rest distributed"],
+ ["St Cuthbert Gospel","late 7th c.","Vulgate","complete"],
+ ["Codex Amiatinus","c. 700","Vulgate","complete"],
+ ["Book of Durrow","7th c.","Vulgate","complete"],
+ ["Lindisfarne Gospels","c. 715–720","Vulgate","complete"],
+ ["Book of Kells","c. 800","Vulgate (mixed)","complete"],
+];
+document.getElementById("latin").innerHTML = LAT.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("");
+
+document.getElementById("biblist").innerHTML = ["na28","metzger94","aland68","ehrman93","colwell33","harner73","nongbri14","nongbri16","net"].map(k=>`<li>${BIB[k]}</li>`).join("");
+
+const pap = MS.filter(m=>m.g==="pap").length, maj = MS.length - pap;
+document.getElementById("stats").innerHTML = `<span><b>${MS.length}</b>Greek witnesses to 900</span><span><b>${pap}</b>papyri</span><span><b>${count(1)}</b>preserve 1:1</span><span><b>${VARS.length}</b>variants that matter</span><span><b>${LAT.length}</b>Latin witnesses</span>`;
+</script>

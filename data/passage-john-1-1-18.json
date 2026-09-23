@@ -1,0 +1,3239 @@
+{
+  "passage": "John 1:1–18",
+  "heading": "The Prologue, John 1:1–18",
+  "lede": "Which early manuscripts preserve each verse of John’s opening hymn, where they disagree, and which disagreements change how the passage is translated. Greek manuscripts up to AD 900 come first; early Latin manuscripts follow as a second layer.",
+  "scope": "Greek papyri and majuscules to AD 900 (primary); key Latin manuscripts to AD 900 (secondary)",
+  "translation_note": "Literal translation by the project, following the modern critical Greek text.",
+  "verses": [
+    {
+      "ref": "John 1:1",
+      "verse": 1,
+      "translation": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "greek_where_variant": "καὶ θεὸς ἦν ὁ λόγος",
+      "variants": [],
+      "translation_notes": [
+        "v1-1"
+      ],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_fuld",
+          "status": "preserved_in_harmony"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:2",
+      "verse": 2,
+      "translation": "He was in the beginning with God.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_fuld",
+          "status": "preserved_in_harmony"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:3",
+      "verse": 3,
+      "translation": "All things came into being through him, and without him not one thing came into being.",
+      "greek_where_variant": "χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+      "variants": [
+        "v3"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "to_check"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_fuld",
+          "status": "preserved_in_harmony"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:4",
+      "verse": 4,
+      "translation": "What has come into being in him was life, and the life was the light of humanity.",
+      "greek_where_variant": "ἐν αὐτῷ ζωὴ ἦν",
+      "variants": [
+        "v3",
+        "v4"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_fuld",
+          "status": "preserved_in_harmony"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:5",
+      "verse": 5,
+      "translation": "The light shines in the darkness, and the darkness did not overcome it.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_fuld",
+          "status": "preserved_in_harmony"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:6",
+      "verse": 6,
+      "translation": "There came a man, sent from God, whose name was John.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:7",
+      "verse": 7,
+      "translation": "He came as a witness, to testify about the light, so that all might believe through him.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:8",
+      "verse": 8,
+      "translation": "He was not the light, but came to testify about the light.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:9",
+      "verse": 9,
+      "translation": "The true light, which enlightens every person, was coming into the world.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:10",
+      "verse": 10,
+      "translation": "He was in the world, and the world came into being through him, yet the world did not know him.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:11",
+      "verse": 11,
+      "translation": "He came to what was his own, and his own people did not receive him.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:12",
+      "verse": 12,
+      "translation": "But to all who received him, who believed in his name, he gave power to become children of God,",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:13",
+      "verse": 13,
+      "translation": "who were born, not of blood, nor of the will of the flesh, nor of the will of a man, but of God.",
+      "greek_where_variant": "οἳ … ἐκ θεοῦ ἐγεννήθησαν",
+      "variants": [
+        "v13"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:14",
+      "verse": 14,
+      "translation": "And the Word became flesh and lived among us, and we have seen his glory, glory as of a father’s only son, full of grace and truth.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:15",
+      "verse": 15,
+      "translation": "John testified about him and cried out, “This was he of whom I said, ‘He who comes after me ranks ahead of me, because he was before me.’”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "05",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:16",
+      "verse": 16,
+      "translation": "From his fullness we have all received, grace upon grace.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vl14",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:17",
+      "verse": 17,
+      "translation": "For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vl14",
+          "status": "preserved"
+        },
+        {
+          "id": "vl11",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:18",
+      "verse": 18,
+      "translation": "No one has ever seen God. The only-begotten God, who is close to the Father’s heart, has made him known.",
+      "greek_where_variant": "μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός",
+      "variants": [
+        "v18"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "to_check"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ],
+      "latin_witnesses": [
+        {
+          "id": "vl3",
+          "status": "preserved"
+        },
+        {
+          "id": "vl2",
+          "status": "preserved"
+        },
+        {
+          "id": "vl4",
+          "status": "preserved"
+        },
+        {
+          "id": "vl8",
+          "status": "preserved"
+        },
+        {
+          "id": "vl10",
+          "status": "preserved"
+        },
+        {
+          "id": "vl14",
+          "status": "preserved"
+        },
+        {
+          "id": "vl11",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_amiat",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_cuth",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_durrow",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_lindis",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_kells",
+          "status": "preserved"
+        },
+        {
+          "id": "vg_sang1395",
+          "status": "to_map"
+        },
+        {
+          "id": "vl13",
+          "status": "to_map"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "v18",
+      "ref": "John 1:18",
+      "label": "God / Son",
+      "title": "“The only-begotten God” or “the only-begotten Son”?",
+      "readings": [
+        {
+          "greek": "μονογενὴς θεός",
+          "english": "only-begotten God",
+          "witnesses": "𝔓66 · 01* · 03 · 04* · 019",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ὁ μονογενὴς θεός",
+          "english": "the only-begotten God",
+          "witnesses": "𝔓75 · 01 (corrector) · minuscule 33",
+          "printed_in_NA28": false
+        },
+        {
+          "greek": "ὁ μονογενὴς υἱός",
+          "english": "the only-begotten Son",
+          "witnesses": "02 · 04 (corrector) · 017 · 037 · 038 · 041 · 044 · most later Greek manuscripts · Latin tradition (unigenitus Filius) · Curetonian Syriac",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "This is the variant in the Prologue that most changes translations: “God the only Son” (NRSV) or “the only God” (ESV) against “the only begotten Son” (KJV). The two earliest papyri and the two great 4th-century codices read θεός; υἱός has broad support from the 5th century on and matches the phrase “only-begotten Son” elsewhere in John (3:16, 18). Because the names were written as abbreviated ‘sacred names’ (ΘΣ and ΥΣ), the difference on the page is a single letter. The committee behind the modern critical text preferred θεός as the earlier and harder reading; Ehrman argued that θεός is a 2nd-century change made to stress Christ’s divinity against ‘adoptionist’ views.",
+      "literature": [
+        "metzger94",
+        "ehrman93",
+        "na28",
+        "net"
+      ]
+    },
+    {
+      "id": "v3",
+      "ref": "John 1:3–4",
+      "label": "punctuation",
+      "title": "Where does the sentence end?",
+      "readings": [
+        {
+          "greek": "οὐδὲ ἕν. ὃ γέγονεν ἐν αὐτῷ ζωὴ ἦν",
+          "english": "…not one thing came into being. What has come into being in him was life.",
+          "witnesses": "stop before ὃ γέγονεν: 𝔓75 (corrector) · 04 · 05 · 019 · 032 (replacement quire) · 050 (first hand) · Irenaeus, Clement of Alexandria, Origen, Tertullian and most 2nd–3rd-century writers",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "οὐδὲ ἓν ὃ γέγονεν. ἐν αὐτῷ ζωὴ ἦν",
+          "english": "…not one thing that has come into being. In him was life.",
+          "witnesses": "stop after ὃ γέγονεν: many later manuscripts · most writers from the late 4th century on. No punctuation at all: 𝔓66 · 𝔓75 (first hand) · 01 (first hand) · 02 · 03 · 037",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The earliest manuscripts mostly have no punctuation, so the words are identical and only the pause differs. Early writers overwhelmingly read the first way. From the 4th century the second became dominant, partly because the first had been used in the Arian controversy and in arguments about whether the Holy Spirit was a created being. Kurt Aland argued that the early reading, joining ὃ γέγονεν to verse 4, is original; the Nestle–Aland text has printed it that way since its 26th edition. This is a case where the manuscripts, the early readers and later theology all bear on a translation choice.",
+      "literature": [
+        "aland68",
+        "metzger94",
+        "na28"
+      ]
+    },
+    {
+      "id": "v4",
+      "ref": "John 1:4",
+      "label": "was / is",
+      "title": "“Was life” or “is life”?",
+      "readings": [
+        {
+          "greek": "ζωὴ ἦν",
+          "english": "was life",
+          "witnesses": "𝔓66 · 𝔓75 · 02 · 03 · most manuscripts",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ζωή ἐστιν",
+          "english": "is life",
+          "witnesses": "01 · 05 · Old Latin · some Vulgate manuscripts · Irenaeus (Latin) · Heracleon · Clement and Origen (in part)",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The present tense may have come from reading the previous words (ὃ γέγονεν, “what has come into being”) with this clause, which makes “is” sound more natural. A small change, but a good example of Sinaiticus and Bezae agreeing against the other early witnesses.",
+      "literature": [
+        "metzger94",
+        "na28"
+      ]
+    },
+    {
+      "id": "v13",
+      "ref": "John 1:13",
+      "label": "who / he who",
+      "title": "“Who were born” or “he who was born”?",
+      "readings": [
+        {
+          "greek": "οἳ … ἐγεννήθησαν",
+          "english": "who were born (believers)",
+          "witnesses": "every known Greek manuscript",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "qui … natus est",
+          "english": "he who was born (Christ)",
+          "witnesses": "Old Latin Codex Veronensis (b) · some Syriac manuscripts · Irenaeus and Tertullian (2nd–3rd c.)",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "No Greek manuscript has the singular, but it was read by 2nd- and 3rd-century writers and survives in a 5th-century Latin manuscript. In the singular the verse becomes a statement about Jesus’s birth ‘not of blood … nor of the will of a man’, which is why it matters to readers interested in early ideas about the virgin birth. It is also the clearest reason this site keeps a Latin layer.",
+      "literature": [
+        "metzger94",
+        "na28"
+      ]
+    }
+  ],
+  "translation_sweep": [
+    {
+      "id": "v1-1",
+      "ref": "John 1:1c",
+      "question": "“The Word was God”, “a god”, or “divine”?",
+      "manuscripts_agree": true,
+      "literature": [
+        "colwell33",
+        "harner73"
+      ],
+      "greek": "καὶ θεὸς ἦν ὁ λόγος",
+      "explanation": "The manuscripts agree; the debate is grammatical. Here θεός has no article and stands before the verb. Colwell (1933) observed that definite predicate nouns placed before the verb usually lack the article, which leaves room for “God”. Harner (1973) argued that such nouns are chiefly qualitative, stressing what the Word is, which is why some translations use “divine” or “what God was”. “A god” is the reading of a minority of translations. This will be treated in full in the translation sweep."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "0233",
+      "reason": "Surviving text unknown; palimpsest. Check before including."
+    },
+    {
+      "id": "029",
+      "reason": "Greek John begins at 1:24."
+    },
+    {
+      "id": "024",
+      "reason": "John begins at 1:29."
+    }
+  ]
+}

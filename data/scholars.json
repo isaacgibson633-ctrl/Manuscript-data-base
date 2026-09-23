@@ -2,66 +2,66 @@
   {
     "name": "C. H. Roberts (1909–1990)",
     "contribution": "First editor of 𝔓52 and the source of its famous early date.",
-    "keyWork": "roberts35"
+    "key_work": "roberts35"
   },
   {
     "name": "Herbert Hunger (1914–2000)",
     "contribution": "Vienna Byzantinist who argued for an early 2nd-century 𝔓66.",
-    "keyWork": "hunger60"
+    "key_work": "hunger60"
   },
   {
     "name": "T. C. Skeat (1907–2003)",
     "contribution": "With H. J. M. Milne, identified the scribes of Sinaiticus; later linked Sinaiticus and Vaticanus to Constantine’s order of Bibles.",
-    "keyWork": "skeat99"
+    "key_work": "skeat99"
   },
   {
     "name": "Eric G. Turner (1911–1983)",
     "contribution": "Classified early codices by format and repeatedly cautioned against over-precise palaeographic dates.",
-    "keyWork": "turner77"
+    "key_work": "turner77"
   },
   {
     "name": "Guglielmo Cavallo",
     "contribution": "Defined Biblical majuscule and its phases, the framework used for dating the great codices.",
-    "keyWork": "cavallo67"
+    "key_work": "cavallo67"
   },
   {
     "name": "Pasquale Orsini & Willy Clarysse",
     "contribution": "Re-dated early New Testament papyri and criticised ‘theological palaeography’.",
-    "keyWork": "orsclar12"
+    "key_work": "orsclar12"
   },
   {
     "name": "Brent Nongbri",
     "contribution": "Argues for wider, often later, date ranges (𝔓52, 𝔓66, Sinaiticus) and for radiocarbon testing.",
-    "keyWork": "nongbri18"
+    "key_work": "nongbri18"
   },
   {
     "name": "Don Barker",
     "contribution": "Proposed the ‘graphic stream’ method for comparing like with like.",
-    "keyWork": "barker11"
+    "key_work": "barker11"
   },
   {
     "name": "Stanley E. Porter",
     "contribution": "Defends mid-2nd-century dates for 𝔓52 and P.Egerton 2.",
-    "keyWork": "porter13"
+    "key_work": "porter13"
   },
   {
     "name": "Larry W. Hurtado (1943–2019)",
     "contribution": "Studied early Christian manuscripts as artifacts (codex, nomina sacra, staurogram).",
-    "keyWork": "hurtado06"
+    "key_work": "hurtado06"
   },
   {
     "name": "Philip W. Comfort",
     "contribution": "A leading advocate of early dates for the New Testament papyri.",
-    "keyWork": "comfort01"
+    "key_work": "comfort01"
   },
   {
     "name": "D. C. Parker",
     "contribution": "Textual critic; author of the standard introduction and a study of Sinaiticus.",
-    "keyWork": "parker08"
+    "key_work": "parker08"
   },
   {
     "name": "Mladen Popović",
     "contribution": "Leads the team combining radiocarbon with AI handwriting analysis (tested on the Dead Sea Scrolls).",
-    "keyWork": "popovic25"
+    "key_work": "popovic25"
   }
 ]
