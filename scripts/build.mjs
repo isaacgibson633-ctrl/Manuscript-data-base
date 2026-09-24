@@ -1,4 +1,6 @@
 // Builds the whole site into _site/ as plain HTML pages. Run with: node scripts/build.mjs
+// With --artifact it builds a copy into _artifact/ for publishing as a claude.ai artifact:
+// no outer html/head/body tags (the artifact host adds them) and links that name index.html.
 //
 //   /                          home: passages and the project in brief
 //   /<book>/<ch>/<verses>/     one page per data/passage-*.json
@@ -13,7 +15,8 @@ import { join, dirname } from "node:path";
 import { BOOKS, parsePassageRef } from "./lib.mjs";
 
 const here = new URL("..", import.meta.url).pathname;
-const out = join(here, "_site");
+const ARTIFACT = process.argv.includes("--artifact");
+const out = join(here, ARTIFACT ? "_artifact" : "_site");
 const read = p => readFileSync(join(here, p), "utf8");
 const json = p => JSON.parse(read(p));
 
@@ -78,26 +81,30 @@ function coverage(p, id) {
 const NAV = [["", "Passages"], ["manuscripts/", "Manuscripts"], ["dating/", "Dating"], ["bibliography/", "Bibliography"], ["about/", "About"], ["checks/", "Open checks"]];
 function page({ path, title, description, body, current, js }) {
   const root = "../".repeat(path.split("/").filter(Boolean).length);
-  const html = `<!doctype html>
-<html lang="en"${js ? ' class="nojs"' : ""}>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${esc(title)}</title>
+  const head = `<title>${esc(title)}</title>
 ${description ? `<meta name="description" content="${esc(description)}">\n` : ""}<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
-<link rel="stylesheet" href="${root}assets/style.css">
-</head>
-<body>
-<div class="wrap">
+<link rel="stylesheet" href="${root}assets/style.css">`;
+  const content = `<div class="wrap${js ? " nojs" : ""}">
 <div class="site"><a class="home" href="${root}">Early New Testament Manuscripts</a><nav aria-label="Site">${
     NAV.map(([href, name]) => `<a href="${root}${href}"${current === href ? ' aria-current="page"' : ""}>${name}</a>`).join("")}</nav></div>
 ${body(root)}
 </div>
-${js ? `<script src="${root}assets/${js}"></script>\n` : ""}</body>
+${js ? `<script src="${root}assets/${js}"></script>\n` : ""}`;
+  let html = ARTIFACT ? `${head}\n${content}` : `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+${head}
+</head>
+<body>
+${content}</body>
 </html>
 `;
+  // The artifact host doesn't map a folder to its index.html, so name it in every internal link
+  if (ARTIFACT) html = html.replace(/href="(?!https?:|#)([^"#]*)(#[^"]*)?"/g, (m, p, h = "") => p === "" || p.endsWith("/") ? `href="${p}index.html${h}"` : m);
   const file = join(out, path, "index.html");
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, html);
@@ -511,8 +518,10 @@ function checksPage() {
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 cpSync(join(here, "assets"), join(out, "assets"), { recursive: true });
-cpSync(join(here, "data"), join(out, "data"), { recursive: true });
-writeFileSync(join(out, ".nojekyll"), "");
+if (!ARTIFACT) {
+  cpSync(join(here, "data"), join(out, "data"), { recursive: true });
+  writeFileSync(join(out, ".nojekyll"), "");
+}
 
 homePage();
 passages.forEach(passagePage);
@@ -523,4 +532,4 @@ aboutPage();
 bibliographyPage();
 checksPage();
 
-console.log(`Built ${passages.length} passage pages (${passages.map(p => "/" + p.ref.path).join(", ")}), ${mss.length} manuscript pages and 6 other pages into _site/.`);
+console.log(`Built ${passages.length} passage pages (${passages.map(p => "/" + p.ref.path).join(", ")}), ${mss.length} manuscript pages and 6 other pages into ${ARTIFACT ? "_artifact" : "_site"}/.`);

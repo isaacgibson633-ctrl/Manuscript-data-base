@@ -2,7 +2,7 @@
 (function(){
   const list = document.getElementById("list");
   if (!list) return;
-  document.documentElement.classList.remove("nojs");
+  document.querySelectorAll(".nojs").forEach(el=>el.classList.remove("nojs"));
   const items = [...list.querySelectorAll("article.ms")];
   const state = {mat:"all", era:"all", conf:"all", q:""};
 
