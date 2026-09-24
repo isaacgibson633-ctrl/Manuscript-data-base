@@ -94,6 +94,26 @@ for (const [f, p] of passages) {
       }
     }
   }
+  // Optional sections: consecutive ranges covering the whole passage, named on each verse
+  if (p.sections) {
+    let next = from;
+    for (const s of p.sections) {
+      if (s.from !== next || s.to < s.from || !s.title) err(w, `sections should run on from verse ${next} without gaps, each with a title`);
+      next = s.to + 1;
+    }
+    if (next !== to + 1) err(w, `sections should end at verse ${to}`);
+    for (const v of p.verses) {
+      const s = p.sections.find(s => v.verse >= s.from && v.verse <= s.to);
+      if (s && v.section !== s.title) err(`${w} [${v.ref}]`, `"section" should be "${s.title}"`);
+    }
+  }
+  // Optional passage-level Latin coverage: [{ id, coverage_note }]
+  for (const l of p.latin || []) {
+    if (!byId[l.id]) err(w, `latin: "${l.id}" is not in manuscripts.json`);
+    else if (byId[l.id].language !== "Latin") err(w, `latin: "${l.id}" is not a Latin manuscript`);
+    if (!l.coverage_note) err(w, `latin: "${l.id}" needs a coverage_note`);
+    cited.add(l.id);
+  }
   for (const v of p.variants || []) {
     const vw = `${w} [variant ${v.id}]`;
     if (!v.title || !v.explanation || !(v.readings || []).length) err(vw, `needs title, readings and explanation`);

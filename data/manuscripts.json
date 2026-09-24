@@ -240,6 +240,189 @@
     "intf_docid": 10075
   },
   {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "British Library shelfmarks",
+      "Whether Orsini & Clarysse (2012) give a different date"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "orsclar12"
+    ],
+    "id": "p5",
+    "ga": "P5",
+    "siglum": "𝔓5",
+    "name": "P.Oxy. 208 + 1781",
+    "material": "papyrus",
+    "intf_docid": 10005,
+    "date": {
+      "label": "early 3rd c.",
+      "range_start": 200,
+      "range_end": 300,
+      "estimate": 230,
+      "confidence": "Firm",
+      "summary": "Early 3rd century (INTF)."
+    },
+    "holding": {
+      "library": "British Library",
+      "shelfmark": "Papyrus 782 and 2484",
+      "city": "London, UK"
+    },
+    "contents_summary": "Three leaves of a papyrus codex of John: 1:23–31, 33–40; 16:14–30; 20:11–17, 19–25.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so. Found at Oxyrhynchus and published by Grenfell and Hunt in two parts (P.Oxy. II 208, 1899; XV 1781, 1922).",
+    "provenance": "Excavated at Oxyrhynchus by B. P. Grenfell and A. S. Hunt; British Library.",
+    "summary": "An early codex of John; by the space available it probably read “the Chosen One of God” at 1:34.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10005"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [],
+    "scholarly_positions": [
+      {
+        "who": "Hatzilambrou, Parsons & Chapa (eds.)",
+        "claim": "First edition (2007); early 3rd century.",
+        "bib": "poxy71"
+      }
+    ],
+    "literature": [
+      "poxy71",
+      "aland94"
+    ],
+    "id": "p119",
+    "ga": "P119",
+    "siglum": "𝔓119",
+    "name": "P.Oxy. 4803",
+    "material": "papyrus",
+    "intf_docid": 10119,
+    "date": {
+      "label": "3rd c.",
+      "range_start": 200,
+      "range_end": 300,
+      "estimate": 230,
+      "confidence": "Firm",
+      "summary": "Early 3rd century (editors); 3rd century (INTF)."
+    },
+    "holding": {
+      "library": "Egypt Exploration Society, Sackler Library",
+      "shelfmark": "P.Oxy. 4803",
+      "city": "Oxford, UK"
+    },
+    "contents_summary": "John 1:21–28, 38–44, fragmentary.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Oxyrhynchus; Egypt Exploration Society collection.",
+    "summary": "An early 3rd-century fragment of John 1.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10119"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Oxyrhynchus Papyri volume (LXIV 1997 or LXV 1998) and pages"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Cockle (ed.)",
+        "claim": "First edition; 3rd century.",
+        "bib": "poxy65"
+      }
+    ],
+    "literature": [
+      "poxy65",
+      "aland94",
+      "orsclar12"
+    ],
+    "id": "p106",
+    "ga": "P106",
+    "siglum": "𝔓106",
+    "name": "P.Oxy. 4445",
+    "material": "papyrus",
+    "intf_docid": 10106,
+    "date": {
+      "label": "3rd c.",
+      "range_start": 200,
+      "range_end": 300,
+      "estimate": 250,
+      "confidence": "Firm",
+      "summary": "3rd century (INTF; editor)."
+    },
+    "holding": {
+      "library": "Egypt Exploration Society, Sackler Library",
+      "shelfmark": "P.Oxy. 4445",
+      "city": "Oxford, UK"
+    },
+    "contents_summary": "John 1:29–35, 40–46.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Oxyrhynchus; Egypt Exploration Society collection.",
+    "summary": "Supports “the Chosen One of God” at 1:34 and “son of John” at 1:42.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10106"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Which side (front or back of the roll) carries John: sources disagree",
+      "Shelfmark"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Smith (2017)",
+        "claim": "First edition; 3rd or 4th century; discusses the roll format and the second text.",
+        "bib": "smith17"
+      }
+    ],
+    "literature": [
+      "smith17",
+      "hurtado06"
+    ],
+    "id": "p134",
+    "ga": "P134",
+    "siglum": "𝔓134",
+    "name": "Willoughby Papyrus",
+    "material": "papyrus",
+    "intf_docid": 10134,
+    "date": {
+      "label": "3rd/4th c.",
+      "range_start": 200,
+      "range_end": 400,
+      "estimate": 300,
+      "confidence": "Firm",
+      "summary": "3rd or 4th century (Smith 2017)."
+    },
+    "holding": {
+      "library": "Harry Ransom Center, University of Texas at Austin",
+      "shelfmark": "",
+      "city": "Austin, TX, USA"
+    },
+    "contents_summary": "John 1:49–2:1 on one side of a roll; an unidentified Christian text on the other.",
+    "dating_evidence": "Dated from its script. Its format is the unusual part: it comes from a roll, not a codex, which makes it an exception among New Testament papyri and a test case for assumptions that early Christians copied Gospels only in codices.",
+    "provenance": "Bought on the antiquities market by Harold R. Willoughby (University of Chicago) before 1962; offered on eBay in 2015; acquired by the Ransom Center with a donor’s support.",
+    "summary": "A New Testament text written on a roll, with another Christian text on the other side.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10134"
+      }
+    ]
+  },
+  {
     "id": "03",
     "language": "Greek",
     "ga": "03",
@@ -364,6 +547,54 @@
     ],
     "intf_docid": 20001,
     "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Exact verse ranges"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Hatzilambrou, Parsons & Chapa (eds.)",
+        "claim": "First edition (2007); 4th century.",
+        "bib": "poxy71"
+      }
+    ],
+    "literature": [
+      "poxy71",
+      "cavallo67",
+      "aland94"
+    ],
+    "id": "p120",
+    "ga": "P120",
+    "siglum": "𝔓120",
+    "name": "P.Oxy. 4804",
+    "material": "papyrus",
+    "intf_docid": 10120,
+    "date": {
+      "label": "4th c.",
+      "range_start": 300,
+      "range_end": 400,
+      "estimate": 350,
+      "confidence": "Firm",
+      "summary": "4th century (INTF; editors)."
+    },
+    "holding": {
+      "library": "Egypt Exploration Society, Sackler Library",
+      "shelfmark": "P.Oxy. 4804",
+      "city": "Oxford, UK"
+    },
+    "contents_summary": "Three pieces of one leaf: John 1:25–28, 33–38, 42–44 (summaries differ; check edition).",
+    "dating_evidence": "Written by a professional scribe in Biblical majuscule, the script of the great 4th-century codices, which supports the 4th-century date. Reconstructed page about 11 × 20.5 cm, 27 lines.",
+    "provenance": "Oxyrhynchus; Egypt Exploration Society collection.",
+    "summary": "A 4th-century papyrus leaf in the same script family as Sinaiticus and Vaticanus.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10120"
+      }
+    ]
   },
   {
     "language": "Greek",
@@ -574,6 +805,47 @@
     "to_check": []
   },
   {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Fragments 0113, 0125, 0139 belong to the same book"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
+    "id": "029",
+    "ga": "029",
+    "siglum": "029 T",
+    "name": "Codex Borgianus",
+    "material": "parchment",
+    "intf_docid": 20029,
+    "date": {
+      "label": "5th c.",
+      "range_start": 400,
+      "range_end": 500,
+      "estimate": 450,
+      "confidence": "Firm",
+      "summary": "5th century (INTF)."
+    },
+    "holding": {
+      "library": "Vatican Library (main part) and others",
+      "shelfmark": "Borg. copt. 109",
+      "city": "Vatican City etc."
+    },
+    "contents_summary": "Greek–Sahidic Coptic fragments of Luke and John; Greek John 1:24–32; 3:10–17; 4:52–5:7; 6:28–67; 7:6–8:31.",
+    "dating_evidence": "Dated from its Greek majuscule. A bilingual book from Egypt, with Greek and Coptic side by side.",
+    "provenance": "From the collection of Cardinal Stefano Borgia.",
+    "summary": "A Greek–Coptic bilingual; reads “Bethabara” at 1:28.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20029"
+      }
+    ]
+  },
+  {
     "id": "087",
     "language": "Greek",
     "ga": "087",
@@ -659,6 +931,199 @@
     "provenance": "Dispersed across several libraries; acquisition history to be documented.",
     "summary": "One of the imperial-style purple Gospel books of the 6th century, now split across several countries.",
     "intf_docid": 20022
+  },
+  {
+    "language": "Greek",
+    "palimpsest": true,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "024",
+    "ga": "024",
+    "siglum": "024 P",
+    "name": "Codex Guelferbytanus A",
+    "material": "parchment",
+    "intf_docid": 20024,
+    "date": {
+      "label": "6th c.",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century (INTF)."
+    },
+    "holding": {
+      "library": "Herzog August Bibliothek",
+      "shelfmark": "Cod. Guelf. 64 Weissenburg",
+      "city": "Wolfenbüttel, Germany"
+    },
+    "contents_summary": "Palimpsest Gospels; John 1:29–40; 2:13–25; 21:1–11.",
+    "dating_evidence": "Dated from the Greek majuscule of the lower (erased) text.",
+    "provenance": "From Weissenburg; its leaves were reused for a later Latin text.",
+    "summary": "A palimpsest Gospel book.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20024"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": true,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "086",
+    "ga": "086",
+    "siglum": "086",
+    "name": "Uncial 086",
+    "material": "parchment",
+    "intf_docid": 20086,
+    "date": {
+      "label": "6th c.",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century (INTF)."
+    },
+    "holding": {
+      "library": "British Library; Egyptian Museum",
+      "shelfmark": "Or. 5707",
+      "city": "London; Cairo"
+    },
+    "contents_summary": "Greek–Coptic; John 1:23–26; 3:5–4:18, 23–35, 45–49.",
+    "dating_evidence": "Dated from its Greek majuscule; later overwritten with Coptic.",
+    "provenance": "Egypt.",
+    "summary": "A Greek–Coptic palimpsest.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20086"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "0260",
+    "ga": "0260",
+    "siglum": "0260",
+    "name": "Uncial 0260",
+    "material": "parchment",
+    "intf_docid": 20260,
+    "date": {
+      "label": "6th c.",
+      "range_start": 500,
+      "range_end": 600,
+      "estimate": 550,
+      "confidence": "Firm",
+      "summary": "6th century (INTF)."
+    },
+    "holding": {
+      "library": "Berlin State Museums",
+      "shelfmark": "P. 5542",
+      "city": "Berlin, Germany"
+    },
+    "contents_summary": "Greek–Fayyumic Coptic; John 1:30–32.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Egypt; Berlin collection.",
+    "summary": "A small bilingual fragment.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20260"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "p55",
+    "ga": "P55",
+    "siglum": "𝔓55",
+    "name": "P. Vindob. G. 26214",
+    "material": "papyrus",
+    "intf_docid": 10055,
+    "date": {
+      "label": "6th/7th c.",
+      "range_start": 500,
+      "range_end": 700,
+      "estimate": 600,
+      "confidence": "Firm",
+      "summary": "6th or 7th century (INTF)."
+    },
+    "holding": {
+      "library": "Austrian National Library, Papyrus Collection",
+      "shelfmark": "P. Vindob. G. 26214",
+      "city": "Vienna, Austria"
+    },
+    "contents_summary": "John 1:31–33, 35–38.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Vienna papyrus collection; first published by Peter Sanz (1946).",
+    "summary": "A late papyrus fragment of John 1.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10055"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Exact John ranges"
+    ],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94",
+      "cavmaeh87"
+    ],
+    "id": "083",
+    "ga": "083",
+    "siglum": "083",
+    "name": "Uncial 083",
+    "material": "parchment",
+    "intf_docid": 20083,
+    "date": {
+      "label": "6th/7th c.",
+      "range_start": 500,
+      "range_end": 700,
+      "estimate": 600,
+      "confidence": "Firm",
+      "summary": "6th/7th century (INTF)."
+    },
+    "holding": {
+      "library": "National Library of Russia",
+      "shelfmark": "Gr. 10; O. 149",
+      "city": "St Petersburg, Russia"
+    },
+    "contents_summary": "Parts of John 1–4 (including 1:25–41) and 14, and Mark 13–16; from the same codex as 0112 (Sinai) and 0235.",
+    "dating_evidence": "Dated from its script; two columns, no accents or breathings.",
+    "provenance": "Leaves divided between St Petersburg and St Catherine’s Monastery, Sinai.",
+    "summary": "Relevant to both John 1 and the Mark ending study (its sister fragment 0112 has the shorter ending).",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20083"
+      }
+    ]
   },
   {
     "id": "p60",
@@ -748,6 +1213,91 @@
     ],
     "intf_docid": 20109,
     "to_check": []
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [
+      "Publication year of Excavations at Nessana II (1950 vs 1946)"
+    ],
+    "scholarly_positions": [
+      {
+        "who": "Casson & Hettich",
+        "claim": "Editors of the Nessana literary papyri.",
+        "bib": "casson50"
+      }
+    ],
+    "literature": [
+      "casson50",
+      "aland94"
+    ],
+    "id": "p59",
+    "ga": "P59",
+    "siglum": "𝔓59",
+    "name": "P. Colt 3",
+    "material": "papyrus",
+    "intf_docid": 10059,
+    "date": {
+      "label": "7th c.",
+      "range_start": 600,
+      "range_end": 700,
+      "estimate": 650,
+      "confidence": "Firm",
+      "summary": "7th century (INTF)."
+    },
+    "holding": {
+      "library": "Morgan Library & Museum",
+      "shelfmark": "P. Colt 3",
+      "city": "New York, USA"
+    },
+    "contents_summary": "Fragments of John 1:26, 28, 48, 51; 2:15–16; 11:40–52; 12:25–35; 17:24–26; 18:1–22; 21:7–23 (scattered verses).",
+    "dating_evidence": "Like 𝔓60, excavated at Nessana in the Negev alongside documents dated to the 6th and 7th centuries, which supports the palaeographic date.",
+    "provenance": "Colt Archaeological Expedition, Nessana, 1930s.",
+    "summary": "A papyrus with a known archaeological context.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10059"
+      }
+    ]
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "0268",
+    "ga": "0268",
+    "siglum": "0268",
+    "name": "Uncial 0268",
+    "material": "parchment",
+    "intf_docid": 20268,
+    "date": {
+      "label": "7th c.",
+      "range_start": 600,
+      "range_end": 700,
+      "estimate": 650,
+      "confidence": "Firm",
+      "summary": "7th century (INTF)."
+    },
+    "holding": {
+      "library": "Berlin State Museums",
+      "shelfmark": "P. 6790",
+      "city": "Berlin, Germany"
+    },
+    "contents_summary": "John 1:30–33 on one small leaf.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Berlin collection.",
+    "summary": "A small 7th-century leaf.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20268"
+      }
+    ]
   },
   {
     "id": "0250",
@@ -920,6 +1470,44 @@
     "provenance": "To be established.",
     "summary": "A small 8th-century fragment.",
     "intf_docid": 20234
+  },
+  {
+    "language": "Greek",
+    "palimpsest": false,
+    "to_check": [],
+    "scholarly_positions": [],
+    "literature": [
+      "aland94"
+    ],
+    "id": "0101",
+    "ga": "0101",
+    "siglum": "0101",
+    "name": "Uncial 0101",
+    "material": "parchment",
+    "intf_docid": 20101,
+    "date": {
+      "label": "8th c.",
+      "range_start": 700,
+      "range_end": 800,
+      "estimate": 750,
+      "confidence": "Firm",
+      "summary": "8th century (INTF)."
+    },
+    "holding": {
+      "library": "Austrian National Library",
+      "shelfmark": "Pap. G. 39780",
+      "city": "Vienna, Austria"
+    },
+    "contents_summary": "John 1:29–32 on one small leaf.",
+    "dating_evidence": "Dated from its script alone, by comparison with dated documents and other manuscripts. No dedicated dating study was found; the date is the INTF catalogue’s (or the first editors’) and should be read as an estimate of a century or so.",
+    "provenance": "Vienna collection.",
+    "summary": "A small 8th-century leaf.",
+    "images": [
+      {
+        "label": "INTF Virtual Manuscript Room",
+        "url": "https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20101"
+      }
+    ]
   },
   {
     "id": "047",

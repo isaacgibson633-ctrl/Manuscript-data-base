@@ -242,3 +242,5 @@ footer.page p{margin:0;max-width:78ch}
 @media (prefers-reduced-motion:reduce){.ms{transition:none}}
 .tag.wrap{white-space:normal}
 h1.msname{font-size:clamp(30px,5vw,44px)}
+.vsec{padding:14px 20px 6px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--rubric);border-bottom:1px solid var(--line)}
+.mx tr.secs th{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--rubric);padding:8px 4px 0;text-align:left;border-left:1px solid var(--line);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:0}

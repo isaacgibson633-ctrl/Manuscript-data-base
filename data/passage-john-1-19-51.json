@@ -1,0 +1,4455 @@
+{
+  "passage": "John 1:19–51",
+  "heading": "John 1:19–51: the Baptist and the first disciples",
+  "lede": "Four scenes: John the Baptist questioned by envoys from Jerusalem, his testimony about Jesus, the first disciples, and the call of Philip and Nathanael. For each verse: which Greek manuscripts up to AD 900 preserve it, where they disagree, and which early Latin manuscripts carry it.",
+  "latin_note": "Latin evidence matters twice in these verses: three Old Latin manuscripts support “the Chosen One” at 1:34, and three support “hereafter” at 1:51.",
+  "sections": [
+    {
+      "from": 19,
+      "to": 28,
+      "title": "The envoys from Jerusalem"
+    },
+    {
+      "from": 29,
+      "to": 34,
+      "title": "The Lamb of God"
+    },
+    {
+      "from": 35,
+      "to": 42,
+      "title": "The first disciples"
+    },
+    {
+      "from": 43,
+      "to": 51,
+      "title": "Philip and Nathanael"
+    }
+  ],
+  "verses": [
+    {
+      "ref": "John 1:19",
+      "verse": 19,
+      "section": "The envoys from Jerusalem",
+      "translation": "This is the testimony of John, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:20",
+      "verse": 20,
+      "section": "The envoys from Jerusalem",
+      "translation": "He confessed and did not deny it; he confessed, “I am not the Messiah.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:21",
+      "verse": 21,
+      "section": "The envoys from Jerusalem",
+      "translation": "They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:22",
+      "verse": 22,
+      "section": "The envoys from Jerusalem",
+      "translation": "So they said to him, “Who are you? Let us give an answer to those who sent us. What do you say about yourself?”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:23",
+      "verse": 23,
+      "section": "The envoys from Jerusalem",
+      "translation": "He said, “I am the voice of one crying out in the wilderness, ‘Make straight the way of the Lord,’ as the prophet Isaiah said.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "086",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:24",
+      "verse": 24,
+      "section": "The envoys from Jerusalem",
+      "translation": "They had been sent from the Pharisees.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "086",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0234",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:25",
+      "verse": 25,
+      "section": "The envoys from Jerusalem",
+      "translation": "They asked him, “Why then are you baptizing, if you are neither the Messiah, nor Elijah, nor the prophet?”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "086",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:26",
+      "verse": 26,
+      "section": "The envoys from Jerusalem",
+      "translation": "John answered them, “I baptize with water. Among you stands one whom you do not know,",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "086",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:27",
+      "verse": 27,
+      "section": "The envoys from Jerusalem",
+      "translation": "the one coming after me; I am not worthy to untie the strap of his sandal.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:28",
+      "verse": 28,
+      "section": "The envoys from Jerusalem",
+      "translation": "This took place in Bethany across the Jordan, where John was baptizing.",
+      "greek_where_variant": "ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου",
+      "variants": [
+        "v28"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:29",
+      "verse": 29,
+      "section": "The Lamb of God",
+      "translation": "The next day he saw Jesus coming toward him and said, “Look, the Lamb of God who takes away the sin of the world!",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0101",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:30",
+      "verse": 30,
+      "section": "The Lamb of God",
+      "translation": "This is the one of whom I said, ‘After me comes a man who ranks ahead of me, because he was before me.’",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "0260",
+          "status": "preserved"
+        },
+        {
+          "id": "0268",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0101",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:31",
+      "verse": 31,
+      "section": "The Lamb of God",
+      "translation": "I myself did not know him, but I came baptizing with water so that he might be revealed to Israel.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "0260",
+          "status": "preserved"
+        },
+        {
+          "id": "0268",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0101",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:32",
+      "verse": 32,
+      "section": "The Lamb of God",
+      "translation": "And John testified, “I saw the Spirit coming down like a dove from heaven, and it remained on him.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "029",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "0260",
+          "status": "preserved"
+        },
+        {
+          "id": "0268",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0101",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:33",
+      "verse": 33,
+      "section": "The Lamb of God",
+      "translation": "I myself did not know him, but the one who sent me to baptize with water said to me, ‘The one on whom you see the Spirit come down and remain is the one who baptizes with the Holy Spirit.’",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "0268",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:34",
+      "verse": 34,
+      "section": "The Lamb of God",
+      "translation": "And I myself have seen and have testified that this is the Son of God.”",
+      "greek_where_variant": "οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ",
+      "variants": [
+        "v34"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:35",
+      "verse": 35,
+      "section": "The first disciples",
+      "translation": "The next day John was again standing there with two of his disciples,",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:36",
+      "verse": 36,
+      "section": "The first disciples",
+      "translation": "and watching Jesus walk by, he said, “Look, the Lamb of God!”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:37",
+      "verse": 37,
+      "section": "The first disciples",
+      "translation": "The two disciples heard him say this, and they followed Jesus.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:38",
+      "verse": 38,
+      "section": "The first disciples",
+      "translation": "Jesus turned, saw them following, and said to them, “What are you looking for?” They said to him, “Rabbi” (which translated means Teacher), “where are you staying?”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "p55",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:39",
+      "verse": 39,
+      "section": "The first disciples",
+      "translation": "He said to them, “Come and see.” They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [
+        "t1-39"
+      ],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:40",
+      "verse": 40,
+      "section": "The first disciples",
+      "translation": "One of the two who heard John speak and followed him was Andrew, Simon Peter’s brother.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p5",
+          "status": "preserved"
+        },
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "04",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:41",
+      "verse": 41,
+      "section": "The first disciples",
+      "translation": "He first found his own brother Simon and said to him, “We have found the Messiah” (which is translated Anointed).",
+      "greek_where_variant": "εὑρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα",
+      "variants": [
+        "v41"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:42",
+      "verse": 42,
+      "section": "The first disciples",
+      "translation": "He brought him to Jesus. Jesus looked at him and said, “You are Simon son of John. You will be called Cephas” (which is translated Peter).",
+      "greek_where_variant": "σὺ εἶ Σίμων ὁ υἱὸς Ἰωάννου",
+      "variants": [
+        "v42"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:43",
+      "verse": 43,
+      "section": "Philip and Nathanael",
+      "translation": "The next day he decided to go to Galilee. He found Philip and said to him, “Follow me.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:44",
+      "verse": 44,
+      "section": "Philip and Nathanael",
+      "translation": "Philip was from Bethsaida, the town of Andrew and Peter.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "p119",
+          "status": "preserved"
+        },
+        {
+          "id": "p120",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:45",
+      "verse": 45,
+      "section": "Philip and Nathanael",
+      "translation": "Philip found Nathanael and said to him, “We have found the one Moses wrote about in the law, and the prophets also: Jesus son of Joseph, from Nazareth.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:46",
+      "verse": 46,
+      "section": "Philip and Nathanael",
+      "translation": "Nathanael said to him, “Can anything good come out of Nazareth?” Philip said to him, “Come and see.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p106",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:47",
+      "verse": 47,
+      "section": "Philip and Nathanael",
+      "translation": "Jesus saw Nathanael coming toward him and said of him, “Here is truly an Israelite in whom there is no deceit!”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:48",
+      "verse": 48,
+      "section": "Philip and Nathanael",
+      "translation": "Nathanael said to him, “Where do you know me from?” Jesus answered, “Before Philip called you, when you were under the fig tree, I saw you.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:49",
+      "verse": 49,
+      "section": "Philip and Nathanael",
+      "translation": "Nathanael answered him, “Rabbi, you are the Son of God! You are the King of Israel!”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p134",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:50",
+      "verse": 50,
+      "section": "Philip and Nathanael",
+      "translation": "Jesus answered, “Do you believe because I told you I saw you under the fig tree? You will see greater things than these.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p134",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 1:51",
+      "verse": 51,
+      "section": "Philip and Nathanael",
+      "translation": "And he said to him, “Truly, truly, I tell you, you will see heaven opened and the angels of God going up and coming down on the Son of Man.”",
+      "greek_where_variant": "ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα",
+      "variants": [
+        "v51"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p134",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "to_check"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    }
+  ],
+  "latin": [
+    {
+      "id": "vl3",
+      "coverage_note": "complete (some leaves damaged)"
+    },
+    {
+      "id": "vl2",
+      "coverage_note": "complete; reads “Chosen One” (1:34) and “hereafter” (1:51)"
+    },
+    {
+      "id": "vl4",
+      "coverage_note": "complete; reads “Chosen One” (1:34)"
+    },
+    {
+      "id": "vl8",
+      "coverage_note": "complete; first hand reads “Chosen One” (1:34)"
+    },
+    {
+      "id": "vg_sang1395",
+      "coverage_note": "to map (fragmentary)"
+    },
+    {
+      "id": "vl10",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vl13",
+      "coverage_note": "preserves 1:51 (“hereafter”); rest to map"
+    },
+    {
+      "id": "vl14",
+      "coverage_note": "complete for this section; reads “hereafter” (1:51)"
+    },
+    {
+      "id": "vl11",
+      "coverage_note": "complete for this section"
+    },
+    {
+      "id": "vg_fuld",
+      "coverage_note": "verses distributed through the harmony"
+    },
+    {
+      "id": "vg_cuth",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vg_amiat",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vg_durrow",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vg_lindis",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vg_kells",
+      "coverage_note": "complete"
+    }
+  ],
+  "variants": [
+    {
+      "id": "v34",
+      "ref": "John 1:34",
+      "label": "Son / Chosen One",
+      "title": "“The Son of God” or “the Chosen One of God”?",
+      "readings": [
+        {
+          "greek": "ὁ υἱὸς τοῦ θεοῦ",
+          "english": "the Son of God",
+          "witnesses": "𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 04 · 019 · most manuscripts · Vulgate",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ὁ ἐκλεκτὸς τοῦ θεοῦ",
+          "english": "the Chosen One of God",
+          "witnesses": "𝔓5 (probably, from the space available) · 𝔓106 (probably) · 01 (first hand) · Old Latin b, e, ff2 (first hand) · Old Syriac (Sinaitic and Curetonian)",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The most interesting variant in this section, and one where new discoveries changed the picture. “Son of God” has the numbers and the great codices. “Chosen One” has fewer witnesses, but they are early and widespread: the first hand of Sinaiticus, Old Latin and Old Syriac, and two 3rd-century Oxyrhynchus papyri, one of them (𝔓106) only published in the late 1990s. Some witnesses combine the two as “the chosen Son”. Scholars who favour “Chosen One” argue that a scribe would more easily change it to the familiar “Son of God” than the reverse, and that John the Baptist here echoes Isaiah 42:1. Ehrman sees the change to “Son” as part of 2nd-century debates about Christ’s status; Quek accepts “Chosen One” as original but finds that explanation unnecessary. The Nestle–Aland text prints “Son”; some recent translations (the NET Bible, for example) print “Chosen One”.",
+      "literature": [
+        "quek09",
+        "ehrman93",
+        "metzger94",
+        "na28",
+        "net"
+      ]
+    },
+    {
+      "id": "v28",
+      "ref": "John 1:28",
+      "label": "Bethany / Bethabara",
+      "title": "Bethany or Bethabara?",
+      "readings": [
+        {
+          "greek": "ἐν Βηθανίᾳ",
+          "english": "in Bethany (across the Jordan)",
+          "witnesses": "𝔓59 (probably) · 𝔓66 · 𝔓75 · 02 · 03 · 04 (first hand) · 019 · 032 (replacement quire) · 037 · 038 · 044 (first hand) · most Latin · Bohairic Coptic",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ἐν Βηθαβαρᾷ",
+          "english": "in Bethabara",
+          "witnesses": "01 (a later corrector) · 04 (corrector) · 017 · 029 · 044 (corrector) · 083 · many later manuscripts · Sahidic Coptic · Origen",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The earliest manuscripts say Bethany, which is not the village near Jerusalem but a place “across the Jordan”. In the 3rd century Origen, visiting the region, could find no Bethany beyond the Jordan and was shown a place called Bethabara associated with John’s baptism; he adopted that name in his Commentary on John (book 6), and his reading spread into later manuscripts and eventually into the King James Version. A case where a named scholar’s field research, not a scribe’s slip, changed the text.",
+      "literature": [
+        "origen_heine",
+        "metzger94",
+        "na28",
+        "net"
+      ]
+    },
+    {
+      "id": "v42",
+      "ref": "John 1:42",
+      "label": "John / Jonah",
+      "title": "“Son of John” or “son of Jonah”?",
+      "readings": [
+        {
+          "greek": "Σίμων ὁ υἱὸς Ἰωάννου",
+          "english": "Simon son of John",
+          "witnesses": "𝔓66 · 𝔓75 · 𝔓106 · 01 · 03 (first hand) · 019 · minuscule 33 · Old Latin · Coptic",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "Σίμων ὁ υἱὸς Ἰωνᾶ",
+          "english": "Simon son of Jonah",
+          "witnesses": "02 · 03 (corrector) · 044 · most later manuscripts",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "Matthew 16:17 calls Peter “Simon Bar-Jona”. The later reading in John brings the two Gospels into line, a common kind of scribal change (harmonisation). The KJV follows the later text (“Simon the son of Jona”); most modern translations read “son of John”.",
+      "literature": [
+        "metzger94",
+        "na28",
+        "net"
+      ]
+    },
+    {
+      "id": "v41",
+      "ref": "John 1:41",
+      "label": "first",
+      "title": "Who found Simon “first”?",
+      "readings": [
+        {
+          "greek": "πρῶτον",
+          "english": "he first (the first thing he did was to find his brother)",
+          "witnesses": "𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 038 · 044 · 083 · Latin",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "πρῶτος",
+          "english": "he was the first (to find his brother)",
+          "witnesses": "01 (first hand) · 019 · 032 (replacement quire) · most later manuscripts",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "A one-letter difference. With πρῶτος, Andrew is the first of the two disciples to find his brother, which hints that the unnamed second disciple later found his own brother too. A few Old Latin manuscripts are reported to read “in the morning” instead (to check). Small in itself, but it shapes how readers identify the unnamed disciple.",
+      "literature": [
+        "metzger94",
+        "na28",
+        "net"
+      ]
+    },
+    {
+      "id": "v51",
+      "ref": "John 1:51",
+      "label": "hereafter",
+      "title": "“Hereafter you will see”?",
+      "readings": [
+        {
+          "greek": "ὄψεσθε",
+          "english": "you will see",
+          "witnesses": "𝔓66 · 𝔓75 · 01 · 03 · 019 · 032 (replacement quire)",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ἀπ᾽ ἄρτι ὄψεσθε",
+          "english": "hereafter you will see",
+          "witnesses": "02 · 017 · 021 · 030 · 034 · 037 · 038 · 044 · most later manuscripts · Old Latin e, q, r1 · Peshitta Syriac",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The KJV’s “Hereafter ye shall see” comes from the later reading. The phrase probably came in from Matthew 26:64 (“from now on you will see the Son of Man”), another harmonisation. The four earliest witnesses lack it.",
+      "literature": [
+        "metzger94",
+        "na28"
+      ]
+    }
+  ],
+  "translation_sweep": [
+    {
+      "id": "t1-39",
+      "ref": "John 1:39",
+      "question": "What time is “the tenth hour”?",
+      "manuscripts_agree": true,
+      "greek": "ὥρα ἦν ὡς δεκάτη",
+      "explanation": "Counting hours from sunrise, as was usual in the ancient Mediterranean, the tenth hour is about 4 p.m., which is how several modern translations render it. A minority view holds that John counts from midnight, which would make it 10 a.m. The manuscripts do not settle this; it will be treated with other time references in John (4:6, 19:14) in the translation sweep."
+    }
+  ]
+}

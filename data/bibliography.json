@@ -278,5 +278,30 @@
     "group": "Latin manuscripts",
     "citation": "Meehan, Bernard. The Book of Kells. London: Thames & Hudson, 2012.",
     "citation_html": "Meehan, Bernard. <i>The Book of Kells</i>. London: Thames & Hudson, 2012."
+  },
+  "quek09": {
+    "group": "John 1:19–51",
+    "citation": "Quek, Tze-Ming. “A Text-Critical Study of John 1.34.” New Testament Studies 55.1 (2009): 22–34.",
+    "citation_html": "Quek, Tze-Ming. “A Text-Critical Study of John 1.34.” <i>New Testament Studies</i> 55.1 (2009): 22–34."
+  },
+  "origen_heine": {
+    "group": "John 1:19–51",
+    "citation": "Origen. Commentary on the Gospel According to John, Books 1–10. Translated by Ronald E. Heine. Fathers of the Church 80. Washington, DC: Catholic University of America Press, 1989. (Book 6 on Bethabara.)",
+    "citation_html": "Origen. <i>Commentary on the Gospel According to John, Books 1–10</i>. Translated by Ronald E. Heine. Fathers of the Church 80. Washington, DC: Catholic University of America Press, 1989. (Book 6 on Bethabara.)"
+  },
+  "smith17": {
+    "group": "John 1:19–51",
+    "citation": "Smith, Geoffrey S. “The Willoughby Papyrus: A New Fragment of John 1:49–2:1 (𝔓134) and an Unidentified Christian Text.” Journal of Biblical Literature 136.4 (2017): 935–58.",
+    "citation_html": "Smith, Geoffrey S. “The Willoughby Papyrus: A New Fragment of John 1:49–2:1 (𝔓134) and an Unidentified Christian Text.” <i>Journal of Biblical Literature</i> 136.4 (2017): 935–58."
+  },
+  "poxy65": {
+    "group": "John 1:19–51",
+    "citation": "Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In The Oxyrhynchus Papyri. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm).",
+    "citation_html": "Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In <i>The Oxyrhynchus Papyri</i>. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm)."
+  },
+  "poxy71": {
+    "group": "John 1:19–51",
+    "citation": "Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In The Oxyrhynchus Papyri LXXI. London: Egypt Exploration Society, 2007.",
+    "citation_html": "Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In <i>The Oxyrhynchus Papyri</i> LXXI. London: Egypt Exploration Society, 2007."
   }
 }

@@ -1,0 +1,413 @@
+<title>John 1:19–51 in the Manuscripts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+:root{
+  --ground:#EDEFEA; --surface:#F8F9F6; --ink:#1B2024; --muted:#566067; --line:#D3D8D0;
+  --accent:#2A4A7F; --accent-soft:#DCE4F0; --rubric:#9E2B25;
+  --papyrus:#C4861A; --parchment:#6A5245; --latin:#4F6B5A;
+  --firm:#2F6B4A; --firm-soft:#DDEBE2; --debated:#8A5A12; --debated-soft:#F3E6CC;
+  --cell-empty:#E3E6E0;
+  --display:"GFS Didot","Didot","Bodoni 72",Georgia,serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+    --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+    --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+    --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+    --cell-empty:#242A2F;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+  --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+  --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+  --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+  --cell-empty:#242A2F;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding:0 16px}
+.wrap{max-width:1000px;margin:0 auto;padding-block:40px 64px;display:flex;flex-direction:column;gap:52px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible,td[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(34px,6vw,54px)}
+h2{font-size:30px}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.draft{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rubric);color:var(--rubric);padding:2px 8px;border-radius:3px}
+header{display:flex;flex-direction:column;gap:18px}
+header .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.lede{max-width:66ch}
+.stats{display:flex;gap:28px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.stats b{display:block;font-family:var(--display);font-weight:400;font-size:32px;color:var(--ink);line-height:1.1}
+section{display:flex;flex-direction:column;gap:14px}
+section > p{max-width:68ch}
+
+/* Verse reader */
+.reader{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 0}
+.v{display:grid;grid-template-columns:44px 1fr auto;gap:4px 14px;padding:10px 20px;border-bottom:1px solid var(--line);align-items:baseline}
+.v:last-child{border-bottom:0}
+.vn{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.vt{max-width:70ch}
+.vg{grid-column:2 / 4;font-family:var(--display);font-size:19px;line-height:1.45;color:var(--ink)}
+.vflags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.flag{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:3px;white-space:nowrap;text-decoration:none}
+.flag.var{background:var(--accent-soft);color:var(--accent)}
+.flag.tr{background:var(--debated-soft);color:var(--debated)}
+.vw{font-family:var(--mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
+
+/* Matrix */
+.mx-box{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.mx{border-collapse:separate;border-spacing:0;font-size:13px;min-width:1080px;width:100%}
+.mx th,.mx td{padding:0;text-align:center;border-bottom:1px solid var(--line)}
+.mx thead th{font-family:var(--mono);font-weight:500;font-size:11px;color:var(--muted);padding:10px 0 8px;position:sticky;top:0;background:var(--surface)}
+.mx th.ms{position:sticky;left:0;background:var(--surface);text-align:left;padding:7px 12px;font-weight:400;z-index:1;min-width:190px;border-right:1px solid var(--line)}
+.mx th.ms .s{font-family:var(--display);font-size:17px;color:var(--ink)}
+.mx th.ms .d{display:block;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tr.grp th{background:var(--ground);text-align:left;padding:8px 12px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);position:sticky;left:0}
+.mx td{width:26px}
+.mx thead th.sec{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--rubric);text-align:left;padding:8px 4px 0;border-bottom:0}
+.mx td.secstart,.mx th.secstart{border-left:1px solid var(--line)}
+.secbar{padding:14px 20px 6px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--rubric);border-bottom:1px solid var(--line);background:var(--ground)}
+.secbar b{font-family:var(--display);font-weight:400;font-size:18px;letter-spacing:0;text-transform:none;color:var(--ink);margin-left:8px}
+.c{display:block;width:16px;height:16px;margin:auto;border-radius:3px;background:var(--cell-empty)}
+.c.y{background:var(--parchment)}
+.c.y.pap{background:var(--papyrus)}
+.c.y.lat{background:var(--latin)}
+.c.s{background:repeating-linear-gradient(135deg,var(--parchment) 0 3px,transparent 3px 6px);outline:1px solid var(--parchment);outline-offset:-1px}
+.c.q{background:transparent;outline:1px dashed var(--muted);outline-offset:-1px}
+.mx td.tot{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tfoot td,.mx tfoot th{font-family:var(--mono);font-size:11px;color:var(--ink);padding:8px 0;border-bottom:0;background:var(--surface)}
+.mx tfoot th{position:sticky;left:0;text-align:left;padding-left:12px;border-right:1px solid var(--line)}
+.dtag{font-family:var(--mono);font-size:10.5px;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:1px}
+.dtag.deb{background:var(--debated-soft);color:var(--debated)}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend .c{margin:0;width:14px;height:14px}
+
+/* Variant cards */
+.variants{display:flex;flex-direction:column;gap:18px}
+.vc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:20px}
+.vc h3{font-size:24px}
+.vc .ref{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.readings{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
+.rd{border:1px solid var(--line);border-radius:5px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.rd .gk{font-family:var(--display);font-size:20px}
+.rd .en{font-style:italic}
+.rd .wit{font-family:var(--mono);font-size:12px;color:var(--muted);line-height:1.5}
+.rd.printed{border-color:var(--accent)}
+.rd .pl{font-family:var(--mono);font-size:11px;color:var(--accent)}
+.vc p{max-width:72ch}
+.vc details summary{cursor:pointer;color:var(--accent);font-family:var(--mono);font-size:12.5px}
+.vc ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.vc.tr{border-style:dashed}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.plain{border-collapse:collapse;width:100%;font-size:14.5px;min-width:600px}
+table.plain th,table.plain td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.plain th{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+table.plain tr:last-child td{border-bottom:0}
+.note{font-size:14px;color:var(--muted)}
+#bib ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;max-width:80ch}
+#bib li{padding-left:2em;text-indent:-2em;font-size:15px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+footer p{max-width:78ch}
+@media (max-width:640px){
+  .v{grid-template-columns:34px 1fr;padding:10px 14px}
+  .vflags{grid-column:2;justify-content:flex-start}
+  .vg{grid-column:2}
+  .mx th.ms{min-width:140px}
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="top"><span class="eyebrow">Gospel of John · chapter 1</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
+  <h1>John 1:19–51: the Baptist and the first disciples</h1>
+  <p class="lede">Four scenes: John the Baptist questioned by envoys from Jerusalem, his testimony about Jesus, the first disciples, and the call of Philip and Nathanael. For each verse: which Greek manuscripts up to AD 900 preserve it, where they disagree, and which early Latin manuscripts carry it.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section aria-labelledby="read-h">
+  <h2 id="read-h">The passage, verse by verse</h2>
+  <p>A literal translation of our own, following the modern critical Greek text. Greek is shown where the manuscripts differ. Blue tags mark a manuscript variant, amber tags a translation question saved for a later sweep; the count is how many Greek witnesses up to 900 preserve the verse.</p>
+  <div class="reader" id="reader"></div>
+</section>
+
+<section aria-labelledby="mx-h">
+  <h2 id="mx-h">Who preserves which verse</h2>
+  <p>After the Prologue, the picture changes. Alongside the great codices, a cluster of small papyrus fragments from Oxyrhynchus (𝔓5, 𝔓106, 𝔓119, 𝔓120) and several parchment scraps cover these verses, so some verses have more early witnesses than the Prologue did. Codex Bezae’s Greek has a gap here, and Codex Ephraemi breaks off at 1:40.</p>
+  <div class="legend">
+    <span><i class="c y pap"></i>Papyrus</span>
+    <span><i class="c y"></i>Parchment</span>
+    <span><i class="c s"></i>Later replacement leaves (still before 900)</span>
+    <span><i class="c q"></i>Survives, extent to check</span>
+    <span><i class="c"></i>Lost or never included</span>
+  </div>
+  <div class="mx-box"><table class="mx" id="mx"></table></div>
+  <p class="note">Coverage is taken from published contents lists, editions and each manuscript’s recorded gaps, and has not yet been checked leaf by leaf against the INTF catalogue. Hover or read the grey line under each name for gaps and notes.</p>
+</section>
+
+<section aria-labelledby="var-h">
+  <h2 id="var-h">Where the manuscripts disagree</h2>
+  <p>Five places in these verses change what an English reader sees. The reading printed in the modern critical edition (Nestle–Aland, 28th edition) is outlined.</p>
+  <div class="variants" id="variants"></div>
+</section>
+
+<section aria-labelledby="tr-h">
+  <h2 id="tr-h">Saved for the translation sweep</h2>
+  <div class="vc tr" id="t1-39">
+    <span class="ref">John 1:39 · translation question, not a manuscript variant</span>
+    <h3>What time is “the tenth hour”?</h3>
+    <div class="readings"><div class="rd"><span class="gk" lang="grc">ὥρα ἦν ὡς δεκάτη</span><span class="wit">Read the same way in the early Greek manuscripts.</span></div></div>
+    <p>Counting hours from sunrise, as was usual in the ancient Mediterranean, the tenth hour is about 4 p.m., which is how several modern translations render it. A minority view holds that John counts from midnight, which would make it 10 a.m. The manuscripts do not settle this; it will be treated with other time references in John (4:6, 19:14) in the translation sweep.</p>
+  </div>
+</section>
+
+<section aria-labelledby="lat-h">
+  <h2 id="lat-h">The Latin layer</h2>
+  <p>Latin evidence matters twice in these verses: three Old Latin manuscripts support “the Chosen One” at 1:34, and three support “hereafter” at 1:51.</p>
+  <div class="tbl"><table class="plain">
+    <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>John 1:19–51</th></tr></thead>
+    <tbody id="latin"></tbody>
+  </table></div>
+</section>
+
+<section aria-labelledby="new-h">
+  <h2 id="new-h">Witnesses that first appear in this section</h2>
+  <p>Manuscripts that do not preserve the Prologue but do preserve part of 1:19–51, with their dates and what they are. Full dating records are in the project data.</p>
+  <div class="tbl"><table class="plain">
+    <thead><tr><th>Manuscript</th><th>Date</th><th>What it is</th><th>Where it is</th></tr></thead>
+    <tbody id="newms"></tbody>
+  </table></div>
+</section>
+
+<section id="bib" aria-labelledby="bib-h">
+  <h2 id="bib-h">Scholarly works for this passage</h2>
+  <ul id="biblist"></ul>
+</section>
+
+<footer>
+  <p><b>Status.</b> Draft. Variant witness lists were cross-checked against the NET Bible text-critical notes and published discussions; papyrus contents against their editions’ descriptions. A final check against the printed Nestle–Aland 28 apparatus and the INTF Virtual Manuscript Room is still needed before public release.</p>
+  <p><b>Dating.</b> Dates are INTF catalogue dates unless stated. The evidence and debates behind each date are in the manuscript records.</p>
+</footer>
+</div>
+
+<script>
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FIRST = 19, LAST = 51, all = [FIRST, LAST];
+const SECTIONS = [[19,28,"The envoys from Jerusalem"],[29,34,"The Lamb of God"],[35,42,"The first disciples"],[43,51,"Philip and Nathanael"]];
+const MS = [
+ {g:"pap", s:"𝔓5", n:"P.Oxy. 208 + 1781", d:"early 3rd c.", cov:[[23,31],[33,40]]},
+ {g:"pap", s:"𝔓66", n:"Papyrus Bodmer II", d:"c. 200", deb:true, cov:[all]},
+ {g:"pap", s:"𝔓75", n:"Papyrus Bodmer XIV–XV", d:"c. 200–225", deb:true, cov:[all]},
+ {g:"pap", s:"𝔓106", n:"P.Oxy. 4445", d:"3rd c.", cov:[[29,35],[40,46]]},
+ {g:"pap", s:"𝔓119", n:"P.Oxy. 4803", d:"3rd c.", cov:[[21,28],[38,44]]},
+ {g:"pap", s:"𝔓134", n:"Willoughby Papyrus (roll)", d:"3rd/4th c.", cov:[[49,51]]},
+ {g:"pap", s:"𝔓120", n:"P.Oxy. 4804", d:"4th c.", cov:[[25,28],[33,38],[42,44]], note:"ranges differ between summaries; check"},
+ {g:"pap", s:"𝔓55", n:"Vienna, P. Vindob. G. 26214", d:"6th/7th c.", cov:[[31,33],[35,38]]},
+ {g:"pap", s:"𝔓59", n:"P. Colt 3 (Nessana)", d:"7th c.", cov:[[26,26],[28,28],[48,48],[51,51]]},
+ {g:"maj", s:"01 א", n:"Sinaiticus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"03 B", n:"Vaticanus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"02 A", n:"Alexandrinus", d:"5th c.", cov:[all]},
+ {g:"maj", s:"04 C", n:"Ephraemi Rescriptus", d:"5th c.", cov:[[19,40]], note:"lacks 1:41–3:33"},
+ {g:"maj", s:"029 T", n:"Borgianus (Greek–Sahidic)", d:"5th c.", cov:[[24,32]]},
+ {g:"maj", s:"032 W", n:"Washingtonianus", d:"4th/5th c.", sup:[all], note:"John 1:1–5:11 is a replacement quire, usually dated 7th c."},
+ {g:"maj", s:"083", n:"Uncial 083", d:"6th/7th c.", cov:[[25,41]]},
+ {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[[19,21],[39,51]], note:"lacks 1:22–38"},
+ {g:"maj", s:"024 P", n:"Guelferbytanus A (palimpsest)", d:"6th c.", cov:[[29,40]]},
+ {g:"maj", s:"086", n:"Uncial 086 (Greek–Coptic, palimpsest)", d:"6th c.", cov:[[23,26]]},
+ {g:"maj", s:"0260", n:"Uncial 0260 (Greek–Fayyumic Coptic)", d:"6th c.", cov:[[30,32]]},
+ {g:"maj", s:"0268", n:"Uncial 0268", d:"7th c.", cov:[[30,33]]},
+ {g:"maj", s:"07 E", n:"Basilensis", d:"8th c.", cov:[all]},
+ {g:"maj", s:"019 L", n:"Regius", d:"8th c.", cov:[all]},
+ {g:"maj", s:"047", n:"Uncial 047", d:"8th c.", cov:[all]},
+ {g:"maj", s:"0101", n:"Uncial 0101", d:"8th c.", cov:[[29,32]]},
+ {g:"maj", s:"0234", n:"Uncial 0234", d:"8th c.", cov:[[20,24]]},
+ {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c.", q:[all], note:"no recorded gap before 3:5, but heavily damaged; check"},
+ {g:"maj", s:"011 G", n:"Seidelianus I", d:"9th c.", cov:[all]},
+ {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"017 K", n:"Cyprius", d:"9th c.", cov:[all]},
+ {g:"maj", s:"021 M", n:"Campianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"030 U", n:"Nanianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"031 V", n:"Mosquensis II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"034 Y", n:"Macedoniensis", d:"9th c.", cov:[all]},
+ {g:"maj", s:"037 Δ", n:"Sangallensis 48", d:"9th c.", cov:[all]},
+ {g:"maj", s:"038 Θ", n:"Koridethi", d:"9th c.", cov:[all]},
+ {g:"maj", s:"039 Λ", n:"Tischendorfianus III", d:"9th c.", cov:[all]},
+ {g:"maj", s:"041 Π", n:"Petropolitanus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"045 Ω", n:"Athous Dionysiou", d:"9th c.", cov:[all]},
+ {g:"maj", s:"0211", n:"Uncial 0211", d:"9th c.", deb:true, cov:[all]},
+ {g:"maj", s:"044 Ψ", n:"Athous Lavrensis", d:"9th/10th c.", deb:true, cov:[all]},
+];
+const has = (rs,v) => (rs||[]).some(([a,b])=>v>=a&&v<=b);
+const state = (m,v) => has(m.cov,v) ? "y" : has(m.sup,v) ? "s" : has(m.q,v) ? "q" : "";
+const count = v => MS.filter(m=>state(m,v)).length;
+
+const VERSES = [
+ [19,"This is the testimony of John, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”"],
+ [20,"He confessed and did not deny it; he confessed, “I am not the Messiah.”"],
+ [21,"They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.”"],
+ [22,"So they said to him, “Who are you? Let us give an answer to those who sent us. What do you say about yourself?”"],
+ [23,"He said, “I am the voice of one crying out in the wilderness, ‘Make straight the way of the Lord,’ as the prophet Isaiah said.”"],
+ [24,"They had been sent from the Pharisees."],
+ [25,"They asked him, “Why then are you baptizing, if you are neither the Messiah, nor Elijah, nor the prophet?”"],
+ [26,"John answered them, “I baptize with water. Among you stands one whom you do not know,"],
+ [27,"the one coming after me; I am not worthy to untie the strap of his sandal.”"],
+ [28,"This took place in Bethany across the Jordan, where John was baptizing.","ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου",["v28"]],
+ [29,"The next day he saw Jesus coming toward him and said, “Look, the Lamb of God who takes away the sin of the world!"],
+ [30,"This is the one of whom I said, ‘After me comes a man who ranks ahead of me, because he was before me.’"],
+ [31,"I myself did not know him, but I came baptizing with water so that he might be revealed to Israel.”"],
+ [32,"And John testified, “I saw the Spirit coming down like a dove from heaven, and it remained on him."],
+ [33,"I myself did not know him, but the one who sent me to baptize with water said to me, ‘The one on whom you see the Spirit come down and remain is the one who baptizes with the Holy Spirit.’"],
+ [34,"And I myself have seen and have testified that this is the Son of God.”","οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ",["v34"]],
+ [35,"The next day John was again standing there with two of his disciples,"],
+ [36,"and watching Jesus walk by, he said, “Look, the Lamb of God!”"],
+ [37,"The two disciples heard him say this, and they followed Jesus."],
+ [38,"Jesus turned, saw them following, and said to them, “What are you looking for?” They said to him, “Rabbi” (which translated means Teacher), “where are you staying?”"],
+ [39,"He said to them, “Come and see.” They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.",null,[],["t1-39"]],
+ [40,"One of the two who heard John speak and followed him was Andrew, Simon Peter’s brother."],
+ [41,"He first found his own brother Simon and said to him, “We have found the Messiah” (which is translated Anointed).","εὑρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα",["v41"]],
+ [42,"He brought him to Jesus. Jesus looked at him and said, “You are Simon son of John. You will be called Cephas” (which is translated Peter).","σὺ εἶ Σίμων ὁ υἱὸς Ἰωάννου",["v42"]],
+ [43,"The next day he decided to go to Galilee. He found Philip and said to him, “Follow me.”"],
+ [44,"Philip was from Bethsaida, the town of Andrew and Peter."],
+ [45,"Philip found Nathanael and said to him, “We have found the one Moses wrote about in the law, and the prophets also: Jesus son of Joseph, from Nazareth.”"],
+ [46,"Nathanael said to him, “Can anything good come out of Nazareth?” Philip said to him, “Come and see.”"],
+ [47,"Jesus saw Nathanael coming toward him and said of him, “Here is truly an Israelite in whom there is no deceit!”"],
+ [48,"Nathanael said to him, “Where do you know me from?” Jesus answered, “Before Philip called you, when you were under the fig tree, I saw you.”"],
+ [49,"Nathanael answered him, “Rabbi, you are the Son of God! You are the King of Israel!”"],
+ [50,"Jesus answered, “Do you believe because I told you I saw you under the fig tree? You will see greater things than these.”"],
+ [51,"And he said to him, “Truly, truly, I tell you, you will see heaven opened and the angels of God going up and coming down on the Son of Man.”","ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα",["v51"]],
+];
+const VLABEL = {v28:"variant: Bethany / Bethabara", v34:"variant: Son / Chosen One", v41:"variant: first", v42:"variant: John / Jonah", v51:"variant: hereafter", "t1-39":"translation note"};
+
+document.getElementById("reader").innerHTML = VERSES.map(([n,en,gk,vars=[],trs=[]])=>{
+  const sec = SECTIONS.find(s=>s[0]===n);
+  const bar = sec ? `<div class="secbar">1:${sec[0]}–${sec[1]}<b>${esc(sec[2])}</b></div>` : "";
+  const flags = vars.map(k=>`<a class="flag var" href="#${k}">${VLABEL[k]}</a>`).concat(trs.map(k=>`<a class="flag tr" href="#${k}">${VLABEL[k]}</a>`)).join("");
+  return bar + `<div class="v"><span class="vn">1:${n}</span><span class="vt">${esc(en)}</span><span class="vflags">${flags}<span class="vw">${count(n)} MSS</span></span>${gk?`<span class="vg" lang="grc">${esc(gk)}</span>`:""}</div>`;
+}).join("");
+
+(function(){
+  const vs = Array.from({length:LAST-FIRST+1},(_,i)=>i+FIRST);
+  const isStart = v => SECTIONS.some(s=>s[0]===v) && v!==FIRST;
+  let h = `<thead><tr><th class="ms"></th>${SECTIONS.map(s=>`<th class="sec${s[0]!==FIRST?" secstart":""}" colspan="${s[1]-s[0]+1}">${esc(s[2])}</th>`).join("")}</tr>`;
+  h += `<tr><th class="ms" scope="col">Manuscript</th>${vs.map(v=>`<th scope="col" class="${isStart(v)?"secstart":""}">${v}</th>`).join("")}</tr></thead><tbody>`;
+  [["pap","Papyri"],["maj","Parchment majuscules"]].forEach(([g,label])=>{
+    h += `<tr class="grp"><th colspan="${vs.length+1}">${label}</th></tr>`;
+    MS.filter(m=>m.g===g).forEach(m=>{
+      h += `<tr><th class="ms" scope="row"${m.note?` title="${esc(m.note)}"`:""}><span class="s">${esc(m.s)}</span>${m.deb?'<span class="dtag deb">date debated</span>':""}<span class="d">${esc(m.n)} · ${esc(m.d)}${m.note?" · "+esc(m.note):""}</span></th>`;
+      h += vs.map(v=>{ const st = state(m,v); return `<td class="${isStart(v)?"secstart":""}"><i class="c ${st}${st==="y"&&g==="pap"?" pap":""}" aria-label="1:${v} ${st==="y"?"preserved":st==="s"?"replacement leaves":st==="q"?"to check":"not preserved"}"></i></td>`; }).join("") + `</tr>`;
+    });
+  });
+  h += `</tbody><tfoot><tr><th>Witnesses per verse</th>${vs.map(v=>`<td class="${isStart(v)?"secstart":""}">${count(v)}</td>`).join("")}</tr></tfoot>`;
+  document.getElementById("mx").innerHTML = h;
+})();
+
+const VARS = [
+ {id:"v34", ref:"John 1:34", title:"“The Son of God” or “the Chosen One of God”?",
+  readings:[
+   {gk:"ὁ υἱὸς τοῦ θεοῦ", en:"the Son of God", wit:"𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 04 · 019 · most manuscripts · Vulgate", printed:true},
+   {gk:"ὁ ἐκλεκτὸς τοῦ θεοῦ", en:"the Chosen One of God", wit:"𝔓5 (probably, from the space available) · 𝔓106 (probably) · 01 (first hand) · Old Latin b, e, ff2 (first hand) · Old Syriac (Sinaitic and Curetonian)"},
+  ],
+  body:"The most interesting variant in this section, and one where new discoveries changed the picture. “Son of God” has the numbers and the great codices. “Chosen One” has fewer witnesses, but they are early and widespread: the first hand of Sinaiticus, Old Latin and Old Syriac, and two 3rd-century Oxyrhynchus papyri, one of them (𝔓106) only published in the late 1990s. Some witnesses combine the two as “the chosen Son”. Scholars who favour “Chosen One” argue that a scribe would more easily change it to the familiar “Son of God” than the reverse, and that John the Baptist here echoes Isaiah 42:1. Ehrman sees the change to “Son” as part of 2nd-century debates about Christ’s status; Quek accepts “Chosen One” as original but finds that explanation unnecessary. The Nestle–Aland text prints “Son”; some recent translations (the NET Bible, for example) print “Chosen One”.",
+  lit:["quek09","ehrman93","metzger94","na28","net"]},
+ {id:"v28", ref:"John 1:28", title:"Bethany or Bethabara?",
+  readings:[
+   {gk:"ἐν Βηθανίᾳ", en:"in Bethany (across the Jordan)", wit:"𝔓59 (probably) · 𝔓66 · 𝔓75 · 02 · 03 · 04 (first hand) · 019 · 032 (replacement quire) · 037 · 038 · 044 (first hand) · most Latin · Bohairic Coptic", printed:true},
+   {gk:"ἐν Βηθαβαρᾷ", en:"in Bethabara", wit:"01 (a later corrector) · 04 (corrector) · 017 · 029 · 044 (corrector) · 083 · many later manuscripts · Sahidic Coptic · Origen"},
+  ],
+  body:"The earliest manuscripts say Bethany, which is not the village near Jerusalem but a place “across the Jordan”. In the 3rd century Origen, visiting the region, could find no Bethany beyond the Jordan and was shown a place called Bethabara associated with John’s baptism; he adopted that name in his Commentary on John (book 6), and his reading spread into later manuscripts and eventually into the King James Version. A case where a named scholar’s field research, not a scribe’s slip, changed the text.",
+  lit:["origen_heine","metzger94","na28","net"]},
+ {id:"v42", ref:"John 1:42", title:"“Son of John” or “son of Jonah”?",
+  readings:[
+   {gk:"Σίμων ὁ υἱὸς Ἰωάννου", en:"Simon son of John", wit:"𝔓66 · 𝔓75 · 𝔓106 · 01 · 03 (first hand) · 019 · minuscule 33 · Old Latin · Coptic", printed:true},
+   {gk:"Σίμων ὁ υἱὸς Ἰωνᾶ", en:"Simon son of Jonah", wit:"02 · 03 (corrector) · 044 · most later manuscripts"},
+  ],
+  body:"Matthew 16:17 calls Peter “Simon Bar-Jona”. The later reading in John brings the two Gospels into line, a common kind of scribal change (harmonisation). The KJV follows the later text (“Simon the son of Jona”); most modern translations read “son of John”.",
+  lit:["metzger94","na28","net"]},
+ {id:"v41", ref:"John 1:41", title:"Who found Simon “first”?",
+  readings:[
+   {gk:"πρῶτον", en:"he first (the first thing he did was to find his brother)", wit:"𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 038 · 044 · 083 · Latin", printed:true},
+   {gk:"πρῶτος", en:"he was the first (to find his brother)", wit:"01 (first hand) · 019 · 032 (replacement quire) · most later manuscripts"},
+  ],
+  body:"A one-letter difference. With πρῶτος, Andrew is the first of the two disciples to find his brother, which hints that the unnamed second disciple later found his own brother too. A few Old Latin manuscripts are reported to read “in the morning” instead (to check). Small in itself, but it shapes how readers identify the unnamed disciple.",
+  lit:["metzger94","na28","net"]},
+ {id:"v51", ref:"John 1:51", title:"“Hereafter you will see”?",
+  readings:[
+   {gk:"ὄψεσθε", en:"you will see", wit:"𝔓66 · 𝔓75 · 01 · 03 · 019 · 032 (replacement quire)", printed:true},
+   {gk:"ἀπ᾽ ἄρτι ὄψεσθε", en:"hereafter you will see", wit:"02 · 017 · 021 · 030 · 034 · 037 · 038 · 044 · most later manuscripts · Old Latin e, q, r1 · Peshitta Syriac"},
+  ],
+  body:"The KJV’s “Hereafter ye shall see” comes from the later reading. The phrase probably came in from Matthew 26:64 (“from now on you will see the Son of Man”), another harmonisation. The four earliest witnesses lack it.",
+  lit:["metzger94","na28"]},
+];
+const BIB = {
+ na28:"Nestle, Eberhard, Erwin Nestle, Barbara Aland, Kurt Aland, et al., eds. <i>Novum Testamentum Graece</i>. 28th ed. Stuttgart: Deutsche Bibelgesellschaft, 2012.",
+ metzger94:"Metzger, Bruce M. <i>A Textual Commentary on the Greek New Testament</i>. 2nd ed. Stuttgart: Deutsche Bibelgesellschaft; New York: United Bible Societies, 1994.",
+ ehrman93:"Ehrman, Bart D. <i>The Orthodox Corruption of Scripture: The Effect of Early Christological Controversies on the Text of the New Testament</i>. New York: Oxford University Press, 1993; 2nd ed. 2011.",
+ quek09:"Quek, Tze-Ming. “A Text-Critical Study of John 1.34.” <i>New Testament Studies</i> 55.1 (2009): 22–34.",
+ origen_heine:"Origen. <i>Commentary on the Gospel According to John, Books 1–10</i>. Translated by Ronald E. Heine. Fathers of the Church 80. Washington, DC: Catholic University of America Press, 1989. (Book 6 on Bethabara.)",
+ smith17:"Smith, Geoffrey S. “The Willoughby Papyrus: A New Fragment of John 1:49–2:1 (𝔓134) and an Unidentified Christian Text.” <i>Journal of Biblical Literature</i> 136.4 (2017): 935–58.",
+ poxy65:"Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In <i>The Oxyrhynchus Papyri</i>. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm).",
+ poxy71:"Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In <i>The Oxyrhynchus Papyri</i> LXXI. London: Egypt Exploration Society, 2007.",
+ casson50:"Casson, Lionel, and Ernest L. Hettich. <i>Excavations at Nessana</i>. Vol. 2, <i>Literary Papyri</i>. Princeton: Princeton University Press, 1950.",
+ net:"<i>NET Bible</i>, full notes edition, text-critical notes on John 1:28–42. Biblical Studies Press. Online at netbible.org.",
+};
+document.getElementById("variants").innerHTML = VARS.map(v=>`<div class="vc" id="${v.id}">
+  <span class="ref">${v.ref}</span><h3>${esc(v.title)}</h3>
+  <div class="readings">${v.readings.map(r=>`<div class="rd${r.printed?" printed":""}">${r.printed?'<span class="pl">Printed in NA28</span>':""}<span class="gk" lang="grc">${esc(r.gk)}</span><span class="en">${esc(r.en)}</span><span class="wit">${esc(r.wit)}</span></div>`).join("")}</div>
+  <p>${esc(v.body)}</p>
+  <details><summary>Scholarly works</summary><ul>${v.lit.map(k=>`<li>${BIB[k]}</li>`).join("")}</ul></details>
+</div>`).join("");
+
+const LAT = [
+ ["Codex Vercellensis (a, VL 3)","late 4th c.","Old Latin","complete (some leaves damaged)"],
+ ["Codex Palatinus (e, VL 2)","5th c.","Old Latin","complete; reads “Chosen One” (1:34) and “hereafter” (1:51)"],
+ ["Codex Veronensis (b, VL 4)","5th c.","Old Latin","complete; reads “Chosen One” (1:34)"],
+ ["Codex Corbeiensis II (ff2, VL 8)","5th c.","Old Latin","complete; first hand reads “Chosen One” (1:34)"],
+ ["Codex Sangallensis 1395","early 5th c.","Vulgate","to map (fragmentary)"],
+ ["Codex Brixianus (f, VL 10)","6th c.","Old Latin / Vulgate","complete"],
+ ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","preserves 1:51 (“hereafter”); rest to map"],
+ ["Codex Usserianus Primus (r1, VL 14)","early 7th c.","Old Latin","complete for this section; reads “hereafter” (1:51)"],
+ ["Codex Rehdigeranus (l, VL 11)","8th c.","Old Latin","complete for this section"],
+ ["Codex Fuldensis","541–546","Vulgate, as a Gospel harmony","verses distributed through the harmony"],
+ ["St Cuthbert Gospel","c. 700–730","Vulgate","complete"],
+ ["Codex Amiatinus","before 716","Vulgate","complete"],
+ ["Book of Durrow","7th c.","Vulgate","complete"],
+ ["Lindisfarne Gospels","c. 715–720","Vulgate","complete"],
+ ["Book of Kells","c. 800","Vulgate (mixed)","complete"],
+];
+document.getElementById("latin").innerHTML = LAT.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("");
+
+const NEWMS = [
+ ["𝔓5","early 3rd c.","Three leaves from a papyrus codex of John, found at Oxyrhynchus by Grenfell and Hunt; published as P.Oxy. 208 and 1781.","British Library, London"],
+ ["𝔓106","3rd c.","Fragment of a papyrus codex (P.Oxy. 4445), published in the late 1990s; supports “Chosen One” at 1:34.","Egypt Exploration Society, Sackler Library, Oxford"],
+ ["𝔓119","3rd c.","Fragment of a papyrus codex (P.Oxy. 4803), published 2007.","Egypt Exploration Society, Sackler Library, Oxford"],
+ ["𝔓134","3rd/4th c.","Fragment of a roll, not a codex: John 1:49–51 on one side and an unidentified Christian text on the other. Owned by Harold Willoughby, resurfaced on eBay in 2015, published by Geoffrey Smith (2017).","Harry Ransom Center, University of Texas at Austin"],
+ ["𝔓120","4th c.","Three pieces of one leaf from a codex in Biblical majuscule (P.Oxy. 4804), published 2007.","Egypt Exploration Society, Sackler Library, Oxford"],
+ ["029 T","5th c.","Greek–Sahidic Coptic bilingual; supports “Bethabara” at 1:28.","Vatican Library and others"],
+ ["083","6th/7th c.","Parchment codex leaves of John and Mark; same book as 0112, which has the shorter ending of Mark.","National Library of Russia, St Petersburg"],
+ ["024 P","6th c.","Palimpsest Gospel book; the Greek is under a later text.","Herzog August Bibliothek, Wolfenbüttel"],
+ ["086","6th c.","Greek–Coptic, later overwritten (palimpsest).","British Library, Or. 5707"],
+ ["0260","6th c.","Greek–Fayyumic Coptic bilingual, two leaves.","Berlin State Museums, P. 5542"],
+ ["𝔓55","6th/7th c.","Small papyrus fragment.","Austrian National Library, P. Vindob. G. 26214"],
+ ["𝔓59","7th c.","Papyrus fragments excavated at Nessana in the Negev, with dated documents nearby.","Morgan Library & Museum, New York (P. Colt 3)"],
+ ["0268","7th c.","Single small parchment leaf.","Berlin State Museums, P. 6790"],
+ ["0101","8th c.","Single small parchment leaf.","Austrian National Library, Pap. G. 39780"],
+];
+document.getElementById("newms").innerHTML = NEWMS.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' style="font-family:var(--display);font-size:17px;white-space:nowrap"':""}>${esc(c)}</td>`).join("")}</tr>`).join("");
+
+document.getElementById("biblist").innerHTML = ["na28","metzger94","net","quek09","ehrman93","origen_heine","smith17","poxy65","poxy71","casson50"].map(k=>`<li>${BIB[k]}</li>`).join("");
+
+const pap = MS.filter(m=>m.g==="pap").length;
+const peak = Math.max(...VERSES.map(v=>count(v[0])));
+document.getElementById("stats").innerHTML = `<span><b>${MS.length}</b>Greek witnesses to 900</span><span><b>${pap}</b>papyri</span><span><b>${NEWMS.length}</b>new in this section</span><span><b>${VARS.length}</b>variants that matter</span><span><b>${peak}</b>most witnesses for one verse</span>`;
+</script>

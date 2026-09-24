@@ -64,8 +64,21 @@ for (const p of passages) for (const v of p.verses) for (const w of [...(v.greek
   if (!e.has(p)) e.set(p, []);
   e.get(p).push([v.verse, w.status]);
 }
+for (const p of passages) for (const l of p.latin || []) {
+  const e = (citedIn[l.id] ||= new Map());
+  if (!e.has(p)) e.set(p, []);
+}
+// Greek witnesses that no earlier passage of the same chapter lists
+function firstAppearances(p) {
+  const seen = new Set(passages.filter(q => q.ref.book === p.ref.book && q.ref.chapter === p.ref.chapter && q.ref.verses[0] < p.ref.verses[0])
+    .flatMap(q => q.verses.flatMap(v => v.greek_witnesses.map(w => w.id))));
+  if (!seen.size) return [];
+  return unique(p.verses.flatMap(v => v.greek_witnesses.map(w => w.id))).filter(id => !seen.has(id)).map(id => byId[id]).sort(byDate);
+}
 // "1:1–15 · on later replacement leaves: 1:16–18"
 function coverage(p, id) {
+  const note = (p.latin || []).find(l => l.id === id);
+  if (note) return note.coverage_note;
   const rows = citedIn[id]?.get(p) || [];
   const all = p.verses.length, { chapter } = p.ref;
   const groups = {};
@@ -190,7 +203,8 @@ function matrix(root, p, greek, latin) {
     vs.map(v => { const s = statusAt[m.id]?.[v]; return `<td><i class="c ${cls(m, s)}" role="img" aria-label="${chapter}:${v} ${s ? STATUS[s] : "not preserved"}"></i></td>`; }).join("")}</tr>`;
   const groups = [["Papyri", greek.filter(m => m.material === "papyrus")], ["Parchment majuscules", greek.filter(m => m.material !== "papyrus")], ["Latin (secondary layer)", latin]];
   const counts = vs.map(v => p.verses.find(x => x.verse === v).greek_witnesses.length);
-  return `<table class="mx"><thead><tr><th class="mxh" scope="col">Manuscript</th>${vs.map(v => `<th scope="col">${v}</th>`).join("")}</tr></thead><tbody>${
+  const secRow = p.sections ? `<tr class="secs"><th class="mxh"></th>${p.sections.map(s => `<th colspan="${s.to - s.from + 1}" scope="colgroup">${esc(s.title)}</th>`).join("")}</tr>` : "";
+  return `<table class="mx"><thead>${secRow}<tr><th class="mxh" scope="col">Manuscript</th>${vs.map(v => `<th scope="col">${v}</th>`).join("")}</tr></thead><tbody>${
     groups.filter(([, l]) => l.length).map(([name, l]) => `<tr class="grp"><th colspan="${vs.length + 1}">${name}</th></tr>${l.map(row).join("")}`).join("")
   }</tbody><tfoot><tr><th>Greek witnesses per verse</th>${counts.map(c => `<td>${c}</td>`).join("")}</tr></tfoot></table>`;
 }
@@ -198,7 +212,9 @@ function matrix(root, p, greek, latin) {
 function passagePage(p) {
   const { ref } = p, multi = p.verses.length > 1;
   const greek = unique(p.verses.flatMap(v => (v.greek_witnesses || []).map(w => w.id))).map(id => byId[id]).sort(byDate);
-  const latin = unique(p.verses.flatMap(v => (v.latin_witnesses || []).map(w => w.id))).map(id => byId[id]).sort(byDate);
+  const latinByVerse = unique(p.verses.flatMap(v => (v.latin_witnesses || []).map(w => w.id))).map(id => byId[id]).sort(byDate);
+  const latin = unique([...latinByVerse.map(m => m.id), ...(p.latin || []).map(l => l.id)]).map(id => byId[id]).sort(byDate);
+  const newHere = firstAppearances(p);
   const variants = p.variants || [], sweep = p.translation_sweep || [], excluded = p.excluded || [];
   const vlabel = Object.fromEntries([...variants.map(v => [v.id, `variant${v.label ? `: ${v.label}` : ""}`]), ...sweep.map(t => [t.id, "translation note"])]);
   const heading = p.heading || (multi ? p.passage : `Who has ${p.passage}?`);
@@ -209,7 +225,7 @@ function passagePage(p) {
   const withImg = greek.filter(m => m.images.some(i => !isINTF(i))).length;
   const stats = [[greek.length, "Greek manuscripts to 900"], [pap, "on papyrus"], [deb, "with debated dates"],
     ...(multi ? [] : [[withImg, "with a direct image viewer (all have INTF links)"]]),
-    ...(variants.length ? [[variants.length, "variants that matter"]] : []), ...(latin.length ? [[latin.length, "Latin witnesses"]] : [])];
+    ...(variants.length ? [[variants.length, "variants that matter"]] : []), ...(newHere.length ? [[newHere.length, "new in this section"]] : []), ...(latin.length ? [[latin.length, "Latin witnesses"]] : [])];
   const litKeys = unique([...variants.flatMap(v => v.literature || []), ...sweep.flatMap(t => t.literature || []), ...(p.literature || [])]);
   const single = p.verses[0];
 
@@ -233,10 +249,11 @@ ${multi ? `
 <section class="sec" aria-labelledby="read-h">
   <h2 id="read-h">The passage, verse by verse</h2>
   <p>${esc(p.translation_note || "")} Greek is shown where the manuscripts differ. Coloured tags mark a manuscript variant (blue) or a translation question saved for a later sweep (amber); the count is how many Greek witnesses up to 900 preserve the verse.</p>
-  <div class="reader">${p.verses.map(v => {
+  <div class="reader">${p.verses.map((v, i) => {
+    const head = v.section && v.section !== p.verses[i - 1]?.section ? `<div class="vsec">${esc(v.section)}</div>` : "";
     const flags = (v.variants || []).map(k => `<a class="flag var" href="#${esc(k)}">${esc(vlabel[k])}</a>`)
       .concat((v.translation_notes || []).map(k => `<a class="flag tr" href="#${esc(k)}">${esc(vlabel[k])}</a>`)).join("");
-    return `<div class="v"><span class="vn">${ref.chapter}:${v.verse}</span><span class="vt">${esc(v.translation)}</span><span class="vflags">${flags}<span class="vw">${v.greek_witnesses.length} MSS</span></span>${
+    return `${head}<div class="v"><span class="vn">${ref.chapter}:${v.verse}</span><span class="vt">${esc(v.translation)}</span><span class="vflags">${flags}<span class="vw">${v.greek_witnesses.length} MSS</span></span>${
       v.greek_where_variant ? `<span class="vg" lang="grc">${esc(v.greek_where_variant)}</span>` : ""}</div>`;
   }).join("")}</div>
 </section>
@@ -246,12 +263,12 @@ ${multi ? `
   <p>Each row is a manuscript, each column a verse. A filled square means at least part of that verse survives in that manuscript.</p>
   <div class="legend">
     <span><i class="c y pap"></i>Papyrus</span><span><i class="c y"></i>Parchment</span>
-    ${latin.length ? `<span><i class="c y lat"></i>Latin</span><span><i class="c h"></i>Within a Gospel harmony</span>` : ""}
+    ${latinByVerse.length ? `<span><i class="c y lat"></i>Latin</span><span><i class="c h"></i>Within a Gospel harmony</span>` : ""}
     <span><i class="c s"></i>Later replacement leaves (still before 900)</span>
     <span><i class="c q"></i>Survives, extent to check or to map</span>
     <span><i class="c"></i>Lost or never included</span>
   </div>
-  <div class="mx-box">${matrix(root, p, greek, latin)}</div>
+  <div class="mx-box">${matrix(root, p, greek, latinByVerse)}</div>
   <p class="note">Coverage is taken from published contents lists and each manuscript’s recorded gaps. It has not yet been checked leaf by leaf against the INTF catalogue.</p>
 </section>` : ""}
 
@@ -315,10 +332,19 @@ ${sweep.length ? `
 ${latin.length ? `
 <section class="sec" aria-labelledby="lat-h">
   <h2 id="lat-h">The Latin layer</h2>
-  <p>Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings. These are key Latin witnesses up to AD 900; verse-level coverage for some is still to be mapped.</p>
+  <p>${esc(p.latin_note || "Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings. These are key Latin witnesses up to AD 900; verse-level coverage for some is still to be mapped.")}</p>
   <div class="tbl"><table>
     <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>${esc(p.passage)}</th></tr></thead>
     <tbody>${latin.map(m => `<tr><td class="name">${msLink(root, m, m.siglum ? `${m.name} (${m.siglum})` : m.name)}</td><td>${esc(m.date.label)}</td><td class="name">${esc(m.text_type || "")}</td><td class="name">${esc(coverage(p, m.id))}</td></tr>`).join("")}</tbody>
+  </table></div>
+</section>` : ""}
+${newHere.length ? `
+<section class="sec" aria-labelledby="new-h">
+  <h2 id="new-h">Witnesses that first appear in this section</h2>
+  <p>Manuscripts that do not preserve the earlier part of the chapter on this site but do preserve part of ${esc(p.passage)}.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Manuscript</th><th>Date</th><th>What it is</th><th>Where it is</th></tr></thead>
+    <tbody>${newHere.map(m => `<tr><td>${msLink(root, m)}</td><td class="name">${esc(m.date.label)}</td><td class="name">${esc(m.summary)}</td><td class="name">${esc([m.holding.library, m.holding.city].filter(Boolean).join(", "))}</td></tr>`).join("")}</tbody>
   </table></div>
 </section>` : ""}
 ${excluded.length ? `
