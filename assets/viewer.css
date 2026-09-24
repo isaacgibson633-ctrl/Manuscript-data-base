@@ -1,0 +1,114 @@
+/* Tabbed viewer (scripts/build-viewer.mjs). Builds on the tokens and components in style.css. */
+body{padding:0}
+.app{display:flex;flex-direction:column;min-height:100%}
+.view{max-width:1040px;width:100%;margin:0 auto;padding:0 16px;padding-block:28px 72px;display:flex;flex-direction:column;gap:28px;outline:none}
+
+/* Top bar with the main tabs */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);border-bottom:1px solid var(--line)}
+.topbar-in{max-width:1040px;margin:0 auto;padding:12px 16px 4px;display:flex;gap:10px 16px;align-items:baseline;flex-wrap:wrap}
+.topbar .home{font-family:var(--display);font-size:20px;color:var(--ink);text-decoration:none}
+.tabs{max-width:1040px;margin:0 auto;padding:0 8px;display:flex;overflow-x:auto;scrollbar-width:thin}
+.tabs a{flex:none;font-family:var(--mono);font-size:12.5px;color:var(--muted);text-decoration:none;padding:10px 10px 9px;border-bottom:2px solid transparent;white-space:nowrap}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current="page"]{color:var(--accent);border-bottom-color:var(--accent)}
+.tabs .sep{flex:none;width:1px;background:var(--line);margin:9px 6px}
+
+/* Passage header and sub-tabs */
+.phead{display:flex;flex-direction:column;gap:12px}
+.phead h1{font-size:clamp(30px,5vw,46px)}
+.phead .stats b{font-size:26px}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:12px}
+.subtabs a{font-family:var(--mono);font-size:12.5px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 13px}
+.subtabs a:hover{border-color:var(--accent)}
+.subtabs a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.subtabs .n{opacity:.7;margin-left:4px}
+details.checks summary{color:var(--debated);font-family:var(--body);font-size:14.5px}
+
+/* Verse rail: one tab per verse, grouped by section */
+.rail{display:flex;flex-direction:column;gap:10px}
+.railsec{display:flex;flex-direction:column;gap:6px}
+.railsec .eyebrow{color:var(--rubric);font-size:11px}
+.railbtns{display:flex;flex-wrap:wrap;gap:6px}
+.vbtn{position:relative;min-width:44px;text-align:center;font-family:var(--mono);font-size:12.5px;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:6px 8px;font-variant-numeric:tabular-nums}
+.vbtn:hover{border-color:var(--accent)}
+.vbtn[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.vbtn .mk{position:absolute;top:-4px;right:-4px;width:9px;height:9px;border-radius:50%;border:2px solid var(--ground)}
+.vbtn .mk.var{background:var(--accent)}
+.vbtn .mk.tr{background:var(--debated)}
+.stepper{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.stepper .pos{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.stepbtn{font-family:var(--mono);font-size:12.5px;color:var(--accent);background:var(--surface);border:1px solid var(--accent);border-radius:4px;padding:6px 12px;cursor:pointer;text-decoration:none}
+.stepbtn:hover{background:var(--accent);color:var(--surface)}
+.stepbtn[aria-disabled="true"]{opacity:.35;pointer-events:none}
+.keyhint{font-family:var(--mono);font-size:11px;color:var(--muted)}
+
+/* The verse */
+.vcard{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 24px;display:grid;grid-template-columns:auto 1fr;gap:6px 24px}
+.vref{font-family:var(--display);font-size:clamp(40px,7vw,64px);line-height:1;color:var(--rubric);grid-row:span 4}
+.vcard .eyebrow{color:var(--rubric)}
+.vcard .tr{font-size:clamp(18px,2.4vw,21px);line-height:1.55;max-width:60ch}
+.vcard .gv{font-family:var(--display);font-size:clamp(19px,2.6vw,23px);line-height:1.45}
+.vcard .gvl{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.vcard .vflags{justify-content:flex-start}
+
+/* Witnesses for the verse */
+.wsec{display:flex;flex-direction:column;gap:12px}
+.wsec h2{font-size:24px}
+.wsec h2 .n{font-family:var(--mono);font-size:13px;color:var(--muted);margin-left:8px}
+.wgroup{display:flex;flex-direction:column;gap:8px}
+.wgroup > .eyebrow{font-size:11px}
+.wgrid{display:flex;flex-wrap:wrap;gap:8px}
+.wit{display:flex;flex-direction:column;align-items:flex-start;gap:1px;min-width:92px;text-align:left;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:7px 11px 8px;cursor:pointer}
+.wit:hover{border-color:var(--accent)}
+.wit .s{font-family:var(--display);font-size:19px;line-height:1.1;display:flex;align-items:center;gap:7px}
+.wit .d{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.wit .st{font-family:var(--mono);font-size:10.5px;color:var(--debated)}
+.wit.st-to_check,.wit.st-to_map{border-style:dashed;border-color:var(--debated)}
+.wit.st-replacement_leaves{border-left:4px double var(--parchment)}
+.wit .deb{width:6px;height:6px;border-radius:50%;background:var(--debated)}
+.lacks{font-size:14px;color:var(--muted);max-width:78ch}
+.lacks button{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line)}
+
+/* Date strip */
+.strip{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px 4px;overflow-x:auto}
+.strip svg{display:block;width:100%;min-width:520px;height:auto}
+.strip text{font-family:var(--mono);font-size:10px;fill:var(--muted)}
+.strip .ax{stroke:var(--line)}
+.strip .cut{stroke:var(--rubric);stroke-dasharray:3 3}
+.strip text.cut{fill:var(--rubric);stroke:none}
+.strip circle{stroke:var(--surface);stroke-width:1.5;cursor:pointer}
+.strip circle:hover{stroke:var(--ink)}
+
+/* Coverage matrix inside the viewer */
+.mx td.vcol a,.mx thead a{color:inherit;text-decoration:none}
+.mx thead a:hover{color:var(--accent);text-decoration:underline}
+.mx th.mxh button{font:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left;color:inherit}
+.mx th.mxh button:hover .s{color:var(--accent);text-decoration:underline}
+.mx th.mxh .s{font-family:var(--display);font-size:17px;color:var(--ink)}
+.mx th.mxh .d{display:block;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx thead th.on{color:var(--accent)}
+
+/* Tables with clickable manuscripts */
+.tbl button.ml{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--line)}
+.tbl button.ml.sg{font-family:var(--display);font-size:17px;text-decoration:none;color:var(--ink)}
+.tbl button.ml.sg:hover{color:var(--accent)}
+.mfilters{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center}
+
+/* Manuscript panel */
+dialog.sheet{position:fixed;inset:0 0 0 auto;margin:0;width:min(660px,100%);height:100%;max-height:100%;max-width:100%;border:0;border-left:1px solid var(--line);background:var(--ground);color:var(--ink);padding:0;overflow:auto}
+dialog.sheet::backdrop{background:rgba(10,14,18,.45)}
+.sheet-top{position:sticky;top:0;z-index:1;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 20px;padding-top:calc(12px + env(safe-area-inset-top,0px));background:var(--ground);border-bottom:1px solid var(--line)}
+.sheet-body{padding:20px 20px 40px;display:flex;flex-direction:column;gap:16px}
+.sheet-body .sig{font-size:40px}
+.sheet-body h2{font-size:28px}
+.sheet-body dl{grid-template-columns:130px 1fr}
+.closebtn{font-family:var(--mono);font-size:12.5px;color:var(--accent);background:var(--surface);border:1px solid var(--accent);border-radius:4px;padding:5px 12px;cursor:pointer}
+.cited{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.cited a{font-weight:600}
+
+@media (max-width:640px){
+  .vcard{grid-template-columns:1fr;padding:18px}
+  .vref{grid-row:auto}
+  .sheet-body dl{grid-template-columns:1fr}
+  .keyhint{display:none}
+}

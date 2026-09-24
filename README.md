@@ -9,7 +9,7 @@ Draft v0.1, not yet peer-reviewed. See [Open checks](#open-checks) before releas
 | Address | Built from |
 |---|---|
 | `/` | Home: the passages and the project in brief |
-| `/john/1/1-18/`, `/john/18/31/` | One page per `data/passage-*.json` |
+| `/john/1/1-18/`, `/john/1/19-51/`, `/john/18/31/` | One page per `data/passage-*.json` |
 | `/manuscripts/` and `/manuscripts/<id>/` | One page per record in `data/manuscripts.json` |
 | `/dating/` | `templates/dating.html` plus `data/scholars.json` |
 | `/bibliography/` | `data/bibliography.json` |
@@ -54,6 +54,8 @@ The file name must match the `passage` field: `"John 1:1–18"` → `passage-joh
 | `passage` | `John 1:1–18` or `John 18:31` (one chapter per file) |
 | `heading`, `lede` | Optional page title and introduction |
 | `scope`, `translation_note` | Scope statement and note on the translation |
+| `sections` | Optional named ranges: `{ from, to, title }`, covering the passage without gaps; each verse then carries its `section` title |
+| `latin`, `latin_note` | Optional passage-level Latin coverage `{ id, coverage_note }`, for passages without per-verse `latin_witnesses`, and an introduction to the Latin table |
 | `verses` | One entry per verse, in order: `ref`, `verse`, `translation`, optional `greek` (full text, shown for single-verse pages), `greek_where_variant`, `variants` and `translation_notes` (IDs), `greek_witnesses` and `latin_witnesses` |
 | witness entries | `{ id, status }`, status one of `preserved`, `replacement_leaves`, `to_check`, `preserved_in_harmony`, `to_map` |
 | `variants` | `{ id, ref, label, title, readings: [{ greek, english, witnesses, printed_in_NA28 }], explanation, literature }` |
@@ -76,6 +78,10 @@ python3 -m http.server -d _site      # preview at http://localhost:8000
 ```
 
 The checker catches unknown bibliography keys (in `literature`, `scholarly_positions`, variants, the translation sweep and `scholars.json`), witness IDs missing from `manuscripts.json`, Greek witnesses listed as Latin and vice versa, unknown statuses, variants no verse refers to, badly named passage files, and dates outside their range. It runs on GitHub for every push and pull request.
+
+## Tabbed viewer
+
+`node scripts/build-viewer.mjs` builds the same data into one self-contained page, `_viewer/index.html`, for publishing as a claude.ai artifact (`_viewer/preview.html` opens locally). Each passage is a tab, and each verse is a tab within it, with sub-tabs for the coverage matrix, variants, the Latin layer and notes on the passage. Manuscript records open in a side panel. The app code is `assets/viewer.js` and `assets/viewer.css`.
 
 ## Publishing
 

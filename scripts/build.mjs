@@ -12,7 +12,7 @@
 //   /checks/                   everything still to be confirmed before public release
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, cpSync } from "node:fs";
 import { join, dirname } from "node:path";
-import { BOOKS, parsePassageRef } from "./lib.mjs";
+import { BOOKS, parsePassageRef, STATUS_TEXT as STATUS, verseRanges as ranges, passageCoverage, firstAppearances as firstIds } from "./lib.mjs";
 
 const here = new URL("..", import.meta.url).pathname;
 const ARTIFACT = process.argv.includes("--artifact");
@@ -37,25 +37,9 @@ const byDate = (a, b) => a.date.estimate - b.date.estimate || a.date.range_start
 const eraOf = m => m.date.estimate < 500 ? "early" : m.date.estimate < 800 ? "mid" : "late";
 const MATCOL = { papyrus: "var(--papyrus)", parchment: "var(--parchment)", "to check": "var(--unknown)" };
 const MATNAME = { papyrus: "Papyrus", parchment: "Parchment", "to check": "Material to check" };
-const STATUS = {
-  preserved: "preserved", replacement_leaves: "on later replacement leaves (still before 900)", to_check: "survives, extent to check",
-  preserved_in_harmony: "preserved within a Gospel harmony", to_map: "coverage still to map",
-};
 const isINTF = i => /ntvmr\.uni-muenster\.de/.test(i.url);
 const unique = a => [...new Set(a)];
 const NUM = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
-
-// Compress verse numbers into "1:1–5, 7, 9–18"
-function ranges(chapter, nums) {
-  const s = [...nums].sort((a, b) => a - b), parts = [];
-  for (let i = 0; i < s.length; i++) {
-    let j = i;
-    while (j + 1 < s.length && s[j + 1] === s[j] + 1) j++;
-    parts.push(i === j ? `${s[i]}` : `${s[i]}–${s[j]}`);
-    i = j;
-  }
-  return parts.length ? `${chapter}:${parts.join(", ")}` : "";
-}
 
 // Every appearance of a manuscript in passage files: [{ passage, status per verse }]
 const citedIn = {};
@@ -68,27 +52,8 @@ for (const p of passages) for (const l of p.latin || []) {
   const e = (citedIn[l.id] ||= new Map());
   if (!e.has(p)) e.set(p, []);
 }
-// Greek witnesses that no earlier passage of the same chapter lists
-function firstAppearances(p) {
-  const seen = new Set(passages.filter(q => q.ref.book === p.ref.book && q.ref.chapter === p.ref.chapter && q.ref.verses[0] < p.ref.verses[0])
-    .flatMap(q => q.verses.flatMap(v => v.greek_witnesses.map(w => w.id))));
-  if (!seen.size) return [];
-  return unique(p.verses.flatMap(v => v.greek_witnesses.map(w => w.id))).filter(id => !seen.has(id)).map(id => byId[id]).sort(byDate);
-}
-// "1:1–15 · on later replacement leaves: 1:16–18"
-function coverage(p, id) {
-  const note = (p.latin || []).find(l => l.id === id);
-  if (note) return note.coverage_note;
-  const rows = citedIn[id]?.get(p) || [];
-  const all = p.verses.length, { chapter } = p.ref;
-  const groups = {};
-  rows.forEach(([v, s]) => (groups[s] ||= []).push(v));
-  const parts = [];
-  if (groups.preserved) parts.push(groups.preserved.length === all && all > 1 ? "complete" : ranges(chapter, groups.preserved));
-  for (const s of ["preserved_in_harmony", "replacement_leaves", "to_check", "to_map"])
-    if (groups[s]) parts.push(`${STATUS[s]}: ${groups[s].length === all && all > 1 ? "whole passage" : ranges(chapter, groups[s])}`);
-  return parts.join(" · ");
-}
+const coverage = (p, id) => passageCoverage(p, p.ref.chapter, id);
+const firstAppearances = p => firstIds(passages, p).map(id => byId[id]).sort(byDate);
 
 // ---------- page shell ----------
 const NAV = [["", "Passages"], ["manuscripts/", "Manuscripts"], ["dating/", "Dating"], ["bibliography/", "Bibliography"], ["about/", "About"], ["checks/", "Open checks"]];
