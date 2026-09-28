@@ -9,7 +9,7 @@ Draft v0.1, not yet peer-reviewed. See [Open checks](#open-checks) before releas
 | Address | Built from |
 |---|---|
 | `/` | Home: the passages and the project in brief |
-| `/john/1/1-18/`, `/john/1/19-51/`, `/john/18/31/` | One page per `data/passage-*.json` |
+| `/john/1/1-18/`, `/john/1/19-51/`, `/john/2/`, `/john/18/31/` | One page per `data/passage-*.json` |
 | `/manuscripts/` and `/manuscripts/<id>/` | One page per record in `data/manuscripts.json` |
 | `/dating/` | `templates/dating.html` plus `data/scholars.json` |
 | `/bibliography/` | `data/bibliography.json` |
@@ -47,11 +47,11 @@ Each manuscript is recorded once; passage pages refer to it by `id`.
 
 ### `passage-<book>-<chapter>-<verses>.json`: one file per passage
 
-The file name must match the `passage` field: `"John 1:1–18"` → `passage-john-1-1-18.json` → `/john/1/1-18/`.
+The file name must match the `passage` field: `"John 1:1–18"` → `passage-john-1-1-18.json` → `/john/1/1-18/`, and `"John 2"` → `passage-john-2.json` → `/john/2/`.
 
 | Field | Meaning |
 |---|---|
-| `passage` | `John 1:1–18` or `John 18:31` (one chapter per file) |
+| `passage` | `John 1:1–18`, `John 18:31`, or a whole chapter such as `John 2` (one chapter per file) |
 | `heading`, `lede` | Optional page title and introduction |
 | `scope`, `translation_note` | Scope statement and note on the translation |
 | `sections` | Optional named ranges: `{ from, to, title }`, covering the passage without gaps; each verse then carries its `section` title |
