@@ -26,7 +26,7 @@ const scholars = json("data/scholars.json");
 const byId = Object.fromEntries(mss.map(m => [m.id, m]));
 const passages = readdirSync(join(here, "data")).filter(f => /^passage-.+\.json$/.test(f))
   .map(f => { const p = json(`data/${f}`); return { ...p, ref: parsePassageRef(p.passage) }; })
-  .sort((a, b) => BOOKS.indexOf(a.ref.book) - BOOKS.indexOf(b.ref.book) || a.ref.chapter - b.ref.chapter || a.ref.verses[0] - b.ref.verses[0]);
+  .sort((a, b) => BOOKS.indexOf(a.ref.book) - BOOKS.indexOf(b.ref.book) || a.ref.chapter - b.ref.chapter || a.ref.start - b.ref.start);
 
 // ---------- helpers ----------
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -35,8 +35,8 @@ const plain = s => s.replace(/<[^>]+>/g, "");
 const label = m => m.siglum || m.name;
 const byDate = (a, b) => a.date.estimate - b.date.estimate || a.date.range_start - b.date.range_start;
 const eraOf = m => m.date.estimate < 500 ? "early" : m.date.estimate < 800 ? "mid" : "late";
-const MATCOL = { papyrus: "var(--papyrus)", parchment: "var(--parchment)", "to check": "var(--unknown)" };
-const MATNAME = { papyrus: "Papyrus", parchment: "Parchment", "to check": "Material to check" };
+const MATCOL = { papyrus: "var(--papyrus)", parchment: "var(--parchment)", "purple parchment": "var(--parchment)", "to check": "var(--unknown)" };
+const MATNAME = { papyrus: "Papyrus", parchment: "Parchment", "purple parchment": "Purple parchment", "to check": "Material to check" };
 const isINTF = i => /ntvmr\.uni-muenster\.de/.test(i.url);
 const unique = a => [...new Set(a)];
 const NUM = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
@@ -134,7 +134,7 @@ function timeline(list, cutoff = 900) {
 
 function witnessCard(root, p, m, multi) {
   const search = [m.siglum, m.ga, m.name, m.holding.library, m.holding.city, m.holding.shelfmark].filter(Boolean).join(" ").toLowerCase();
-  return `<article class="ms" id="ms-${esc(m.id)}" data-id="${esc(m.id)}" data-mat="${esc(m.material)}" data-era="${eraOf(m)}" data-conf="${esc(m.date.confidence)}" data-search="${esc(search)}">
+  return `<article class="ms" id="ms-${esc(m.id)}" data-id="${esc(m.id)}" data-mat="${esc(m.material.includes("parchment") ? "parchment" : m.material)}" data-era="${eraOf(m)}" data-conf="${esc(m.date.confidence)}" data-search="${esc(search)}">
     <div class="sig">${esc(label(m))}${m.ga ? `<small>GA ${esc(m.ga)}</small>` : ""}</div>
     <div class="body">
       <h3>${msLink(root, m, m.name)}</h3>

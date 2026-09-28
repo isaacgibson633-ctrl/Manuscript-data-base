@@ -15,7 +15,7 @@ const bib = json("data/bibliography.json");
 const scholars = json("data/scholars.json");
 const passages = readdirSync(join(here, "data")).filter(f => /^passage-.+\.json$/.test(f)).map(f => json(`data/${f}`))
   .map(p => ({ p, ref: parsePassageRef(p.passage) }))
-  .sort((a, b) => BOOKS.indexOf(a.ref.book) - BOOKS.indexOf(b.ref.book) || a.ref.chapter - b.ref.chapter || a.ref.verses[0] - b.ref.verses[0]);
+  .sort((a, b) => BOOKS.indexOf(a.ref.book) - BOOKS.indexOf(b.ref.book) || a.ref.chapter - b.ref.chapter || a.ref.start - b.ref.start);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const byDate = (a, b) => a.date.estimate - b.date.estimate || a.date.range_start - b.date.range_start;
 const byId = Object.fromEntries(mss.map(m => [m.id, m]));

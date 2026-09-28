@@ -280,7 +280,7 @@ footer p{margin:0;max-width:75ch}
 <footer>
   <p><b>Status.</b> Draft built from published catalogue data (INTF Liste summaries and the institutions’ own descriptions). The automated check against the INTF database itself could not be run, so each entry should be confirmed in the Virtual Manuscript Room before this is released publicly, ideally by a specialist.</p>
   <p><b>Data sources.</b> INTF, Kurzgefasste Liste and the New Testament Virtual Manuscript Room; Center for the Study of New Testament Manuscripts (CSNTM); Codex Sinaiticus Project; DigiVatLib; e-codices; Cambridge Digital Library. Scholarly works are listed in the bibliography above.</p>
-  <p><b>Bibliography status.</b> Citations were checked against publisher and author pages where possible. Page ranges are left out where they could not be confirmed; add them from the published items before release.</p>
+  <p><b>Bibliography status.</b> Citations were checked against publisher and author pages where possible. One page range (Aland 1968) is still incomplete.</p>
 </footer>
 </div>
 
@@ -574,7 +574,7 @@ const BIB = {
  nongbri20:{g:"𝔓52", t:"Nongbri, Brent. “Palaeography, Precision and Publicity: Further Thoughts on P.Ryl. III.457 (𝔓52).” <i>New Testament Studies</i> 66.4 (2020): 471–99."},
  martin56:{g:"𝔓66", t:"Martin, Victor. <i>Papyrus Bodmer II: Évangile de Jean, chap. 1–14</i>. Cologny-Geneva: Bibliotheca Bodmeriana, 1956."},
  martinbarns62:{g:"𝔓66", t:"Martin, Victor, and J. W. B. Barns. <i>Papyrus Bodmer II: Supplément, Évangile de Jean, chap. 14–21</i>. New ed. Cologny-Geneva: Bibliotheca Bodmeriana, 1962."},
- hunger60:{g:"𝔓66", t:"Hunger, Herbert. “Zur Datierung des Papyrus Bodmer II (P66).” <i>Anzeiger der Österreichischen Akademie der Wissenschaften, phil.-hist. Klasse</i> (1960)."},
+ hunger60:{g:"𝔓66", t:"Hunger, Herbert. “Zur Datierung des Papyrus Bodmer II (P66).” <i>Anzeiger der Österreichischen Akademie der Wissenschaften, phil.-hist. Klasse</i> 97 (1961): 12–23."},
  comfort01:{g:"𝔓66", t:"Comfort, Philip W., and David P. Barrett, eds. <i>The Text of the Earliest New Testament Greek Manuscripts</i>. Wheaton: Tyndale House, 2001."},
  nongbri14:{g:"𝔓66", t:"Nongbri, Brent. “The Limits of Palaeographic Dating of Literary Papyri: Some Observations on the Date and Provenance of P.Bodmer II (𝔓66).” <i>Museum Helveticum</i> 71 (2014): 1–35."},
  orsini15:{g:"𝔓66", t:"Orsini, Pasquale. “I papiri Bodmer: scritture e libri.” <i>Adamantius</i> 21 (2015): 60–78."},
@@ -586,7 +586,7 @@ const BIB = {
  nongbri22:{g:"Codex Sinaiticus and Codex Vaticanus", t:"Nongbri, Brent. “The Date of Codex Sinaiticus.” <i>Journal of Theological Studies</i> n.s. 73.2 (2022): 516–34."},
  smith14:{g:"Other manuscripts", t:"Smith, W. Andrew. <i>A Study of the Gospels in Codex Alexandrinus: Codicology, Palaeography, and Scribal Hands</i>. NTTSD 48. Leiden: Brill, 2014."},
  tisch43:{g:"Other manuscripts", t:"Tischendorf, Constantin von. <i>Codex Ephraemi Syri rescriptus sive fragmenta Novi Testamenti</i>. Leipzig: Tauchnitz, 1843."},
- lyon59:{g:"Other manuscripts", t:"Lyon, Robert W. “A Re-examination of Codex Ephraemi Rescriptus.” <i>New Testament Studies</i> 5 (1958–59)."},
+ lyon59:{g:"Other manuscripts", t:"Lyon, Robert W. “A Re-examination of Codex Ephraemi Rescriptus.” <i>New Testament Studies</i> 5.4 (1959): 260–72."},
  sanders12:{g:"Other manuscripts", t:"Sanders, Henry A. <i>The New Testament Manuscripts in the Freer Collection</i>. Part 1, <i>The Washington Manuscript of the Four Gospels</i>. New York: Macmillan, 1912."},
  hurtado06freer:{g:"Other manuscripts", t:"Hurtado, Larry W., ed. <i>The Freer Biblical Manuscripts: Fresh Studies of an American Treasure Trove</i>. Text-Critical Studies 6. Atlanta: Society of Biblical Literature, 2006."},
 };
@@ -606,7 +606,7 @@ const DATING = {
   lit:["roberts35","schmidt89","tuckett01","hurtado03","nongbri05","barker11","orsclar12","porter13","nongbri20","nongbri18"]},
  p66:{ev:"A large, rounded, carefully spaced hand, much more text than 𝔓52 and so more letters to compare. The codex is thought to belong to the ‘Bodmer papyri’, a group of books apparently found together near Dishna in Upper Egypt. Many of the other books in that group are 4th century or later, which matters if they were buried together.",
   pos:[["Martin (1956)","First editor: about 200.","martin56"],
-       ["Hunger (1960)","First half of the 2nd century, from comparison with early documentary hands.","hunger60"],
+       ["Hunger (1961)","First half of the 2nd century, from comparison with early documentary hands. Turner judged the comparisons not cogent.","hunger60"],
        ["Comfort & Barrett (2001)","Among the scholars arguing for a 2nd-century date.","comfort01"],
        ["Orsini & Clarysse (2012)","200–250.","orsclar12"],
        ["Nongbri (2014)","Comparable hands continue into the 4th century, and the book’s likely find context points the same way; a 4th-century date is at least as plausible.","nongbri14"],
@@ -628,7 +628,7 @@ const DATING = {
   pos:[["Smith (2014)","The fullest study of its codicology, scribes and palaeography in the Gospels.","smith14"]],
   lit:["smith14","cavallo67","cavmaeh87"]},
  "04":{ev:"A palimpsest, so the Bible text must be read beneath the later writing. Its single-column Biblical majuscule is usually compared with Codex Alexandrinus, hence a 5th-century date.",
-  pos:[["Tischendorf (1843)","First deciphered and published the underlying New Testament text.","tisch43"],["Lyon (1958–59)","Re-examined the manuscript and Tischendorf’s readings.","lyon59"]],
+  pos:[["Tischendorf (1843)","First deciphered and published the underlying New Testament text.","tisch43"],["Lyon (1959)","Re-examined the manuscript and Tischendorf’s readings.","lyon59"]],
   lit:["tisch43","lyon59"]},
  "032":{ev:"Its script is not the Biblical majuscule of the great codices, so the usual comparisons work less well. Its unusual script and the likelihood that it was copied from several exemplars make it hard to pin down more tightly than the late 4th or 5th century.",
   pos:[["Sanders (1912)","First editor; late 4th to 5th century.","sanders12"],["Hurtado, ed. (2006)","A collection of new studies of the Freer manuscripts, including their palaeography and codicology.","hurtado06freer"]],

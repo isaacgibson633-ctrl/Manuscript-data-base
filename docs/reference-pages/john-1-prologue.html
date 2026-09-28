@@ -149,7 +149,7 @@ footer p{max-width:78ch}
     <span><i class="c"></i>Lost or never included</span>
   </div>
   <div class="mx-box"><table class="mx" id="mx"></table></div>
-  <p class="note">Coverage is taken from published contents lists and each manuscript’s recorded gaps. It has not yet been checked leaf by leaf against the INTF catalogue. 0233 (Münster, 8th century) is left out until its surviving text is known.</p>
+  <p class="note">Coverage follows the contents lists of the International Greek New Testament Project’s edition of the majuscules of John, with other published descriptions for the rest. It has not yet been checked leaf by leaf against the INTF catalogue. 0233 (Münster, 8th century) is left out until its surviving text is known.</p>
 </section>
 
 <section aria-labelledby="var-h">
@@ -174,7 +174,7 @@ footer p{max-width:78ch}
 
 <section aria-labelledby="lat-h">
   <h2 id="lat-h">The Latin layer</h2>
-  <p>Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings, like the singular at 1:13. These are key Latin witnesses up to AD 900; verse-level coverage for the Old Latin manuscripts is still to be mapped.</p>
+  <p>Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings, like the singular at 1:13. These are key Latin witnesses up to AD 900; coverage follows the Vetus Latina Iohannes manuscript catalogue.</p>
   <div class="tbl"><table class="plain">
     <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>John 1:1–18</th></tr></thead>
     <tbody id="latin"></tbody>
@@ -203,16 +203,15 @@ const MS = [
  {g:"maj", s:"03 B", n:"Vaticanus", d:"4th c.", cov:[all]},
  {g:"maj", s:"02 A", n:"Alexandrinus", d:"5th c.", cov:[all]},
  {g:"maj", s:"04 C", n:"Ephraemi Rescriptus", d:"5th c.", cov:[[4,18]], q:[[3,3]], note:"lacks 1:1 to most of 1:3"},
- {g:"maj", s:"05 D", n:"Bezae (Greek)", d:"5th c.", cov:[[1,15]], note:"Greek lacks 1:16–3:26"},
+ {g:"maj", s:"05 D", n:"Bezae (Greek)", d:"5th c.", cov:[[1,16]], note:"Greek lacks 1:17–3:26"},
  {g:"maj", s:"032 W", n:"Washingtonianus", d:"4th/5th c.", sup:[all], note:"John 1:1–5:11 is a replacement quire, often dated 7th c."},
- {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[all]},
  {g:"maj", s:"07 E", n:"Basilensis", d:"8th c.", cov:[all]},
  {g:"maj", s:"019 L", n:"Regius", d:"8th c.", cov:[all]},
  {g:"maj", s:"047", n:"Uncial 047", d:"8th c.", cov:[all]},
- {g:"maj", s:"0234", n:"Uncial 0234", d:"8th c.", cov:[[4,8]], q:[[18,18]], note:"cited for 1:18 in one apparatus summary; extent to check"},
- {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c.", q:[all], note:"no recorded gap in John 1, but heavily damaged; check"},
+ {g:"maj", s:"0234", n:"Uncial 0234", d:"8th c.", cov:[[4,8]], note:"present location unknown (formerly Damascus)"},
+ {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c. (INTF); c. 1000 (Utrecht)", deb:true, cov:[[1,1],[3,4],[7,8],[10,18]], note:"damaged; lacks 1:2, 5–6, 9"},
  {g:"maj", s:"011 G", n:"Seidelianus I", d:"9th c.", cov:[all]},
- {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[[1,10],[12,18]], note:"lacks 1:11"},
  {g:"maj", s:"017 K", n:"Cyprius", d:"9th c.", cov:[all]},
  {g:"maj", s:"021 M", n:"Campianus", d:"9th c.", cov:[all]},
  {g:"maj", s:"030 U", n:"Nanianus", d:"9th c.", cov:[all]},
@@ -224,6 +223,7 @@ const MS = [
  {g:"maj", s:"041 Π", n:"Petropolitanus", d:"9th c.", cov:[all]},
  {g:"maj", s:"045 Ω", n:"Athous Dionysiou", d:"9th c.", cov:[all]},
  {g:"maj", s:"050", n:"Uncial 050 (with commentary)", d:"9th c.", cov:[[1,1],[3,4]]},
+ {g:"maj", s:"063", n:"Uncial 063", d:"9th c.", cov:[all]},
  {g:"maj", s:"0211", n:"Uncial 0211", d:"9th c.", deb:true, cov:[all]},
  {g:"maj", s:"044 Ψ", n:"Athous Lavrensis", d:"9th/10th c.", deb:true, cov:[all]},
 ];
@@ -281,7 +281,7 @@ const VARS = [
   readings:[
    {gk:"μονογενὴς θεός", en:"only-begotten God", wit:"𝔓66 · 01* · 03 · 04* · 019", printed:true},
    {gk:"ὁ μονογενὴς θεός", en:"the only-begotten God", wit:"𝔓75 · 01 (corrector) · minuscule 33"},
-   {gk:"ὁ μονογενὴς υἱός", en:"the only-begotten Son", wit:"02 · 04 (corrector) · 017 · 037 · 038 · 041 · 044 · most later Greek manuscripts · Latin tradition (unigenitus Filius) · Curetonian Syriac"},
+   {gk:"ὁ μονογενὴς υἱός", en:"the only-begotten Son", wit:"02 · 04 (corrector) · 017 · 037 · 038 · 041 · 044 · 063 · most later Greek manuscripts · Latin tradition (unigenitus Filius) · Curetonian Syriac"},
   ],
   body:"This is the variant in the Prologue that most changes translations: “God the only Son” (NRSV) or “the only God” (ESV) against “the only begotten Son” (KJV). The two earliest papyri and the two great 4th-century codices read θεός; υἱός has broad support from the 5th century on and matches the phrase “only-begotten Son” elsewhere in John (3:16, 18). Because the names were written as abbreviated ‘sacred names’ (ΘΣ and ΥΣ), the difference on the page is a single letter. The committee behind the modern critical text preferred θεός as the earlier and harder reading; Ehrman argued that θεός is a 2nd-century change made to stress Christ’s divinity against ‘adoptionist’ views.",
   lit:["metzger94","ehrman93","na28","net"]},
@@ -327,17 +327,24 @@ document.getElementById("variants").innerHTML = VARS.map(v=>`<div class="vc" id=
 
 // Latin
 const LAT = [
- ["Codex Vercellensis (a, VL 3)","4th c.","Old Latin","complete (some leaves damaged)"],
+ ["Codex Vercellensis (a, VL 3)","2nd half 4th c.","Old Latin","complete (some leaves damaged)"],
  ["Codex Palatinus (e, VL 2)","5th c.","Old Latin","complete"],
- ["Codex Veronensis (b, VL 4)","5th c.","Old Latin","complete; has the singular reading at 1:13"],
+ ["Codex Veronensis (b, VL 4)","2nd half 5th c.","Old Latin","complete; has the singular reading at 1:13"],
  ["Codex Corbeiensis II (ff2, VL 8)","5th c.","Old Latin","complete"],
+ ["Codex Sarzanensis (j, VL 22)","early 6th c.","Old Latin, purple codex","1:8–18 present"],
+ ["Codex Carnotensis (VL 33)","6th c.","Old Latin","complete"],
+ ["Codex Aureus of Stockholm (aur, VL 15)","775–800","Vulgate with Old Latin readings","complete"],
+ ["Book of Mulling (μ, VL 35)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Sangallensis 51 (VL 48)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Gatianus (gat, VL 30)","c. 800","Vulgate with Old Latin readings","complete"],
+ ["Codex Sangallensis 60 (VL 47)","c. 800","John only; Old Latin text in 1:29–3:26","Vulgate text here (Old Latin begins at 1:29)"],
  ["Codex Sangallensis 1395","5th c.","Vulgate","to map (fragmentary)"],
  ["Codex Brixianus (f, VL 10)","6th c.","Old Latin / Vulgate","complete"],
- ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","to map"],
- ["Codex Usserianus Primus (r1, VL 14)","early 7th c.","Old Latin","1:16–18 only (lacks 1:1–15)"],
- ["Codex Rehdigeranus (l, VL 11)","8th c.","Old Latin","1:17–18 only (lacks 1:1–16)"],
- ["Codex Fuldensis","dated 546/547","Vulgate, as a Gospel harmony","opens the harmony with John 1:1–5; rest distributed"],
- ["St Cuthbert Gospel","late 7th c.","Vulgate","complete"],
+ ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","complete"],
+ ["Codex Usserianus Primus (r1, VL 14)","c. 600","Old Latin","1:16–18 only (lacks 1:1–15)"],
+ ["Codex Rehdigeranus (l, VL 11)","1st half 8th c.","Old Latin","1:17–18 only (lacks 1:1–16)"],
+ ["Codex Fuldensis","541–546 (corrected to 2 May 546)","Vulgate, as a Gospel harmony","opens the harmony with John 1:1–5; rest distributed"],
+ ["St Cuthbert Gospel","c. 700–730","Vulgate","complete"],
  ["Codex Amiatinus","c. 700","Vulgate","complete"],
  ["Book of Durrow","7th c.","Vulgate","complete"],
  ["Lindisfarne Gospels","c. 715–720","Vulgate","complete"],

@@ -8,8 +8,8 @@
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const cite = k => D.bib[k] || `<span class="missing">[missing reference: ${esc(k)}]</span>`;
   const label = m => m.siglum || m.name;
-  const MATCOL = {papyrus:"var(--papyrus)", parchment:"var(--parchment)", "to check":"var(--unknown)"};
-  const MATNAME = {papyrus:"Papyrus", parchment:"Parchment", "to check":"Material to check"};
+  const MATCOL = {papyrus:"var(--papyrus)", parchment:"var(--parchment)", "purple parchment":"var(--parchment)", "to check":"var(--unknown)"};
+  const MATNAME = {papyrus:"Papyrus", parchment:"Parchment", "purple parchment":"Purple parchment", "to check":"Material to check"};
   const STATUS = {preserved:"", replacement_leaves:"replacement leaves", to_check:"extent to check", preserved_in_harmony:"in harmony", to_map:"to map"};
   const NUM = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
   const isINTF = u => /ntvmr\.uni-muenster\.de/.test(u);

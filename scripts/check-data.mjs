@@ -21,7 +21,7 @@ for (const [k, b] of Object.entries(bib)) {
 }
 
 // Manuscripts
-const MATERIALS = ["papyrus", "parchment", "to check"];
+const MATERIALS = ["papyrus", "parchment", "purple parchment", "to check"];
 const ids = new Set();
 for (const m of mss) {
   const w = `manuscripts.json [${m.id ?? "?"}]`;
@@ -43,9 +43,10 @@ for (const m of mss) {
   for (const f of ["label", "range_start", "range_end", "estimate", "confidence", "summary"]) if (d[f] === undefined || d[f] === "") err(w, `date is missing "${f}"`);
   if (!["Firm", "Debated"].includes(d.confidence)) err(w, `date.confidence must be Firm or Debated`);
   if (!(d.range_start <= d.estimate && d.estimate <= d.range_end)) err(w, `date.estimate should fall within range_start–range_end`);
-  // An unknown holding is allowed only while it is on the record's to_check list
-  if (!m.holding || ((!m.holding.library || !m.holding.city) && !(m.to_check || []).some(c => /holding/i.test(c))))
-    err(w, `holding needs library and city (or a "Current holding" item in to_check)`);
+  // A holding needs a library (which may say the location is unknown); a city is needed unless the library entry says so
+  if (!m.holding || !m.holding.library) err(w, `holding needs a library (or a note that the location is unknown)`);
+  else if (!m.holding.city && !/unknown|not recorded/i.test(m.holding.library) && !(m.to_check || []).some(c => /holding/i.test(c)))
+    err(w, `holding needs a city (or a "Current holding" item in to_check)`);
   (m.literature || []).forEach(k => ref(w, k));
   (m.scholarly_positions || []).forEach(p => {
     if (!p.who || !p.claim) err(w, `each scholarly position needs "who" and "claim"`);
@@ -73,7 +74,8 @@ for (const [f, p] of passages) {
   const variantIds = new Set((p.variants || []).map(v => v.id));
   const sweepIds = new Set((p.translation_sweep || []).map(t => t.id));
   const nums = p.verses.map(v => v.verse);
-  const [from, to] = parsed.verses;
+  // A whole-chapter passage ("John 2") runs from verse 1 to however many verses the file lists
+  const [from, to] = parsed.verses || [1, nums[nums.length - 1]];
   if (nums[0] !== from || nums[nums.length - 1] !== to || nums.some((n, i) => i && n !== nums[i - 1] + 1))
     err(w, `verses should run ${from} to ${to} in order, one entry each`);
 

@@ -1,0 +1,390 @@
+<title>John 2 in the Manuscripts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+:root{
+  --ground:#EDEFEA; --surface:#F8F9F6; --ink:#1B2024; --muted:#566067; --line:#D3D8D0;
+  --accent:#2A4A7F; --accent-soft:#DCE4F0; --rubric:#9E2B25;
+  --papyrus:#C4861A; --parchment:#6A5245; --latin:#4F6B5A;
+  --firm:#2F6B4A; --firm-soft:#DDEBE2; --debated:#8A5A12; --debated-soft:#F3E6CC;
+  --cell-empty:#E3E6E0;
+  --display:"GFS Didot","Didot","Bodoni 72",Georgia,serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+    --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+    --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+    --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+    --cell-empty:#242A2F;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121518; --surface:#1A1F23; --ink:#E2E5E0; --muted:#9BA4A9; --line:#2D3439;
+  --accent:#93B2E6; --accent-soft:#223149; --rubric:#E3847A;
+  --papyrus:#D3A95C; --parchment:#BE9F88; --latin:#8FB8A0;
+  --firm:#8FCCA8; --firm-soft:#1E3228; --debated:#E4B566; --debated-soft:#3A2E17;
+  --cell-empty:#242A2F;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding:0 16px}
+.wrap{max-width:1000px;margin:0 auto;padding-block:40px 64px;display:flex;flex-direction:column;gap:52px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible,td[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(34px,6vw,54px)}
+h2{font-size:30px}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.draft{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rubric);color:var(--rubric);padding:2px 8px;border-radius:3px}
+header{display:flex;flex-direction:column;gap:18px}
+header .top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.lede{max-width:66ch}
+.stats{display:flex;gap:28px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;color:var(--muted)}
+.stats b{display:block;font-family:var(--display);font-weight:400;font-size:32px;color:var(--ink);line-height:1.1}
+section{display:flex;flex-direction:column;gap:14px}
+section > p{max-width:68ch}
+
+/* Verse reader */
+.reader{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 0}
+.v{display:grid;grid-template-columns:44px 1fr auto;gap:4px 14px;padding:10px 20px;border-bottom:1px solid var(--line);align-items:baseline}
+.v:last-child{border-bottom:0}
+.vn{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.vt{max-width:70ch}
+.vg{grid-column:2 / 4;font-family:var(--display);font-size:19px;line-height:1.45;color:var(--ink)}
+.vflags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.flag{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:3px;white-space:nowrap;text-decoration:none}
+.flag.var{background:var(--accent-soft);color:var(--accent)}
+.flag.tr{background:var(--debated-soft);color:var(--debated)}
+.vw{font-family:var(--mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
+
+/* Matrix */
+.mx-box{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.mx{border-collapse:separate;border-spacing:0;font-size:13px;min-width:900px;width:100%}
+.mx th,.mx td{padding:0;text-align:center;border-bottom:1px solid var(--line)}
+.mx thead th{font-family:var(--mono);font-weight:500;font-size:11px;color:var(--muted);padding:10px 0 8px;position:sticky;top:0;background:var(--surface)}
+.mx th.ms{position:sticky;left:0;background:var(--surface);text-align:left;padding:7px 12px;font-weight:400;z-index:1;min-width:190px;border-right:1px solid var(--line)}
+.mx th.ms .s{font-family:var(--display);font-size:17px;color:var(--ink)}
+.mx th.ms .d{display:block;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tr.grp th{background:var(--ground);text-align:left;padding:8px 12px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);position:sticky;left:0}
+.mx td{width:26px}
+.mx thead th.sec{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--rubric);text-align:left;padding:8px 4px 0;border-bottom:0}
+.mx td.secstart,.mx th.secstart{border-left:1px solid var(--line)}
+.secbar{padding:14px 20px 6px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--rubric);border-bottom:1px solid var(--line);background:var(--ground)}
+.secbar b{font-family:var(--display);font-weight:400;font-size:18px;letter-spacing:0;text-transform:none;color:var(--ink);margin-left:8px}
+.c{display:block;width:16px;height:16px;margin:auto;border-radius:3px;background:var(--cell-empty)}
+.c.y{background:var(--parchment)}
+.c.y.pap{background:var(--papyrus)}
+.c.y.lat{background:var(--latin)}
+.c.s{background:repeating-linear-gradient(135deg,var(--parchment) 0 3px,transparent 3px 6px);outline:1px solid var(--parchment);outline-offset:-1px}
+.c.q{background:transparent;outline:1px dashed var(--muted);outline-offset:-1px}
+.mx td.tot{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.mx tfoot td,.mx tfoot th{font-family:var(--mono);font-size:11px;color:var(--ink);padding:8px 0;border-bottom:0;background:var(--surface)}
+.mx tfoot th{position:sticky;left:0;text-align:left;padding-left:12px;border-right:1px solid var(--line)}
+.dtag{font-family:var(--mono);font-size:10.5px;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:1px}
+.dtag.deb{background:var(--debated-soft);color:var(--debated)}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend .c{margin:0;width:14px;height:14px}
+
+/* Variant cards */
+.variants{display:flex;flex-direction:column;gap:18px}
+.vc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:20px}
+.vc h3{font-size:24px}
+.vc .ref{font-family:var(--mono);font-size:12px;color:var(--rubric)}
+.readings{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
+.rd{border:1px solid var(--line);border-radius:5px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.rd .gk{font-family:var(--display);font-size:20px}
+.rd .en{font-style:italic}
+.rd .wit{font-family:var(--mono);font-size:12px;color:var(--muted);line-height:1.5}
+.rd.printed{border-color:var(--accent)}
+.rd .pl{font-family:var(--mono);font-size:11px;color:var(--accent)}
+.vc p{max-width:72ch}
+.vc details summary{cursor:pointer;color:var(--accent);font-family:var(--mono);font-size:12.5px}
+.vc ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.vc.tr{border-style:dashed}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table.plain{border-collapse:collapse;width:100%;font-size:14.5px;min-width:600px}
+table.plain th,table.plain td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.plain th{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+table.plain tr:last-child td{border-bottom:0}
+.note{font-size:14px;color:var(--muted)}
+#bib ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;max-width:80ch}
+#bib li{padding-left:2em;text-indent:-2em;font-size:15px}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+footer p{max-width:78ch}
+@media (max-width:640px){
+  .v{grid-template-columns:34px 1fr;padding:10px 14px}
+  .vflags{grid-column:2;justify-content:flex-start}
+  .vg{grid-column:2}
+  .mx th.ms{min-width:140px}
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="top"><span class="eyebrow">Gospel of John · chapter 2</span><span class="draft">Draft v0.1 · not yet peer-reviewed</span></div>
+  <h1>John 2: the wedding at Cana and the temple</h1>
+  <p class="lede">Three scenes: water turned into wine at a wedding in Cana, Jesus driving the traders out of the Jerusalem temple, and a short note on the signs he did at Passover. For each verse: which Greek manuscripts up to AD 900 preserve it, where they disagree, and which Latin manuscripts up to 900 carry it.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section aria-labelledby="read-h">
+  <h2 id="read-h">The passage, verse by verse</h2>
+  <p>A literal translation of our own, following the modern critical Greek text. Greek is shown where the manuscripts differ. Blue tags mark a manuscript variant, amber tags a translation question saved for a later sweep; the count is how many Greek witnesses up to 900 preserve the verse.</p>
+  <div class="reader" id="reader"></div>
+</section>
+
+<section aria-labelledby="mx-h">
+  <h2 id="mx-h">Who preserves which verse</h2>
+  <p>Two of the great early books drop out here: Codex Ephraemi has lost John 1:41–3:32, and Codex Bezae’s Greek has a gap from 1:17 to the end of chapter 3. In their place come small but early witnesses: 0162, a 4th-century parchment leaf from Oxyrhynchus with 2:11–22, and a Greek–Coptic leaf (0127) from the White Monastery in Egypt.</p>
+  <div class="legend">
+    <span><i class="c y pap"></i>Papyrus</span>
+    <span><i class="c y"></i>Parchment</span>
+    <span><i class="c s"></i>Later replacement leaves (still before 900)</span>
+    <span><i class="c q"></i>Survives, extent to check</span>
+    <span><i class="c"></i>Lost or never included</span>
+  </div>
+  <div class="mx-box"><table class="mx" id="mx"></table></div>
+  <p class="note">Coverage follows the IGNTP edition’s contents lists for the majuscules and the editions or catalogue descriptions for the rest. Not yet checked leaf by leaf against the INTF catalogue.</p>
+</section>
+
+<section aria-labelledby="var-h">
+  <h2 id="var-h">Where the manuscripts disagree</h2>
+  <p>John 2 is textually quiet: the NET Bible’s notes flag a single variant for the whole chapter. Three places are worth a reader’s attention. The reading printed in the modern critical edition (Nestle–Aland, 28th edition) is outlined.</p>
+  <div class="variants" id="variants"></div>
+</section>
+
+<section aria-labelledby="tr-h">
+  <h2 id="tr-h">Saved for the translation sweep</h2>
+  <div class="variants">
+  <div class="vc tr" id="t2-4">
+    <span class="ref">John 2:4 · translation question, not a manuscript variant</span>
+    <h3>“Woman, what is that to me and to you?”</h3>
+    <div class="readings"><div class="rd"><span class="gk" lang="grc">τί ἐμοὶ καὶ σοί, γύναι;</span><span class="wit">Read the same way in the early Greek manuscripts.</span></div></div>
+    <p>A Semitic idiom (found also in the Greek Old Testament, for example Judges 11:12 and 2 Kings 3:13) whose tone is hard to carry into English: renderings range from “what concern is that to you and to me?” to “why do you involve me?”. The address “woman” was not rude in Greek, though it sounds so in modern English. Both belong to the translation sweep.</p>
+  </div>
+  <div class="vc tr" id="t2-6">
+    <span class="ref">John 2:6 · translation question, not a manuscript variant</span>
+    <h3>How big were the jars?</h3>
+    <div class="readings"><div class="rd"><span class="gk" lang="grc">ἀνὰ μετρητὰς δύο ἢ τρεῖς</span><span class="wit">Read the same way in the early Greek manuscripts.</span></div></div>
+    <p>A <i>metrētēs</i> was a liquid measure of roughly 39 litres (about 10 US gallons), so each jar held something like 80 to 120 litres. Translations variously keep the ancient unit, convert it, or round it; the sweep will set one policy for ancient measures across the site.</p>
+  </div>
+  </div>
+</section>
+
+<section aria-labelledby="lat-h">
+  <h2 id="lat-h">The Latin layer</h2>
+  <p>From this chapter on, the Latin list follows the manuscript catalogue of the Vetus Latina Iohannes edition, which covers every Old Latin manuscript of John; early Vulgate books are added below it. The Latin matters most at 2:3, where several Old Latin manuscripts share Sinaiticus’s longer text.</p>
+  <div class="tbl"><table class="plain">
+    <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>John 2</th></tr></thead>
+    <tbody id="latin"></tbody>
+  </table></div>
+  <p class="note">Not included because they are later than 900: Codex Colbertinus (c, 12th c.), Codex Sangermanensis secundus (g2, 10th c.). The Latin interlinear of Codex Sangallensis 48 (δ) is dated 960/970 in the Vetus Latina edition, which conflicts with the 9th-century date given for the Greek text (037 Δ); see the note in the manuscript records.</p>
+</section>
+
+<section aria-labelledby="new-h">
+  <h2 id="new-h">Witnesses that first appear in this chapter</h2>
+  <div class="tbl"><table class="plain">
+    <thead><tr><th>Manuscript</th><th>Date</th><th>What it is</th><th>Where it is</th></tr></thead>
+    <tbody id="newms"></tbody>
+  </table></div>
+</section>
+
+<section id="bib" aria-labelledby="bib-h">
+  <h2 id="bib-h">Scholarly works for this chapter</h2>
+  <ul id="biblist"></ul>
+</section>
+
+<footer>
+  <p><b>Status.</b> Draft. Coverage follows the IGNTP majuscule edition and the Vetus Latina Iohannes manuscript catalogue; variant witnesses follow the NET Bible notes where available. The witness lists at 2:17 still need checking against the printed Nestle–Aland 28 apparatus, as do all readings before public release.</p>
+  <p><b>Dating.</b> Dates are INTF catalogue dates for Greek manuscripts and Vetus Latina catalogue dates for Old Latin ones, unless stated. The evidence and debates behind each date are in the manuscript records.</p>
+</footer>
+</div>
+
+<script>
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CH = 2, FIRST = 1, LAST = 25, all = [FIRST, LAST];
+const SECTIONS = [[1,12,"The wedding at Cana"],[13,22,"The temple in Jerusalem"],[23,25,"Signs at Passover"]];
+const MS = [
+ {g:"pap", s:"𝔓66", n:"Papyrus Bodmer II", d:"c. 200", deb:true, cov:[all]},
+ {g:"pap", s:"𝔓75", n:"Papyrus Bodmer XIV–XV", d:"c. 200–225", deb:true, cov:[all]},
+ {g:"pap", s:"𝔓134", n:"Willoughby Papyrus (roll)", d:"3rd/4th c.", cov:[[1,1]]},
+ {g:"pap", s:"𝔓59", n:"P. Colt 3 (Nessana)", d:"7th c.", cov:[[15,16]]},
+ {g:"maj", s:"01 א", n:"Sinaiticus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"03 B", n:"Vaticanus", d:"4th c.", cov:[all]},
+ {g:"maj", s:"0162", n:"P.Oxy. 847", d:"4th c. (INTF); 3rd (Comfort)", cov:[[11,22]]},
+ {g:"maj", s:"02 A", n:"Alexandrinus", d:"5th c.", cov:[all]},
+ {g:"maj", s:"032 W", n:"Washingtonianus", d:"4th/5th c.", sup:[all], note:"John 1:1–5:11 is a replacement quire, about 7th c."},
+ {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[[6,25]], note:"John 2:6–3:14 survives (IGNTP)"},
+ {g:"maj", s:"024 P", n:"Guelferbytanus A (palimpsest)", d:"6th c.", cov:[[13,25]]},
+ {g:"maj", s:"083", n:"Uncial 083", d:"6th/7th c.", cov:[[9,25]]},
+ {g:"maj", s:"07 E", n:"Basilensis", d:"8th c.", cov:[all]},
+ {g:"maj", s:"019 L", n:"Regius", d:"8th c.", cov:[all]},
+ {g:"maj", s:"047", n:"Uncial 047", d:"8th c.", cov:[all]},
+ {g:"maj", s:"0127", n:"Uncial 0127 (Greek–Coptic)", d:"8th c.", cov:[[2,11]]},
+ {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c. (INTF); c. 1000 (Utrecht)", deb:true, cov:[all]},
+ {g:"maj", s:"011 G", n:"Seidelianus I", d:"9th c.", cov:[all]},
+ {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"017 K", n:"Cyprius", d:"9th c.", cov:[all]},
+ {g:"maj", s:"021 M", n:"Campianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"030 U", n:"Nanianus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"031 V", n:"Mosquensis II", d:"9th c.", cov:[all]},
+ {g:"maj", s:"034 Y", n:"Macedoniensis", d:"9th c.", cov:[all]},
+ {g:"maj", s:"037 Δ", n:"Sangallensis 48", d:"9th c.", cov:[all]},
+ {g:"maj", s:"038 Θ", n:"Koridethi", d:"9th c.", cov:[all]},
+ {g:"maj", s:"039 Λ", n:"Tischendorfianus III", d:"9th c.", cov:[all]},
+ {g:"maj", s:"041 Π", n:"Petropolitanus", d:"9th c.", cov:[all]},
+ {g:"maj", s:"045 Ω", n:"Athous Dionysiou", d:"9th c.", cov:[all]},
+ {g:"maj", s:"050", n:"Uncial 050 (with commentary)", d:"9th c.", cov:[[17,25]]},
+ {g:"maj", s:"063", n:"Uncial 063", d:"9th c.", cov:[all]},
+ {g:"maj", s:"0211", n:"Uncial 0211", d:"9th c.", deb:true, cov:[all]},
+ {g:"maj", s:"0273", n:"Uncial 0273 (palimpsest)", d:"9th c.", cov:[[7,25]], note:"Wikipedia gives 2:7–3:5; an older list gives 2:17–3:5; check"},
+ {g:"maj", s:"0287", n:"Uncial 0287 (Sinai New Finds)", d:"9th c.", q:[all], note:"fragments of John 2; exact verses to check"},
+ {g:"maj", s:"044 Ψ", n:"Athous Lavrensis", d:"9th/10th c.", deb:true, cov:[all]},
+];
+const has = (rs,v) => (rs||[]).some(([a,b])=>v>=a&&v<=b);
+const state = (m,v) => has(m.cov,v) ? "y" : has(m.sup,v) ? "s" : has(m.q,v) ? "q" : "";
+const count = v => MS.filter(m=>state(m,v)).length;
+
+const VERSES = [
+ [1,"On the third day there was a wedding at Cana in Galilee, and the mother of Jesus was there."],
+ [2,"Jesus and his disciples had also been invited to the wedding."],
+ [3,"When the wine ran short, the mother of Jesus said to him, “They have no wine.”","καὶ ὑστερήσαντος οἴνου",["v3"]],
+ [4,"Jesus said to her, “What is that to me and to you, woman? My hour has not yet come.”",null,[],["t2-4"]],
+ [5,"His mother said to the servants, “Do whatever he tells you.”"],
+ [6,"Six stone water jars stood there for the Jewish rites of purification, each holding two or three measures.",null,[],["t2-6"]],
+ [7,"Jesus said to them, “Fill the jars with water.” And they filled them to the brim."],
+ [8,"He said to them, “Now draw some out and take it to the master of the feast.” So they took it."],
+ [9,"When the master of the feast tasted the water that had become wine, not knowing where it came from (though the servants who had drawn the water knew), he called the bridegroom"],
+ [10,"and said to him, “Everyone serves the good wine first, and the poorer wine once the guests have drunk freely. You have kept the good wine until now.”"],
+ [11,"Jesus did this, the first of his signs, at Cana in Galilee, and revealed his glory; and his disciples believed in him."],
+ [12,"After this he went down to Capernaum with his mother, his brothers and his disciples, and they stayed there a few days."],
+ [13,"The Passover of the Jews was near, and Jesus went up to Jerusalem."],
+ [14,"In the temple he found people selling cattle, sheep and doves, and the money changers sitting there."],
+ [15,"Making a whip of cords, he drove them all out of the temple, with the sheep and the cattle. He scattered the money changers’ coins and overturned their tables.","ποιήσας φραγέλλιον ἐκ σχοινίων",["v15"]],
+ [16,"To those selling doves he said, “Take these things out of here! Stop making my Father’s house a house of trade.”"],
+ [17,"His disciples remembered that it is written, “Zeal for your house will consume me.”","ὁ ζῆλος τοῦ οἴκου σου καταφάγεταί με",["v17"]],
+ [18,"The Jews then said to him, “What sign can you show us for doing these things?”"],
+ [19,"Jesus answered them, “Destroy this temple, and in three days I will raise it up.”"],
+ [20,"The Jews then said, “This temple has been under construction for forty-six years, and you will raise it up in three days?”"],
+ [21,"But he was speaking about the temple of his body."],
+ [22,"So when he was raised from the dead, his disciples remembered that he had said this, and they believed the scripture and the word that Jesus had spoken."],
+ [23,"While he was in Jerusalem at the Passover festival, many believed in his name when they saw the signs he was doing."],
+ [24,"But Jesus would not entrust himself to them, because he knew all people"],
+ [25,"and needed no one to testify about anyone; for he himself knew what was in a person."],
+];
+const VLABEL = {v3:"variant: the wine ran out", v15:"variant: “like” a whip", v17:"variant: will consume / has consumed", "t2-4":"translation note", "t2-6":"translation note"};
+
+document.getElementById("reader").innerHTML = VERSES.map(([n,en,gk,vars=[],trs=[]])=>{
+  const sec = SECTIONS.find(s=>s[0]===n);
+  const bar = sec ? `<div class="secbar">${CH}:${sec[0]}–${sec[1]}<b>${esc(sec[2])}</b></div>` : "";
+  const flags = vars.map(k=>`<a class="flag var" href="#${k}">${VLABEL[k]}</a>`).concat(trs.map(k=>`<a class="flag tr" href="#${k}">${VLABEL[k]}</a>`)).join("");
+  return bar + `<div class="v"><span class="vn">${CH}:${n}</span><span class="vt">${esc(en)}</span><span class="vflags">${flags}<span class="vw">${count(n)} MSS</span></span>${gk?`<span class="vg" lang="grc">${esc(gk)}</span>`:""}</div>`;
+}).join("");
+
+(function(){
+  const vs = Array.from({length:LAST-FIRST+1},(_,i)=>i+FIRST);
+  const isStart = v => SECTIONS.some(s=>s[0]===v) && v!==FIRST;
+  let h = `<thead><tr><th class="ms"></th>${SECTIONS.map(s=>`<th class="sec${s[0]!==FIRST?" secstart":""}" colspan="${s[1]-s[0]+1}">${esc(s[2])}</th>`).join("")}</tr>`;
+  h += `<tr><th class="ms" scope="col">Manuscript</th>${vs.map(v=>`<th scope="col" class="${isStart(v)?"secstart":""}">${v}</th>`).join("")}</tr></thead><tbody>`;
+  [["pap","Papyri"],["maj","Parchment majuscules"]].forEach(([g,label])=>{
+    h += `<tr class="grp"><th colspan="${vs.length+1}">${label}</th></tr>`;
+    MS.filter(m=>m.g===g).forEach(m=>{
+      h += `<tr><th class="ms" scope="row"${m.note?` title="${esc(m.note)}"`:""}><span class="s">${esc(m.s)}</span>${m.deb?'<span class="dtag deb">date debated</span>':""}<span class="d">${esc(m.n)} · ${esc(m.d)}${m.note?" · "+esc(m.note):""}</span></th>`;
+      h += vs.map(v=>{ const st = state(m,v); return `<td class="${isStart(v)?"secstart":""}"><i class="c ${st}${st==="y"&&g==="pap"?" pap":""}" aria-label="${CH}:${v} ${st==="y"?"preserved":st==="s"?"replacement leaves":st==="q"?"to check":"not preserved"}"></i></td>`; }).join("") + `</tr>`;
+    });
+  });
+  h += `</tbody><tfoot><tr><th>Witnesses per verse</th>${vs.map(v=>`<td class="${isStart(v)?"secstart":""}">${count(v)}</td>`).join("")}</tr></tfoot>`;
+  document.getElementById("mx").innerHTML = h;
+})();
+
+const VARS = [
+ {id:"v3", ref:"John 2:3", title:"“When the wine ran short” or “they had no wine, because the wedding wine was used up”?",
+  readings:[
+   {gk:"καὶ ὑστερήσαντος οἴνου", en:"and when the wine ran short", wit:"𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · most manuscripts", printed:true},
+   {gk:"καὶ οἶνον οὐκ εἶχον, ὅτι συνετελέσθη ὁ οἶνος τοῦ γάμου· εἶτα", en:"and they had no wine, because the wine of the wedding had been used up; then", wit:"01 (first hand) · Old Latin, including a and j"},
+  ],
+  body:"The longer text spells out what the short one implies. It is a typical ‘Western’ expansion, and its appearance in Sinaiticus is a good example of a finding by Gordon Fee (1968): in the first eight chapters of John, Sinaiticus often sides with ‘Western’ witnesses such as the Old Latin rather than with Vaticanus. The same great codex can carry different kinds of text in different parts of one book.",
+  lit:["fee68","metzger94","na28"]},
+ {id:"v15", ref:"John 2:15", title:"A whip of cords, or something “like” a whip?",
+  readings:[
+   {gk:"φραγέλλιον ἐκ σχοινίων", en:"a whip of cords", wit:"01 · 02 · 03 · 038 · 044 · most later manuscripts", printed:true},
+   {gk:"ὡς φραγέλλιον ἐκ σχοινίων", en:"something like a whip of cords", wit:"𝔓66 · 𝔓75 · 019 · 022 · minuscule 33 · Latin"},
+  ],
+  body:"Here the two earliest papyri carry the reading the modern text does not print. The small word ὡς (“like”) softens the scene: Jesus improvises something whip-like. Editors usually judge that scribes were more likely to add a word than drop it, so the shorter text is printed, but the strength of 𝔓66 and 𝔓75 keeps the question open. A good example of how ‘earliest’ and ‘printed’ are not always the same.",
+  lit:["net","metzger94","na28"]},
+ {id:"v17", ref:"John 2:17", title:"“Will consume me” or “has consumed me”?",
+  readings:[
+   {gk:"καταφάγεταί με", en:"will consume me", wit:"early manuscripts and the modern critical text (full list to confirm against NA28)", printed:true},
+   {gk:"κατέφαγέ με", en:"has consumed me (KJV: “hath eaten me up”)", wit:"many later manuscripts; the Textus Receptus behind the KJV"},
+  ],
+  body:"John quotes Psalm 69:9 (68:10 in the Greek Bible), where the Greek Psalm has the past tense. The future tense in John turns the quotation into a prediction of what zeal for the temple will cost Jesus; the past tense in later manuscripts brings John back into line with the Psalm, another harmonisation. The witness lists here are the least checked on this page.",
+  lit:["metzger94","na28"]},
+];
+const BIB = {
+ na28:"Nestle, Eberhard, Erwin Nestle, Barbara Aland, Kurt Aland, et al., eds. <i>Novum Testamentum Graece</i>. 28th ed. Stuttgart: Deutsche Bibelgesellschaft, 2012.",
+ metzger94:"Metzger, Bruce M. <i>A Textual Commentary on the Greek New Testament</i>. 2nd ed. Stuttgart: Deutsche Bibelgesellschaft; New York: United Bible Societies, 1994.",
+ net:"<i>NET Bible</i>, full notes edition, text-critical note on John 2:15. Biblical Studies Press. Online at netbible.org.",
+ fee68:"Fee, Gordon D. “Codex Sinaiticus in the Gospel of John: A Contribution to Methodology in Establishing Textual Relationships.” <i>New Testament Studies</i> 15.1 (1968): 23–44.",
+ igntp_maj:"Schmid, U. B., with W. J. Elliott and D. C. Parker, eds. <i>The New Testament in Greek IV: The Gospel According to St. John</i>. Vol. 2, <i>The Majuscules</i>. NTTSD 37. Leiden: Brill, 2007. Electronic edition: itseeweb.cal.bham.ac.uk/iohannes/majuscule.",
+ vl_ioh:"<i>Vetus Latina Iohannes</i>: electronic edition of the Old Latin manuscripts of John, with manuscript catalogue. IGNTP/ITSEE, University of Birmingham. Online at itseeweb.cal.bham.ac.uk/iohannes/vetuslatina.",
+ houghton16:"Houghton, H. A. G. <i>The Latin New Testament: A Guide to Its Early History, Texts, and Manuscripts</i>. Oxford: Oxford University Press, 2016.",
+ poxy847:"Grenfell, B. P., and A. S. Hunt, eds. “847. St. John’s Gospel ii.” In <i>The Oxyrhynchus Papyri</i> VI. London: Egypt Exploration Fund, 1908.",
+ comfort01:"Comfort, Philip W., and David P. Barrett, eds. <i>The Text of the Earliest New Testament Greek Manuscripts</i>. Wheaton: Tyndale House, 2001.",
+};
+document.getElementById("variants").innerHTML = VARS.map(v=>`<div class="vc" id="${v.id}">
+  <span class="ref">${v.ref}</span><h3>${esc(v.title)}</h3>
+  <div class="readings">${v.readings.map(r=>`<div class="rd${r.printed?" printed":""}">${r.printed?'<span class="pl">Printed in NA28</span>':""}<span class="gk" lang="grc">${esc(r.gk)}</span><span class="en">${esc(r.en)}</span><span class="wit">${esc(r.wit)}</span></div>`).join("")}</div>
+  <p>${esc(v.body)}</p>
+  <details><summary>Scholarly works</summary><ul>${v.lit.map(k=>`<li>${BIB[k]}</li>`).join("")}</ul></details>
+</div>`).join("");
+
+const LAT = [
+ ["Codex Vercellensis (a, VL 3)","2nd half 4th c.","Old Latin","complete; supports the longer text at 2:3"],
+ ["Codex Palatinus (e, VL 2)","5th c.","Old Latin","complete"],
+ ["Codex Veronensis (b, VL 4)","2nd half 5th c.","Old Latin","complete"],
+ ["Codex Bezae, Latin side (d, VL 5)","c. 400","Old Latin","not extant (Latin John lacks 1:1–3:16)"],
+ ["Codex Corbeiensis II (ff2, VL 8)","5th c.","Old Latin","complete"],
+ ["Codex Sarzanensis (j, VL 22)","early 6th c.","Old Latin, purple codex","present (John 1:8–4:29 survives); supports the longer text at 2:3"],
+ ["Codex Brixianus (f, VL 10)","6th c.","Old Latin / Vulgate","complete"],
+ ["Codex Carnotensis (VL 33)","6th c.","Old Latin","complete"],
+ ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","complete"],
+ ["Codex Usserianus Primus (r1, VL 14)","c. 600","Old Latin","complete"],
+ ["Codex Rehdigeranus (l, VL 11)","1st half 8th c.","Old Latin","present (manuscript heavily lacunose elsewhere)"],
+ ["Codex Aureus of Stockholm (aur, VL 15)","775–800","Vulgate with Old Latin readings","complete"],
+ ["Book of Mulling (μ, VL 35)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Sangallensis 51 (VL 48)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Gatianus (gat, VL 30)","c. 800","Vulgate with Old Latin readings","complete"],
+ ["Codex Sangallensis 60 (VL 47)","c. 800","John only; Old Latin text in 1:29–3:26","complete; Old Latin throughout this chapter"],
+ ["Codex Sangallensis 1395","5th c.","Vulgate","to map (fragmentary)"],
+ ["Codex Fuldensis","541–546","Vulgate, as a Gospel harmony","verses distributed through the harmony"],
+ ["St Cuthbert Gospel","c. 700–730","Vulgate","complete"],
+ ["Codex Amiatinus","before 716","Vulgate","complete"],
+ ["Book of Durrow","7th c.","Vulgate","complete"],
+ ["Lindisfarne Gospels","c. 715–720","Vulgate","complete"],
+ ["Book of Kells","c. 800","Vulgate (mixed)","complete"],
+];
+document.getElementById("latin").innerHTML = LAT.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("");
+
+const NEWMS = [
+ ["0162","4th c. (INTF); 3rd c. (Comfort)","One parchment leaf (16 × 15 cm) with John 2:11–22, found at Oxyrhynchus and published by Grenfell and Hunt in 1908 as P.Oxy. 847. Written by a professional scribe; its text is very close to 𝔓66, 𝔓75 and Vaticanus. One of the earliest parchment fragments of the New Testament.","Metropolitan Museum of Art, New York"],
+ ["0127","8th c.","One leaf of a Greek–Coptic bilingual with John 2:2–11, from the White Monastery in Upper Egypt.","Bibliothèque nationale de France, Copt. 129,10 fol. 207"],
+ ["0273","9th c.","Three leaves of a Gospel book reused for a Greek service book (palimpsest), with John 2:7–3:5 and parts of chapters 4–6.","British Library, Add MS 31919"],
+ ["0287","9th c.","Fragments of a Gospel book among the ‘New Finds’ discovered at St Catherine’s Monastery in May 1975.","St Catherine’s Monastery, Sinai, N.E. ΜΓ 97"],
+ ["j (VL 22)","early 6th c.","Old Latin, purple parchment with silver ink; found in 1872 in the church at Sarezzano near Tortona.","Tortona, Diocesan Museum"],
+];
+document.getElementById("newms").innerHTML = NEWMS.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' style="font-family:var(--display);font-size:17px;white-space:nowrap"':""}>${esc(c)}</td>`).join("")}</tr>`).join("");
+
+document.getElementById("biblist").innerHTML = ["na28","metzger94","net","fee68","igntp_maj","vl_ioh","houghton16","poxy847","comfort01"].map(k=>`<li>${BIB[k]}</li>`).join("");
+
+const pap = MS.filter(m=>m.g==="pap").length;
+document.getElementById("stats").innerHTML = `<span><b>${MS.length}</b>Greek witnesses to 900</span><span><b>${pap}</b>papyri</span><span><b>${NEWMS.length}</b>new in this chapter</span><span><b>${VARS.length}</b>variants that matter</span><span><b>${LAT.length}</b>Latin witnesses</span>`;
+</script>

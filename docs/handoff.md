@@ -1,8 +1,8 @@
 # NT Manuscript Database: Claude Code handoff (single file)
 
-Compiled 2026-09-24. This one file replaces the separate handoff documents. It contains the instructions, the project decisions, the readable dossiers, and every data file and reference page as embedded blocks.
+Compiled 2026-09-26. This one file replaces the separate handoff documents. It contains the instructions, the project decisions, the readable dossiers, and every data file and reference page as embedded blocks.
 
-**For Claude Code:** Part 5 holds the canonical data. Each block is headed with the file path it belongs at. Extract each block to that path in the repository (do not edit content while extracting), then follow Part 1.
+**For Claude Code:** Part 6 holds the canonical data. Each block is headed with the file path it belongs at. Extract each block to that path in the repository (do not edit content while extracting), then follow Part 1.
 
 ## Contents
 
@@ -10,7 +10,8 @@ Compiled 2026-09-24. This one file replaces the separate handoff documents. It c
 2. Roadmap, decisions and open checks
 3. Dossier: John 1:1–18
 4. Dossier: John 1:19–51
-5. Embedded files (data, drafts, reference pages)
+5. Dossier: John 2
+6. Embedded files (data, drafts, reference pages)
 
 ---
 
@@ -36,15 +37,18 @@ A free, accurate, secular manuscript database for general readers, in the spirit
 
 | Path | What it is |
 |---|---|
-| `data/manuscripts.json` | 65 manuscript records (50 Greek, 15 Latin): date, range, confidence, holding, contents, dating evidence, scholarly positions, literature keys, provenance, image links, open checks. |
-| `data/bibliography.json` | 61 works keyed by id, grouped by topic, with plain and HTML citations. |
+| `data/manuscripts.json` | 78 manuscript records (55 Greek, 23 Latin): date, range, confidence, holding, contents, dating evidence, scholarly positions, literature keys, provenance, image links, open checks. |
+| `data/bibliography.json` | 67 works keyed by id, grouped by topic, with plain and HTML citations. |
 | `data/passage-john-1-1-18.json` | John 1:1–18: translation per verse, witnesses per verse (Greek and Latin, with status), four variants with witnesses and explanations, translation-sweep item, exclusions. |
 | `data/passage-john-1-19-51.json` | John 1:19–51 in four sections: translation, witnesses per verse, Latin coverage notes, five variants (1:28, 1:34, 1:41, 1:42, 1:51), translation-sweep item (1:39). |
+| `data/passage-john-2.json` | John 2 in three sections: witnesses per verse, Latin coverage (full Vetus Latina Iohannes catalogue up to 900), three variants (2:3, 2:15, 2:17), translation-sweep items (2:4, 2:6). |
 | `data/scholars.json` | Who's-who table for the dating debate. |
 | `data/drafts/*.csv` | Draft lists of all known papyri (32), majuscules (65) and key Latin witnesses (16) for the whole Gospel of John. Not yet merged into `manuscripts.json`. |
 | `reference-pages/john-18-31.html` | Published pilot page (design reference): timeline, filters, manuscript list, dating explainer, bibliography. |
 | `reference-pages/john-1-prologue.html` | Published chapter-page template: verse reader, coverage matrix, variant cards, Latin layer. |
+| `reference-pages/john-2.html` | Chapter page for John 2 (same template). |
 | `reference-pages/john-1-19-51.html` | Same template with section headings inside the reader and matrix, plus a table of manuscripts new to the section. |
+| `john-2-dossier.md` | Readable dossier for John 2, including corrections to John 1. |
 | `john-1-19-51-dossier.md` | Readable dossier for John 1:19–51, with dating write-ups for the 14 manuscripts new to this section. |
 | `john-1-1-18-dossier.md` | Human-readable version of the data: verse-by-verse witness tables, variants, one dating dossier per manuscript, bibliography. |
 
@@ -52,7 +56,7 @@ A free, accurate, secular manuscript database for general readers, in the spirit
 
 1. Create a repository (e.g., `nt-manuscripts`) with `data/` as above and a static site generator or a small vanilla JS build that renders:
    - a manuscript page per record (`/manuscripts/<id>`),
-   - a passage page per passage file (`/john/1/1-18`, `/john/1/19-51`),
+   - a passage page per passage file (`/john/1/1-18`, `/john/1/19-51`, `/john/2`),
    - the John 18:31 page, rebuilt from `manuscripts.json` instead of inline data.
 2. Reuse the design tokens and layout from `reference-pages/` (fonts: GFS Didot, Literata, IBM Plex Mono; light and dark themes).
 3. Validate the data: every `literature` key and every `bib` in `scholarly_positions` must exist in `bibliography.json`; every witness id in the passage file must exist in `manuscripts.json`.
@@ -69,14 +73,14 @@ A free, accurate, secular manuscript database for general readers, in the spirit
 
 ### Roadmap after this
 
-- John 1 is drafted (1:1–18 and 1:19–51). Next: John 2, then the rest of John.
+- John 1 and John 2 are drafted. Next: John 3, then the rest of John.
 - Mark 16:9–20 case study in parallel, then Mark worked backwards from chapter 16.
 - Later: Johannine Comma (needs a labelled "beyond the cut-off" section), translation sweep.
 
 
 ### Extracting the embedded files
 
-Each file in Part 5 appears as:
+Each file in Part 6 appears as:
 
 - a heading line `#### FILE: <path>`
 - one fenced block holding the exact file contents.
@@ -101,37 +105,58 @@ A short script can split this document: find each `#### FILE:` heading, take the
 - Handoff format: one compiled file, NT-manuscripts-claude-code-handoff.md, regenerated after each research round.
 
 ### Pages so far
-- John 18:31 pilot (v0.2): https://claude.ai/artifact/PeMB8eE5g13aX4kfwPCCH4
-- John 1:1-18 Prologue (v0.3): https://claude.ai/artifact/MK6RXVmr2joxAsSYqwisvF
+- John 18:31 pilot (v0.3): https://claude.ai/artifact/PeMB8eE5g13aX4kfwPCCH4
+- John 1:1-18 Prologue (v0.5): https://claude.ai/artifact/MK6RXVmr2joxAsSYqwisvF
   - Variants: 1:3-4 punctuation, 1:4 was/is, 1:13 who/he who, 1:18 God/Son. 1:1c flagged.
-- John 1:19-51 (v0.1): https://claude.ai/artifact/3GGkFm117MjzEmn2LeKQxM
+- John 1:19-51 (v0.3): https://claude.ai/artifact/3GGkFm117MjzEmn2LeKQxM
   - Sections: 1:19-28 envoys; 1:29-34 Lamb of God; 1:35-42 first disciples; 1:43-51 Philip and Nathanael.
   - Variants: 1:28 Bethany/Bethabara (Origen); 1:34 Son/Chosen One (𝔓5vid 𝔓106vid 01* b e ff2* sys,c; Quek NTS 55 (2009); Ehrman); 1:41 πρῶτον/πρῶτος; 1:42 son of John/Jonah; 1:51 ἀπ᾽ ἄρτι (added from Matt 26:64). 1:39 tenth hour flagged.
   - 14 manuscripts new to this section: 𝔓5, 𝔓106, 𝔓119, 𝔓134, 𝔓120, 𝔓55, 𝔓59, 029 T, 083, 024 P, 086, 0260, 0268, 0101.
 
+- John 2 (v0.1): https://claude.ai/artifact/SndDW6V3S7ycgvDqHw9cUF
+  - Sections: 2:1-12 Cana; 2:13-22 temple; 2:23-25 signs at Passover.
+  - Variants: 2:3 Sinaiticus* + Old Latin (a, j) longer text (Fee, NTS 15 (1968) 23-44: Sinaiticus "Western" in John 1-8); 2:15 ὡς (𝔓66 𝔓75 L N f1 33 lat; NET's only tc note for John 2); 2:17 καταφάγεται / κατέφαγε (witness lists unverified).
+  - Translation sweep: 2:4 "Woman, what is that to me and to you?"; 2:6 measures.
+  - New: 0162 (P.Oxy. 847, 4th c.; Comfort 3rd), 0127 (Greek-Coptic, White Monastery), 0273 (palimpsest), 0287 (Sinai New Finds); Latin j (VL 22) and others.
+  - Latin layer now follows the Vetus Latina Iohannes catalogue (all Old Latin MSS of John to 900) plus early Vulgate.
+
 ### Data
-- manuscripts.json: 65 records (50 Greek, 15 Latin)
-- bibliography.json: 61 works
-- passage-john-1-1-18.json, passage-john-1-19-51.json
+- manuscripts.json: 78 records (55 Greek, 23 Latin)
+- bibliography.json: 67 works
+- passage-john-1-1-18.json, passage-john-1-19-51.json, passage-john-2.json
 - Draft CSVs for all of John (papyri, majuscules, Latin)
 
 ### Verification done
+- 022 N resolved (John 2 round): IGNTP gives 1:21-39 and 2:6-3:14, confirmed by NET citing N at 2:15. Earlier ranges were reversed; pages fixed.
 - Prologue: witnesses for 1:3-4, 1:4, 1:13, 1:18 against NET tc notes and apparatus summaries; Latin coverage of 1:1-18.
-- 1:19-51: witnesses for 1:28, 1:34, 1:41, 1:42 against NET tc notes; 1:51 against James Snapp's survey (blog, used only as a finding aid); papyrus contents against edition summaries.
+- 1:19-51: witnesses for 1:28, 1:34, 1:41, 1:42 against NET tc notes; 1:51 against James Snapp's survey (finding aid only); papyrus contents against edition summaries.
+- Chapter 1 completeness: the NET notes have five text-critical notes for John 1 (1:3-4, 1:18, 1:28/1:34, 1:41, 1:42); all are covered, plus 1:4, 1:13, 1:51 from other sources.
+- Majuscule coverage of John 1 checked against the IGNTP majuscule edition's contents lists. Corrections: 05 D Greek has 1:1-16; 09 F has 1:1, 3-4, 7-8, 10-51; 013 H lacks 1:11; 04 C has 1:3-40; 0234 is 1:4-8, 20-24 only (the 1:18 citation was an error); 0268 is 1:30-32. Added 063 (9th c., John 1:1-3:34), missed earlier.
+- 09 F: INTF says 9th c.; Utrecht University Library says Constantinople c. 1000. Now marked Debated.
+- W replacement quire: about 7th c., mixed text (confirmed; no named study).
+- 𝔓106: P.Oxy. LXV (1998), ed. Cockle; first half of 3rd c.; Head, TynBul 51.1 (2000) 1-16 accepts ἐκλεκτός at 1:34. 𝔓5's reading there is reconstructed from line length only.
+- 𝔓5: BL Inv. 782 and 2484. Nessana II: 1950 (confirmed). Lyon: NTS 5.4 (1959) 260-72. Hunger: Anzeiger 97 (1961) 12-23.
+- Latin (Houghton catalogue via Helsinki guide): a second half 4th c., Vercelli; e Trento ms. 1589, north Italy; ff2 Italy; q 6th/7th c., Illyria or Italy, Gospels in Western order; r1 c. 600; l first half 8th c., Aquileia; Sangallensis 1395 Verona, 5th c. (Lowe: possibly Jerome's lifetime).
 
 ### Still open
 - Final check against the printed NA28 apparatus for all variants.
 - INTF check of every Greek record.
-- 0234 extent; 09 F legibility in John 1; W replacement-quire date; 𝔓120 exact ranges; 𝔓106 P.Oxy volume (LXIV 1997 or LXV 1998); 𝔓134 which side of the roll; Nessana volume year (1946 vs 1950); 𝔓5 BL shelfmarks.
-- 1:41 Old Latin "mane" (in the morning) reading: confirm witnesses.
-- Latin q and Sangallensis 1395 coverage.
-- Page ranges for Hunger 1960, Lyon 1958-59, Aland 1968.
+- 𝔓120 exact ranges (sources differ); 𝔓134 which side of the roll (Ransom Center: front; Wikipedia: back); 0233 contents (NET cites it at 1:34).
+- 1:41 Old Latin "mane" reading: unverified, removed from the page until confirmed.
+- Sangallensis 1395 verse-level coverage (q resolved: complete in John 1-2 per Vetus Latina Iohannes).
+- 037 Δ date: Vetus Latina Iohannes gives 960/970 vs INTF 9th c. and library c. 850.
+- 0273 start (2:7 or 2:17); 0287 exact verses and material; j (VL 22) ranges (VL Iohannes vs Wikipedia).
+- 2:17 witness lists.
+- Aland 1968 page range.
 
 ### Next
-- John 2 (0162 is the key early parchment fragment; 𝔓66 𝔓75 continue).
+- John 3 (3:13 "who is in heaven", 3:16 context; 070, 086, 029 T, 083, 0141 excluded).
 - Mark 16:9-20 study (083/0112 already noted).
 
 ### Open decisions
 - Rule for evidence beyond the cut-off (needed before the Johannine Comma).
+- 09 F headline date (9th c. or c. 1000).
 
+
+---
 

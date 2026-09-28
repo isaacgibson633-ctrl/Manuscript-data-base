@@ -1,20 +1,34 @@
 {
-  "passage": "John 1:1–18",
-  "heading": "The Prologue, John 1:1–18",
-  "lede": "Which early manuscripts preserve each verse of John’s opening hymn, where they disagree, and which disagreements change how the passage is translated. Greek manuscripts up to AD 900 come first; early Latin manuscripts follow as a second layer.",
-  "latin_note": "Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings, like the singular at 1:13. These are key Latin witnesses up to AD 900; coverage follows the Vetus Latina Iohannes manuscript catalogue.",
-  "scope": "Greek papyri and majuscules to AD 900 (primary); key Latin manuscripts to AD 900 (secondary)",
-  "translation_note": "Literal translation by the project, following the modern critical Greek text.",
+  "passage": "John 2",
+  "heading": "John 2: the wedding at Cana and the temple",
+  "lede": "Three scenes: water turned into wine at a wedding in Cana, Jesus driving the traders out of the Jerusalem temple, and a short note on the signs he did at Passover. For each verse: which Greek manuscripts up to AD 900 preserve it, where they disagree, and which Latin manuscripts up to 900 carry it.",
+  "latin_note": "From this chapter on, the Latin list follows the manuscript catalogue of the Vetus Latina Iohannes edition, which covers every Old Latin manuscript of John; early Vulgate books are added below it. The Latin matters most at 2:3, where several Old Latin manuscripts share Sinaiticus’s longer text.",
+  "sections": [
+    {
+      "from": 1,
+      "to": 12,
+      "title": "The wedding at Cana"
+    },
+    {
+      "from": 13,
+      "to": 22,
+      "title": "The temple in Jerusalem"
+    },
+    {
+      "from": 23,
+      "to": 25,
+      "title": "Signs at Passover"
+    }
+  ],
   "verses": [
     {
-      "ref": "John 1:1",
+      "ref": "John 2:1",
       "verse": 1,
-      "translation": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-      "greek_where_variant": "καὶ θεὸς ἦν ὁ λόγος",
+      "section": "The wedding at Cana",
+      "translation": "On the third day there was a wedding at Cana in Galilee, and the mother of Jesus was there.",
+      "greek_where_variant": null,
       "variants": [],
-      "translation_notes": [
-        "v1-1"
-      ],
+      "translation_notes": [],
       "greek_witnesses": [
         {
           "id": "p66",
@@ -22,6 +36,10 @@
         },
         {
           "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p134",
           "status": "preserved"
         },
         {
@@ -37,16 +55,8 @@
           "status": "preserved"
         },
         {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
           "id": "032",
           "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
         },
         {
           "id": "07",
@@ -62,7 +72,7 @@
         },
         {
           "id": "09",
-          "status": "to_check"
+          "status": "preserved"
         },
         {
           "id": "011",
@@ -113,7 +123,7 @@
           "status": "preserved"
         },
         {
-          "id": "050",
+          "id": "063",
           "status": "preserved"
         },
         {
@@ -121,93 +131,20 @@
           "status": "preserved"
         },
         {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
           "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_fuld",
-          "status": "preserved_in_harmony"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
           "status": "preserved"
         }
       ]
     },
     {
-      "ref": "John 1:2",
+      "ref": "John 2:2",
       "verse": 2,
-      "translation": "He was in the beginning with God.",
+      "section": "The wedding at Cana",
+      "translation": "Jesus and his disciples had also been invited to the wedding.",
       "greek_where_variant": null,
       "variants": [],
       "translation_notes": [],
@@ -233,16 +170,8 @@
           "status": "preserved"
         },
         {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
           "id": "032",
           "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
         },
         {
           "id": "07",
@@ -257,8 +186,12 @@
           "status": "preserved"
         },
         {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
           "id": "09",
-          "status": "to_check"
+          "status": "preserved"
         },
         {
           "id": "011",
@@ -309,98 +242,29 @@
           "status": "preserved"
         },
         {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
           "id": "0211",
           "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
         },
         {
           "id": "044",
           "status": "preserved"
         }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_fuld",
-          "status": "preserved_in_harmony"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
       ]
     },
     {
-      "ref": "John 1:3",
+      "ref": "John 2:3",
       "verse": 3,
-      "translation": "All things came into being through him, and without him not one thing came into being.",
-      "greek_where_variant": "χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+      "section": "The wedding at Cana",
+      "translation": "When the wine ran short, the mother of Jesus said to him, “They have no wine.”",
+      "greek_where_variant": "καὶ ὑστερήσαντος οἴνου",
       "variants": [
         "v3"
       ],
@@ -427,20 +291,8 @@
           "status": "preserved"
         },
         {
-          "id": "04",
-          "status": "to_check"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
           "id": "032",
           "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
         },
         {
           "id": "07",
@@ -455,8 +307,12 @@
           "status": "preserved"
         },
         {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
           "id": "09",
-          "status": "to_check"
+          "status": "preserved"
         },
         {
           "id": "011",
@@ -507,7 +363,7 @@
           "status": "preserved"
         },
         {
-          "id": "050",
+          "id": "063",
           "status": "preserved"
         },
         {
@@ -515,98 +371,143 @@
           "status": "preserved"
         },
         {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
           "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_fuld",
-          "status": "preserved_in_harmony"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
           "status": "preserved"
         }
       ]
     },
     {
-      "ref": "John 1:4",
+      "ref": "John 2:4",
       "verse": 4,
-      "translation": "What has come into being in him was life, and the life was the light of humanity.",
-      "greek_where_variant": "ἐν αὐτῷ ζωὴ ἦν",
-      "variants": [
-        "v3",
-        "v4"
+      "section": "The wedding at Cana",
+      "translation": "Jesus said to her, “What is that to me and to you, woman? My hour has not yet come.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [
+        "t2-4"
       ],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:5",
+      "verse": 5,
+      "section": "The wedding at Cana",
+      "translation": "His mother said to the servants, “Do whatever he tells you.”",
+      "greek_where_variant": null,
+      "variants": [],
       "translation_notes": [],
       "greek_witnesses": [
         {
@@ -630,11 +531,124 @@
           "status": "preserved"
         },
         {
-          "id": "04",
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "07",
           "status": "preserved"
         },
         {
-          "id": "05",
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:6",
+      "verse": 6,
+      "section": "The wedding at Cana",
+      "translation": "Six stone water jars stood there for the Jewish rites of purification, each holding two or three measures.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [
+        "t2-6"
+      ],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
           "status": "preserved"
         },
         {
@@ -658,12 +672,1477 @@
           "status": "preserved"
         },
         {
-          "id": "0234",
+          "id": "0127",
           "status": "preserved"
         },
         {
           "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
           "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:7",
+      "verse": 7,
+      "section": "The wedding at Cana",
+      "translation": "Jesus said to them, “Fill the jars with water.” And they filled them to the brim.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:8",
+      "verse": 8,
+      "section": "The wedding at Cana",
+      "translation": "He said to them, “Now draw some out and take it to the master of the feast.” So they took it.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:9",
+      "verse": 9,
+      "section": "The wedding at Cana",
+      "translation": "When the master of the feast tasted the water that had become wine, not knowing where it came from (though the servants who had drawn the water knew), he called the bridegroom",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:10",
+      "verse": 10,
+      "section": "The wedding at Cana",
+      "translation": "and said to him, “Everyone serves the good wine first, and the poorer wine once the guests have drunk freely. You have kept the good wine until now.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:11",
+      "verse": 11,
+      "section": "The wedding at Cana",
+      "translation": "Jesus did this, the first of his signs, at Cana in Galilee, and revealed his glory; and his disciples believed in him.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "0127",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:12",
+      "verse": 12,
+      "section": "The wedding at Cana",
+      "translation": "After this he went down to Capernaum with his mother, his brothers and his disciples, and they stayed there a few days.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:13",
+      "verse": 13,
+      "section": "The temple in Jerusalem",
+      "translation": "The Passover of the Jews was near, and Jesus went up to Jerusalem.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:14",
+      "verse": 14,
+      "section": "The temple in Jerusalem",
+      "translation": "In the temple he found people selling cattle, sheep and doves, and the money changers sitting there.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:15",
+      "verse": 15,
+      "section": "The temple in Jerusalem",
+      "translation": "Making a whip of cords, he drove them all out of the temple, with the sheep and the cattle. He scattered the money changers’ coins and overturned their tables.",
+      "greek_where_variant": "ποιήσας φραγέλλιον ἐκ σχοινίων",
+      "variants": [
+        "v15"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:16",
+      "verse": 16,
+      "section": "The temple in Jerusalem",
+      "translation": "To those selling doves he said, “Take these things out of here! Stop making my Father’s house a house of trade.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "p59",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:17",
+      "verse": 17,
+      "section": "The temple in Jerusalem",
+      "translation": "His disciples remembered that it is written, “Zeal for your house will consume me.”",
+      "greek_where_variant": "ὁ ζῆλος τοῦ οἴκου σου καταφάγεταί με",
+      "variants": [
+        "v17"
+      ],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
         },
         {
           "id": "011",
@@ -718,2663 +2197,34 @@
           "status": "preserved"
         },
         {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
           "id": "0211",
           "status": "preserved"
         },
         {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
+          "id": "0273",
           "status": "preserved"
         },
         {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_fuld",
-          "status": "preserved_in_harmony"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:5",
-      "verse": 5,
-      "translation": "The light shines in the darkness, and the darkness did not overcome it.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "0234",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
+          "id": "0287",
           "status": "to_check"
         },
         {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
           "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_fuld",
-          "status": "preserved_in_harmony"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
           "status": "preserved"
         }
       ]
     },
     {
-      "ref": "John 1:6",
-      "verse": 6,
-      "translation": "There came a man, sent from God, whose name was John.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "0234",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:7",
-      "verse": 7,
-      "translation": "He came as a witness, to testify about the light, so that all might believe through him.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "0234",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:8",
-      "verse": 8,
-      "translation": "He was not the light, but came to testify about the light.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "0234",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:9",
-      "verse": 9,
-      "translation": "The true light, which enlightens every person, was coming into the world.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:10",
-      "verse": 10,
-      "translation": "He was in the world, and the world came into being through him, yet the world did not know him.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:11",
-      "verse": 11,
-      "translation": "He came to what was his own, and his own people did not receive him.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:12",
-      "verse": 12,
-      "translation": "But to all who received him, who believed in his name, he gave power to become children of God,",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:13",
-      "verse": 13,
-      "translation": "who were born, not of blood, nor of the will of the flesh, nor of the will of a man, but of God.",
-      "greek_where_variant": "οἳ … ἐκ θεοῦ ἐγεννήθησαν",
-      "variants": [
-        "v13"
-      ],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:14",
-      "verse": 14,
-      "translation": "And the Word became flesh and lived among us, and we have seen his glory, glory as of a father’s only son, full of grace and truth.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:15",
-      "verse": 15,
-      "translation": "John testified about him and cried out, “This was he of whom I said, ‘He who comes after me ranks ahead of me, because he was before me.’”",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "05",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:16",
-      "verse": 16,
-      "translation": "From his fullness we have all received, grace upon grace.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vl14",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:17",
-      "verse": 17,
-      "translation": "For the law was given through Moses; grace and truth came through Jesus Christ.",
-      "greek_where_variant": null,
-      "variants": [],
-      "translation_notes": [],
-      "greek_witnesses": [
-        {
-          "id": "p66",
-          "status": "preserved"
-        },
-        {
-          "id": "p75",
-          "status": "preserved"
-        },
-        {
-          "id": "01",
-          "status": "preserved"
-        },
-        {
-          "id": "03",
-          "status": "preserved"
-        },
-        {
-          "id": "02",
-          "status": "preserved"
-        },
-        {
-          "id": "04",
-          "status": "preserved"
-        },
-        {
-          "id": "032",
-          "status": "replacement_leaves"
-        },
-        {
-          "id": "022",
-          "status": "preserved"
-        },
-        {
-          "id": "07",
-          "status": "preserved"
-        },
-        {
-          "id": "019",
-          "status": "preserved"
-        },
-        {
-          "id": "047",
-          "status": "preserved"
-        },
-        {
-          "id": "09",
-          "status": "to_check"
-        },
-        {
-          "id": "011",
-          "status": "preserved"
-        },
-        {
-          "id": "013",
-          "status": "preserved"
-        },
-        {
-          "id": "017",
-          "status": "preserved"
-        },
-        {
-          "id": "021",
-          "status": "preserved"
-        },
-        {
-          "id": "030",
-          "status": "preserved"
-        },
-        {
-          "id": "031",
-          "status": "preserved"
-        },
-        {
-          "id": "034",
-          "status": "preserved"
-        },
-        {
-          "id": "037",
-          "status": "preserved"
-        },
-        {
-          "id": "038",
-          "status": "preserved"
-        },
-        {
-          "id": "039",
-          "status": "preserved"
-        },
-        {
-          "id": "041",
-          "status": "preserved"
-        },
-        {
-          "id": "045",
-          "status": "preserved"
-        },
-        {
-          "id": "0211",
-          "status": "preserved"
-        },
-        {
-          "id": "044",
-          "status": "preserved"
-        }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vl14",
-          "status": "preserved"
-        },
-        {
-          "id": "vl11",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    },
-    {
-      "ref": "John 1:18",
+      "ref": "John 2:18",
       "verse": 18,
-      "translation": "No one has ever seen God. The only-begotten God, who is close to the Father’s heart, has made him known.",
-      "greek_where_variant": "μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρός",
-      "variants": [
-        "v18"
-      ],
+      "section": "The temple in Jerusalem",
+      "translation": "The Jews then said to him, “What sign can you show us for doing these things?”",
+      "greek_where_variant": null,
+      "variants": [],
       "translation_notes": [],
       "greek_witnesses": [
         {
@@ -3394,11 +2244,11 @@
           "status": "preserved"
         },
         {
-          "id": "02",
+          "id": "0162",
           "status": "preserved"
         },
         {
-          "id": "04",
+          "id": "02",
           "status": "preserved"
         },
         {
@@ -3407,6 +2257,14 @@
         },
         {
           "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
           "status": "preserved"
         },
         {
@@ -3422,12 +2280,8 @@
           "status": "preserved"
         },
         {
-          "id": "0234",
-          "status": "to_check"
-        },
-        {
           "id": "09",
-          "status": "to_check"
+          "status": "preserved"
         },
         {
           "id": "011",
@@ -3478,245 +2332,997 @@
           "status": "preserved"
         },
         {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
           "id": "0211",
           "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
         },
         {
           "id": "044",
           "status": "preserved"
         }
-      ],
-      "latin_witnesses": [
-        {
-          "id": "vl3",
-          "status": "preserved"
-        },
-        {
-          "id": "vl2",
-          "status": "preserved"
-        },
-        {
-          "id": "vl4",
-          "status": "preserved"
-        },
-        {
-          "id": "vl8",
-          "status": "preserved"
-        },
-        {
-          "id": "vl10",
-          "status": "preserved"
-        },
-        {
-          "id": "vl14",
-          "status": "preserved"
-        },
-        {
-          "id": "vl11",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_amiat",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_cuth",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_durrow",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_lindis",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_kells",
-          "status": "preserved"
-        },
-        {
-          "id": "vg_sang1395",
-          "status": "to_map"
-        },
-        {
-          "id": "vl13",
-          "status": "preserved"
-        },
-        {
-          "id": "vl22",
-          "status": "preserved"
-        },
-        {
-          "id": "vl33",
-          "status": "preserved"
-        },
-        {
-          "id": "vl15",
-          "status": "preserved"
-        },
-        {
-          "id": "vl35",
-          "status": "preserved"
-        },
-        {
-          "id": "vl48",
-          "status": "preserved"
-        },
-        {
-          "id": "vl30",
-          "status": "preserved"
-        },
-        {
-          "id": "vl47",
-          "status": "preserved"
-        }
-      ]
-    }
-  ],
-  "variants": [
-    {
-      "id": "v18",
-      "ref": "John 1:18",
-      "label": "God / Son",
-      "title": "“The only-begotten God” or “the only-begotten Son”?",
-      "readings": [
-        {
-          "greek": "μονογενὴς θεός",
-          "english": "only-begotten God",
-          "witnesses": "𝔓66 · 01* · 03 · 04* · 019",
-          "printed_in_NA28": true
-        },
-        {
-          "greek": "ὁ μονογενὴς θεός",
-          "english": "the only-begotten God",
-          "witnesses": "𝔓75 · 01 (corrector) · minuscule 33",
-          "printed_in_NA28": false
-        },
-        {
-          "greek": "ὁ μονογενὴς υἱός",
-          "english": "the only-begotten Son",
-          "witnesses": "02 · 04 (corrector) · 017 · 037 · 038 · 041 · 044 · most later Greek manuscripts · Latin tradition (unigenitus Filius) · Curetonian Syriac",
-          "printed_in_NA28": false
-        }
-      ],
-      "explanation": "This is the variant in the Prologue that most changes translations: “God the only Son” (NRSV) or “the only God” (ESV) against “the only begotten Son” (KJV). The two earliest papyri and the two great 4th-century codices read θεός; υἱός has broad support from the 5th century on and matches the phrase “only-begotten Son” elsewhere in John (3:16, 18). Because the names were written as abbreviated ‘sacred names’ (ΘΣ and ΥΣ), the difference on the page is a single letter. The committee behind the modern critical text preferred θεός as the earlier and harder reading; Ehrman argued that θεός is a 2nd-century change made to stress Christ’s divinity against ‘adoptionist’ views.",
-      "literature": [
-        "metzger94",
-        "ehrman93",
-        "na28",
-        "net"
       ]
     },
     {
-      "id": "v3",
-      "ref": "John 1:3–4",
-      "label": "punctuation",
-      "title": "Where does the sentence end?",
-      "readings": [
+      "ref": "John 2:19",
+      "verse": 19,
+      "section": "The temple in Jerusalem",
+      "translation": "Jesus answered them, “Destroy this temple, and in three days I will raise it up.”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
         {
-          "greek": "οὐδὲ ἕν. ὃ γέγονεν ἐν αὐτῷ ζωὴ ἦν",
-          "english": "…not one thing came into being. What has come into being in him was life.",
-          "witnesses": "stop before ὃ γέγονεν: 𝔓75 (corrector) · 04 · 05 · 019 · 032 (replacement quire) · 050 (first hand) · Irenaeus, Clement of Alexandria, Origen, Tertullian and most 2nd–3rd-century writers",
-          "printed_in_NA28": true
+          "id": "p66",
+          "status": "preserved"
         },
         {
-          "greek": "οὐδὲ ἓν ὃ γέγονεν. ἐν αὐτῷ ζωὴ ἦν",
-          "english": "…not one thing that has come into being. In him was life.",
-          "witnesses": "stop after ὃ γέγονεν: many later manuscripts · most writers from the late 4th century on. No punctuation at all: 𝔓66 · 𝔓75 (first hand) · 01 (first hand) · 02 · 03 · 037",
-          "printed_in_NA28": false
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
         }
-      ],
-      "explanation": "The earliest manuscripts mostly have no punctuation, so the words are identical and only the pause differs. Early writers overwhelmingly read the first way. From the 4th century the second became dominant, partly because the first had been used in the Arian controversy and in arguments about whether the Holy Spirit was a created being. Kurt Aland argued that the early reading, joining ὃ γέγονεν to verse 4, is original; the Nestle–Aland text has printed it that way since its 26th edition. This is a case where the manuscripts, the early readers and later theology all bear on a translation choice.",
-      "literature": [
-        "aland68",
-        "metzger94",
-        "na28"
       ]
     },
     {
-      "id": "v4",
-      "ref": "John 1:4",
-      "label": "was / is",
-      "title": "“Was life” or “is life”?",
-      "readings": [
+      "ref": "John 2:20",
+      "verse": 20,
+      "section": "The temple in Jerusalem",
+      "translation": "The Jews then said, “This temple has been under construction for forty-six years, and you will raise it up in three days?”",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
         {
-          "greek": "ζωὴ ἦν",
-          "english": "was life",
-          "witnesses": "𝔓66 · 𝔓75 · 02 · 03 · most manuscripts",
-          "printed_in_NA28": true
+          "id": "p66",
+          "status": "preserved"
         },
         {
-          "greek": "ζωή ἐστιν",
-          "english": "is life",
-          "witnesses": "01 · 05 · Old Latin · some Vulgate manuscripts · Irenaeus (Latin) · Heracleon · Clement and Origen (in part)",
-          "printed_in_NA28": false
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
         }
-      ],
-      "explanation": "The present tense may have come from reading the previous words (ὃ γέγονεν, “what has come into being”) with this clause, which makes “is” sound more natural. A small change, but a good example of Sinaiticus and Bezae agreeing against the other early witnesses.",
-      "literature": [
-        "metzger94",
-        "na28"
       ]
     },
     {
-      "id": "v13",
-      "ref": "John 1:13",
-      "label": "who / he who",
-      "title": "“Who were born” or “he who was born”?",
-      "readings": [
+      "ref": "John 2:21",
+      "verse": 21,
+      "section": "The temple in Jerusalem",
+      "translation": "But he was speaking about the temple of his body.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
         {
-          "greek": "οἳ … ἐγεννήθησαν",
-          "english": "who were born (believers)",
-          "witnesses": "every known Greek manuscript",
-          "printed_in_NA28": true
+          "id": "p66",
+          "status": "preserved"
         },
         {
-          "greek": "qui … natus est",
-          "english": "he who was born (Christ)",
-          "witnesses": "Old Latin Codex Veronensis (b) · some Syriac manuscripts · Irenaeus and Tertullian (2nd–3rd c.)",
-          "printed_in_NA28": false
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
         }
-      ],
-      "explanation": "No Greek manuscript has the singular, but it was read by 2nd- and 3rd-century writers and survives in a 5th-century Latin manuscript. In the singular the verse becomes a statement about Jesus’s birth ‘not of blood … nor of the will of a man’, which is why it matters to readers interested in early ideas about the virgin birth. It is also the clearest reason this site keeps a Latin layer.",
-      "literature": [
-        "metzger94",
-        "na28"
       ]
-    }
-  ],
-  "translation_sweep": [
-    {
-      "id": "v1-1",
-      "ref": "John 1:1c",
-      "question": "“The Word was God”, “a god”, or “divine”?",
-      "manuscripts_agree": true,
-      "literature": [
-        "colwell33",
-        "harner73"
-      ],
-      "greek": "καὶ θεὸς ἦν ὁ λόγος",
-      "explanation": "The manuscripts agree; the debate is grammatical. Here θεός has no article and stands before the verb. Colwell (1933) observed that definite predicate nouns placed before the verb usually lack the article, which leaves room for “God”. Harner (1973) argued that such nouns are chiefly qualitative, stressing what the Word is, which is why some translations use “divine” or “what God was”. “A god” is the reading of a minority of translations. This will be treated in full in the translation sweep."
-    }
-  ],
-  "excluded": [
-    {
-      "id": "0233",
-      "reason": "Surviving text unknown; palimpsest. Check before including."
     },
     {
-      "id": "029",
-      "reason": "Greek John begins at 1:24."
+      "ref": "John 2:22",
+      "verse": 22,
+      "section": "The temple in Jerusalem",
+      "translation": "So when he was raised from the dead, his disciples remembered that he had said this, and they believed the scripture and the word that Jesus had spoken.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "0162",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
     },
     {
-      "id": "024",
-      "reason": "John begins at 1:29."
+      "ref": "John 2:23",
+      "verse": 23,
+      "section": "Signs at Passover",
+      "translation": "While he was in Jerusalem at the Passover festival, many believed in his name when they saw the signs he was doing.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:24",
+      "verse": 24,
+      "section": "Signs at Passover",
+      "translation": "But Jesus would not entrust himself to them, because he knew all people",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
+    },
+    {
+      "ref": "John 2:25",
+      "verse": 25,
+      "section": "Signs at Passover",
+      "translation": "and needed no one to testify about anyone; for he himself knew what was in a person.",
+      "greek_where_variant": null,
+      "variants": [],
+      "translation_notes": [],
+      "greek_witnesses": [
+        {
+          "id": "p66",
+          "status": "preserved"
+        },
+        {
+          "id": "p75",
+          "status": "preserved"
+        },
+        {
+          "id": "01",
+          "status": "preserved"
+        },
+        {
+          "id": "03",
+          "status": "preserved"
+        },
+        {
+          "id": "02",
+          "status": "preserved"
+        },
+        {
+          "id": "032",
+          "status": "replacement_leaves"
+        },
+        {
+          "id": "022",
+          "status": "preserved"
+        },
+        {
+          "id": "024",
+          "status": "preserved"
+        },
+        {
+          "id": "083",
+          "status": "preserved"
+        },
+        {
+          "id": "07",
+          "status": "preserved"
+        },
+        {
+          "id": "019",
+          "status": "preserved"
+        },
+        {
+          "id": "047",
+          "status": "preserved"
+        },
+        {
+          "id": "09",
+          "status": "preserved"
+        },
+        {
+          "id": "011",
+          "status": "preserved"
+        },
+        {
+          "id": "013",
+          "status": "preserved"
+        },
+        {
+          "id": "017",
+          "status": "preserved"
+        },
+        {
+          "id": "021",
+          "status": "preserved"
+        },
+        {
+          "id": "030",
+          "status": "preserved"
+        },
+        {
+          "id": "031",
+          "status": "preserved"
+        },
+        {
+          "id": "034",
+          "status": "preserved"
+        },
+        {
+          "id": "037",
+          "status": "preserved"
+        },
+        {
+          "id": "038",
+          "status": "preserved"
+        },
+        {
+          "id": "039",
+          "status": "preserved"
+        },
+        {
+          "id": "041",
+          "status": "preserved"
+        },
+        {
+          "id": "045",
+          "status": "preserved"
+        },
+        {
+          "id": "050",
+          "status": "preserved"
+        },
+        {
+          "id": "063",
+          "status": "preserved"
+        },
+        {
+          "id": "0211",
+          "status": "preserved"
+        },
+        {
+          "id": "0273",
+          "status": "preserved"
+        },
+        {
+          "id": "0287",
+          "status": "to_check"
+        },
+        {
+          "id": "044",
+          "status": "preserved"
+        }
+      ]
     }
   ],
   "latin": [
     {
       "id": "vl3",
-      "coverage_note": "complete (some leaves damaged)"
+      "coverage_note": "complete; supports the longer text at 2:3"
     },
     {
       "id": "vl2",
@@ -3724,7 +3330,11 @@
     },
     {
       "id": "vl4",
-      "coverage_note": "complete; has the singular reading at 1:13"
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vl5",
+      "coverage_note": "not extant (Latin John lacks 1:1–3:16)"
     },
     {
       "id": "vl8",
@@ -3732,11 +3342,27 @@
     },
     {
       "id": "vl22",
-      "coverage_note": "1:8–18 present"
+      "coverage_note": "present (John 1:8–4:29 survives); supports the longer text at 2:3"
+    },
+    {
+      "id": "vl10",
+      "coverage_note": "complete"
     },
     {
       "id": "vl33",
       "coverage_note": "complete"
+    },
+    {
+      "id": "vl13",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vl14",
+      "coverage_note": "complete"
+    },
+    {
+      "id": "vl11",
+      "coverage_note": "present (manuscript heavily lacunose elsewhere)"
     },
     {
       "id": "vl15",
@@ -3756,31 +3382,15 @@
     },
     {
       "id": "vl47",
-      "coverage_note": "Vulgate text here (Old Latin begins at 1:29)"
+      "coverage_note": "complete; Old Latin throughout this chapter"
     },
     {
       "id": "vg_sang1395",
       "coverage_note": "to map (fragmentary)"
     },
     {
-      "id": "vl10",
-      "coverage_note": "complete"
-    },
-    {
-      "id": "vl13",
-      "coverage_note": "complete"
-    },
-    {
-      "id": "vl14",
-      "coverage_note": "1:16–18 only (lacks 1:1–15)"
-    },
-    {
-      "id": "vl11",
-      "coverage_note": "1:17–18 only (lacks 1:1–16)"
-    },
-    {
       "id": "vg_fuld",
-      "coverage_note": "opens the harmony with John 1:1–5; rest distributed"
+      "coverage_note": "verses distributed through the harmony"
     },
     {
       "id": "vg_cuth",
@@ -3801,6 +3411,117 @@
     {
       "id": "vg_kells",
       "coverage_note": "complete"
+    }
+  ],
+  "variants": [
+    {
+      "id": "v3",
+      "ref": "John 2:3",
+      "label": "the wine ran out",
+      "title": "“When the wine ran short” or “they had no wine, because the wedding wine was used up”?",
+      "readings": [
+        {
+          "greek": "καὶ ὑστερήσαντος οἴνου",
+          "english": "and when the wine ran short",
+          "witnesses": "𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · most manuscripts",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "καὶ οἶνον οὐκ εἶχον, ὅτι συνετελέσθη ὁ οἶνος τοῦ γάμου· εἶτα",
+          "english": "and they had no wine, because the wine of the wedding had been used up; then",
+          "witnesses": "01 (first hand) · Old Latin, including a and j",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "The longer text spells out what the short one implies. It is a typical ‘Western’ expansion, and its appearance in Sinaiticus is a good example of a finding by Gordon Fee (1968): in the first eight chapters of John, Sinaiticus often sides with ‘Western’ witnesses such as the Old Latin rather than with Vaticanus. The same great codex can carry different kinds of text in different parts of one book.",
+      "literature": [
+        "fee68",
+        "metzger94",
+        "na28"
+      ]
+    },
+    {
+      "id": "v15",
+      "ref": "John 2:15",
+      "label": "“like” a whip",
+      "title": "A whip of cords, or something “like” a whip?",
+      "readings": [
+        {
+          "greek": "φραγέλλιον ἐκ σχοινίων",
+          "english": "a whip of cords",
+          "witnesses": "01 · 02 · 03 · 038 · 044 · most later manuscripts",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "ὡς φραγέλλιον ἐκ σχοινίων",
+          "english": "something like a whip of cords",
+          "witnesses": "𝔓66 · 𝔓75 · 019 · 022 · minuscule 33 · Latin",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "Here the two earliest papyri carry the reading the modern text does not print. The small word ὡς (“like”) softens the scene: Jesus improvises something whip-like. Editors usually judge that scribes were more likely to add a word than drop it, so the shorter text is printed, but the strength of 𝔓66 and 𝔓75 keeps the question open. A good example of how ‘earliest’ and ‘printed’ are not always the same.",
+      "literature": [
+        "net",
+        "metzger94",
+        "na28"
+      ]
+    },
+    {
+      "id": "v17",
+      "ref": "John 2:17",
+      "label": "will consume / has consumed",
+      "title": "“Will consume me” or “has consumed me”?",
+      "readings": [
+        {
+          "greek": "καταφάγεταί με",
+          "english": "will consume me",
+          "witnesses": "early manuscripts and the modern critical text (full list to confirm against NA28)",
+          "printed_in_NA28": true
+        },
+        {
+          "greek": "κατέφαγέ με",
+          "english": "has consumed me (KJV: “hath eaten me up”)",
+          "witnesses": "many later manuscripts; the Textus Receptus behind the KJV",
+          "printed_in_NA28": false
+        }
+      ],
+      "explanation": "John quotes Psalm 69:9 (68:10 in the Greek Bible), where the Greek Psalm has the past tense. The future tense in John turns the quotation into a prediction of what zeal for the temple will cost Jesus; the past tense in later manuscripts brings John back into line with the Psalm, another harmonisation. The witness lists here are the least checked on this page.",
+      "literature": [
+        "metzger94",
+        "na28"
+      ]
+    }
+  ],
+  "translation_sweep": [
+    {
+      "id": "t2-4",
+      "ref": "John 2:4",
+      "question": "“Woman, what is that to me and to you?”",
+      "manuscripts_agree": true,
+      "greek": "τί ἐμοὶ καὶ σοί, γύναι;",
+      "explanation": "A Semitic idiom (found also in the Greek Old Testament, for example Judges 11:12 and 2 Kings 3:13) whose tone is hard to carry into English: renderings range from “what concern is that to you and to me?” to “why do you involve me?”. The address “woman” was not rude in Greek, though it sounds so in modern English. Both belong to the translation sweep."
+    },
+    {
+      "id": "t2-6",
+      "ref": "John 2:6",
+      "question": "Ancient measures (metrētēs, about 39 litres)",
+      "manuscripts_agree": true,
+      "greek": "ἀνὰ μετρητὰς δύο ἢ τρεῖς",
+      "explanation": "A metrētēs was a liquid measure of roughly 39 litres (about 10 US gallons), so each jar held something like 80 to 120 litres. Translations variously keep the ancient unit, convert it, or round it; the sweep will set one policy for ancient measures across the site."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "04",
+      "reason": "Lacks John 1:41–3:32."
+    },
+    {
+      "id": "05",
+      "reason": "Greek lacks 1:17 to the end of chapter 3."
+    },
+    {
+      "id": "vl5",
+      "reason": "Latin lacks 1:1–3:16."
     }
   ]
 }

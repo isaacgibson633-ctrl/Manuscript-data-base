@@ -153,7 +153,7 @@ footer p{max-width:78ch}
     <span><i class="c"></i>Lost or never included</span>
   </div>
   <div class="mx-box"><table class="mx" id="mx"></table></div>
-  <p class="note">Coverage is taken from published contents lists, editions and each manuscript’s recorded gaps, and has not yet been checked leaf by leaf against the INTF catalogue. Hover or read the grey line under each name for gaps and notes.</p>
+  <p class="note">Coverage follows the IGNTP edition’s contents lists for the majuscules and the editions for the papyri, and has not yet been checked leaf by leaf against the INTF catalogue. Hover or read the grey line under each name for gaps and notes.</p>
 </section>
 
 <section aria-labelledby="var-h">
@@ -209,7 +209,7 @@ const MS = [
  {g:"pap", s:"𝔓5", n:"P.Oxy. 208 + 1781", d:"early 3rd c.", cov:[[23,31],[33,40]]},
  {g:"pap", s:"𝔓66", n:"Papyrus Bodmer II", d:"c. 200", deb:true, cov:[all]},
  {g:"pap", s:"𝔓75", n:"Papyrus Bodmer XIV–XV", d:"c. 200–225", deb:true, cov:[all]},
- {g:"pap", s:"𝔓106", n:"P.Oxy. 4445", d:"3rd c.", cov:[[29,35],[40,46]]},
+ {g:"pap", s:"𝔓106", n:"P.Oxy. 4445", d:"early 3rd c.", cov:[[29,35],[40,46]]},
  {g:"pap", s:"𝔓119", n:"P.Oxy. 4803", d:"3rd c.", cov:[[21,28],[38,44]]},
  {g:"pap", s:"𝔓134", n:"Willoughby Papyrus (roll)", d:"3rd/4th c.", cov:[[49,51]]},
  {g:"pap", s:"𝔓120", n:"P.Oxy. 4804", d:"4th c.", cov:[[25,28],[33,38],[42,44]], note:"ranges differ between summaries; check"},
@@ -222,17 +222,17 @@ const MS = [
  {g:"maj", s:"029 T", n:"Borgianus (Greek–Sahidic)", d:"5th c.", cov:[[24,32]]},
  {g:"maj", s:"032 W", n:"Washingtonianus", d:"4th/5th c.", sup:[all], note:"John 1:1–5:11 is a replacement quire, usually dated 7th c."},
  {g:"maj", s:"083", n:"Uncial 083", d:"6th/7th c.", cov:[[25,41]]},
- {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[[19,21],[39,51]], note:"lacks 1:22–38"},
+ {g:"maj", s:"022 N", n:"Petropolitanus Purpureus", d:"6th c.", cov:[[21,39]], note:"John 1:21–39 survives (IGNTP)"},
  {g:"maj", s:"024 P", n:"Guelferbytanus A (palimpsest)", d:"6th c.", cov:[[29,40]]},
  {g:"maj", s:"086", n:"Uncial 086 (Greek–Coptic, palimpsest)", d:"6th c.", cov:[[23,26]]},
  {g:"maj", s:"0260", n:"Uncial 0260 (Greek–Fayyumic Coptic)", d:"6th c.", cov:[[30,32]]},
- {g:"maj", s:"0268", n:"Uncial 0268", d:"7th c.", cov:[[30,33]]},
+ {g:"maj", s:"0268", n:"Uncial 0268", d:"7th c.", cov:[[30,32]]},
  {g:"maj", s:"07 E", n:"Basilensis", d:"8th c.", cov:[all]},
  {g:"maj", s:"019 L", n:"Regius", d:"8th c.", cov:[all]},
  {g:"maj", s:"047", n:"Uncial 047", d:"8th c.", cov:[all]},
  {g:"maj", s:"0101", n:"Uncial 0101", d:"8th c.", cov:[[29,32]]},
  {g:"maj", s:"0234", n:"Uncial 0234", d:"8th c.", cov:[[20,24]]},
- {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c.", q:[all], note:"no recorded gap before 3:5, but heavily damaged; check"},
+ {g:"maj", s:"09 F", n:"Boreelianus", d:"9th c. (INTF); c. 1000 (Utrecht)", deb:true, cov:[all], note:"damaged, but 1:13–3:3 survives"},
  {g:"maj", s:"011 G", n:"Seidelianus I", d:"9th c.", cov:[all]},
  {g:"maj", s:"013 H", n:"Seidelianus II", d:"9th c.", cov:[all]},
  {g:"maj", s:"017 K", n:"Cyprius", d:"9th c.", cov:[all]},
@@ -245,6 +245,7 @@ const MS = [
  {g:"maj", s:"039 Λ", n:"Tischendorfianus III", d:"9th c.", cov:[all]},
  {g:"maj", s:"041 Π", n:"Petropolitanus", d:"9th c.", cov:[all]},
  {g:"maj", s:"045 Ω", n:"Athous Dionysiou", d:"9th c.", cov:[all]},
+ {g:"maj", s:"063", n:"Uncial 063", d:"9th c.", cov:[all]},
  {g:"maj", s:"0211", n:"Uncial 0211", d:"9th c.", deb:true, cov:[all]},
  {g:"maj", s:"044 Ψ", n:"Athous Lavrensis", d:"9th/10th c.", deb:true, cov:[all]},
 ];
@@ -316,13 +317,13 @@ const VARS = [
  {id:"v34", ref:"John 1:34", title:"“The Son of God” or “the Chosen One of God”?",
   readings:[
    {gk:"ὁ υἱὸς τοῦ θεοῦ", en:"the Son of God", wit:"𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 04 · 019 · most manuscripts · Vulgate", printed:true},
-   {gk:"ὁ ἐκλεκτὸς τοῦ θεοῦ", en:"the Chosen One of God", wit:"𝔓5 (probably, from the space available) · 𝔓106 (probably) · 01 (first hand) · Old Latin b, e, ff2 (first hand) · Old Syriac (Sinaitic and Curetonian)"},
+   {gk:"ὁ ἐκλεκτὸς τοῦ θεοῦ", en:"the Chosen One of God", wit:"𝔓5 (reconstructed from line length) · 𝔓106 (traces of the word survive) · 01 (first hand) · Old Latin b, e, ff2 (first hand) · Old Syriac (Sinaitic and Curetonian)"},
   ],
-  body:"The most interesting variant in this section, and one where new discoveries changed the picture. “Son of God” has the numbers and the great codices. “Chosen One” has fewer witnesses, but they are early and widespread: the first hand of Sinaiticus, Old Latin and Old Syriac, and two 3rd-century Oxyrhynchus papyri, one of them (𝔓106) only published in the late 1990s. Some witnesses combine the two as “the chosen Son”. Scholars who favour “Chosen One” argue that a scribe would more easily change it to the familiar “Son of God” than the reverse, and that John the Baptist here echoes Isaiah 42:1. Ehrman sees the change to “Son” as part of 2nd-century debates about Christ’s status; Quek accepts “Chosen One” as original but finds that explanation unnecessary. The Nestle–Aland text prints “Son”; some recent translations (the NET Bible, for example) print “Chosen One”.",
-  lit:["quek09","ehrman93","metzger94","na28","net"]},
+  body:"The most interesting variant in this section, and one where new discoveries changed the picture. “Son of God” has the numbers and the great codices. “Chosen One” has fewer witnesses, but they are early and widespread: the first hand of Sinaiticus, Old Latin and Old Syriac, and two 3rd-century Oxyrhynchus papyri, one of them (𝔓106) only published in 1998. The word itself is lost in 𝔓5, so its reading is worked out from how many letters fit the line; 𝔓106 preserves traces of it, and its editor and Head (2000) read ἐκλεκτός. Some witnesses combine the two as “the chosen Son”. Scholars who favour “Chosen One” argue that a scribe would more easily change it to the familiar “Son of God” than the reverse, and that John the Baptist here echoes Isaiah 42:1. Ehrman sees the change to “Son” as part of 2nd-century debates about Christ’s status; Quek accepts “Chosen One” as original but finds that explanation unnecessary. The Nestle–Aland text prints “Son”; some recent translations (the NET Bible, for example) print “Chosen One”.",
+  lit:["quek09","ehrman93","head00","poxy65","metzger94","na28","net"]},
  {id:"v28", ref:"John 1:28", title:"Bethany or Bethabara?",
   readings:[
-   {gk:"ἐν Βηθανίᾳ", en:"in Bethany (across the Jordan)", wit:"𝔓59 (probably) · 𝔓66 · 𝔓75 · 02 · 03 · 04 (first hand) · 019 · 032 (replacement quire) · 037 · 038 · 044 (first hand) · most Latin · Bohairic Coptic", printed:true},
+   {gk:"ἐν Βηθανίᾳ", en:"in Bethany (across the Jordan)", wit:"𝔓59 (probably) · 𝔓66 · 𝔓75 · 02 · 03 · 04 (first hand) · 019 · 032 (replacement quire) · 037 · 038 · 044 (first hand) · 063 · most Latin · Bohairic Coptic", printed:true},
    {gk:"ἐν Βηθαβαρᾷ", en:"in Bethabara", wit:"01 (a later corrector) · 04 (corrector) · 017 · 029 · 044 (corrector) · 083 · many later manuscripts · Sahidic Coptic · Origen"},
   ],
   body:"The earliest manuscripts say Bethany, which is not the village near Jerusalem but a place “across the Jordan”. In the 3rd century Origen, visiting the region, could find no Bethany beyond the Jordan and was shown a place called Bethabara associated with John’s baptism; he adopted that name in his Commentary on John (book 6), and his reading spread into later manuscripts and eventually into the King James Version. A case where a named scholar’s field research, not a scribe’s slip, changed the text.",
@@ -339,7 +340,7 @@ const VARS = [
    {gk:"πρῶτον", en:"he first (the first thing he did was to find his brother)", wit:"𝔓66 · 𝔓75 · 01 (corrector) · 02 · 03 · 038 · 044 · 083 · Latin", printed:true},
    {gk:"πρῶτος", en:"he was the first (to find his brother)", wit:"01 (first hand) · 019 · 032 (replacement quire) · most later manuscripts"},
   ],
-  body:"A one-letter difference. With πρῶτος, Andrew is the first of the two disciples to find his brother, which hints that the unnamed second disciple later found his own brother too. A few Old Latin manuscripts are reported to read “in the morning” instead (to check). Small in itself, but it shapes how readers identify the unnamed disciple.",
+  body:"A one-letter difference. With πρῶτος, Andrew is the first of the two disciples to find his brother, which hints that the unnamed second disciple later found his own brother too. Small in itself, but it shapes how readers identify the unnamed disciple.",
   lit:["metzger94","na28","net"]},
  {id:"v51", ref:"John 1:51", title:"“Hereafter you will see”?",
   readings:[
@@ -356,7 +357,8 @@ const BIB = {
  quek09:"Quek, Tze-Ming. “A Text-Critical Study of John 1.34.” <i>New Testament Studies</i> 55.1 (2009): 22–34.",
  origen_heine:"Origen. <i>Commentary on the Gospel According to John, Books 1–10</i>. Translated by Ronald E. Heine. Fathers of the Church 80. Washington, DC: Catholic University of America Press, 1989. (Book 6 on Bethabara.)",
  smith17:"Smith, Geoffrey S. “The Willoughby Papyrus: A New Fragment of John 1:49–2:1 (𝔓134) and an Unidentified Christian Text.” <i>Journal of Biblical Literature</i> 136.4 (2017): 935–58.",
- poxy65:"Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In <i>The Oxyrhynchus Papyri</i>. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm).",
+ poxy65:"Cockle, W. E. H., ed. “4445–4448” (𝔓106–𝔓109). In <i>The Oxyrhynchus Papyri</i> LXV. London: Egypt Exploration Society, 1998.",
+ head00:"Head, Peter M. “Some Recently Published NT Papyri from Oxyrhynchus: An Overview and Preliminary Assessment.” <i>Tyndale Bulletin</i> 51.1 (2000): 1–16.",
  poxy71:"Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In <i>The Oxyrhynchus Papyri</i> LXXI. London: Egypt Exploration Society, 2007.",
  casson50:"Casson, Lionel, and Ernest L. Hettich. <i>Excavations at Nessana</i>. Vol. 2, <i>Literary Papyri</i>. Princeton: Princeton University Press, 1950.",
  net:"<i>NET Bible</i>, full notes edition, text-critical notes on John 1:28–42. Biblical Studies Press. Online at netbible.org.",
@@ -369,15 +371,22 @@ document.getElementById("variants").innerHTML = VARS.map(v=>`<div class="vc" id=
 </div>`).join("");
 
 const LAT = [
- ["Codex Vercellensis (a, VL 3)","late 4th c.","Old Latin","complete (some leaves damaged)"],
+ ["Codex Vercellensis (a, VL 3)","2nd half 4th c.","Old Latin","complete (some leaves damaged)"],
  ["Codex Palatinus (e, VL 2)","5th c.","Old Latin","complete; reads “Chosen One” (1:34) and “hereafter” (1:51)"],
- ["Codex Veronensis (b, VL 4)","5th c.","Old Latin","complete; reads “Chosen One” (1:34)"],
+ ["Codex Veronensis (b, VL 4)","2nd half 5th c.","Old Latin","complete; reads “Chosen One” (1:34)"],
  ["Codex Corbeiensis II (ff2, VL 8)","5th c.","Old Latin","complete; first hand reads “Chosen One” (1:34)"],
+ ["Codex Sarzanensis (j, VL 22)","early 6th c.","Old Latin, purple codex","complete for this section"],
+ ["Codex Carnotensis (VL 33)","6th c.","Old Latin","complete"],
+ ["Codex Aureus of Stockholm (aur, VL 15)","775–800","Vulgate with Old Latin readings","complete"],
+ ["Book of Mulling (μ, VL 35)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Sangallensis 51 (VL 48)","late 8th c.","Irish mixed text","complete"],
+ ["Codex Gatianus (gat, VL 30)","c. 800","Vulgate with Old Latin readings","complete"],
+ ["Codex Sangallensis 60 (VL 47)","c. 800","John only; Old Latin text in 1:29–3:26","Old Latin from 1:29"],
  ["Codex Sangallensis 1395","early 5th c.","Vulgate","to map (fragmentary)"],
  ["Codex Brixianus (f, VL 10)","6th c.","Old Latin / Vulgate","complete"],
- ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","preserves 1:51 (“hereafter”); rest to map"],
- ["Codex Usserianus Primus (r1, VL 14)","early 7th c.","Old Latin","complete for this section; reads “hereafter” (1:51)"],
- ["Codex Rehdigeranus (l, VL 11)","8th c.","Old Latin","complete for this section"],
+ ["Codex Monacensis (q, VL 13)","6th/7th c.","Old Latin","complete for this section; reads “hereafter” (1:51)"],
+ ["Codex Usserianus Primus (r1, VL 14)","c. 600","Old Latin","complete for this section; reads “hereafter” (1:51)"],
+ ["Codex Rehdigeranus (l, VL 11)","1st half 8th c.","Old Latin","complete for this section"],
  ["Codex Fuldensis","541–546","Vulgate, as a Gospel harmony","verses distributed through the harmony"],
  ["St Cuthbert Gospel","c. 700–730","Vulgate","complete"],
  ["Codex Amiatinus","before 716","Vulgate","complete"],
@@ -389,9 +398,9 @@ document.getElementById("latin").innerHTML = LAT.map(r=>`<tr>${r.map(c=>`<td>${e
 
 const NEWMS = [
  ["𝔓5","early 3rd c.","Three leaves from a papyrus codex of John, found at Oxyrhynchus by Grenfell and Hunt; published as P.Oxy. 208 and 1781.","British Library, London"],
- ["𝔓106","3rd c.","Fragment of a papyrus codex (P.Oxy. 4445), published in the late 1990s; supports “Chosen One” at 1:34.","Egypt Exploration Society, Sackler Library, Oxford"],
+ ["𝔓106","early 3rd c.","Fragment of a papyrus codex (P.Oxy. 4445), published 1998; supports “Chosen One” at 1:34.","Egypt Exploration Society, Sackler Library, Oxford"],
  ["𝔓119","3rd c.","Fragment of a papyrus codex (P.Oxy. 4803), published 2007.","Egypt Exploration Society, Sackler Library, Oxford"],
- ["𝔓134","3rd/4th c.","Fragment of a roll, not a codex: John 1:49–51 on one side and an unidentified Christian text on the other. Owned by Harold Willoughby, resurfaced on eBay in 2015, published by Geoffrey Smith (2017).","Harry Ransom Center, University of Texas at Austin"],
+ ["𝔓134","3rd/4th c.","Fragment of a roll, not a codex: John 1:49–51 on the front, by the Ransom Center’s description, and an unidentified Christian text on the other side. Owned by Harold Willoughby, resurfaced on eBay in 2015, published by Geoffrey Smith (2017).","Harry Ransom Center, University of Texas at Austin"],
  ["𝔓120","4th c.","Three pieces of one leaf from a codex in Biblical majuscule (P.Oxy. 4804), published 2007.","Egypt Exploration Society, Sackler Library, Oxford"],
  ["029 T","5th c.","Greek–Sahidic Coptic bilingual; supports “Bethabara” at 1:28.","Vatican Library and others"],
  ["083","6th/7th c.","Parchment codex leaves of John and Mark; same book as 0112, which has the shorter ending of Mark.","National Library of Russia, St Petersburg"],
@@ -405,7 +414,7 @@ const NEWMS = [
 ];
 document.getElementById("newms").innerHTML = NEWMS.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' style="font-family:var(--display);font-size:17px;white-space:nowrap"':""}>${esc(c)}</td>`).join("")}</tr>`).join("");
 
-document.getElementById("biblist").innerHTML = ["na28","metzger94","net","quek09","ehrman93","origen_heine","smith17","poxy65","poxy71","casson50"].map(k=>`<li>${BIB[k]}</li>`).join("");
+document.getElementById("biblist").innerHTML = ["na28","metzger94","net","quek09","ehrman93","head00","origen_heine","smith17","poxy65","poxy71","casson50"].map(k=>`<li>${BIB[k]}</li>`).join("");
 
 const pap = MS.filter(m=>m.g==="pap").length;
 const peak = Math.max(...VERSES.map(v=>count(v[0])));

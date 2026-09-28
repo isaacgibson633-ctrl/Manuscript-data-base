@@ -274,6 +274,16 @@
     "citation": "Meehan, Bernard. The Book of Durrow: A Medieval Masterpiece at Trinity College Dublin. Dublin: Town House, 1996.",
     "citation_html": "Meehan, Bernard. <i>The Book of Durrow: A Medieval Masterpiece at Trinity College Dublin</i>. Dublin: Town House, 1996."
   },
+  "igntp_maj": {
+    "group": "Reference catalogues and handbooks",
+    "citation": "Schmid, U. B., with W. J. Elliott and D. C. Parker, eds. The New Testament in Greek IV: The Gospel According to St. John. Vol. 2, The Majuscules. NTTSD 37. Leiden: Brill, 2007. Electronic edition and contents lists: IGNTP/ITSEE, itseeweb.cal.bham.ac.uk/iohannes/majuscule.",
+    "citation_html": "Schmid, U. B., with W. J. Elliott and D. C. Parker, eds. <i>The New Testament in Greek IV: The Gospel According to St. John</i>. Vol. 2, <i>The Majuscules</i>. NTTSD 37. Leiden: Brill, 2007. Electronic edition and contents lists: IGNTP/ITSEE, itseeweb.cal.bham.ac.uk/iohannes/majuscule."
+  },
+  "igntp_pap": {
+    "group": "Reference catalogues and handbooks",
+    "citation": "Elliott, W. J., and D. C. Parker, eds. The New Testament in Greek IV: The Gospel According to St. John. Vol. 1, The Papyri. NTTSD 20. Leiden: Brill, 1995.",
+    "citation_html": "Elliott, W. J., and D. C. Parker, eds. <i>The New Testament in Greek IV: The Gospel According to St. John</i>. Vol. 1, <i>The Papyri</i>. NTTSD 20. Leiden: Brill, 1995."
+  },
   "meehan12": {
     "group": "Latin manuscripts",
     "citation": "Meehan, Bernard. The Book of Kells. London: Thames & Hudson, 2012.",
@@ -296,12 +306,32 @@
   },
   "poxy65": {
     "group": "John 1:19–51",
-    "citation": "Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In The Oxyrhynchus Papyri. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm).",
-    "citation_html": "Cockle, W. E. H., ed. P.Oxy. 4445 (𝔓106). In <i>The Oxyrhynchus Papyri</i>. London: Egypt Exploration Society, 1997–98 (volume LXIV or LXV; to confirm)."
+    "citation": "Cockle, W. E. H., ed. “4445–4448” (𝔓106–𝔓109). In The Oxyrhynchus Papyri LXV. London: Egypt Exploration Society, 1998.",
+    "citation_html": "Cockle, W. E. H., ed. “4445–4448” (𝔓106–𝔓109). In <i>The Oxyrhynchus Papyri</i> LXV. London: Egypt Exploration Society, 1998."
+  },
+  "head00": {
+    "group": "John 1:19–51",
+    "citation": "Head, Peter M. “Some Recently Published NT Papyri from Oxyrhynchus: An Overview and Preliminary Assessment.” Tyndale Bulletin 51.1 (2000): 1–16.",
+    "citation_html": "Head, Peter M. “Some Recently Published NT Papyri from Oxyrhynchus: An Overview and Preliminary Assessment.” <i>Tyndale Bulletin</i> 51.1 (2000): 1–16."
   },
   "poxy71": {
     "group": "John 1:19–51",
     "citation": "Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In The Oxyrhynchus Papyri LXXI. London: Egypt Exploration Society, 2007.",
     "citation_html": "Hatzilambrou, R., P. J. Parsons, and J. Chapa, eds. P.Oxy. 4803–4806 (𝔓119–𝔓122). In <i>The Oxyrhynchus Papyri</i> LXXI. London: Egypt Exploration Society, 2007."
+  },
+  "fee68": {
+    "group": "Codex Sinaiticus and Codex Vaticanus",
+    "citation": "Fee, Gordon D. “Codex Sinaiticus in the Gospel of John: A Contribution to Methodology in Establishing Textual Relationships.” New Testament Studies 15.1 (1968): 23–44.",
+    "citation_html": "Fee, Gordon D. “Codex Sinaiticus in the Gospel of John: A Contribution to Methodology in Establishing Textual Relationships.” <i>New Testament Studies</i> 15.1 (1968): 23–44."
+  },
+  "vl_ioh": {
+    "group": "Latin manuscripts",
+    "citation": "Vetus Latina Iohannes: electronic edition of the Old Latin manuscripts of John, with manuscript catalogue. IGNTP/ITSEE, University of Birmingham. Online at itseeweb.cal.bham.ac.uk/iohannes/vetuslatina.",
+    "citation_html": "<i>Vetus Latina Iohannes</i>: electronic edition of the Old Latin manuscripts of John, with manuscript catalogue. IGNTP/ITSEE, University of Birmingham. Online at itseeweb.cal.bham.ac.uk/iohannes/vetuslatina."
+  },
+  "poxy847": {
+    "group": "John 2",
+    "citation": "Grenfell, B. P., and A. S. Hunt, eds. “847. St. John’s Gospel ii.” In The Oxyrhynchus Papyri VI. London: Egypt Exploration Fund, 1908.",
+    "citation_html": "Grenfell, B. P., and A. S. Hunt, eds. “847. St. John’s Gospel ii.” In <i>The Oxyrhynchus Papyri</i> VI. London: Egypt Exploration Fund, 1908."
   }
 }

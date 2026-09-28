@@ -4,16 +4,18 @@ export const BOOKS = ["Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Co
   "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus",
   "Philemon", "Hebrews", "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation"];
 
-// "John 1:1–18" → { book: "John", chapter: 1, verses: [1, 18], slug: "john-1-1-18", path: "john/1/1-18/" }
+// "John 1:1–18" → { book: "John", chapter: 1, verses: [1, 18], start: 1, slug: "john-1-1-18", path: "john/1/1-18/" }
+// "John 2" (a whole chapter) → { book: "John", chapter: 2, verses: null, start: 1, slug: "john-2", path: "john/2/" }
 // Passages stay within one chapter.
 export function parsePassageRef(ref) {
-  const m = /^(.+) (\d+):(\d+)(?:[–-](\d+))?$/.exec(String(ref || "").trim());
-  if (!m || !BOOKS.includes(m[1])) throw new Error(`"passage" should look like "John 1:1–18" or "John 18:31" (got "${ref}")`);
-  const book = m[1], chapter = +m[2], from = +m[3], to = m[4] ? +m[4] : from;
+  const m = /^(.+) (\d+)(?::(\d+)(?:[–-](\d+))?)?$/.exec(String(ref || "").trim());
+  if (!m || !BOOKS.includes(m[1])) throw new Error(`"passage" should look like "John 1:1–18", "John 18:31" or "John 2" (got "${ref}")`);
+  const book = m[1], chapter = +m[2], bookSlug = book.toLowerCase().replace(/ /g, "-");
+  if (!m[3]) return { book, bookSlug, chapter, verses: null, start: 1, slug: `${bookSlug}-${chapter}`, path: `${bookSlug}/${chapter}/` };
+  const from = +m[3], to = m[4] ? +m[4] : from;
   if (to < from) throw new Error(`passage "${ref}" ends before it starts`);
-  const bookSlug = book.toLowerCase().replace(/ /g, "-");
   const range = from === to ? `${from}` : `${from}-${to}`;
-  return { book, bookSlug, chapter, verses: [from, to], slug: `${bookSlug}-${chapter}-${range}`, path: `${bookSlug}/${chapter}/${range}/` };
+  return { book, bookSlug, chapter, verses: [from, to], start: from, slug: `${bookSlug}-${chapter}-${range}`, path: `${bookSlug}/${chapter}/${range}/` };
 }
 
 export const STATUS_TEXT = {
@@ -51,7 +53,7 @@ export function passageCoverage(p, chapter, id) {
 // IDs of Greek witnesses in `p` that no earlier passage of the same chapter lists (empty for a chapter's first passage)
 export function firstAppearances(passages, p) {
   const ref = parsePassageRef(p.passage);
-  const earlier = passages.filter(q => { const r = parsePassageRef(q.passage); return r.book === ref.book && r.chapter === ref.chapter && r.verses[0] < ref.verses[0]; });
+  const earlier = passages.filter(q => { const r = parsePassageRef(q.passage); return r.book === ref.book && r.chapter === ref.chapter && r.start < ref.start; });
   if (!earlier.length) return [];
   const seen = new Set(earlier.flatMap(q => q.verses.flatMap(v => v.greek_witnesses.map(w => w.id))));
   return [...new Set(p.verses.flatMap(v => v.greek_witnesses.map(w => w.id)))].filter(id => !seen.has(id));
