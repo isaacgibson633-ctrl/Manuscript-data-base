@@ -6,6 +6,8 @@ Static site: `data/*.json` → `scripts/build.mjs` → `_site/`. No dependencies
 
 - `node scripts/check-data.mjs` (add `--open` to list open checks): run after any data change; must pass.
 - `node scripts/build.mjs`: builds `_site/`. Preview with `python3 -m http.server -d _site`.
+- `node scripts/build-viewer.mjs`: builds the tabbed viewer, `_viewer/index.html` (published as a claude.ai artifact; `_viewer/preview.html` opens locally).
+- New research arrives as one compiled handoff file with the data embedded; extract its `#### FILE:` blocks, compare them with `data/` and report conflicts before replacing anything.
 
 ## Rules the site follows
 

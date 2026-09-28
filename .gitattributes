@@ -1,0 +1,3 @@
+# Keep line endings consistent (LF) whatever system a file comes from
+* text=auto eol=lf
+*.png binary

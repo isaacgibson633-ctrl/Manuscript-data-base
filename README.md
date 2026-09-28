@@ -77,7 +77,7 @@ node scripts/build.mjs               # build the site into _site/
 python3 -m http.server -d _site      # preview at http://localhost:8000
 ```
 
-The checker catches unknown bibliography keys (in `literature`, `scholarly_positions`, variants, the translation sweep and `scholars.json`), witness IDs missing from `manuscripts.json`, Greek witnesses listed as Latin and vice versa, unknown statuses, variants no verse refers to, badly named passage files, and dates outside their range. It runs on GitHub for every push and pull request.
+The checker catches unknown bibliography keys (in `literature`, `scholarly_positions`, variants, the translation sweep and `scholars.json`), witness IDs missing from `manuscripts.json`, Greek witnesses listed as Latin and vice versa, unknown statuses, variants no verse refers to, badly named passage files, dates outside their range, sections with gaps, and manuscripts a passage both excludes and lists for a verse. It runs on GitHub for every push and pull request.
 
 ## Tabbed viewer
 

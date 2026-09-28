@@ -126,6 +126,11 @@ for (const [f, p] of passages) {
   for (const t of p.translation_sweep || []) (t.literature || []).forEach(k => ref(`${w} [translation note ${t.id}]`, k));
   (p.literature || []).forEach(k => ref(w, k));
   (p.excluded || []).forEach((e, i) => { if (!(e.id || e.label) || !e.reason) err(`${w} excluded[${i}]`, "needs an id or label, and a reason"); });
+  // An excluded manuscript may keep a passage-level Latin note (it is then left out of the Latin table), but no verse may list it
+  for (const e of p.excluded || []) {
+    const v = e.id && p.verses.find(v => [...v.greek_witnesses, ...(v.latin_witnesses || [])].some(x => x.id === e.id));
+    if (v) err(w, `"${e.id}" is excluded but listed as a witness at ${v.ref}`);
+  }
 }
 
 const unused = mss.filter(m => !cited.has(m.id)).map(m => m.id);

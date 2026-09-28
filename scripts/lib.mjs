@@ -58,3 +58,10 @@ export function firstAppearances(passages, p) {
   const seen = new Set(earlier.flatMap(q => q.verses.flatMap(v => v.greek_witnesses.map(w => w.id))));
   return [...new Set(p.verses.flatMap(v => v.greek_witnesses.map(w => w.id)))].filter(id => !seen.has(id));
 }
+
+// Latin manuscripts a passage lists (per verse or in its passage-level table), leaving out any it also excludes
+export function latinIds(p) {
+  const excluded = new Set((p.excluded || []).map(e => e.id).filter(Boolean));
+  return [...new Set([...p.verses.flatMap(v => (v.latin_witnesses || []).map(w => w.id)), ...(p.latin || []).map(l => l.id)])]
+    .filter(id => !excluded.has(id));
+}

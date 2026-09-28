@@ -4,7 +4,7 @@
 //   _viewer/preview.html  the same page wrapped as a full document, for opening locally
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { BOOKS, parsePassageRef, passageCoverage, firstAppearances } from "./lib.mjs";
+import { BOOKS, parsePassageRef, passageCoverage, firstAppearances, latinIds } from "./lib.mjs";
 
 const here = new URL("..", import.meta.url).pathname;
 const read = p => readFileSync(join(here, p), "utf8");
@@ -23,7 +23,7 @@ const byId = Object.fromEntries(mss.map(m => [m.id, m]));
 // Where each manuscript appears: [[passage slug, coverage text]]
 const cited = {};
 for (const { p, ref } of passages) {
-  const ids = new Set([...p.verses.flatMap(v => [...v.greek_witnesses, ...(v.latin_witnesses || [])].map(w => w.id)), ...(p.latin || []).map(l => l.id)]);
+  const ids = new Set([...p.verses.flatMap(v => v.greek_witnesses.map(w => w.id)), ...latinIds(p)]);
   for (const id of ids) (cited[id] ||= []).push([ref.slug, passageCoverage(p, ref.chapter, id)]);
 }
 
@@ -44,7 +44,7 @@ const DATA = {
       g: v.greek_witnesses.map(w => [w.id, w.status]), l: (v.latin_witnesses || []).map(w => [w.id, w.status]),
     })),
     variants: p.variants || [], sweep: p.translation_sweep || [], excluded: p.excluded || [],
-    latin: [...new Set([...p.verses.flatMap(v => (v.latin_witnesses || []).map(w => w.id)), ...(p.latin || []).map(l => l.id)])]
+    latin: latinIds(p)
       .map(id => byId[id]).sort(byDate).map(m => [m.id, passageCoverage(p, ref.chapter, m.id)]),
     newIds: firstAppearances(passages.map(x => x.p), p).map(id => byId[id]).sort(byDate).map(m => m.id),
     lit: [...new Set([...(p.variants || []).flatMap(v => v.literature || []), ...(p.translation_sweep || []).flatMap(t => t.literature || []), ...(p.literature || [])])],

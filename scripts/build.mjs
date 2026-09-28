@@ -12,7 +12,7 @@
 //   /checks/                   everything still to be confirmed before public release
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, cpSync } from "node:fs";
 import { join, dirname } from "node:path";
-import { BOOKS, parsePassageRef, STATUS_TEXT as STATUS, verseRanges as ranges, passageCoverage, firstAppearances as firstIds } from "./lib.mjs";
+import { BOOKS, parsePassageRef, STATUS_TEXT as STATUS, verseRanges as ranges, passageCoverage, firstAppearances as firstIds, latinIds } from "./lib.mjs";
 
 const here = new URL("..", import.meta.url).pathname;
 const ARTIFACT = process.argv.includes("--artifact");
@@ -48,8 +48,8 @@ for (const p of passages) for (const v of p.verses) for (const w of [...(v.greek
   if (!e.has(p)) e.set(p, []);
   e.get(p).push([v.verse, w.status]);
 }
-for (const p of passages) for (const l of p.latin || []) {
-  const e = (citedIn[l.id] ||= new Map());
+for (const p of passages) for (const id of latinIds(p)) {
+  const e = (citedIn[id] ||= new Map());
   if (!e.has(p)) e.set(p, []);
 }
 const coverage = (p, id) => passageCoverage(p, p.ref.chapter, id);
@@ -178,7 +178,7 @@ function passagePage(p) {
   const { ref } = p, multi = p.verses.length > 1;
   const greek = unique(p.verses.flatMap(v => (v.greek_witnesses || []).map(w => w.id))).map(id => byId[id]).sort(byDate);
   const latinByVerse = unique(p.verses.flatMap(v => (v.latin_witnesses || []).map(w => w.id))).map(id => byId[id]).sort(byDate);
-  const latin = unique([...latinByVerse.map(m => m.id), ...(p.latin || []).map(l => l.id)]).map(id => byId[id]).sort(byDate);
+  const latin = latinIds(p).map(id => byId[id]).sort(byDate);
   const newHere = firstAppearances(p);
   const variants = p.variants || [], sweep = p.translation_sweep || [], excluded = p.excluded || [];
   const vlabel = Object.fromEntries([...variants.map(v => [v.id, `variant${v.label ? `: ${v.label}` : ""}`]), ...sweep.map(t => [t.id, "translation note"])]);
@@ -300,7 +300,7 @@ ${latin.length ? `
   <p>${esc(p.latin_note || "Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings. These are key Latin witnesses up to AD 900; verse-level coverage for some is still to be mapped.")}</p>
   <div class="tbl"><table>
     <thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>${esc(p.passage)}</th></tr></thead>
-    <tbody>${latin.map(m => `<tr><td class="name">${msLink(root, m, m.siglum ? `${m.name} (${m.siglum})` : m.name)}</td><td>${esc(m.date.label)}</td><td class="name">${esc(m.text_type || "")}</td><td class="name">${esc(coverage(p, m.id))}</td></tr>`).join("")}</tbody>
+    <tbody>${latin.map(m => `<tr><td class="name">${msLink(root, m, m.siglum ? `${m.name}, ${m.siglum}` : m.name)}</td><td>${esc(m.date.label)}</td><td class="name">${esc(m.text_type || "")}</td><td class="name">${esc(coverage(p, m.id))}</td></tr>`).join("")}</tbody>
   </table></div>
 </section>` : ""}
 ${newHere.length ? `

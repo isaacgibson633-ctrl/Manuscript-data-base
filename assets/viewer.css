@@ -43,7 +43,8 @@ details.checks summary{color:var(--debated);font-family:var(--body);font-size:14
 .keyhint{font-family:var(--mono);font-size:11px;color:var(--muted)}
 
 /* The verse */
-.vcard{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 24px;display:grid;grid-template-columns:auto 1fr;gap:6px 24px}
+.vcard{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 24px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 24px}
+.vcard .flag{white-space:normal}
 .vref{font-family:var(--display);font-size:clamp(40px,7vw,64px);line-height:1;color:var(--rubric);grid-row:span 4}
 .vcard .eyebrow{color:var(--rubric)}
 .vcard .tr{font-size:clamp(18px,2.4vw,21px);line-height:1.55;max-width:60ch}
@@ -107,7 +108,7 @@ dialog.sheet::backdrop{background:rgba(10,14,18,.45)}
 .cited a{font-weight:600}
 
 @media (max-width:640px){
-  .vcard{grid-template-columns:1fr;padding:18px}
+  .vcard{grid-template-columns:minmax(0,1fr);padding:18px}
   .vref{grid-row:auto}
   .sheet-body dl{grid-template-columns:1fr}
   .keyhint{display:none}

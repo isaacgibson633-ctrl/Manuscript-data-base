@@ -71,7 +71,8 @@
     return `<header class="phead">
       <div class="top" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><span class="eyebrow">Gospel of ${esc(p.book)} · chapter ${p.chapter}</span></div>
       <h1>${esc(p.heading || (multi ? p.passage : `Who has ${p.passage}?`))}</h1>
-      ${p.lede ? `<p class="lede">${esc(p.lede)}</p>` : ""}
+      <p class="lede">${esc(p.lede || (multi ? `Which early manuscripts preserve each verse of ${p.passage}, and where they disagree. Greek manuscripts up to AD 900 come first.`
+        : "Every Greek manuscript copied up to about AD 900 in which some part of this verse survives, arranged by date. Select a manuscript to see who dates it and how confident that date is, where it is now, and where you can look at photographs of it yourself."))}</p>
       <div class="stats">${stats.map(([n, l]) => `<span><b>${n}</b>${l}</span>`).join("")}</div>
       ${open.length ? `<details class="checks"><summary><b>Still to confirm:</b> ${open.length} record${open.length > 1 ? "s" : ""} used here ${open.length > 1 ? "have" : "has"} open checks</summary>
         <p style="margin-top:6px">${open.map(m => `<button class="lacksbtn ml" data-ms="${esc(m.id)}" style="font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline">${esc(label(m))}</button>`).join(", ")}. See <a href="#checks">Open checks</a>.</p></details>` : ""}
@@ -113,6 +114,7 @@
       ${v.section ? `<span class="eyebrow">${esc(v.section)}</span>` : ""}
       ${greekText}
       <p class="tr">${esc(v.tr)}</p>
+      ${!multi && p.translationNote ? `<p class="note">${esc(p.translationNote)}</p>` : ""}
       ${flags ? `<div class="vflags">${flags}</div>` : ""}
     </article>
     <section class="wsec" aria-labelledby="w-h">
@@ -188,7 +190,7 @@
     return `<section class="sec">
       <p>${esc(p.latinNote || "Latin translations were made from Greek manuscripts older than most that survive, so they can preserve early readings. These are key Latin witnesses up to AD 900; verse-level coverage for some is still to be mapped.")}</p>
       <div class="tbl"><table><thead><tr><th>Manuscript</th><th>Date</th><th>Type</th><th>${esc(p.passage)}</th></tr></thead>
-      <tbody>${p.latin.map(([id, cov]) => { const m = MS[id]; return `<tr><td class="name"><button class="ml" data-ms="${esc(id)}">${esc(m.siglum ? `${m.name} (${m.siglum})` : m.name)}</button></td><td>${esc(m.date.label)}</td><td class="name">${esc(m.text_type || "")}</td><td class="name">${esc(cov)}</td></tr>`; }).join("")}</tbody></table></div>
+      <tbody>${p.latin.map(([id, cov]) => { const m = MS[id]; return `<tr><td class="name"><button class="ml" data-ms="${esc(id)}">${esc(m.siglum ? `${m.name}, ${m.siglum}` : m.name)}</button></td><td>${esc(m.date.label)}</td><td class="name">${esc(m.text_type || "")}</td><td class="name">${esc(cov)}</td></tr>`; }).join("")}</tbody></table></div>
     </section>`;
   }
   function aboutView(p){
@@ -313,9 +315,10 @@
   dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
   document.addEventListener("keydown", e => {
     if (dlg.open || e.altKey || e.ctrlKey || e.metaKey || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
-    const p = P[current.tab];
-    if (!p || current.sub !== "verses" || p.verses.length < 2) return;
-    const i = p.verses.findIndex(v => v.n === current.verse);
+    // Read the address, not the last render, so quick key presses build on each other
+    const r = parse(), p = P[r.tab];
+    if (!p || r.sub !== "verses" || p.verses.length < 2) return;
+    const i = p.verses.findIndex(v => v.n === r.verse);
     const j = e.key === "ArrowRight" ? i + 1 : e.key === "ArrowLeft" ? i - 1 : e.key === "Home" ? 0 : e.key === "End" ? p.verses.length - 1 : -2;
     if (j < -1) return;
     if (p.verses[j]) { e.preventDefault(); go(`${p.slug}.v${p.verses[j].n}`); }
